@@ -1,9 +1,5 @@
 ﻿<div [@routerTransition]>
-  <div class="row justify-content-center">
-    <div class="col-md-6 text-center mb-5">
-      <h2 class="heading-section">{{ "LogIn" | localize }}</h2>
-    </div>
-  </div>
+  <h4 class="text-center mb-3">{{ "LogIn" | localize }}</h4>
   <form novalidate autocomplete="off" #loginForm="ngForm" (ngSubmit)="login()">
     <div class="form-group">
       <div class="input-group">
