@@ -1,1 +1,134 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1226],{qGNq:function(n,a){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};const a=void 0;n.ng.common.locales.ksf=["ksf",[["s\xe1r\xfaw\xe1","c\u025b\u025b\u0301nko"],a,a],a,[["s","l","m","m","j","j","s"],["s\u0254\u0301n","l\u01ddn","maa","m\u025bk","j\u01dd\u01dd","j\xfam","sam"],["s\u0254\u0301nd\u01dd","l\u01ddnd\xed","maad\xed","m\u025bkr\u025bd\xed","j\u01dd\u01ddd\xed","j\xfamb\xe1","samd\xed"],["s\u0254\u0301n","l\u01ddn","maa","m\u025bk","j\u01dd\u01dd","j\xfam","sam"]],a,[["1","2","3","4","5","6","7","8","9","10","11","12"],["\u014b1","\u014b2","\u014b3","\u014b4","\u014b5","\u014b6","\u014b7","\u014b8","\u014b9","\u014b10","\u014b11","\u014b12"],["\u014bw\xed\xed a nt\u0254\u0301nt\u0254","\u014bw\xed\xed ak\u01dd b\u025b\u0301\u025b","\u014bw\xed\xed ak\u01dd r\xe1\xe1","\u014bw\xed\xed ak\u01dd nin","\u014bw\xed\xed ak\u01dd t\xe1an","\u014bw\xed\xed ak\u01dd t\xe1af\u0254k","\u014bw\xed\xed ak\u01dd t\xe1ab\u025b\u025b","\u014bw\xed\xed ak\u01dd t\xe1araa","\u014bw\xed\xed ak\u01dd t\xe1anin","\u014bw\xed\xed ak\u01dd nt\u025bk","\u014bw\xed\xed ak\u01dd nt\u025bk di b\u0254\u0301k","\u014bw\xed\xed ak\u01dd nt\u025bk di b\u025b\u0301\u025b"]],a,[["d.Y.","k.Y."],a,["di Y\u025b\u0301sus ak\xe1 y\xe1l\u025b","c\xe1m\u025b\u025bn k\u01dd k\u01ddb\u0254pka Y"]],1,[6,0],["d/M/y","d MMM y","d MMMM y","EEEE d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",a,a,a],[",","\xa0",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","#,##0.00\xa0\xa4","#E0"],"XAF","FCFA","fr\xe1\u014b",{JPY:["JP\xa5","\xa5"],USD:["US$","$"]},"ltr",function(n){return 5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1226],{
+
+/***/ "./node_modules/@angular/common/locales/global/mk.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/mk.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    let i = Math.floor(Math.abs(n)), v = n.toString().replace(/^[^.]*\.?/, '').length,
+        f = parseInt(n.toString().replace(/^[^.]*\.?/, ''), 10) || 0;
+    if (v === 0 && i % 10 === 1 && !(i % 100 === 11) || f % 10 === 1 && !(f % 100 === 11)) return 1;
+    return 5;
+  }
+  global.ng.common.locales['mk'] = [
+    'mk',
+    [['претпл.', 'попл.'], u, ['претпладне', 'попладне']],
+    u,
+    [
+      ['н', 'п', 'в', 'с', 'ч', 'п', 'с'],
+      ['нед.', 'пон.', 'вт.', 'сре.', 'чет.', 'пет.', 'саб.'],
+      [
+        'недела', 'понеделник', 'вторник', 'среда', 'четврток',
+        'петок', 'сабота'
+      ],
+      ['нед.', 'пон.', 'вто.', 'сре.', 'чет.', 'пет.', 'саб.']
+    ],
+    [
+      ['н', 'п', 'в', 'с', 'ч', 'п', 'с'],
+      ['нед.', 'пон.', 'вто.', 'сре.', 'чет.', 'пет.', 'саб.'],
+      [
+        'недела', 'понеделник', 'вторник', 'среда', 'четврток',
+        'петок', 'сабота'
+      ],
+      ['нед.', 'пон.', 'вто.', 'сре.', 'чет.', 'пет.', 'саб.']
+    ],
+    [
+      ['ј', 'ф', 'м', 'а', 'м', 'ј', 'ј', 'а', 'с', 'о', 'н', 'д'],
+      [
+        'јан.', 'фев.', 'мар.', 'апр.', 'мај', 'јун.', 'јул.', 'авг.',
+        'септ.', 'окт.', 'ноем.', 'дек.'
+      ],
+      [
+        'јануари', 'февруари', 'март', 'април', 'мај', 'јуни',
+        'јули', 'август', 'септември', 'октомври', 'ноември',
+        'декември'
+      ]
+    ],
+    u,
+    [['пр.н.е.', 'н.е.'], u, ['пред нашата ера', 'од нашата ера']],
+    1,
+    [6, 0],
+    ['d.M.yy', 'd.M.y', 'd MMMM y', 'EEEE, d MMMM y'],
+    ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
+    ['{1} {0}', u, u, u],
+    [',', '.', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0 %', '#,##0.00 ¤', '#E0'],
+    'MKD',
+    'ден.',
+    'Македонски денар',
+    {
+      'AUD': [u, '$'],
+      'CNY': [u, '¥'],
+      'GBP': [u, '£'],
+      'HKD': [u, '$'],
+      'ILS': [u, '₪'],
+      'INR': [u, '₹'],
+      'JPY': [u, '¥'],
+      'KRW': [u, '₩'],
+      'MKD': ['ден.'],
+      'NZD': [u, '$'],
+      'TWD': [u, 'NT$'],
+      'USD': ['US$', '$'],
+      'VND': [u, '₫']
+    },
+    'ltr',
+    plural,
+    [
+      [
+        ['полн.', 'напл.', 'утро', 'претпл.', 'попл.', 'веч.', 'ноќе'],
+        [
+          'полноќ', 'напладне', 'наутро', 'претпл.', 'попл.',
+          'навечер', 'ноќе'
+        ],
+        [
+          'полноќ', 'напладне', 'наутро', 'претпладне',
+          'попладне', 'навечер', 'по полноќ'
+        ]
+      ],
+      [
+        [
+          'полноќ', 'пладне', 'наутро', 'претпл.', 'попл.',
+          'навечер', 'по полноќ'
+        ],
+        [
+          'полноќ', 'напладне', 'наутро', 'претпл.', 'попл.',
+          'навечер', 'по полноќ'
+        ],
+        [
+          'на полноќ', 'напладне', 'наутро', 'претпладне',
+          'попладне', 'навечер', 'по полноќ'
+        ]
+      ],
+      [
+        '00:00', '12:00', ['04:00', '10:00'], ['10:00', '12:00'], ['12:00', '18:00'],
+        ['18:00', '24:00'], ['00:00', '04:00']
+      ]
+    ]
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1226-es2015.js.map

@@ -1,1 +1,58 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1253],{K9sg:function(i,g){!function(i){i.ng=i.ng||{},i.ng.common=i.ng.common||{},i.ng.common.locales=i.ng.common.locales||{};var g=void 0;i.ng.common.locales.mgo=["mgo",[["AM","PM"],g,g],g,[["A1","A2","A3","A4","A5","A6","A7"],["Aneg 1","Aneg 2","Aneg 3","Aneg 4","Aneg 5","Aneg 6","Aneg 7"],g,["1","2","3","4","5","6","7"]],g,[["M1","A2","M3","N4","F5","I6","A7","I8","K9","10","11","12"],["mbegtug","imeg \xe0b\xf9b\xec","imeg mb\u0259\u014bchubi","im\u0259g ngw\u0259\u0300t","im\u0259g fog","im\u0259g ichiib\u0254d","im\u0259g \xe0d\xf9mb\u0259\u0300\u014b","im\u0259g ichika","im\u0259g kud","im\u0259g t\xe8si\u02bce","im\u0259g z\xf2","im\u0259g krizmed"],["im\u0259g mbegtug","imeg \xe0b\xf9b\xec","imeg mb\u0259\u014bchubi","im\u0259g ngw\u0259\u0300t","im\u0259g fog","im\u0259g ichiib\u0254d","im\u0259g \xe0d\xf9mb\u0259\u0300\u014b","im\u0259g ichika","im\u0259g kud","im\u0259g t\xe8si\u02bce","im\u0259g z\xf2","im\u0259g krizmed"]],g,[["BCE","CE"],g,g],1,[6,0],["y-MM-dd","y MMM d","y MMMM d","EEEE, y MMMM dd"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",g,g,g],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4\xa0#,##0.00","#E0"],"XAF","FCFA","shir\xe8",{JPY:["JP\xa5","\xa5"],USD:["US$","$"]},"ltr",function(i){return 1===i?1:5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1253], {
+  /***/
+  "./node_modules/@angular/common/locales/global/nn.js":
+  /*!***********************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/nn.js ***!
+    \***********************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalNnJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['nn'] = ['nn', [['f.m.', 'e.m.'], u, ['formiddag', 'ettermiddag']], [['f.m.', 'e.m.'], u, u], [['S', 'M', 'T', 'O', 'T', 'F', 'L'], ['sø.', 'må.', 'ty.', 'on.', 'to.', 'fr.', 'la.'], ['søndag', 'måndag', 'tysdag', 'onsdag', 'torsdag', 'fredag', 'laurdag'], ['sø.', 'må.', 'ty.', 'on.', 'to.', 'fr.', 'la.']], [['S', 'M', 'T', 'O', 'T', 'F', 'L'], ['søn', 'mån', 'tys', 'ons', 'tor', 'fre', 'lau'], ['søndag', 'måndag', 'tysdag', 'onsdag', 'torsdag', 'fredag', 'laurdag'], ['sø.', 'må.', 'ty.', 'on.', 'to.', 'fr.', 'la.']], [['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'], ['jan.', 'feb.', 'mars', 'apr.', 'mai', 'juni', 'juli', 'aug.', 'sep.', 'okt.', 'nov.', 'des.'], ['januar', 'februar', 'mars', 'april', 'mai', 'juni', 'juli', 'august', 'september', 'oktober', 'november', 'desember']], [['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'], ['jan', 'feb', 'mar', 'apr', 'mai', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'des'], ['januar', 'februar', 'mars', 'april', 'mai', 'juni', 'juli', 'august', 'september', 'oktober', 'november', 'desember']], [['f.Kr.', 'e.Kr.'], u, u], 1, [6, 0], ['dd.MM.y', 'd. MMM y', 'd. MMMM y', 'EEEE d. MMMM y'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', '\'kl\'. HH:mm:ss zzzz'], ['{1}, {0}', u, '{1} \'kl\'. {0}', '{1} {0}'], [',', ' ', ';', '%', '+', '−', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0 %', '#,##0.00 ¤', '#E0'], 'NOK', 'kr', 'norske kroner', {
+        'AUD': [u, '$'],
+        'BRL': [u, 'R$'],
+        'CAD': [u, '$'],
+        'CNY': [u, '¥'],
+        'GBP': [u, '£'],
+        'HKD': [u, '$'],
+        'ILS': [u, '₪'],
+        'INR': [u, '₹'],
+        'JPY': [u, '¥'],
+        'KRW': [u, '₩'],
+        'MXN': [u, '$'],
+        'NOK': ['kr'],
+        'NZD': [u, '$'],
+        'TWD': [u, '$'],
+        'USD': [u, '$'],
+        'VND': [u, '₫'],
+        'XAF': [],
+        'XCD': [u, '$'],
+        'XPF': []
+      }, 'ltr', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1253-es5.js.map

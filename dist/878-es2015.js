@@ -1,1 +1,155 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[878],{wfNU:function(n,d){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};const d=void 0;n.ng.common.locales.agq=["agq",[["a.g","a.k"],d,d],d,[["n","k","g","t","u","g","d"],["nts","kpa","gh\u0254","t\u0254m","ume","gh\u0268","dzk"],["tsu\u0294nts\u0268","tsu\u0294ukp\xe0","tsu\u0294ugh\u0254e","tsu\u0294ut\u0254\u0300ml\xf2","tsu\u0294um\xe8","tsu\u0294ugh\u0268\u0302m","tsu\u0294ndz\u0268k\u0254\u0294\u0254"],["nts","kpa","gh\u0254","t\u0254m","ume","gh\u0268","dzk"]],d,[["n","k","t","t","s","z","k","f","d","l","c","f"],["n\xf9m","k\u0268z","t\u0268d","taa","see","nzu","dum","f\u0254e","dzu","l\u0254m","kaa","fwo"],["ndz\u0254\u0300\u014b\u0254\u0300n\xf9m","ndz\u0254\u0300\u014b\u0254\u0300k\u0197\u0300z\xf9\u0294","ndz\u0254\u0300\u014b\u0254\u0300t\u0197\u0300d\u0289\u0300gh\xe0","ndz\u0254\u0300\u014b\u0254\u0300t\u01ceaf\u0289\u0304gh\u0101","ndz\u0254\u0300\u014b\xe8s\xe8e","ndz\u0254\u0300\u014b\u0254\u0300nz\xf9gh\xf2","ndz\u0254\u0300\u014b\u0254\u0300d\xf9mlo","ndz\u0254\u0300\u014b\u0254\u0300kw\xeef\u0254\u0300e","ndz\u0254\u0300\u014b\u0254\u0300t\u0197\u0300f\u0289\u0300gh\xe0dzugh\xf9","ndz\u0254\u0300\u014b\u0254\u0300gh\u01d4uwel\u0254\u0300m","ndz\u0254\u0300\u014b\u0254\u0300chwa\u0294\xe0kaa wo","ndz\u0254\u0300\u014b\xe8fw\xf2o"]],d,[["SK","BK"],d,["S\u011be K\u0268\u0300lesto","B\u01cea K\u0268\u0300lesto"]],1,[6,0],["d/M/y","d MMM, y","d MMMM y","EEEE d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",d,d,d],[",","\xa0",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","#,##0.00\xa4","#E0"],"XAF","FCFA","CFA F\xe0l\xe2\u014b BEAC",{JPY:["JP\xa5","\xa5"],USD:["US$","$"]},"ltr",function(n){return 5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[878],{
+
+/***/ "./node_modules/@angular/common/locales/global/ar-YE.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/ar-YE.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    if (n === 0) return 0;
+    if (n === 1) return 1;
+    if (n === 2) return 2;
+    if (n % 100 === Math.floor(n % 100) && n % 100 >= 3 && n % 100 <= 10) return 3;
+    if (n % 100 === Math.floor(n % 100) && n % 100 >= 11 && n % 100 <= 99) return 4;
+    return 5;
+  }
+  global.ng.common.locales['ar-ye'] = [
+    'ar-YE',
+    [['ص', 'م'], u, u],
+    [['ص', 'م'], u, ['صباحًا', 'مساءً']],
+    [
+      ['ح', 'ن', 'ث', 'ر', 'خ', 'ج', 'س'],
+      [
+        'الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس',
+        'الجمعة', 'السبت'
+      ],
+      u,
+      ['أحد', 'إثنين', 'ثلاثاء', 'أربعاء', 'خميس', 'جمعة', 'سبت']
+    ],
+    u,
+    [
+      ['ي', 'ف', 'م', 'أ', 'و', 'ن', 'ل', 'غ', 'س', 'ك', 'ب', 'د'],
+      [
+        'يناير', 'فبراير', 'مارس', 'أبريل', 'مايو', 'يونيو',
+        'يوليو', 'أغسطس', 'سبتمبر', 'أكتوبر', 'نوفمبر', 'ديسمبر'
+      ],
+      u
+    ],
+    u,
+    [['ق.م', 'م'], u, ['قبل الميلاد', 'ميلادي']],
+    0,
+    [5, 6],
+    ['d\u200f/M\u200f/y', 'dd\u200f/MM\u200f/y', 'd MMMM y', 'EEEE، d MMMM y'],
+    ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'],
+    ['{1} {0}', u, u, u],
+    [
+      '.', ',', ';', '\u200e%\u200e', '\u200e+', '\u200e-', 'E', '×', '‰', '∞',
+      'ليس رقمًا', ':'
+    ],
+    ['#,##0.###', '#,##0%', '¤ #,##0.00', '#E0'],
+    'YER',
+    'ر.ي.\u200f',
+    'ريال يمني',
+    {
+      'AED': ['د.إ.\u200f'],
+      'ARS': [u, 'AR$'],
+      'AUD': ['AU$'],
+      'BBD': [u, 'BB$'],
+      'BHD': ['د.ب.\u200f'],
+      'BMD': [u, 'BM$'],
+      'BND': [u, 'BN$'],
+      'BSD': [u, 'BS$'],
+      'BZD': [u, 'BZ$'],
+      'CAD': ['CA$'],
+      'CLP': [u, 'CL$'],
+      'CNY': ['CN¥'],
+      'COP': [u, 'CO$'],
+      'CUP': [u, 'CU$'],
+      'DOP': [u, 'DO$'],
+      'DZD': ['د.ج.\u200f'],
+      'EGP': ['ج.م.\u200f', 'E£'],
+      'FJD': [u, 'FJ$'],
+      'GBP': ['UK£'],
+      'GYD': [u, 'GY$'],
+      'HKD': ['HK$'],
+      'IQD': ['د.ع.\u200f'],
+      'IRR': ['ر.إ.'],
+      'JMD': [u, 'JM$'],
+      'JOD': ['د.أ.\u200f'],
+      'JPY': ['JP¥'],
+      'KWD': ['د.ك.\u200f'],
+      'KYD': [u, 'KY$'],
+      'LBP': ['ل.ل.\u200f', 'L£'],
+      'LRD': [u, '$LR'],
+      'LYD': ['د.ل.\u200f'],
+      'MAD': ['د.م.\u200f'],
+      'MRU': ['أ.م.'],
+      'MXN': ['MX$'],
+      'NZD': ['NZ$'],
+      'OMR': ['ر.ع.\u200f'],
+      'QAR': ['ر.ق.\u200f'],
+      'SAR': ['ر.س.\u200f'],
+      'SBD': [u, 'SB$'],
+      'SDD': ['د.س.\u200f'],
+      'SDG': ['ج.س.'],
+      'SRD': [u, 'SR$'],
+      'SYP': ['ل.س.\u200f', '£'],
+      'THB': ['฿'],
+      'TND': ['د.ت.\u200f'],
+      'TTD': [u, 'TT$'],
+      'TWD': ['NT$'],
+      'USD': ['US$'],
+      'UYU': [u, 'UY$'],
+      'XXX': ['***'],
+      'YER': ['ر.ي.\u200f']
+    },
+    'rtl',
+    plural,
+    [
+      [
+        [
+          'فجرًا', 'صباحًا', 'ظهرًا', 'بعد الظهر', 'مساءً',
+          'منتصف الليل', 'ليلاً'
+        ],
+        [
+          'فجرًا', 'ص', 'ظهرًا', 'بعد الظهر', 'مساءً',
+          'منتصف الليل', 'ليلاً'
+        ],
+        [
+          'فجرًا', 'صباحًا', 'ظهرًا', 'بعد الظهر', 'مساءً',
+          'منتصف الليل', 'ليلاً'
+        ]
+      ],
+      u,
+      [
+        ['03:00', '06:00'], ['06:00', '12:00'], ['12:00', '13:00'], ['13:00', '18:00'],
+        ['18:00', '24:00'], ['00:00', '01:00'], ['01:00', '03:00']
+      ]
+    ]
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=878-es2015.js.map

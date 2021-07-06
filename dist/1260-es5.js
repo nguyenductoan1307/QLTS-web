@@ -1,1 +1,41 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1260],{"d+rN":function(a,n){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};var n=void 0;a.ng.common.locales["ms-sg"]=["ms-SG",[["a","p"],["PG","PTG"],n],n,[["A","I","S","R","K","J","S"],["Ahd","Isn","Sel","Rab","Kha","Jum","Sab"],["Ahad","Isnin","Selasa","Rabu","Khamis","Jumaat","Sabtu"],["Ah","Is","Se","Ra","Kh","Ju","Sa"]],n,[["J","F","M","A","M","J","J","O","S","O","N","D"],["Jan","Feb","Mac","Apr","Mei","Jun","Jul","Ogo","Sep","Okt","Nov","Dis"],["Januari","Februari","Mac","April","Mei","Jun","Julai","Ogos","September","Oktober","November","Disember"]],n,[["S.M.","TM"],n,n],0,[6,0],["d/MM/yy","d MMM y","d MMMM y","EEEE, d MMMM y"],["h:mm a","h:mm:ss a","h:mm:ss a z","h:mm:ss a zzzz"],["{1}, {0}",n,"{1} {0}",n],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4#,##0.00","#E0"],"SGD","$","Dolar Singapura",{CAD:[n,"$"],JPY:["JP\xa5","\xa5"],MXN:[n,"$"],MYR:["RM"],SGD:["$"],TWD:["NT$"],USD:[n,"$"]},"ltr",function(a){return 5},[[["pagi","pagi","tengah hari","petang","malam"],n,["tengah malam","pagi","tengah hari","petang","malam"]],[["pagi","pagi","tengah hari","petang","malam"],["tengah malam","pagi","tengah hari","petang","malam"],n],[["00:00","01:00"],["01:00","12:00"],["12:00","14:00"],["14:00","19:00"],["19:00","24:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1260], {
+  /***/
+  "./node_modules/@angular/common/locales/global/os-RU.js":
+  /*!**************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/os-RU.js ***!
+    \**************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalOsRUJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['os-ru'] = ['os-RU', [['AM', 'PM'], u, ['ӕмбисбоны размӕ', 'ӕмбисбоны фӕстӕ']], [['AM', 'PM'], u, u], [['Х', 'К', 'Д', 'Ӕ', 'Ц', 'М', 'С'], ['хцб', 'крс', 'дцг', 'ӕрт', 'цпр', 'мрб', 'сбт'], ['хуыцаубон', 'къуырисӕр', 'дыццӕг', 'ӕртыццӕг', 'цыппӕрӕм', 'майрӕмбон', 'сабат'], ['хцб', 'крс', 'дцг', 'ӕрт', 'цпр', 'мрб', 'сбт']], [['Х', 'К', 'Д', 'Ӕ', 'Ц', 'М', 'С'], ['Хцб', 'Крс', 'Дцг', 'Ӕрт', 'Цпр', 'Мрб', 'Сбт'], ['Хуыцаубон', 'Къуырисӕр', 'Дыццӕг', 'Ӕртыццӕг', 'Цыппӕрӕм', 'Майрӕмбон', 'Сабат'], ['хцб', 'крс', 'дцг', 'ӕрт', 'цпр', 'мрб', 'сбт']], [['Я', 'Ф', 'М', 'А', 'М', 'И', 'И', 'А', 'С', 'О', 'Н', 'Д'], ['янв.', 'фев.', 'мар.', 'апр.', 'майы', 'июны', 'июлы', 'авг.', 'сен.', 'окт.', 'ноя.', 'дек.'], ['январы', 'февралы', 'мартъийы', 'апрелы', 'майы', 'июны', 'июлы', 'августы', 'сентябры', 'октябры', 'ноябры', 'декабры']], [['Я', 'Ф', 'М', 'А', 'М', 'И', 'И', 'А', 'С', 'О', 'Н', 'Д'], ['Янв.', 'Февр.', 'Март.', 'Апр.', 'Май', 'Июнь', 'Июль', 'Авг.', 'Сент.', 'Окт.', 'Нояб.', 'Дек.'], ['Январь', 'Февраль', 'Мартъи', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь']], [['н.д.а.', 'н.д.'], u, u], 1, [6, 0], ['dd.MM.yy', 'dd MMM y \'аз\'', 'd MMMM, y \'аз\'', 'EEEE, d MMMM, y \'аз\''], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1}, {0}', u, u, u], [',', ' ', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'НН', ':'], ['#,##0.###', '#,##0%', '¤ #,##0.00', '#E0'], 'RUB', '₽', 'Сом', {
+        'JPY': ['JP¥', '¥'],
+        'RUB': ['₽']
+      }, 'ltr', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1260-es5.js.map

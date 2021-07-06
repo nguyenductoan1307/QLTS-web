@@ -1,1 +1,82 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1188],{BicD:function(n,o){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};const o=void 0;n.ng.common.locales.he=["he",[["\u05dc\u05e4\u05e0\u05d4\u05f4\u05e6","\u05d0\u05d7\u05d4\u05f4\u05e6"],o,o],[["\u05dc\u05e4\u05e0\u05d4\u05f4\u05e6","\u05d0\u05d7\u05d4\u05f4\u05e6"],["AM","PM"],o],[["\u05d0\u05f3","\u05d1\u05f3","\u05d2\u05f3","\u05d3\u05f3","\u05d4\u05f3","\u05d5\u05f3","\u05e9\u05f3"],["\u05d9\u05d5\u05dd \u05d0\u05f3","\u05d9\u05d5\u05dd \u05d1\u05f3","\u05d9\u05d5\u05dd \u05d2\u05f3","\u05d9\u05d5\u05dd \u05d3\u05f3","\u05d9\u05d5\u05dd \u05d4\u05f3","\u05d9\u05d5\u05dd \u05d5\u05f3","\u05e9\u05d1\u05ea"],["\u05d9\u05d5\u05dd \u05e8\u05d0\u05e9\u05d5\u05df","\u05d9\u05d5\u05dd \u05e9\u05e0\u05d9","\u05d9\u05d5\u05dd \u05e9\u05dc\u05d9\u05e9\u05d9","\u05d9\u05d5\u05dd \u05e8\u05d1\u05d9\u05e2\u05d9","\u05d9\u05d5\u05dd \u05d7\u05de\u05d9\u05e9\u05d9","\u05d9\u05d5\u05dd \u05e9\u05d9\u05e9\u05d9","\u05d9\u05d5\u05dd \u05e9\u05d1\u05ea"],["\u05d0\u05f3","\u05d1\u05f3","\u05d2\u05f3","\u05d3\u05f3","\u05d4\u05f3","\u05d5\u05f3","\u05e9\u05f3"]],o,[["1","2","3","4","5","6","7","8","9","10","11","12"],["\u05d9\u05e0\u05d5\u05f3","\u05e4\u05d1\u05e8\u05f3","\u05de\u05e8\u05e5","\u05d0\u05e4\u05e8\u05f3","\u05de\u05d0\u05d9","\u05d9\u05d5\u05e0\u05d9","\u05d9\u05d5\u05dc\u05d9","\u05d0\u05d5\u05d2\u05f3","\u05e1\u05e4\u05d8\u05f3","\u05d0\u05d5\u05e7\u05f3","\u05e0\u05d5\u05d1\u05f3","\u05d3\u05e6\u05de\u05f3"],["\u05d9\u05e0\u05d5\u05d0\u05e8","\u05e4\u05d1\u05e8\u05d5\u05d0\u05e8","\u05de\u05e8\u05e5","\u05d0\u05e4\u05e8\u05d9\u05dc","\u05de\u05d0\u05d9","\u05d9\u05d5\u05e0\u05d9","\u05d9\u05d5\u05dc\u05d9","\u05d0\u05d5\u05d2\u05d5\u05e1\u05d8","\u05e1\u05e4\u05d8\u05de\u05d1\u05e8","\u05d0\u05d5\u05e7\u05d8\u05d5\u05d1\u05e8","\u05e0\u05d5\u05d1\u05de\u05d1\u05e8","\u05d3\u05e6\u05de\u05d1\u05e8"]],o,[["\u05dc\u05e4\u05e0\u05d4\u05f4\u05e1","\u05dc\u05e1\u05e4\u05d9\u05e8\u05d4"],o,["\u05dc\u05e4\u05e0\u05d9 \u05d4\u05e1\u05e4\u05d9\u05e8\u05d4","\u05dc\u05e1\u05e4\u05d9\u05e8\u05d4"]],0,[5,6],["d.M.y","d \u05d1MMM y","d \u05d1MMMM y","EEEE, d \u05d1MMMM y"],["H:mm","H:mm:ss","H:mm:ss z","H:mm:ss zzzz"],["{1}, {0}",o,"{1} \u05d1\u05e9\u05e2\u05d4 {0}",o],[".",",",";","%","\u200e+","\u200e-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\u200f#,##0.00\xa0\xa4;\u200f-#,##0.00\xa0\xa4","#E0"],"ILS","\u20aa","\u05e9\u05e7\u05dc \u05d7\u05d3\u05e9",{BYN:[o,"\u0440"],CNY:["\u200eCN\xa5\u200e","\xa5"],ILP:["\u05dc\u05f4\u05d9"],THB:["\u0e3f"],TWD:["NT$"]},"rtl",function(n){let o=Math.floor(Math.abs(n)),e=n.toString().replace(/^[^.]*\.?/,"").length;return 1===o&&0===e?1:2===o&&0===e?2:0!==e||n>=0&&n<=10||n%10!=0?5:4},[[["\u05d7\u05e6\u05d5\u05ea","\u05d1\u05d1\u05d5\u05e7\u05e8","\u05d1\u05e6\u05d4\u05e8\u05d9\u05d9\u05dd","\u05d0\u05d7\u05d4\u05f4\u05e6","\u05d1\u05e2\u05e8\u05d1","\u05d1\u05dc\u05d9\u05dc\u05d4","\u05dc\u05e4\u05e0\u05d5\u05ea \u05d1\u05d5\u05e7\u05e8"],["\u05d7\u05e6\u05d5\u05ea","\u05d1\u05d5\u05e7\u05e8","\u05e6\u05d4\u05e8\u05d9\u05d9\u05dd","\u05d0\u05d7\u05e8 \u05d4\u05e6\u05d4\u05e8\u05d9\u05d9\u05dd","\u05e2\u05e8\u05d1","\u05dc\u05d9\u05dc\u05d4","\u05dc\u05e4\u05e0\u05d5\u05ea \u05d1\u05d5\u05e7\u05e8"],["\u05d7\u05e6\u05d5\u05ea","\u05d1\u05d1\u05d5\u05e7\u05e8","\u05d1\u05e6\u05d4\u05e8\u05d9\u05d9\u05dd","\u05d0\u05d7\u05e8 \u05d4\u05e6\u05d4\u05e8\u05d9\u05d9\u05dd","\u05d1\u05e2\u05e8\u05d1","\u05d1\u05dc\u05d9\u05dc\u05d4","\u05dc\u05e4\u05e0\u05d5\u05ea \u05d1\u05d5\u05e7\u05e8"]],[["\u05d7\u05e6\u05d5\u05ea","\u05d1\u05d5\u05e7\u05e8","\u05e6\u05d4\u05e8\u05d9\u05d9\u05dd","\u05d0\u05d7\u05d4\u05f4\u05e6","\u05e2\u05e8\u05d1","\u05dc\u05d9\u05dc\u05d4","\u05dc\u05e4\u05e0\u05d5\u05ea \u05d1\u05d5\u05e7\u05e8"],o,["\u05d7\u05e6\u05d5\u05ea","\u05d1\u05d5\u05e7\u05e8","\u05e6\u05d4\u05e8\u05d9\u05d9\u05dd","\u05d0\u05d7\u05e8 \u05d4\u05e6\u05d4\u05e8\u05d9\u05d9\u05dd","\u05e2\u05e8\u05d1","\u05dc\u05d9\u05dc\u05d4","\u05dc\u05e4\u05e0\u05d5\u05ea \u05d1\u05d5\u05e7\u05e8"]],["00:00",["06:00","12:00"],["12:00","16:00"],["16:00","18:00"],["18:00","22:00"],["22:00","03:00"],["03:00","06:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1188],{
+
+/***/ "./node_modules/@angular/common/locales/global/kl.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/kl.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    if (n === 1) return 1;
+    return 5;
+  }
+  global.ng.common.locales['kl'] = [
+    'kl',
+    [['AM', 'PM'], u, u],
+    u,
+    [
+      ['S', 'M', 'T', 'W', 'T', 'F', 'S'], ['sap', 'ata', 'mar', 'pin', 'sis', 'tal', 'arf'],
+      [
+        'sapaat', 'ataasinngorneq', 'marlunngorneq', 'pingasunngorneq', 'sisamanngorneq',
+        'tallimanngorneq', 'arfininngorneq'
+      ],
+      ['sap', 'ata', 'mar', 'pin', 'sis', 'tal', 'arf']
+    ],
+    u,
+    [
+      ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+      ['jan', 'febr', 'mar', 'apr', 'maj', 'jun', 'jul', 'aug', 'sept', 'okt', 'nov', 'dec'],
+      [
+        'januaarip', 'februaarip', 'marsip', 'apriilip', 'maajip', 'juunip', 'juulip', 'aggustip',
+        'septembarip', 'oktobarip', 'novembarip', 'decembarip'
+      ]
+    ],
+    [
+      ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+      ['jan', 'febr', 'mar', 'apr', 'maj', 'jun', 'jul', 'aug', 'sept', 'okt', 'nov', 'dec'],
+      [
+        'januaari', 'februaari', 'marsi', 'apriili', 'maaji', 'juuni', 'juuli', 'aggusti',
+        'septembari', 'oktobari', 'novembari', 'decembari'
+      ]
+    ],
+    [['BCE', 'CE'], u, u],
+    1,
+    [6, 0],
+    ['y-MM-dd', 'y MMM d', 'y MMMM d', 'y MMMM d, EEEE'],
+    ['HH.mm', 'HH.mm.ss', 'HH.mm.ss z', 'HH.mm.ss zzzz'],
+    ['{1} {0}', u, u, u],
+    [',', '.', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0 %', '¤#,##0.00;¤-#,##0.00', '#E0'],
+    'DKK',
+    'kr.',
+    'DKK',
+    {'DKK': ['kr.', 'kr'], 'JPY': ['JP¥', '¥'], 'USD': ['US$', '$']},
+    'ltr',
+    plural,
+    []
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1188-es2015.js.map

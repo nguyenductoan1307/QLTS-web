@@ -1,1 +1,45 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1072],{jKTQ:function(o,n){!function(o){o.ng=o.ng||{},o.ng.common=o.ng.common||{},o.ng.common.locales=o.ng.common.locales||{};var n=void 0;o.ng.common.locales.eo=["eo",[["atm","ptm"],n,n],n,[["S","M","T","W","T","F","S"],["di","lu","ma","me","\u0135a","ve","sa"],["diman\u0109o","lundo","mardo","merkredo","\u0135a\u016ddo","vendredo","sabato"],["di","lu","ma","me","\u0135a","ve","sa"]],n,[["1","2","3","4","5","6","7","8","9","10","11","12"],["jan","feb","mar","apr","maj","jun","jul","a\u016dg","sep","okt","nov","dec"],["januaro","februaro","marto","aprilo","majo","junio","julio","a\u016dgusto","septembro","oktobro","novembro","decembro"]],n,[["aK","pK"],n,n],1,[6,0],["yy-MM-dd","y-MMM-dd","y-MMMM-dd","EEEE, d-'a' 'de' MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","H-'a' 'horo' 'kaj' m:ss zzzz"],["{1} {0}",n,n,n],[",","\xa0",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4\xa0#,##0.00","#E0"],n,n,n,{JPY:["JP\xa5","\xa5"],USD:["US$","$"]},"ltr",function(o){return 1===o?1:5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1072], {
+  /***/
+  "./node_modules/@angular/common/locales/global/et.js":
+  /*!***********************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/et.js ***!
+    \***********************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalEtJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        var i = Math.floor(Math.abs(n)),
+            v = n.toString().replace(/^[^.]*\.?/, '').length;
+        if (i === 1 && v === 0) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['et'] = ['et', [['AM', 'PM'], u, u], u, [['P', 'E', 'T', 'K', 'N', 'R', 'L'], u, ['pühapäev', 'esmaspäev', 'teisipäev', 'kolmapäev', 'neljapäev', 'reede', 'laupäev'], ['P', 'E', 'T', 'K', 'N', 'R', 'L']], u, [['J', 'V', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'], ['jaan', 'veebr', 'märts', 'apr', 'mai', 'juuni', 'juuli', 'aug', 'sept', 'okt', 'nov', 'dets'], ['jaanuar', 'veebruar', 'märts', 'aprill', 'mai', 'juuni', 'juuli', 'august', 'september', 'oktoober', 'november', 'detsember']], u, [['eKr', 'pKr'], u, ['enne Kristust', 'pärast Kristust']], 1, [6, 0], ['dd.MM.yy', 'd. MMM y', 'd. MMMM y', 'EEEE, d. MMMM y'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1} {0}', u, u, u], [',', ' ', ';', '%', '+', '−', '×10^', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '#,##0.00 ¤', '#E0'], 'EUR', '€', 'euro', {
+        'AUD': ['AU$', '$'],
+        'EEK': ['kr'],
+        'THB': ['฿'],
+        'TWD': ['NT$']
+      }, 'ltr', plural, [[['keskööl', 'keskpäeval', 'hommikul', 'pärastlõunal', 'õhtul', 'öösel'], u, u], [['kesköö', 'keskpäev', 'hommik', 'pärastlõuna', 'õhtu', 'öö'], u, u], ['00:00', '12:00', ['05:00', '12:00'], ['12:00', '18:00'], ['18:00', '23:00'], ['23:00', '05:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1072-es5.js.map

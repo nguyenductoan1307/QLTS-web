@@ -138,10 +138,13 @@ export class DauDocTheRfidComponent extends AppComponentBase implements OnInit {
 
   delete(record: GetAllOutputDto) {
     if (record.trangThaiId === 0) {
+      const html1 =  '<h3 class="title-popup-xoa m-t-24" >' + 'Bạn có chắc chắn không?' + '</h3>' +
+      '<p class="text-popup-xoa m-t-8">'
+       + 'Tài sản ' + record.tenTS + ' sẽ bị xóa!' + '</p>';
       this.swal.fire({
-        title: 'Bạn có chắc chắn không?',
-        text: 'Tài sản ' + record.tenTS + ' sẽ bị xóa!',
+        html: html1,
         icon: 'warning',
+        iconHtml: '<span class="icon1">&#9888</span>',
         showCancelButton: true,
         confirmButtonColor: this.confirmButtonColor,
         cancelButtonColor: this.cancelButtonColor,
@@ -168,10 +171,13 @@ export class DauDocTheRfidComponent extends AppComponentBase implements OnInit {
       this.listIdXoa.push(item.id);
     });
     if (this.listIdXoa.length > 0) {
+      const html1 =  '<h3 class="title-popup-xoa m-t-24" >' + 'Bạn có chắc chắn không?' + '</h3>' +
+      '<p class="text-popup-xoa m-t-8">'
+       + 'Danh sách tài sản đã chọn sẽ bị xóa.' + '</p>';
       this.swal.fire({
-        title: this.titleNotice,
-        text: 'Danh sách tài sản đã chọn sẽ bị xóa.',
+        html: html1,
         icon: 'warning',
+        iconHtml: '<span class="icon1">&#9888</span>',
         showCancelButton: true,
         confirmButtonColor: this.confirmButtonColor,
         cancelButtonColor: this.cancelButtonColor,
@@ -255,10 +261,13 @@ export class DauDocTheRfidComponent extends AppComponentBase implements OnInit {
   }
 
   private _thongBao(textXoa: string, textExit: string) {
+    const html1 =  '<h3 class="title-popup-xoa m-t-24" >' + 'Bạn có chắc chắn không?' + '</h3>' +
+    '<p class="text-popup-xoa m-t-8">'
+     + textXoa + '</p>';
     this.swal.fire({
-      title: this.titleNotice,
-      text: textXoa,
+      html: html1,
       icon: 'warning',
+      iconHtml: '<span class="icon1">&#9888</span>',
       showCancelButton: true,
       confirmButtonColor: this.confirmButtonColor,
       cancelButtonColor: this.cancelButtonColor,

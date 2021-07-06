@@ -1,1 +1,84 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1115],{hTKJ:function(a,o){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};var o=void 0;a.ng.common.locales["ff-latn-mr"]=["ff-Latn-MR",[["subaka","kikii\u0257e"],o,o],o,[["d","a","m","n","n","m","h"],["dew","aa\u0253","maw","nje","naa","mwd","hbi"],["dewo","aa\u0253nde","mawbaare","njeslaare","naasaande","mawnde","hoore-biir"],["dew","aa\u0253","maw","nje","naa","mwd","hbi"]],o,[["s","c","m","s","d","k","m","j","s","y","j","b"],["sii","col","mbo","see","duu","kor","mor","juk","slt","yar","jol","bow"],["siilo","colte","mbooy","see\u0257to","duujal","korse","morso","juko","siilto","yarkomaa","jolal","bowte"]],o,[["H-I","C-I"],o,["Hade Iisa","Caggal Iisa"]],1,[6,0],["d/M/y","d MMM, y","d MMMM y","EEEE d MMMM y"],["h:mm a","h:mm:ss a","h:mm:ss a z","h:mm:ss a zzzz"],["{1} {0}",o,o,o],[",","\xa0",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","#,##0.00\xa0\xa4","#E0"],"MRU","UM","Ugiyya Muritani",{JPY:["JP\xa5","\xa5"],MRU:["UM"],USD:["US$","$"]},"ltr",function(a){var o=Math.floor(Math.abs(a));return 0===o||1===o?1:5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1115], {
+  /***/
+  "./node_modules/@angular/common/locales/global/fr-GQ.js":
+  /*!**************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/fr-GQ.js ***!
+    \**************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalFrGQJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        var i = Math.floor(Math.abs(n));
+        if (i === 0 || i === 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['fr-gq'] = ['fr-GQ', [['AM', 'PM'], u, u], u, [['D', 'L', 'M', 'M', 'J', 'V', 'S'], ['dim.', 'lun.', 'mar.', 'mer.', 'jeu.', 'ven.', 'sam.'], ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'], ['di', 'lu', 'ma', 'me', 'je', 've', 'sa']], u, [['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'], ['janv.', 'févr.', 'mars', 'avr.', 'mai', 'juin', 'juil.', 'août', 'sept.', 'oct.', 'nov.', 'déc.'], ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre']], u, [['av. J.-C.', 'ap. J.-C.'], u, ['avant Jésus-Christ', 'après Jésus-Christ']], 1, [6, 0], ['dd/MM/y', 'd MMM y', 'd MMMM y', 'EEEE d MMMM y'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1} {0}', '{1} \'à\' {0}', u, u], [',', "\u202F", ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0 %', '#,##0.00 ¤', '#E0'], 'XAF', 'FCFA', 'franc CFA (BEAC)', {
+        'ARS': ['$AR', '$'],
+        'AUD': ['$AU', '$'],
+        'BEF': ['FB'],
+        'BMD': ['$BM', '$'],
+        'BND': ['$BN', '$'],
+        'BZD': ['$BZ', '$'],
+        'CAD': ['$CA', '$'],
+        'CLP': ['$CL', '$'],
+        'CNY': [u, '¥'],
+        'COP': ['$CO', '$'],
+        'CYP': ['£CY'],
+        'EGP': [u, '£E'],
+        'FJD': ['$FJ', '$'],
+        'FKP': ['£FK', '£'],
+        'FRF': ['F'],
+        'GBP': ['£GB', '£'],
+        'GIP': ['£GI', '£'],
+        'HKD': [u, '$'],
+        'IEP': ['£IE'],
+        'ILP': ['£IL'],
+        'ITL': ['₤IT'],
+        'JPY': [u, '¥'],
+        'KMF': [u, 'FC'],
+        'LBP': ['£LB', '£L'],
+        'MTP': ['£MT'],
+        'MXN': ['$MX', '$'],
+        'NAD': ['$NA', '$'],
+        'NIO': [u, '$C'],
+        'NZD': ['$NZ', '$'],
+        'RHD': ['$RH'],
+        'RON': [u, 'L'],
+        'RWF': [u, 'FR'],
+        'SBD': ['$SB', '$'],
+        'SGD': ['$SG', '$'],
+        'SRD': ['$SR', '$'],
+        'TOP': [u, '$T'],
+        'TTD': ['$TT', '$'],
+        'TWD': [u, 'NT$'],
+        'USD': ['$US', '$'],
+        'UYU': ['$UY', '$'],
+        'WST': ['$WS'],
+        'XCD': [u, '$'],
+        'XPF': ['FCFP'],
+        'ZMW': [u, 'Kw']
+      }, 'ltr', plural, [[['minuit', 'midi', 'mat.', 'ap.m.', 'soir', 'nuit'], u, ['minuit', 'midi', 'du matin', 'de l’après-midi', 'du soir', 'du matin']], [['minuit', 'midi', 'mat.', 'ap.m.', 'soir', 'nuit'], u, ['minuit', 'midi', 'matin', 'après-midi', 'soir', 'nuit']], ['00:00', '12:00', ['04:00', '12:00'], ['12:00', '18:00'], ['18:00', '24:00'], ['00:00', '04:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1115-es5.js.map

@@ -57,10 +57,13 @@ export class RolesComponent extends AppComponentBase {
   }
 
   delete(role: RoleDto): void {
+    const html1 =  '<h3 class="title-popup-xoa m-t-24" >' + 'Bạn có chắc chắn không?' + '</h3>' +
+    '<p class="text-popup-xoa m-t-8">'
+     + 'Vai trò ' + role.displayName + ' sẽ bị xóa.' + '</p>';
     this.swal.fire({
-      title: 'Bạn chắc chắn không?',
-      text: 'Vai trò ' + role.displayName + ' sẽ bị xóa.',
+      html: html1,
       icon: 'warning',
+      iconHtml: '<span class="icon1">&#9888</span>',
       showCancelButton: true,
       confirmButtonColor: this.confirmButtonColor,
       cancelButtonColor: this.cancelButtonColor,

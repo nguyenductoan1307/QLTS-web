@@ -1,1 +1,40 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[939],{"C5h/":function(a,n){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};var n=void 0;a.ng.common.locales.cgg=["cgg",[["AM","PM"],n,n],n,[["S","K","R","S","N","T","M"],["SAN","ORK","OKB","OKS","OKN","OKT","OMK"],["Sande","Orwokubanza","Orwakabiri","Orwakashatu","Orwakana","Orwakataano","Orwamukaaga"],["SAN","ORK","OKB","OKS","OKN","OKT","OMK"]],n,[["J","F","M","A","M","J","J","A","S","O","N","D"],["KBZ","KBR","KST","KKN","KTN","KMK","KMS","KMN","KMW","KKM","KNK","KNB"],["Okwokubanza","Okwakabiri","Okwakashatu","Okwakana","Okwakataana","Okwamukaaga","Okwamushanju","Okwamunaana","Okwamwenda","Okwaikumi","Okwaikumi na kumwe","Okwaikumi na ibiri"]],n,[["BC","AD"],n,["Kurisito Atakaijire","Kurisito Yaijire"]],1,[0,0],["dd/MM/y","d MMM y","d MMMM y","EEEE, d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",n,n,n],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4#,##0.00","#E0"],"UGX","USh","Eshiringi ya Uganda",{JPY:["JP\xa5","\xa5"],UGX:["USh"],USD:["US$","$"]},"ltr",function(a){return 1===a?1:5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[939], {
+  /***/
+  "./node_modules/@angular/common/locales/global/en-AE.js":
+  /*!**************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/en-AE.js ***!
+    \**************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalEnAEJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        var i = Math.floor(Math.abs(n)),
+            v = n.toString().replace(/^[^.]*\.?/, '').length;
+        if (i === 1 && v === 0) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['en-ae'] = ['en-AE', [['a', 'p'], ['AM', 'PM'], u], [['AM', 'PM'], u, u], [['S', 'M', 'T', 'W', 'T', 'F', 'S'], ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'], ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'], ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']], u, [['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'], ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'], ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']], u, [['B', 'A'], ['BC', 'AD'], ['Before Christ', 'Anno Domini']], 6, [5, 6], ['dd/MM/y', 'd MMM y', 'd MMMM y', 'EEEE, d MMMM y'], ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'], ['{1}, {0}', u, '{1} \'at\' {0}', u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'], 'AED', 'AED', 'United Arab Emirates Dirham', {}, 'ltr', plural, [[['mi', 'n', 'in the morning', 'in the afternoon', 'in the evening', 'at night'], ['midnight', 'noon', 'in the morning', 'in the afternoon', 'in the evening', 'at night'], u], [['midnight', 'noon', 'morning', 'afternoon', 'evening', 'night'], u, u], ['00:00', '12:00', ['06:00', '12:00'], ['12:00', '18:00'], ['18:00', '21:00'], ['21:00', '06:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=939-es5.js.map

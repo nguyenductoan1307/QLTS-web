@@ -1,1 +1,114 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1165],{vS49:function(i,n){!function(i){i.ng=i.ng||{},i.ng.common=i.ng.common||{},i.ng.common.locales=i.ng.common.locales||{};const n=void 0;i.ng.common.locales["fr-td"]=["fr-TD",[["AM","PM"],n,n],n,[["D","L","M","M","J","V","S"],["dim.","lun.","mar.","mer.","jeu.","ven.","sam."],["dimanche","lundi","mardi","mercredi","jeudi","vendredi","samedi"],["di","lu","ma","me","je","ve","sa"]],n,[["J","F","M","A","M","J","J","A","S","O","N","D"],["janv.","f\xe9vr.","mars","avr.","mai","juin","juil.","ao\xfbt","sept.","oct.","nov.","d\xe9c."],["janvier","f\xe9vrier","mars","avril","mai","juin","juillet","ao\xfbt","septembre","octobre","novembre","d\xe9cembre"]],n,[["av. J.-C.","ap. J.-C."],n,["avant J\xe9sus-Christ","apr\xe8s J\xe9sus-Christ"]],1,[6,0],["dd/MM/y","d MMM y","d MMMM y","EEEE d MMMM y"],["h:mm a","h:mm:ss a","h:mm:ss a z","h:mm:ss a zzzz"],["{1} {0}","{1} '\xe0' {0}",n,n],[",","\u202f",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","#,##0.00\xa0\xa4","#E0"],"XAF","FCFA","franc CFA (BEAC)",{ARS:["$AR","$"],AUD:["$AU","$"],BEF:["FB"],BMD:["$BM","$"],BND:["$BN","$"],BZD:["$BZ","$"],CAD:["$CA","$"],CLP:["$CL","$"],CNY:[n,"\xa5"],COP:["$CO","$"],CYP:["\xa3CY"],EGP:[n,"\xa3E"],FJD:["$FJ","$"],FKP:["\xa3FK","\xa3"],FRF:["F"],GBP:["\xa3GB","\xa3"],GIP:["\xa3GI","\xa3"],HKD:[n,"$"],IEP:["\xa3IE"],ILP:["\xa3IL"],ITL:["\u20a4IT"],JPY:[n,"\xa5"],KMF:[n,"FC"],LBP:["\xa3LB","\xa3L"],MTP:["\xa3MT"],MXN:["$MX","$"],NAD:["$NA","$"],NIO:[n,"$C"],NZD:["$NZ","$"],RHD:["$RH"],RON:[n,"L"],RWF:[n,"FR"],SBD:["$SB","$"],SGD:["$SG","$"],SRD:["$SR","$"],TOP:[n,"$T"],TTD:["$TT","$"],TWD:[n,"NT$"],USD:["$US","$"],UYU:["$UY","$"],WST:["$WS"],XCD:[n,"$"],XPF:["FCFP"],ZMW:[n,"Kw"]},"ltr",function(i){let n=Math.floor(Math.abs(i));return 0===n||1===n?1:5},[[["minuit","midi","mat.","ap.m.","soir","nuit"],n,["minuit","midi","du matin","de l\u2019apr\xe8s-midi","du soir","du matin"]],[["minuit","midi","mat.","ap.m.","soir","nuit"],n,["minuit","midi","matin","apr\xe8s-midi","soir","nuit"]],["00:00","12:00",["04:00","12:00"],["12:00","18:00"],["18:00","24:00"],["00:00","04:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1165],{
+
+/***/ "./node_modules/@angular/common/locales/global/hy.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/hy.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    let i = Math.floor(Math.abs(n));
+    if (i === 0 || i === 1) return 1;
+    return 5;
+  }
+  global.ng.common.locales['hy'] = [
+    'hy',
+    [['ա', 'հ'], ['AM', 'PM'], u],
+    [['AM', 'PM'], u, u],
+    [
+      ['Կ', 'Ե', 'Ե', 'Չ', 'Հ', 'Ո', 'Շ'],
+      ['կիր', 'երկ', 'երք', 'չրք', 'հնգ', 'ուր', 'շբթ'],
+      [
+        'կիրակի', 'երկուշաբթի', 'երեքշաբթի', 'չորեքշաբթի',
+        'հինգշաբթի', 'ուրբաթ', 'շաբաթ'
+      ],
+      ['կր', 'եկ', 'եք', 'չք', 'հգ', 'ու', 'շբ']
+    ],
+    u,
+    [
+      ['Հ', 'Փ', 'Մ', 'Ա', 'Մ', 'Հ', 'Հ', 'Օ', 'Ս', 'Հ', 'Ն', 'Դ'],
+      [
+        'հնվ', 'փտվ', 'մրտ', 'ապր', 'մյս', 'հնս', 'հլս', 'օգս', 'սեպ',
+        'հոկ', 'նոյ', 'դեկ'
+      ],
+      [
+        'հունվարի', 'փետրվարի', 'մարտի', 'ապրիլի', 'մայիսի',
+        'հունիսի', 'հուլիսի', 'օգոստոսի', 'սեպտեմբերի',
+        'հոկտեմբերի', 'նոյեմբերի', 'դեկտեմբերի'
+      ]
+    ],
+    [
+      ['Հ', 'Փ', 'Մ', 'Ա', 'Մ', 'Հ', 'Հ', 'Օ', 'Ս', 'Հ', 'Ն', 'Դ'],
+      [
+        'հնվ', 'փտվ', 'մրտ', 'ապր', 'մյս', 'հնս', 'հլս', 'օգս', 'սեպ',
+        'հոկ', 'նոյ', 'դեկ'
+      ],
+      [
+        'հունվար', 'փետրվար', 'մարտ', 'ապրիլ', 'մայիս', 'հունիս',
+        'հուլիս', 'օգոստոս', 'սեպտեմբեր', 'հոկտեմբեր',
+        'նոյեմբեր', 'դեկտեմբեր'
+      ]
+    ],
+    [['մ.թ.ա.', 'մ.թ.'], u, ['Քրիստոսից առաջ', 'Քրիստոսից հետո']],
+    1,
+    [6, 0],
+    ['dd.MM.yy', 'dd MMM, y թ.', 'dd MMMM, y թ.', 'y թ. MMMM d, EEEE'],
+    ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
+    ['{1}, {0}', u, u, u],
+    [',', ' ', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'ՈչԹ', ':'],
+    ['#,##0.###', '#,##0%', '#,##0.00 ¤', '#E0'],
+    'AMD',
+    '֏',
+    'հայկական դրամ',
+    {'AMD': ['֏'], 'JPY': ['JP¥', '¥'], 'THB': ['฿'], 'TWD': ['NT$']},
+    'ltr',
+    plural,
+    [
+      [
+        ['կգ․', 'կօ․', 'առվ', 'ցրկ', 'երկ', 'գշր'],
+        [
+          'կեսգիշեր', 'կեսօր', 'առավոտյան', 'ցերեկը',
+          'երեկոյան', 'գիշերը'
+        ],
+        [
+          'կեսգիշերին', 'կեսօրին', 'առավոտյան', 'ցերեկվա',
+          'երեկոյան', 'գիշերվա'
+        ]
+      ],
+      [
+        [
+          'կեսգիշեր', 'կեսօր', 'առավոտ', 'ցերեկ', 'երեկո', 'գիշեր'
+        ],
+        u, u
+      ],
+      [
+        '00:00', '12:00', ['06:00', '12:00'], ['12:00', '18:00'], ['18:00', '24:00'],
+        ['00:00', '06:00']
+      ]
+    ]
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1165-es2015.js.map

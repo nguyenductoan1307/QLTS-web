@@ -1,1 +1,113 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1243],{YSfx:function(n,o){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};const o=void 0;n.ng.common.locales.lu=["lu",[["Dinda","Dilolo"],o,o],o,[["L","N","N","N","N","N","L"],["Lum","Nko","Ndy","Ndg","Njw","Ngv","Lub"],["Lumingu","Nkodya","Nd\xe0ay\xe0","Ndang\xf9","Nj\xf2wa","Ng\xf2vya","Lubingu"],["Lum","Nko","Ndy","Ndg","Njw","Ngv","Lub"]],o,[["C","L","L","M","L","L","K","L","L","L","K","C"],["Cio","Lui","Lus","Muu","Lum","Luf","Kab","Lush","Lut","Lun","Kas","Cis"],["Ciongo","L\xf9ishi","Lus\xf2lo","M\xf9uy\xe0","Lum\xf9ng\xf9l\xf9","Lufuimi","Kab\xe0l\xe0sh\xecp\xf9","L\xf9sh\xeck\xe0","Lutongolo","Lung\xf9di","Kasw\xe8k\xe8s\xe8","Cisw\xe0"]],o,[["kmp. Y.K.","kny. Y. K."],o,["Kumpala kwa Yezu Kli","Kunyima kwa Yezu Kli"]],1,[6,0],["d/M/y","d MMM y","d MMMM y","EEEE d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",o,o,o],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","#,##0.00\xa4","#E0"],"CDF","FC","Nfalanga wa Kongu",{CDF:["FC"],JPY:["JP\xa5","\xa5"],USD:["US$","$"]},"ltr",function(n){return 5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1243],{
+
+/***/ "./node_modules/@angular/common/locales/global/ne-IN.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/ne-IN.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    if (n === 1) return 1;
+    return 5;
+  }
+  global.ng.common.locales['ne-in'] = [
+    'ne-IN',
+    [['पूर्वाह्न', 'अपराह्न'], u, u],
+    u,
+    [
+      ['आ', 'सो', 'म', 'बु', 'बि', 'शु', 'श'],
+      [
+        'आइत', 'सोम', 'मङ्गल', 'बुध', 'बिहि', 'शुक्र',
+        'शनि'
+      ],
+      [
+        'आइतबार', 'सोमबार', 'मङ्गलबार',
+        'बुधबार', 'बिहिबार', 'शुक्रबार',
+        'शनिबार'
+      ],
+      [
+        'आइत', 'सोम', 'मङ्गल', 'बुध', 'बिहि', 'शुक्र',
+        'शनि'
+      ]
+    ],
+    u,
+    [
+      [
+        'जन', 'फेब', 'मार्च', 'अप्र', 'मे', 'जुन',
+        'जुल', 'अग', 'सेप', 'अक्टो', 'नोभे', 'डिसे'
+      ],
+      [
+        'जनवरी', 'फेब्रुअरी', 'मार्च', 'अप्रिल',
+        'मे', 'जुन', 'जुलाई', 'अगस्ट',
+        'सेप्टेम्बर', 'अक्टोबर', 'नोभेम्बर',
+        'डिसेम्बर'
+      ],
+      u
+    ],
+    [
+      [
+        'जन', 'फेेब', 'मार्च', 'अप्र', 'मे', 'जुन',
+        'जुल', 'अग', 'सेप', 'अक्टो', 'नोभे', 'डिसे'
+      ],
+      [
+        'जनवरी', 'फेब्रुअरी', 'मार्च', 'अप्रिल',
+        'मे', 'जुन', 'जुलाई', 'अगस्ट',
+        'सेप्टेम्बर', 'अक्टोबर', 'नोभेम्बर',
+        'डिसेम्बर'
+      ],
+      u
+    ],
+    [['ईसा पूर्व', 'सन्'], u, u],
+    0,
+    [0, 0],
+    ['yy/M/d', 'y MMM d', 'y MMMM d', 'y MMMM d, EEEE'],
+    ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'],
+    ['{1}, {0}', u, '{1} {0}', u],
+    ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0%', '¤ #,##0.00', '#E0'],
+    'INR',
+    '₹',
+    'भारतीय रूपिँया',
+    {'JPY': ['JP¥', '¥'], 'NPR': ['नेरू', 'रू'], 'THB': ['฿'], 'USD': ['US$', '$']},
+    'ltr',
+    plural,
+    [
+      [
+        [
+          'मध्यरात', 'मध्यान्ह', 'बिहान',
+          'अपरान्ह', 'साँझ', 'बेलुकी', 'रात'
+        ],
+        u, u
+      ],
+      u,
+      [
+        '00:00', '12:00', ['04:00', '12:00'], ['12:00', '16:00'], ['16:00', '19:00'],
+        ['19:00', '22:00'], ['22:00', '04:00']
+      ]
+    ]
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1243-es2015.js.map

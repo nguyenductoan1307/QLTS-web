@@ -1,4 +1,4 @@
-import { Component, Injector } from '@angular/core';
+import { Component, Injector, ViewChild } from '@angular/core';
 import { AbpSessionService } from 'abp-ng2-module';
 import { AppComponentBase } from '@shared/app-component-base';
 import { accountModuleAnimation } from '@shared/animations/routerTransition';
@@ -10,6 +10,8 @@ import { AppAuthService } from '@shared/auth/app-auth.service';
 })
 export class LoginComponent extends AppComponentBase {
   submitting = false;
+  fieldTextType: boolean;
+  @ViewChild('passwordEl') password;
 
   constructor(
     injector: Injector,
@@ -42,5 +44,14 @@ export class LoginComponent extends AppComponentBase {
         abp.appPath
       );
     });
+  }
+
+  toggleFieldTextType() {
+    if (this.fieldTextType) {
+      this.password.nativeElement.type = "password";
+    } else {
+      this.password.nativeElement.type = "text";
+    }
+    this.fieldTextType = !this.fieldTextType;
   }
 }

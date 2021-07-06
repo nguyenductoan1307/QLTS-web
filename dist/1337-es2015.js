@@ -1,1 +1,104 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1337],{BCFw:function(a,n){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};const n=void 0;a.ng.common.locales["shi-latn"]=["shi-Latn",[["tifawt","tadgg\u02b7at"],n,n],n,[["S","M","T","W","T","F","S"],["asa","ayn","asi","ak\u1e5b","akw","asim","asi\u1e0d"],["asamas","aynas","asinas","ak\u1e5bas","akwas","asimwas","asi\u1e0dyas"],["asa","ayn","asi","ak\u1e5b","akw","asim","asi\u1e0d"]],n,[["i","b","m","i","m","y","y","\u0263","c","k","n","d"],["inn","b\u1e5ba","ma\u1e5b","ibr","may","yun","yul","\u0263uc","cut","ktu","nuw","duj"],["innayr","b\u1e5bay\u1e5b","ma\u1e5b\u1e63","ibrir","mayyu","yunyu","yulyuz","\u0263uct","cutanbir","ktubr","nuwanbir","dujanbir"]],n,[["da\u025b","df\u025b"],n,["dat n \u025bisa","dffir n \u025bisa"]],1,[6,0],["d/M/y","d MMM, y","d MMMM y","EEEE d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",n,n,n],[",","\xa0",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","#,##0.00\xa4","#E0"],"MAD","MAD","adrim n lm\u0263rib",{JPY:["JP\xa5","\xa5"],USD:["US$","$"]},"ltr",function(a){return 5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1337],{
+
+/***/ "./node_modules/@angular/common/locales/global/sw-UG.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/sw-UG.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    let i = Math.floor(Math.abs(n)), v = n.toString().replace(/^[^.]*\.?/, '').length;
+    if (i === 1 && v === 0) return 1;
+    return 5;
+  }
+  global.ng.common.locales['sw-ug'] = [
+    'sw-UG',
+    [['am', 'pm'], ['AM', 'PM'], u],
+    [['AM', 'PM'], u, u],
+    [
+      ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
+      ['Jumapili', 'Jumatatu', 'Jumanne', 'Jumatano', 'Alhamisi', 'Ijumaa', 'Jumamosi'], u, u
+    ],
+    u,
+    [
+      ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+      ['Jan', 'Feb', 'Mac', 'Apr', 'Mei', 'Jun', 'Jul', 'Ago', 'Sep', 'Okt', 'Nov', 'Des'],
+      [
+        'Januari', 'Februari', 'Machi', 'Aprili', 'Mei', 'Juni', 'Julai', 'Agosti', 'Septemba',
+        'Oktoba', 'Novemba', 'Desemba'
+      ]
+    ],
+    u,
+    [['KK', 'BK'], u, ['Kabla ya Kristo', 'Baada ya Kristo']],
+    1,
+    [0, 0],
+    ['dd/MM/y', 'd MMM y', 'd MMMM y', 'EEEE, d MMMM y'],
+    ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
+    ['{1} {0}', u, u, u],
+    ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0%', '¤ #,##0.00', '#E0'],
+    'UGX',
+    'USh',
+    'Shilingi ya Uganda',
+    {
+      'JPY': ['JP¥', '¥'],
+      'KES': ['Ksh'],
+      'THB': ['฿'],
+      'TWD': ['NT$'],
+      'TZS': ['TSh'],
+      'UGX': ['USh'],
+      'USD': ['US$', '$']
+    },
+    'ltr',
+    plural,
+    [
+      [
+        ['usiku', 'mchana', 'alfajiri', 'asubuhi', 'mchana', 'jioni', 'usiku'],
+        ['saa sita za usiku', 'adhuhuri', 'alfajiri', 'asubuhi', 'mchana', 'jioni', 'usiku'],
+        [
+          'saa sita za usiku', 'saa sita za mchana', 'alfajiri', 'asubuhi', 'mchana', 'jioni',
+          'usiku'
+        ]
+      ],
+      [
+        [
+          'saa sita za usiku', 'saa sita za mchana', 'alfajiri', 'asubuhi', 'mchana', 'jioni',
+          'usiku'
+        ],
+        ['saa sita za usiku', 'adhuhuri', 'alfajiri', 'asubuhi', 'alasiri', 'jioni', 'usiku'],
+        [
+          'saa sita za usiku', 'saa sita za mchana', 'alfajiri', 'asubuhi', 'mchana', 'jioni',
+          'usiku'
+        ]
+      ],
+      [
+        '00:00', '12:00', ['04:00', '07:00'], ['07:00', '12:00'], ['12:00', '16:00'],
+        ['16:00', '19:00'], ['19:00', '04:00']
+      ]
+    ]
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1337-es2015.js.map

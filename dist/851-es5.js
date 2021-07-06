@@ -1,1 +1,47 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[851],{"x6E+":function(e,$,r){var a,i,s;!function(M){if("object"==typeof e.exports){var o=M(0,$);void 0!==o&&(e.exports=o)}else i=[r,$],void 0===(s="function"==typeof(a=M)?a.apply($,i):a)||(e.exports=s)}((function(e,$){"use strict";Object.defineProperty($,"__esModule",{value:!0});var r=void 0;$.default=["fr-MQ",[["AM","PM"],r,r],r,[["D","L","M","M","J","V","S"],["dim.","lun.","mar.","mer.","jeu.","ven.","sam."],["dimanche","lundi","mardi","mercredi","jeudi","vendredi","samedi"],["di","lu","ma","me","je","ve","sa"]],r,[["J","F","M","A","M","J","J","A","S","O","N","D"],["janv.","f\xe9vr.","mars","avr.","mai","juin","juil.","ao\xfbt","sept.","oct.","nov.","d\xe9c."],["janvier","f\xe9vrier","mars","avril","mai","juin","juillet","ao\xfbt","septembre","octobre","novembre","d\xe9cembre"]],r,[["av. J.-C.","ap. J.-C."],r,["avant J\xe9sus-Christ","apr\xe8s J\xe9sus-Christ"]],1,[6,0],["dd/MM/y","d MMM y","d MMMM y","EEEE d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}","{1} '\xe0' {0}",r,r],[",","\u202f",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","#,##0.00\xa0\xa4","#E0"],"EUR","\u20ac","euro",{ARS:["$AR","$"],AUD:["$AU","$"],BEF:["FB"],BMD:["$BM","$"],BND:["$BN","$"],BZD:["$BZ","$"],CAD:["$CA","$"],CLP:["$CL","$"],CNY:[r,"\xa5"],COP:["$CO","$"],CYP:["\xa3CY"],EGP:[r,"\xa3E"],FJD:["$FJ","$"],FKP:["\xa3FK","\xa3"],FRF:["F"],GBP:["\xa3GB","\xa3"],GIP:["\xa3GI","\xa3"],HKD:[r,"$"],IEP:["\xa3IE"],ILP:["\xa3IL"],ITL:["\u20a4IT"],JPY:[r,"\xa5"],KMF:[r,"FC"],LBP:["\xa3LB","\xa3L"],MTP:["\xa3MT"],MXN:["$MX","$"],NAD:["$NA","$"],NIO:[r,"$C"],NZD:["$NZ","$"],RHD:["$RH"],RON:[r,"L"],RWF:[r,"FR"],SBD:["$SB","$"],SGD:["$SG","$"],SRD:["$SR","$"],TOP:[r,"$T"],TTD:["$TT","$"],TWD:[r,"NT$"],USD:["$US","$"],UYU:["$UY","$"],WST:["$WS"],XCD:[r,"$"],XPF:["FCFP"],ZMW:[r,"Kw"]},"ltr",function(e){var $=Math.floor(Math.abs(e));return 0===$||1===$?1:5}]}))}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[851], {
+  /***/
+  "./node_modules/@angular/common/locales/global/am.js":
+  /*!***********************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/am.js ***!
+    \***********************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalAmJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        var i = Math.floor(Math.abs(n));
+        if (i === 0 || n === 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['am'] = ['am', [['ጠ', 'ከ'], ['ጥዋት', 'ከሰዓት'], u], u, [['እ', 'ሰ', 'ማ', 'ረ', 'ሐ', 'ዓ', 'ቅ'], ['እሑድ', 'ሰኞ', 'ማክሰ', 'ረቡዕ', 'ሐሙስ', 'ዓርብ', 'ቅዳሜ'], ['እሑድ', 'ሰኞ', 'ማክሰኞ', 'ረቡዕ', 'ሐሙስ', 'ዓርብ', 'ቅዳሜ'], ['እ', 'ሰ', 'ማ', 'ረ', 'ሐ', 'ዓ', 'ቅ']], u, [['ጃ', 'ፌ', 'ማ', 'ኤ', 'ሜ', 'ጁ', 'ጁ', 'ኦ', 'ሴ', 'ኦ', 'ኖ', 'ዲ'], ['ጃንዩ', 'ፌብሩ', 'ማርች', 'ኤፕሪ', 'ሜይ', 'ጁን', 'ጁላይ', 'ኦገስ', 'ሴፕቴ', 'ኦክቶ', 'ኖቬም', 'ዲሴም'], ['ጃንዩወሪ', 'ፌብሩወሪ', 'ማርች', 'ኤፕሪል', 'ሜይ', 'ጁን', 'ጁላይ', 'ኦገስት', 'ሴፕቴምበር', 'ኦክቶበር', 'ኖቬምበር', 'ዲሴምበር']], u, [['ዓ/ዓ', 'ዓ/ም'], u, ['ዓመተ ዓለም', 'ዓመተ ምሕረት']], 0, [6, 0], ['dd/MM/y', 'd MMM y', 'd MMMM y', 'y MMMM d, EEEE'], ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'], ['{1} {0}', u, u, u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'], 'ETB', 'ብር', 'የኢትዮጵያ ብር', {
+        'AUD': ['AU$', '$'],
+        'CNH': ['የቻይና ዩዋን'],
+        'ETB': ['ብር'],
+        'JPY': ['JP¥', '¥'],
+        'THB': ['฿'],
+        'TWD': ['NT$'],
+        'USD': ['US$', '$']
+      }, 'ltr', plural, [[['እኩለ ሌሊት', 'ቀ', 'ጥዋት1', 'ከሰዓት1', 'ማታ1', 'ሌሊት1'], ['እኩለ ሌሊት', 'ቀትር', 'ጥዋት1', 'ከሰዓት 7', 'ማታ1', 'ሌሊት1'], ['እኩለ ሌሊት', 'ቀትር', 'ጥዋት1', 'ከሰዓት 7 ሰዓት', 'ማታ1', 'ሌሊት1']], [['እኩለ ሌሊት', 'ቀትር', 'ጥዋት', 'ከሰዓት በኋላ', 'ማታ', 'ሌሊት'], ['እኩለ ሌሊት', 'ቀትር', 'ጥዋት1', 'ከሰዓት በኋላ', 'ማታ', 'ሌሊት'], u], ['00:00', '12:00', ['06:00', '12:00'], ['12:00', '18:00'], ['18:00', '24:00'], ['00:00', '06:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=851-es5.js.map

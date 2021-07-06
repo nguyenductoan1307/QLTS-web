@@ -1,1 +1,42 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[889],{Tncq:function(D,o){!function(D){D.ng=D.ng||{},D.ng.common=D.ng.common||{},D.ng.common.locales=D.ng.common.locales||{};var o=void 0;D.ng.common.locales["ar-iq"]=["ar-IQ",[["\u0635","\u0645"],o,o],[["\u0635","\u0645"],o,["\u0635\u0628\u0627\u062d\u064b\u0627","\u0645\u0633\u0627\u0621\u064b"]],[["\u062d","\u0646","\u062b","\u0631","\u062e","\u062c","\u0633"],["\u0627\u0644\u0623\u062d\u062f","\u0627\u0644\u0627\u062b\u0646\u064a\u0646","\u0627\u0644\u062b\u0644\u0627\u062b\u0627\u0621","\u0627\u0644\u0623\u0631\u0628\u0639\u0627\u0621","\u0627\u0644\u062e\u0645\u064a\u0633","\u0627\u0644\u062c\u0645\u0639\u0629","\u0627\u0644\u0633\u0628\u062a"],o,["\u0623\u062d\u062f","\u0625\u062b\u0646\u064a\u0646","\u062b\u0644\u0627\u062b\u0627\u0621","\u0623\u0631\u0628\u0639\u0627\u0621","\u062e\u0645\u064a\u0633","\u062c\u0645\u0639\u0629","\u0633\u0628\u062a"]],o,[["\u0643","\u0634","\u0622","\u0646","\u0623","\u062d","\u062a","\u0622","\u0623","\u062a","\u062a","\u0643"],["\u0643\u0627\u0646\u0648\u0646 \u0627\u0644\u062b\u0627\u0646\u064a","\u0634\u0628\u0627\u0637","\u0622\u0630\u0627\u0631","\u0646\u064a\u0633\u0627\u0646","\u0623\u064a\u0627\u0631","\u062d\u0632\u064a\u0631\u0627\u0646","\u062a\u0645\u0648\u0632","\u0622\u0628","\u0623\u064a\u0644\u0648\u0644","\u062a\u0634\u0631\u064a\u0646\xa0\u0627\u0644\u0623\u0648\u0644","\u062a\u0634\u0631\u064a\u0646 \u0627\u0644\u062b\u0627\u0646\u064a","\u0643\u0627\u0646\u0648\u0646 \u0627\u0644\u0623\u0648\u0644"],["\u0643\u0627\u0646\u0648\u0646 \u0627\u0644\u062b\u0627\u0646\u064a","\u0634\u0628\u0627\u0637","\u0622\u0630\u0627\u0631","\u0646\u064a\u0633\u0627\u0646","\u0623\u064a\u0627\u0631","\u062d\u0632\u064a\u0631\u0627\u0646","\u062a\u0645\u0648\u0632","\u0622\u0628","\u0623\u064a\u0644\u0648\u0644","\u062a\u0634\u0631\u064a\u0646 \u0627\u0644\u0623\u0648\u0644","\u062a\u0634\u0631\u064a\u0646 \u0627\u0644\u062b\u0627\u0646\u064a","\u0643\u0627\u0646\u0648\u0646 \u0627\u0644\u0623\u0648\u0644"]],[["\u0643","\u0634","\u0622","\u0646","\u0623","\u062d","\u062a","\u0622","\u0623","\u062a","\u062a","\u0643"],["\u0643\u0627\u0646\u0648\u0646 \u0627\u0644\u062b\u0627\u0646\u064a","\u0634\u0628\u0627\u0637","\u0622\u0630\u0627\u0631","\u0646\u064a\u0633\u0627\u0646","\u0623\u064a\u0627\u0631","\u062d\u0632\u064a\u0631\u0627\u0646","\u062a\u0645\u0648\u0632","\u0622\u0628","\u0623\u064a\u0644\u0648\u0644","\u062a\u0634\u0631\u064a\u0646 \u0627\u0644\u0623\u0648\u0644","\u062a\u0634\u0631\u064a\u0646 \u0627\u0644\u062b\u0627\u0646\u064a","\u0643\u0627\u0646\u0648\u0646 \u0627\u0644\u0623\u0648\u0644"],o],[["\u0642.\u0645","\u0645"],o,["\u0642\u0628\u0644 \u0627\u0644\u0645\u064a\u0644\u0627\u062f","\u0645\u064a\u0644\u0627\u062f\u064a"]],6,[5,6],["d\u200f/M\u200f/y","dd\u200f/MM\u200f/y","d MMMM y","EEEE\u060c d MMMM y"],["h:mm a","h:mm:ss a","h:mm:ss a z","h:mm:ss a zzzz"],["{1} {0}",o,o,o],[".",",",";","\u200e%\u200e","\u200e+","\u200e-","E","\xd7","\u2030","\u221e","\u0644\u064a\u0633\xa0\u0631\u0642\u0645\u064b\u0627",":"],["#,##0.###","#,##0%","\xa4\xa0#,##0.00","#E0"],"IQD","\u062f.\u0639.\u200f","\u062f\u064a\u0646\u0627\u0631 \u0639\u0631\u0627\u0642\u064a",{AED:["\u062f.\u0625.\u200f"],ARS:[o,"AR$"],AUD:["AU$"],BBD:[o,"BB$"],BHD:["\u062f.\u0628.\u200f"],BMD:[o,"BM$"],BND:[o,"BN$"],BSD:[o,"BS$"],BZD:[o,"BZ$"],CAD:["CA$"],CLP:[o,"CL$"],CNY:["CN\xa5"],COP:[o,"CO$"],CUP:[o,"CU$"],DOP:[o,"DO$"],DZD:["\u062f.\u062c.\u200f"],EGP:["\u062c.\u0645.\u200f","E\xa3"],FJD:[o,"FJ$"],GBP:["UK\xa3"],GYD:[o,"GY$"],HKD:["HK$"],IQD:["\u062f.\u0639.\u200f"],IRR:["\u0631.\u0625."],JMD:[o,"JM$"],JOD:["\u062f.\u0623.\u200f"],JPY:["JP\xa5"],KWD:["\u062f.\u0643.\u200f"],KYD:[o,"KY$"],LBP:["\u0644.\u0644.\u200f","L\xa3"],LRD:[o,"$LR"],LYD:["\u062f.\u0644.\u200f"],MAD:["\u062f.\u0645.\u200f"],MRU:["\u0623.\u0645."],MXN:["MX$"],NZD:["NZ$"],OMR:["\u0631.\u0639.\u200f"],QAR:["\u0631.\u0642.\u200f"],SAR:["\u0631.\u0633.\u200f"],SBD:[o,"SB$"],SDD:["\u062f.\u0633.\u200f"],SDG:["\u062c.\u0633."],SRD:[o,"SR$"],SYP:["\u0644.\u0633.\u200f","\xa3"],THB:["\u0e3f"],TND:["\u062f.\u062a.\u200f"],TTD:[o,"TT$"],TWD:["NT$"],USD:["US$"],UYU:[o,"UY$"],XXX:["***"],YER:["\u0631.\u064a.\u200f"]},"rtl",function(D){return 0===D?0:1===D?1:2===D?2:D%100===Math.floor(D%100)&&D%100>=3&&D%100<=10?3:D%100===Math.floor(D%100)&&D%100>=11&&D%100<=99?4:5},[[["\u0641\u062c\u0631\u064b\u0627","\u0635\u0628\u0627\u062d\u064b\u0627","\u0638\u0647\u0631\u064b\u0627","\u0628\u0639\u062f \u0627\u0644\u0638\u0647\u0631","\u0645\u0633\u0627\u0621\u064b","\u0645\u0646\u062a\u0635\u0641 \u0627\u0644\u0644\u064a\u0644","\u0644\u064a\u0644\u0627\u064b"],["\u0641\u062c\u0631\u064b\u0627","\u0635","\u0638\u0647\u0631\u064b\u0627","\u0628\u0639\u062f \u0627\u0644\u0638\u0647\u0631","\u0645\u0633\u0627\u0621\u064b","\u0645\u0646\u062a\u0635\u0641 \u0627\u0644\u0644\u064a\u0644","\u0644\u064a\u0644\u0627\u064b"],["\u0641\u062c\u0631\u064b\u0627","\u0635\u0628\u0627\u062d\u064b\u0627","\u0638\u0647\u0631\u064b\u0627","\u0628\u0639\u062f \u0627\u0644\u0638\u0647\u0631","\u0645\u0633\u0627\u0621\u064b","\u0645\u0646\u062a\u0635\u0641 \u0627\u0644\u0644\u064a\u0644","\u0644\u064a\u0644\u0627\u064b"]],o,[["03:00","06:00"],["06:00","12:00"],["12:00","13:00"],["13:00","18:00"],["18:00","24:00"],["00:00","01:00"],["01:00","03:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[889], {
+  /***/
+  "./node_modules/@angular/common/locales/global/bez.js":
+  /*!************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/bez.js ***!
+    \************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalBezJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['bez'] = ['bez', [['pamilau', 'pamunyi'], u, u], u, [['M', 'J', 'H', 'H', 'H', 'W', 'J'], ['Mul', 'Vil', 'Hiv', 'Hid', 'Hit', 'Hih', 'Lem'], ['pa mulungu', 'pa shahuviluha', 'pa hivili', 'pa hidatu', 'pa hitayi', 'pa hihanu', 'pa shahulembela'], ['Mul', 'Vil', 'Hiv', 'Hid', 'Hit', 'Hih', 'Lem']], u, [['H', 'V', 'D', 'T', 'H', 'S', 'S', 'N', 'T', 'K', 'K', 'K'], ['Hut', 'Vil', 'Dat', 'Tai', 'Han', 'Sit', 'Sab', 'Nan', 'Tis', 'Kum', 'Kmj', 'Kmb'], ['pa mwedzi gwa hutala', 'pa mwedzi gwa wuvili', 'pa mwedzi gwa wudatu', 'pa mwedzi gwa wutai', 'pa mwedzi gwa wuhanu', 'pa mwedzi gwa sita', 'pa mwedzi gwa saba', 'pa mwedzi gwa nane', 'pa mwedzi gwa tisa', 'pa mwedzi gwa kumi', 'pa mwedzi gwa kumi na moja', 'pa mwedzi gwa kumi na mbili']], u, [['KM', 'BM'], u, ['Kabla ya Mtwaa', 'Baada ya Mtwaa']], 1, [6, 0], ['dd/MM/y', 'd MMM y', 'd MMMM y', 'EEEE, d MMMM y'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1} {0}', u, u, u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '#,##0.00¤', '#E0'], 'TZS', 'TSh', 'Shilingi ya Hutanzania', {
+        'JPY': ['JP¥', '¥'],
+        'TZS': ['TSh'],
+        'USD': ['US$', '$']
+      }, 'ltr', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=889-es5.js.map

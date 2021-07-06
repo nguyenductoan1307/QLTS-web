@@ -1,1 +1,133 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1295],{LSYP:function(n,o){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};const o=void 0;n.ng.common.locales.prg=["prg",[["AM","PM"],o,o],o,[["S","M","T","W","T","F","S"],["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],o,o],o,[["1","2","3","4","5","6","7","8","9","10","11","12"],["M01","M02","M03","M04","M05","M06","M07","M08","M09","M10","M11","M12"],o],o,[["BCE","CE"],o,o],1,[6,0],["y-MM-dd","y MMM d","y MMMM d","y MMMM d, EEEE"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",o,o,o],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4\xa0#,##0.00","#E0"],o,o,o,{JPY:["JP\xa5","\xa5"],USD:["US$","$"]},"ltr",function(n){let o=n.toString().replace(/^[^.]*\.?/,"").length,M=parseInt(n.toString().replace(/^[^.]*\.?/,""),10)||0;return n%10==0||n%100===Math.floor(n%100)&&n%100>=11&&n%100<=19||2===o&&M%100===Math.floor(M%100)&&M%100>=11&&M%100<=19?0:n%10==1&&n%100!=11||2===o&&M%10==1&&M%100!=11||2!==o&&M%10==1?1:5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1295],{
+
+/***/ "./node_modules/@angular/common/locales/global/ru.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/ru.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    let i = Math.floor(Math.abs(n)), v = n.toString().replace(/^[^.]*\.?/, '').length;
+    if (v === 0 && i % 10 === 1 && !(i % 100 === 11)) return 1;
+    if (v === 0 && i % 10 === Math.floor(i % 10) && i % 10 >= 2 && i % 10 <= 4 &&
+        !(i % 100 >= 12 && i % 100 <= 14))
+      return 3;
+    if (v === 0 && i % 10 === 0 ||
+        v === 0 && i % 10 === Math.floor(i % 10) && i % 10 >= 5 && i % 10 <= 9 ||
+        v === 0 && i % 100 === Math.floor(i % 100) && i % 100 >= 11 && i % 100 <= 14)
+      return 4;
+    return 5;
+  }
+  global.ng.common.locales['ru'] = [
+    'ru',
+    [['AM', 'PM'], u, u],
+    u,
+    [
+      ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'], u,
+      [
+        'воскресенье', 'понедельник', 'вторник', 'среда',
+        'четверг', 'пятница', 'суббота'
+      ],
+      ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб']
+    ],
+    [
+      ['В', 'П', 'В', 'С', 'Ч', 'П', 'С'],
+      ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'],
+      [
+        'воскресенье', 'понедельник', 'вторник', 'среда',
+        'четверг', 'пятница', 'суббота'
+      ],
+      ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб']
+    ],
+    [
+      ['Я', 'Ф', 'М', 'А', 'М', 'И', 'И', 'А', 'С', 'О', 'Н', 'Д'],
+      [
+        'янв.', 'февр.', 'мар.', 'апр.', 'мая', 'июн.', 'июл.', 'авг.',
+        'сент.', 'окт.', 'нояб.', 'дек.'
+      ],
+      [
+        'января', 'февраля', 'марта', 'апреля', 'мая', 'июня',
+        'июля', 'августа', 'сентября', 'октября', 'ноября',
+        'декабря'
+      ]
+    ],
+    [
+      ['Я', 'Ф', 'М', 'А', 'М', 'И', 'И', 'А', 'С', 'О', 'Н', 'Д'],
+      [
+        'янв.', 'февр.', 'март', 'апр.', 'май', 'июнь', 'июль', 'авг.',
+        'сент.', 'окт.', 'нояб.', 'дек.'
+      ],
+      [
+        'январь', 'февраль', 'март', 'апрель', 'май', 'июнь',
+        'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь',
+        'декабрь'
+      ]
+    ],
+    [
+      ['до н.э.', 'н.э.'], ['до н. э.', 'н. э.'],
+      ['до Рождества Христова', 'от Рождества Христова']
+    ],
+    1,
+    [6, 0],
+    ['dd.MM.y', 'd MMM y \'г\'.', 'd MMMM y \'г\'.', 'EEEE, d MMMM y \'г\'.'],
+    ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
+    ['{1}, {0}', u, u, u],
+    [',', ' ', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'не число', ':'],
+    ['#,##0.###', '#,##0 %', '#,##0.00 ¤', '#E0'],
+    'RUB',
+    '₽',
+    'российский рубль',
+    {
+      'GEL': [u, 'ლ'],
+      'RON': [u, 'L'],
+      'RUB': ['₽'],
+      'RUR': ['р.'],
+      'THB': ['฿'],
+      'TMT': ['ТМТ'],
+      'TWD': ['NT$'],
+      'UAH': ['₴'],
+      'XXX': ['XXXX']
+    },
+    'ltr',
+    plural,
+    [
+      [
+        ['полн.', 'полд.', 'утра', 'дня', 'веч.', 'ночи'],
+        ['полн.', 'полд.', 'утра', 'дня', 'вечера', 'ночи'],
+        ['полночь', 'полдень', 'утра', 'дня', 'вечера', 'ночи']
+      ],
+      [
+        ['полн.', 'полд.', 'утро', 'день', 'веч.', 'ночь'], u,
+        ['полночь', 'полдень', 'утро', 'день', 'вечер', 'ночь']
+      ],
+      [
+        '00:00', '12:00', ['04:00', '12:00'], ['12:00', '18:00'], ['18:00', '24:00'],
+        ['00:00', '04:00']
+      ]
+    ]
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1295-es2015.js.map

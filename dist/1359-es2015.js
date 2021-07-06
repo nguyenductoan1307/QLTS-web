@@ -1,1 +1,85 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1359],{"2fIg":function(o,n){!function(o){o.ng=o.ng||{},o.ng.common=o.ng.common||{},o.ng.common.locales=o.ng.common.locales||{};const n=void 0;o.ng.common.locales["sr-latn"]=["sr-Latn",[["a","p"],["pre podne","po podne"],n],[["pre podne","po podne"],n,n],[["n","p","u","s","\u010d","p","s"],["ned","pon","uto","sre","\u010det","pet","sub"],["nedelja","ponedeljak","utorak","sreda","\u010detvrtak","petak","subota"],["ne","po","ut","sr","\u010de","pe","su"]],n,[["j","f","m","a","m","j","j","a","s","o","n","d"],["jan","feb","mar","apr","maj","jun","jul","avg","sep","okt","nov","dec"],["januar","februar","mart","april","maj","jun","jul","avgust","septembar","oktobar","novembar","decembar"]],n,[["p.n.e.","n.e."],["p. n. e.","n. e."],["pre nove ere","nove ere"]],1,[6,0],["d.M.yy.","dd.MM.y.","dd. MMMM y.","EEEE, dd. MMMM y."],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",n,n,n],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","#,##0.00\xa0\xa4","#E0"],"RSD","RSD","Srpski dinar",{AUD:[n,"$"],BAM:["KM"],BYN:[n,"r."],GEL:[n,"\u10da"],KRW:[n,"\u20a9"],NZD:[n,"$"],TWD:["NT$"],USD:["US$","$"],VND:[n,"\u20ab"]},"ltr",function(o){return 5},[[["pono\u0107","podne","ujutru","po podne","uve\u010de","no\u0107u"],["pono\u0107","podne","ujutro","po podne","uve\u010de","no\u0107u"],n],[["pono\u0107","podne","jutro","popodne","ve\u010de","no\u0107"],n,n],["00:00","12:00",["06:00","12:00"],["12:00","18:00"],["18:00","21:00"],["21:00","06:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1359],{
+
+/***/ "./node_modules/@angular/common/locales/global/ur-IN.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/ur-IN.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    let i = Math.floor(Math.abs(n)), v = n.toString().replace(/^[^.]*\.?/, '').length;
+    if (i === 1 && v === 0) return 1;
+    return 5;
+  }
+  global.ng.common.locales['ur-in'] = [
+    'ur-IN',
+    [['a', 'p'], ['AM', 'PM'], u],
+    [['AM', 'PM'], u, u],
+    [
+      ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
+      ['اتوار', 'پیر', 'منگل', 'بدھ', 'جمعرات', 'جمعہ', 'ہفتہ'], u, u
+    ],
+    u,
+    [
+      ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+      [
+        'جنوری', 'فروری', 'مارچ', 'اپریل', 'مئی', 'جون', 'جولائی',
+        'اگست', 'ستمبر', 'اکتوبر', 'نومبر', 'دسمبر'
+      ],
+      u
+    ],
+    u,
+    [['قبل مسیح', 'عیسوی'], u, u],
+    0,
+    [0, 0],
+    ['d/M/yy', 'd MMM، y', 'd MMMM، y', 'EEEE، d MMMM، y'],
+    ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'],
+    ['{1} {0}', u, u, u],
+    ['.', ',', ';', '%', '\u200e+', '\u200e-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0%', '¤ #,##0.00', '#E0'],
+    'INR',
+    '₹',
+    'بھارتی روپیہ',
+    {'JPY': ['JP¥', '¥'], 'THB': ['฿'], 'TWD': ['NT$']},
+    'rtl',
+    plural,
+    [
+      [
+        ['آدھی رات', 'صبح', 'دوپہر', 'سہ پہر', 'شام', 'رات'], u,
+        [
+          'آدھی رات', 'صبح میں', 'دوپہر میں', 'سہ پہر', 'شام میں',
+          'رات میں'
+        ]
+      ],
+      [['آدھی رات', 'صبح', 'دوپہر', 'سہ پہر', 'شام', 'رات'], u, u],
+      [
+        '00:00', ['04:00', '12:00'], ['12:00', '16:00'], ['16:00', '18:00'], ['18:00', '20:00'],
+        ['20:00', '04:00']
+      ]
+    ]
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1359-es2015.js.map

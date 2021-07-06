@@ -1,5 +1,5 @@
 <p-tabView *ngIf="isGranted('Pages.QuanLyTaiSan')" (onChange)="onTabChange($event)">
-    <p-tabPanel header="Toàn bộ tài sản" [selected]="+appSession.taiSanTabIndexActive===0">
+    <p-tabPanel [headerStyle]="{'color': 'green'}" header="Toàn bộ tài sản" [selected]="+appSession.taiSanTabIndexActive===0">
         <app-toan-bo-tai-san [isActive]="+appSession.taiSanTabIndexActive"></app-toan-bo-tai-san>
     </p-tabPanel>
     <p-tabPanel header="Tài sản chưa sử dụng" [selected]="+appSession.taiSanTabIndexActive===1">

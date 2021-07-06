@@ -1,1 +1,109 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1331],{UgE8:function(n,o){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};const o=void 0;n.ng.common.locales["se-fi"]=["se-FI",[["i","e"],["ib","eb"],o],[["ib","eb"],o,o],[["S","M","D","G","D","B","L"],["so","m\xe1","di","ga","du","be","l\xe1"],["sotnabeaivi","m\xe1nnodat","disdat","gaskavahkku","duorastat","bearjadat","l\xe1vvordat"],["so","m\xe1","di","ga","du","be","l\xe1"]],o,[["O","G","N","C","M","G","S","B","\u010c","G","S","J"],["o\u0111\u0111j","guov","njuk","cuo\u014b","mies","geas","suoi","borg","\u010dak\u010d","golg","sk\xe1b","juov"],["o\u0111\u0111ajagem\xe1nnu","guovvam\xe1nnu","njuk\u010dam\xe1nnu","cuo\u014bom\xe1nnu","miessem\xe1nnu","geassem\xe1nnu","suoidnem\xe1nnu","borgem\xe1nnu","\u010dak\u010dam\xe1nnu","golggotm\xe1nnu","sk\xe1bmam\xe1nnu","juovlam\xe1nnu"]],o,[["oKr.","mKr."],o,["ovdal Kristusa","ma\u014b\u014bel Kristusa"]],1,[6,0],["dd.MM.y","d MMM y","d MMMM y","EEEE d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",o,o,o],[",","\xa0",";","%","+","\u2212","\xb710^","\xb7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","#,##0.00\xa0\xa4","#E0"],"EUR","\u20ac","euro",{DKK:["Dkr","kr"],JPY:["JP\xa5","\xa5"],NOK:["kr"],SEK:["Skr","kr"],THB:["\u0e3f"],USD:["US$","$"]},"ltr",function(n){return 1===n?1:2===n?2:5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1331],{
+
+/***/ "./node_modules/@angular/common/locales/global/sr.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/sr.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    let i = Math.floor(Math.abs(n)), v = n.toString().replace(/^[^.]*\.?/, '').length,
+        f = parseInt(n.toString().replace(/^[^.]*\.?/, ''), 10) || 0;
+    if (v === 0 && i % 10 === 1 && !(i % 100 === 11) || f % 10 === 1 && !(f % 100 === 11)) return 1;
+    if (v === 0 && i % 10 === Math.floor(i % 10) && i % 10 >= 2 && i % 10 <= 4 &&
+            !(i % 100 >= 12 && i % 100 <= 14) ||
+        f % 10 === Math.floor(f % 10) && f % 10 >= 2 && f % 10 <= 4 &&
+            !(f % 100 >= 12 && f % 100 <= 14))
+      return 3;
+    return 5;
+  }
+  global.ng.common.locales['sr'] = [
+    'sr',
+    [['a', 'p'], ['пре подне', 'по подне'], u],
+    [['пре подне', 'по подне'], u, u],
+    [
+      ['н', 'п', 'у', 'с', 'ч', 'п', 'с'],
+      ['нед', 'пон', 'уто', 'сре', 'чет', 'пет', 'суб'],
+      [
+        'недеља', 'понедељак', 'уторак', 'среда', 'четвртак',
+        'петак', 'субота'
+      ],
+      ['не', 'по', 'ут', 'ср', 'че', 'пе', 'су']
+    ],
+    u,
+    [
+      ['ј', 'ф', 'м', 'а', 'м', 'ј', 'ј', 'а', 'с', 'о', 'н', 'д'],
+      [
+        'јан', 'феб', 'мар', 'апр', 'мај', 'јун', 'јул', 'авг', 'сеп',
+        'окт', 'нов', 'дец'
+      ],
+      [
+        'јануар', 'фебруар', 'март', 'април', 'мај', 'јун', 'јул',
+        'август', 'септембар', 'октобар', 'новембар',
+        'децембар'
+      ]
+    ],
+    u,
+    [
+      ['п.н.е.', 'н.е.'], ['п. н. е.', 'н. е.'],
+      ['пре нове ере', 'нове ере']
+    ],
+    1,
+    [6, 0],
+    ['d.M.yy.', 'dd.MM.y.', 'dd. MMMM y.', 'EEEE, dd. MMMM y.'],
+    ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
+    ['{1} {0}', u, u, u],
+    [',', '.', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0%', '#,##0.00 ¤', '#E0'],
+    'RSD',
+    'RSD',
+    'Српски динар',
+    {
+      'AUD': [u, '$'],
+      'BAM': ['КМ', 'KM'],
+      'GEL': [u, 'ლ'],
+      'KRW': [u, '₩'],
+      'NZD': [u, '$'],
+      'TWD': ['NT$'],
+      'USD': ['US$', '$'],
+      'VND': [u, '₫']
+    },
+    'ltr',
+    plural,
+    [
+      [
+        ['поноћ', 'подне', 'ујутру', 'по подне', 'увече', 'ноћу'],
+        ['поноћ', 'подне', 'ујутро', 'по подне', 'увече', 'ноћу'], u
+      ],
+      [['поноћ', 'подне', 'јутро', 'поподне', 'вече', 'ноћ'], u, u],
+      [
+        '00:00', '12:00', ['06:00', '12:00'], ['12:00', '18:00'], ['18:00', '21:00'],
+        ['21:00', '06:00']
+      ]
+    ]
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1331-es2015.js.map

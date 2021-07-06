@@ -129,10 +129,13 @@ export class DuTruMuaSamComponent extends AppComponentBase implements OnInit {
 
   delete(record: DuTruMuaSamOutPut) {
     if (record.trangThaiId === 0) {
+      const html1 =  '<h3 class="title-popup-xoa m-t-24" >' + 'Bạn có chắc chắn không?' + '</h3>' +
+      '<p class="text-popup-xoa m-t-8">'
+       + this.text + record.tenPhieu + ' sẽ bị xóa!' + '</p>';
       this.swal.fire({
-        title: this.titleNotice,
-        text: this.text + record.tenPhieu + ' sẽ bị xóa!',
+        html: html1,
         icon: 'warning',
+        iconHtml: '<span class="icon1">&#9888</span>',
         showCancelButton: true,
         confirmButtonColor: this.confirmButtonColor,
         cancelButtonColor: this.cancelButtonColor,
@@ -151,10 +154,13 @@ export class DuTruMuaSamComponent extends AppComponentBase implements OnInit {
 
   hoanThanh(record: DuTruMuaSamOutPut) {
     if (record.trangThaiId === 0) {
+      const html1 =  '<h3 class="title-popup-xoa m-t-24" >' + 'Bạn có chắc chắn không?' + '</h3>' +
+      '<p class="text-popup-xoa m-t-8">'
+       + this.text + record.tenPhieu + ' thay đổi trạng thái Hoàn thành!' + '</p>';
       this.swal.fire({
-        title: this.titleNotice,
-        text: this.text + record.tenPhieu + ' thay đổi trạng thái Hoàn thành!',
+        html: html1,
         icon: 'warning',
+        iconHtml: '<span class="icon1">&#9888</span>',
         showCancelButton: true,
         confirmButtonColor: this.confirmButtonColor,
         cancelButtonColor: this.cancelButtonColor,
@@ -174,10 +180,13 @@ export class DuTruMuaSamComponent extends AppComponentBase implements OnInit {
 
   huyBo(record: DuTruMuaSamOutPut) {
     if (record.trangThaiId === 0) {
+      const html1 =  '<h3 class="title-popup-xoa m-t-24" >' + 'Bạn có chắc chắn không?' + '</h3>' +
+      '<p class="text-popup-xoa m-t-8">'
+       + this.text + record.tenPhieu + ' thay đổi trạng thái Hủy bỏ!' + '</p>';
       this.swal.fire({
-        title: this.titleNotice,
-        text: this.text + record.tenPhieu + ' thay đổi trạng thái Hủy bỏ!',
+        html: html1,
         icon: 'warning',
+        iconHtml: '<span class="icon1">&#9888</span>',
         showCancelButton: true,
         confirmButtonColor: this.confirmButtonColor,
         cancelButtonColor: this.cancelButtonColor,
@@ -202,10 +211,13 @@ export class DuTruMuaSamComponent extends AppComponentBase implements OnInit {
       this.listIdXoa.push(item.id);
     });
     if (this.listIdXoa.length > 0) {
+      const html1 =  '<h3 class="title-popup-xoa m-t-24" >' + 'Bạn có chắc chắn không?' + '</h3>' +
+      '<p class="text-popup-xoa m-t-8">'
+       + 'Danh sách phiếu dự trù mua sắm đã chọn sẽ bị xóa.' + '</p>';
       this.swal.fire({
-        title: this.titleNotice,
-        text: 'Danh sách phiếu dự trù mua sắm đã chọn sẽ bị xóa.',
+        html: html1,
         icon: 'warning',
+        iconHtml: '<span class="icon1">&#9888</span>',
         showCancelButton: true,
         confirmButtonColor: this.confirmButtonColor,
         cancelButtonColor: this.cancelButtonColor,

@@ -1,1 +1,111 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1287],{YWs7:function(a,o){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};const o=void 0;a.ng.common.locales.om=["om",[["WD","WB"],o,o],o,[["S","M","T","W","T","F","S"],["Dil","Wix","Qib","Rob","Kam","Jim","San"],["Dilbata","Wiixata","Qibxata","Roobii","Kamiisa","Jimaata","Sanbata"],["Dil","Wix","Qib","Rob","Kam","Jim","San"]],o,[["J","F","M","A","M","J","J","A","S","O","N","D"],["Ama","Gur","Bit","Elb","Cam","Wax","Ado","Hag","Ful","Onk","Sad","Mud"],["Amajjii","Guraandhala","Bitooteessa","Elba","Caamsa","Waxabajjii","Adooleessa","Hagayya","Fuulbana","Onkololeessa","Sadaasa","Muddee"]],o,[["BCE","CE"],o,["Dheengadda Jeesu","CE"]],0,[6,0],["dd/MM/yy","dd-MMM-y","dd MMMM y","EEEE, MMMM d, y"],["h:mm a","h:mm:ss a","h:mm:ss a z","h:mm:ss a zzzz"],["{1} {0}",o,o,o],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4#,##0.00","#E0"],"ETB","Br","Itoophiyaa Birrii",{ETB:["Br"],JPY:["JP\xa5","\xa5"],USD:["US$","$"]},"ltr",function(a){return 1===a?1:5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1287],{
+
+/***/ "./node_modules/@angular/common/locales/global/ro.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/ro.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    let i = Math.floor(Math.abs(n)), v = n.toString().replace(/^[^.]*\.?/, '').length;
+    if (i === 1 && v === 0) return 1;
+    if (!(v === 0) || n === 0 ||
+        !(n === 1) && n % 100 === Math.floor(n % 100) && n % 100 >= 1 && n % 100 <= 19)
+      return 3;
+    return 5;
+  }
+  global.ng.common.locales['ro'] = [
+    'ro',
+    [['a.m.', 'p.m.'], u, u],
+    u,
+    [
+      ['D', 'L', 'M', 'M', 'J', 'V', 'S'], ['dum.', 'lun.', 'mar.', 'mie.', 'joi', 'vin.', 'sâm.'],
+      ['duminică', 'luni', 'marți', 'miercuri', 'joi', 'vineri', 'sâmbătă'],
+      ['du.', 'lu.', 'ma.', 'mi.', 'joi', 'vi.', 'sâ.']
+    ],
+    u,
+    [
+      ['I', 'F', 'M', 'A', 'M', 'I', 'I', 'A', 'S', 'O', 'N', 'D'],
+      [
+        'ian.', 'feb.', 'mar.', 'apr.', 'mai', 'iun.', 'iul.', 'aug.', 'sept.', 'oct.', 'nov.',
+        'dec.'
+      ],
+      [
+        'ianuarie', 'februarie', 'martie', 'aprilie', 'mai', 'iunie', 'iulie', 'august',
+        'septembrie', 'octombrie', 'noiembrie', 'decembrie'
+      ]
+    ],
+    u,
+    [['î.Hr.', 'd.Hr.'], u, ['înainte de Hristos', 'după Hristos']],
+    1,
+    [6, 0],
+    ['dd.MM.y', 'd MMM y', 'd MMMM y', 'EEEE, d MMMM y'],
+    ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
+    ['{1}, {0}', u, u, u],
+    [',', '.', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0 %', '#,##0.00 ¤', '#E0'],
+    'RON',
+    'RON',
+    'leu românesc',
+    {
+      'AUD': [u, '$'],
+      'BRL': [u, 'R$'],
+      'CAD': [u, '$'],
+      'CNY': [u, '¥'],
+      'EUR': [u, '€'],
+      'GBP': [u, '£'],
+      'HKD': [u, '$'],
+      'ILS': [u, '₪'],
+      'INR': [u, '₹'],
+      'JPY': [u, '¥'],
+      'KRW': [u, '₩'],
+      'MXN': [u, '$'],
+      'NZD': [u, '$'],
+      'TWD': [u, 'NT$'],
+      'USD': [u, '$'],
+      'VND': [u, '₫'],
+      'XCD': [u, '$']
+    },
+    'ltr',
+    plural,
+    [
+      [
+        ['miezul nopții', 'la amiază', 'dimineața', 'după-amiaza', 'seara', 'noaptea'],
+        ['miezul nopții', 'amiază', 'dimineața', 'după-amiaza', 'seara', 'noaptea'],
+        ['la miezul nopții', 'la amiază', 'dimineața', 'după-amiaza', 'seara', 'noaptea']
+      ],
+      [
+        ['miezul nopții', 'amiază', 'dimineața', 'după-amiaza', 'seara', 'noaptea'], u,
+        ['la miezul nopții', 'la amiază', 'dimineața', 'după-amiaza', 'seara', 'noaptea']
+      ],
+      [
+        '00:00', '12:00', ['05:00', '12:00'], ['12:00', '18:00'], ['18:00', '22:00'],
+        ['22:00', '05:00']
+      ]
+    ]
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1287-es2015.js.map

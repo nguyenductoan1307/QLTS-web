@@ -1,1 +1,44 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[963],{FEC4:function(a,e){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};var e=void 0;a.ng.common.locales.ee=["ee",[["\u014b","\u0263"],["\u014bdi","\u0263etr\u0254"],e],e,[["k","d","b","k","y","f","m"],["k\u0254s","dzo","bla","ku\u0256","yaw","fi\u0256","mem"],["k\u0254si\u0256a","dzo\u0256a","bla\u0256a","ku\u0256a","yawo\u0256a","fi\u0256a","memle\u0256a"],["k\u0254s","dzo","bla","ku\u0256","yaw","fi\u0256","mem"]],e,[["d","d","t","a","d","m","s","d","a","k","a","d"],["dzv","dzd","ted","af\u0254","dam","mas","sia","dea","any","kel","ade","dzm"],["dzove","dzodze","tedoxe","af\u0254f\u0129e","dama","masa","siaml\u0254m","deasiamime","any\u0254ny\u0254","kele","ade\u025bmekp\u0254xe","dzome"]],e,[["HYV","Y\u014b"],e,["Hafi Yesu Va","Yesu \u014b\u0254li"]],1,[6,0],["M/d/yy","MMM d 'lia', y","MMMM d 'lia' y","EEEE, MMMM d 'lia' y"],["a 'ga' h:mm","a 'ga' h:mm:ss","a 'ga' h:mm:ss z","a 'ga' h:mm:ss zzzz"],["{0} {1}",e,e,e],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","mnn",":"],["#,##0.###","#,##0%","\xa4#,##0.00","#E0"],"GHS","GH\u20b5","ghana si\u0256i",{AUD:["AU$","$"],GHS:["GH\u20b5"],JPY:["JP\xa5","\xa5"],THB:["\u0e3f"],USD:["US$","$"]},"ltr",function(a){return 1===a?1:5},[[["f\u0254\u014bli","\u014bdi","\u014bd\u0254","\u0263etr\u0254","fi\u1ebd","z\xe3"],e,e],e,[["04:00","05:00"],["05:00","12:00"],["12:00","14:00"],["14:00","18:00"],["18:00","21:00"],["21:00","04:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[963], {
+  /***/
+  "./node_modules/@angular/common/locales/global/en-ER.js":
+  /*!**************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/en-ER.js ***!
+    \**************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalEnERJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        var i = Math.floor(Math.abs(n)),
+            v = n.toString().replace(/^[^.]*\.?/, '').length;
+        if (i === 1 && v === 0) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['en-er'] = ['en-ER', [['a', 'p'], ['am', 'pm'], u], [['am', 'pm'], u, u], [['S', 'M', 'T', 'W', 'T', 'F', 'S'], ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'], ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'], ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']], u, [['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'], ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'], ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']], u, [['B', 'A'], ['BC', 'AD'], ['Before Christ', 'Anno Domini']], 1, [6, 0], ['dd/MM/y', 'd MMM y', 'd MMMM y', 'EEEE, d MMMM y'], ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'], ['{1}, {0}', u, '{1} \'at\' {0}', u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'], 'ERN', 'Nfk', 'Eritrean Nakfa', {
+        'ERN': ['Nfk'],
+        'JPY': ['JP¥', '¥'],
+        'USD': ['US$', '$']
+      }, 'ltr', plural, [[['mi', 'n', 'in the morning', 'in the afternoon', 'in the evening', 'at night'], ['midnight', 'noon', 'in the morning', 'in the afternoon', 'in the evening', 'at night'], u], [['midnight', 'noon', 'morning', 'afternoon', 'evening', 'night'], u, u], ['00:00', '12:00', ['06:00', '12:00'], ['12:00', '18:00'], ['18:00', '21:00'], ['21:00', '06:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=963-es5.js.map

@@ -1,1 +1,155 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[872],{tWsb:function(a,i,n){var o,e,t;!function(r){if("object"==typeof a.exports){var M=r(0,i);void 0!==M&&(a.exports=M)}else e=[n,i],void 0===(t="function"==typeof(o=r)?o.apply(i,e):o)||(a.exports=t)}((function(a,i){"use strict";Object.defineProperty(i,"__esModule",{value:!0});var n=void 0;i.default=["ga-GB",[["r.n.","i.n."],n,n],n,[["D","L","M","C","D","A","S"],["Domh","Luan","M\xe1irt","C\xe9ad","D\xe9ar","Aoine","Sath"],["D\xe9 Domhnaigh","D\xe9 Luain","D\xe9 M\xe1irt","D\xe9 C\xe9adaoin","D\xe9ardaoin","D\xe9 hAoine","D\xe9 Sathairn"],["Do","Lu","M\xe1","C\xe9","D\xe9","Ao","Sa"]],n,[["E","F","M","A","B","M","I","L","M","D","S","N"],["Ean","Feabh","M\xe1rta","Aib","Beal","Meith","I\xfail","L\xfan","MF\xf3mh","DF\xf3mh","Samh","Noll"],["Ean\xe1ir","Feabhra","M\xe1rta","Aibre\xe1n","Bealtaine","Meitheamh","I\xfail","L\xfanasa","Me\xe1n F\xf3mhair","Deireadh F\xf3mhair","Samhain","Nollaig"]],n,[["RC","AD"],n,["Roimh Chr\xedost","Anno Domini"]],1,[6,0],["dd/MM/y","d MMM y","d MMMM y","EEEE d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",n,n,n],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4#,##0.00","#E0"],"GBP","\xa3","Punt Steirling",{THB:["\u0e3f"],TWD:["NT$"],XXX:[]},"ltr",function(a){return 1===a?1:2===a?2:a===Math.floor(a)&&a>=3&&a<=6?3:a===Math.floor(a)&&a>=7&&a<=10?4:5}]}))}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[872],{
+
+/***/ "./node_modules/@angular/common/locales/global/ar-SD.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/ar-SD.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    if (n === 0) return 0;
+    if (n === 1) return 1;
+    if (n === 2) return 2;
+    if (n % 100 === Math.floor(n % 100) && n % 100 >= 3 && n % 100 <= 10) return 3;
+    if (n % 100 === Math.floor(n % 100) && n % 100 >= 11 && n % 100 <= 99) return 4;
+    return 5;
+  }
+  global.ng.common.locales['ar-sd'] = [
+    'ar-SD',
+    [['ص', 'م'], u, u],
+    [['ص', 'م'], u, ['صباحًا', 'مساءً']],
+    [
+      ['ح', 'ن', 'ث', 'ر', 'خ', 'ج', 'س'],
+      [
+        'الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس',
+        'الجمعة', 'السبت'
+      ],
+      u,
+      ['أحد', 'إثنين', 'ثلاثاء', 'أربعاء', 'خميس', 'جمعة', 'سبت']
+    ],
+    u,
+    [
+      ['ي', 'ف', 'م', 'أ', 'و', 'ن', 'ل', 'غ', 'س', 'ك', 'ب', 'د'],
+      [
+        'يناير', 'فبراير', 'مارس', 'أبريل', 'مايو', 'يونيو',
+        'يوليو', 'أغسطس', 'سبتمبر', 'أكتوبر', 'نوفمبر', 'ديسمبر'
+      ],
+      u
+    ],
+    u,
+    [['ق.م', 'م'], u, ['قبل الميلاد', 'ميلادي']],
+    6,
+    [5, 6],
+    ['d\u200f/M\u200f/y', 'dd\u200f/MM\u200f/y', 'd MMMM y', 'EEEE، d MMMM y'],
+    ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'],
+    ['{1} {0}', u, u, u],
+    [
+      '.', ',', ';', '\u200e%\u200e', '\u200e+', '\u200e-', 'E', '×', '‰', '∞',
+      'ليس رقمًا', ':'
+    ],
+    ['#,##0.###', '#,##0%', '¤ #,##0.00', '#E0'],
+    'SDG',
+    'ج.س.',
+    'جنيه سوداني',
+    {
+      'AED': ['د.إ.\u200f'],
+      'ARS': [u, 'AR$'],
+      'AUD': ['AU$'],
+      'BBD': [u, 'BB$'],
+      'BHD': ['د.ب.\u200f'],
+      'BMD': [u, 'BM$'],
+      'BND': [u, 'BN$'],
+      'BSD': [u, 'BS$'],
+      'BZD': [u, 'BZ$'],
+      'CAD': ['CA$'],
+      'CLP': [u, 'CL$'],
+      'CNY': ['CN¥'],
+      'COP': [u, 'CO$'],
+      'CUP': [u, 'CU$'],
+      'DOP': [u, 'DO$'],
+      'DZD': ['د.ج.\u200f'],
+      'EGP': ['ج.م.\u200f', 'E£'],
+      'FJD': [u, 'FJ$'],
+      'GBP': ['UK£'],
+      'GYD': [u, 'GY$'],
+      'HKD': ['HK$'],
+      'IQD': ['د.ع.\u200f'],
+      'IRR': ['ر.إ.'],
+      'JMD': [u, 'JM$'],
+      'JOD': ['د.أ.\u200f'],
+      'JPY': ['JP¥'],
+      'KWD': ['د.ك.\u200f'],
+      'KYD': [u, 'KY$'],
+      'LBP': ['ل.ل.\u200f', 'L£'],
+      'LRD': [u, '$LR'],
+      'LYD': ['د.ل.\u200f'],
+      'MAD': ['د.م.\u200f'],
+      'MRU': ['أ.م.'],
+      'MXN': ['MX$'],
+      'NZD': ['NZ$'],
+      'OMR': ['ر.ع.\u200f'],
+      'QAR': ['ر.ق.\u200f'],
+      'SAR': ['ر.س.\u200f'],
+      'SBD': [u, 'SB$'],
+      'SDD': ['د.س.\u200f'],
+      'SDG': ['ج.س.'],
+      'SRD': [u, 'SR$'],
+      'SYP': ['ل.س.\u200f', '£'],
+      'THB': ['฿'],
+      'TND': ['د.ت.\u200f'],
+      'TTD': [u, 'TT$'],
+      'TWD': ['NT$'],
+      'USD': ['US$'],
+      'UYU': [u, 'UY$'],
+      'XXX': ['***'],
+      'YER': ['ر.ي.\u200f']
+    },
+    'rtl',
+    plural,
+    [
+      [
+        [
+          'فجرًا', 'صباحًا', 'ظهرًا', 'بعد الظهر', 'مساءً',
+          'منتصف الليل', 'ليلاً'
+        ],
+        [
+          'فجرًا', 'ص', 'ظهرًا', 'بعد الظهر', 'مساءً',
+          'منتصف الليل', 'ليلاً'
+        ],
+        [
+          'فجرًا', 'صباحًا', 'ظهرًا', 'بعد الظهر', 'مساءً',
+          'منتصف الليل', 'ليلاً'
+        ]
+      ],
+      u,
+      [
+        ['03:00', '06:00'], ['06:00', '12:00'], ['12:00', '13:00'], ['13:00', '18:00'],
+        ['18:00', '24:00'], ['00:00', '01:00'], ['01:00', '03:00']
+      ]
+    ]
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=872-es2015.js.map

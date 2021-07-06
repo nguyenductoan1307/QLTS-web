@@ -1,1 +1,76 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[913],{twnW:function(a,n){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};const n=void 0;a.ng.common.locales["az-latn"]=["az-Latn",[["a","p"],["AM","PM"],n],[["AM","PM"],n,n],[["7","1","2","3","4","5","6"],["B.","B.e.","\xc7.a.","\xc7.","C.a.","C.","\u015e."],["bazar","bazar ert\u0259si","\xe7\u0259r\u015f\u0259nb\u0259 ax\u015fam\u0131","\xe7\u0259r\u015f\u0259nb\u0259","c\xfcm\u0259 ax\u015fam\u0131","c\xfcm\u0259","\u015f\u0259nb\u0259"],["B.","B.E.","\xc7.A.","\xc7.","C.A.","C.","\u015e."]],[["7","1","2","3","4","5","6"],["B.","B.E.","\xc7.A.","\xc7.","C.A.","C.","\u015e."],["bazar","bazar ert\u0259si","\xe7\u0259r\u015f\u0259nb\u0259 ax\u015fam\u0131","\xe7\u0259r\u015f\u0259nb\u0259","c\xfcm\u0259 ax\u015fam\u0131","c\xfcm\u0259","\u015f\u0259nb\u0259"],["B.","B.E.","\xc7.A.","\xc7.","C.A.","C.","\u015e."]],[["1","2","3","4","5","6","7","8","9","10","11","12"],["yan","fev","mar","apr","may","iyn","iyl","avq","sen","okt","noy","dek"],["yanvar","fevral","mart","aprel","may","iyun","iyul","avqust","sentyabr","oktyabr","noyabr","dekabr"]],[["1","2","3","4","5","6","7","8","9","10","11","12"],["yan","fev","mar","apr","may","iyn","iyl","avq","sen","okt","noy","dek"],["yanvar","Fevral","mart","Aprel","May","\u0130yun","\u0130yul","Avqust","Sentyabr","Oktyabr","Noyabr","dekabr"]],[["e.\u0259.","y.e."],n,["eram\u0131zdan \u0259vv\u0259l","yeni era"]],1,[6,0],["dd.MM.yy","d MMM y","d MMMM y","d MMMM y, EEEE"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",n,n,n],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","#,##0.00\xa0\xa4","#E0"],"AZN","\u20bc","Az\u0259rbaycan Manat\u0131",{AZN:["\u20bc"],JPY:["JP\xa5","\xa5"],RON:[n,"ley"],SYP:[n,"S\xa3"],THB:["\u0e3f"],TWD:["NT$"],USD:["US$","$"]},"ltr",function(a){return 1===a?1:5},[[["gec\u0259yar\u0131","g","s\xfcbh","s\u0259h\u0259r","g\xfcnd\xfcz","ax\u015fam\xfcst\xfc","ax\u015fam","gec\u0259"],["gec\u0259yar\u0131","g\xfcnorta","s\xfcbh","s\u0259h\u0259r","g\xfcnd\xfcz","ax\u015fam\xfcst\xfc","ax\u015fam","gec\u0259"],n],[["gec\u0259yar\u0131","g\xfcnorta","s\xfcbh","s\u0259h\u0259r","g\xfcnd\xfcz","ax\u015fam\xfcst\xfc","ax\u015fam","gec\u0259"],n,n],["00:00","12:00",["04:00","06:00"],["06:00","12:00"],["12:00","17:00"],["17:00","19:00"],["19:00","24:00"],["00:00","04:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[913],{
+
+/***/ "./node_modules/@angular/common/locales/global/ckb.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/ckb.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    if (n === 1) return 1;
+    return 5;
+  }
+  global.ng.common.locales['ckb'] = [
+    'ckb',
+    [['ب.ن', 'د.ن'], u, u],
+    u,
+    [
+      ['ی', 'د', 'س', 'چ', 'پ', 'ھ', 'ش'],
+      [
+        'یەکشەممە', 'دووشەممە', 'سێشەممە', 'چوارشەممە',
+        'پێنجشەممە', 'ھەینی', 'شەممە'
+      ],
+      u, ['١ش', '٢ش', '٣ش', '٤ش', '٥ش', 'ھ', 'ش']
+    ],
+    u,
+    [
+      ['ک', 'ش', 'ئ', 'ن', 'ئ', 'ح', 'ت', 'ئ', 'ئ', 'ت', 'ت', 'ک'],
+      [
+        'کانوونی دووەم', 'شوبات', 'ئازار', 'نیسان', 'ئایار',
+        'حوزەیران', 'تەمووز', 'ئاب', 'ئەیلوول', 'تشرینی یەکەم',
+        'تشرینی دووەم', 'کانونی یەکەم'
+      ],
+      u
+    ],
+    u,
+    [['پێش زایین', 'زایینی'], u, u],
+    6,
+    [5, 6],
+    ['y-MM-dd', 'y MMM d', 'dی MMMMی y', 'y MMMM d, EEEE'],
+    ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'],
+    ['{1} {0}', u, u, u],
+    ['.', ',', ';', '%', '\u200e+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0%', '¤ #,##0.00', '#E0'],
+    'IQD',
+    'د.ع.\u200f',
+    'IQD',
+    {'IQD': ['د.ع.\u200f'], 'JPY': ['JP¥', '¥'], 'USD': ['US$', '$']},
+    'rtl',
+    plural,
+    []
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=913-es2015.js.map

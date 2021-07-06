@@ -135,10 +135,13 @@ export class KiemKeTaiSanComponent extends AppComponentBase implements OnInit {
   }
 
   delete(record) {
+    const html1 =  '<h3 class="title-popup-xoa m-t-24" >' + 'Bạn có chắc chắn không?' + '</h3>' +
+    '<p class="text-popup-xoa m-t-8">'
+     + 'Đợt kiểm kê ' + record.kiemKeTaiSan.tenKiemKe + ' sẽ bị xóa!' + '</p>';
     this.swal.fire({
-      title: 'Bạn có chắc chắn không?',
-      text: 'Đợt kiểm kê ' + record.kiemKeTaiSan.tenKiemKe + ' sẽ bị xóa!',
+      html: html1,
       icon: 'warning',
+      iconHtml: '<span class="icon1">&#9888</span>',
       showCancelButton: true,
       confirmButtonColor: this.confirmButtonColor,
       cancelButtonColor: this.cancelButtonColor,
@@ -176,10 +179,13 @@ export class KiemKeTaiSanComponent extends AppComponentBase implements OnInit {
         this.showExistMessage('Đợt kiểm kê ' + this.selectedRows[0].kiemKeTaiSan.tenKiemKe + ' đã chọn đang ở trạng thái ' + whatStatus + ' không được phép xoá.');
       } else { this.showExistMessage('Một hay nhiều đợt kiểm kê đã chọn đang ở trạng thái "Đang kiểm kê" hoặc "Đã kết thúc" không được phép xoá.'); }
     } else {
+      const html1 =  '<h3 class="title-popup-xoa m-t-24" >' + 'Bạn có chắc chắn không?' + '</h3>' +
+      '<p class="text-popup-xoa m-t-8">'
+       + 'Các đợt kiểm kê đã chọn sẽ bị xóa!' + '</p>';
       this.swal.fire({
-        title: 'Bạn có chắc chắn không?',
-        text: 'Các đợt kiểm kê đã chọn sẽ bị xóa!',
+        html: html1,
         icon: 'warning',
+        iconHtml: '<span class="icon1">&#9888</span>',
         showCancelButton: true,
         confirmButtonColor: this.confirmButtonColor,
         cancelButtonColor: this.cancelButtonColor,

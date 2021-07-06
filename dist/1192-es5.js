@@ -1,1 +1,43 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1192],{TCA3:function(o,n){!function(o){o.ng=o.ng||{},o.ng.common=o.ng.common||{},o.ng.common.locales=o.ng.common.locales||{};var n=void 0;o.ng.common.locales.hsb=["hsb",[["dop.","pop."],["dopo\u0142dnja","popo\u0142dnju"],n],[["dopo\u0142dnja","popo\u0142dnju"],n,n],[["n","p","w","s","\u0161","p","s"],["nje","p\xf3n","wut","srj","\u0161tw","pja","sob"],["njed\u017aela","p\xf3nd\u017aela","wutora","srjeda","\u0161tw\xf3rtk","pjatk","sobota"],["nj","p\xf3","wu","sr","\u0161t","pj","so"]],n,[["j","f","m","a","m","j","j","a","s","o","n","d"],["jan.","feb.","m\u011br.","apr.","mej.","jun.","jul.","awg.","sep.","okt.","now.","dec."],["januara","februara","m\u011brca","apryla","meje","junija","julija","awgusta","septembra","oktobra","nowembra","decembra"]],[["j","f","m","a","m","j","j","a","s","o","n","d"],["jan","feb","m\u011br","apr","mej","jun","jul","awg","sep","okt","now","dec"],["januar","februar","m\u011brc","apryl","meja","junij","julij","awgust","september","oktober","nowember","december"]],[["p\u0159.Chr.n.","po Chr.n."],n,["p\u0159ed Chrystowym narod\u017aenjom","po Chrystowym narod\u017aenju"]],1,[6,0],["d.M.yy","d.M.y","d. MMMM y","EEEE, d. MMMM y"],["H:mm 'hod\u017a'.","H:mm:ss","H:mm:ss z","H:mm:ss zzzz"],["{1} {0}",n,n,n],[",",".",";","%","+","-","E","\xb7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","#,##0.00\xa0\xa4","#E0"],"EUR","\u20ac","euro",{AUD:[n,"$"],PLN:["z\u0142"],THB:["\u0e3f"]},"ltr",function(o){var n=Math.floor(Math.abs(o)),a=o.toString().replace(/^[^.]*\.?/,"").length,e=parseInt(o.toString().replace(/^[^.]*\.?/,""),10)||0;return 0===a&&n%100==1||e%100==1?1:0===a&&n%100==2||e%100==2?2:0===a&&n%100===Math.floor(n%100)&&n%100>=3&&n%100<=4||e%100===Math.floor(e%100)&&e%100>=3&&e%100<=4?3:5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1192], {
+  /***/
+  "./node_modules/@angular/common/locales/global/ko-KP.js":
+  /*!**************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/ko-KP.js ***!
+    \**************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalKoKPJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        return 5;
+      }
+
+      global.ng.common.locales['ko-kp'] = ['ko-KP', [['AM', 'PM'], u, ['오전', '오후']], u, [['일', '월', '화', '수', '목', '금', '토'], u, ['일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일'], ['일', '월', '화', '수', '목', '금', '토']], u, [['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월', '12월'], u, u], u, [['BC', 'AD'], u, ['기원전', '서기']], 1, [6, 0], ['yy. M. d.', 'y. M. d.', 'y년 M월 d일', 'y년 M월 d일 EEEE'], ['a h:mm', 'a h:mm:ss', 'a h시 m분 s초 z', 'a h시 m분 s초 zzzz'], ['{1} {0}', u, u, u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'], 'KPW', 'KPW', '조선 민주주의 인민 공화국 원', {
+        'AUD': ['AU$', '$'],
+        'JPY': ['JP¥', '¥'],
+        'RON': [u, 'L'],
+        'TWD': ['NT$'],
+        'USD': ['US$', '$']
+      }, 'ltr', plural, [[['자정', '정오', '새벽', '오전', '오후', '저녁', '밤'], u, u], u, ['00:00', '12:00', ['03:00', '06:00'], ['06:00', '12:00'], ['12:00', '18:00'], ['18:00', '21:00'], ['21:00', '03:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1192-es5.js.map

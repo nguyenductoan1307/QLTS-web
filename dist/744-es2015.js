@@ -1,1 +1,47 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[744],{NiZq:function(t,e,n){var p,o,r;!function(m){if("object"==typeof t.exports){var i=m(0,e);void 0!==i&&(t.exports=i)}else o=[n,e],void 0===(r="function"==typeof(p=m)?p.apply(e,o):p)||(t.exports=r)}((function(t,e){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=[[["midn.","p\xe5 morg.","p\xe5 f\xf6rm.","p\xe5 efterm.","p\xe5 kv\xe4llen","p\xe5 natten"],["midnatt","p\xe5 morg.","p\xe5 f\xf6rm.","p\xe5 efterm.","p\xe5 kv\xe4llen","p\xe5 natten"],["midnatt","p\xe5 morgonen","p\xe5 f\xf6rmiddagen","p\xe5 eftermiddagen","p\xe5 kv\xe4llen","p\xe5 natten"]],[["midn.","morg.","f\xf6rm.","efterm.","kv\xe4ll","natt"],["midnatt","morgon","f\xf6rm.","efterm.","kv\xe4ll","natt"],["midnatt","morgon","f\xf6rmiddag","eftermiddag","kv\xe4ll","natt"]],["00:00",["05:00","10:00"],["10:00","12:00"],["12:00","18:00"],["18:00","24:00"],["00:00","05:00"]]]}))}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[744],{
+
+/***/ "./node_modules/@angular/common/locales/extra/uz-Latn.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/extra/uz-Latn.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+(function (factory) {
+    if ( true && typeof module.exports === "object") {
+        var v = factory(null, exports);
+        if (v !== undefined) module.exports = v;
+    }
+    else if (true) {
+        !(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__, exports], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+    }
+})(function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    var u = undefined;
+    exports.default = [
+        [['yarim tun', 'tush payti', 'ertalab', 'kunduzi', 'kechqurun', 'kechasi'], u, u], u,
+        [
+            '00:00', '12:00', ['06:00', '11:00'], ['11:00', '18:00'], ['18:00', '22:00'],
+            ['22:00', '06:00']
+        ]
+    ];
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidXotTGF0bi5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uLy4uLy4uLy4uL3BhY2thZ2VzL2NvbW1vbi9sb2NhbGVzL2V4dHJhL3V6LUxhdG4udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7OztHQU1HOzs7Ozs7Ozs7Ozs7SUFFSCx5Q0FBeUM7SUFDekMsK0NBQStDO0lBRS9DLElBQU0sQ0FBQyxHQUFHLFNBQVMsQ0FBQztJQUVwQixrQkFBZTtRQUNiLENBQUMsQ0FBQyxXQUFXLEVBQUUsWUFBWSxFQUFFLFNBQVMsRUFBRSxTQUFTLEVBQUUsV0FBVyxFQUFFLFNBQVMsQ0FBQyxFQUFFLENBQUMsRUFBRSxDQUFDLENBQUMsRUFBRSxDQUFDO1FBQ3BGO1lBQ0UsT0FBTyxFQUFFLE9BQU8sRUFBRSxDQUFDLE9BQU8sRUFBRSxPQUFPLENBQUMsRUFBRSxDQUFDLE9BQU8sRUFBRSxPQUFPLENBQUMsRUFBRSxDQUFDLE9BQU8sRUFBRSxPQUFPLENBQUM7WUFDNUUsQ0FBQyxPQUFPLEVBQUUsT0FBTyxDQUFDO1NBQ25CO0tBQ0YsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxuICogQGxpY2Vuc2VcbiAqIENvcHlyaWdodCBHb29nbGUgSW5jLiBBbGwgUmlnaHRzIFJlc2VydmVkLlxuICpcbiAqIFVzZSBvZiB0aGlzIHNvdXJjZSBjb2RlIGlzIGdvdmVybmVkIGJ5IGFuIE1JVC1zdHlsZSBsaWNlbnNlIHRoYXQgY2FuIGJlXG4gKiBmb3VuZCBpbiB0aGUgTElDRU5TRSBmaWxlIGF0IGh0dHBzOi8vYW5ndWxhci5pby9saWNlbnNlXG4gKi9cblxuLy8gVEhJUyBDT0RFIElTIEdFTkVSQVRFRCAtIERPIE5PVCBNT0RJRllcbi8vIFNlZSBhbmd1bGFyL3Rvb2xzL2d1bHAtdGFza3MvY2xkci9leHRyYWN0LmpzXG5cbmNvbnN0IHUgPSB1bmRlZmluZWQ7XG5cbmV4cG9ydCBkZWZhdWx0IFtcbiAgW1sneWFyaW0gdHVuJywgJ3R1c2ggcGF5dGknLCAnZXJ0YWxhYicsICdrdW5kdXppJywgJ2tlY2hxdXJ1bicsICdrZWNoYXNpJ10sIHUsIHVdLCB1LFxuICBbXG4gICAgJzAwOjAwJywgJzEyOjAwJywgWycwNjowMCcsICcxMTowMCddLCBbJzExOjAwJywgJzE4OjAwJ10sIFsnMTg6MDAnLCAnMjI6MDAnXSxcbiAgICBbJzIyOjAwJywgJzA2OjAwJ11cbiAgXVxuXTtcbiJdfQ==
+
+/***/ })
+
+}]);
+//# sourceMappingURL=744-es2015.js.map

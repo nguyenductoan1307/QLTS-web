@@ -170,10 +170,13 @@ export class CreateOrEditKiemKeTaiSanComponent extends AppComponentBase implemen
   }
 
   ketThucKiemke() {
+    const html1 =  '<h3 class="title-popup-xoa m-t-24" >' + 'Bạn có chắc chắn không?' + '</h3>' +
+    '<p class="text-popup-xoa m-t-8">'
+     + 'Đợt kiểm kê sẽ kết thúc!' + '</p>';
     this.swal.fire({
-      title: 'Bạn có chắc chắn không?',
-      text: 'Đợt kiểm kê sẽ kết thúc!',
+      html: html1,
       icon: 'warning',
+      iconHtml: '<span class="icon1">&#9888</span>',
       showCancelButton: true,
       confirmButtonColor: this.confirmButtonColor,
       cancelButtonColor: this.cancelButtonColor,

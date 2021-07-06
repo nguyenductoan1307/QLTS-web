@@ -1,1 +1,72 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1222],{kn8y:function(n,o){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};const o=void 0;n.ng.common.locales.ko=["ko",[["AM","PM"],o,["\uc624\uc804","\uc624\ud6c4"]],o,[["\uc77c","\uc6d4","\ud654","\uc218","\ubaa9","\uae08","\ud1a0"],o,["\uc77c\uc694\uc77c","\uc6d4\uc694\uc77c","\ud654\uc694\uc77c","\uc218\uc694\uc77c","\ubaa9\uc694\uc77c","\uae08\uc694\uc77c","\ud1a0\uc694\uc77c"],["\uc77c","\uc6d4","\ud654","\uc218","\ubaa9","\uae08","\ud1a0"]],o,[["1\uc6d4","2\uc6d4","3\uc6d4","4\uc6d4","5\uc6d4","6\uc6d4","7\uc6d4","8\uc6d4","9\uc6d4","10\uc6d4","11\uc6d4","12\uc6d4"],o,o],o,[["BC","AD"],o,["\uae30\uc6d0\uc804","\uc11c\uae30"]],0,[6,0],["yy. M. d.","y. M. d.","y\ub144 M\uc6d4 d\uc77c","y\ub144 M\uc6d4 d\uc77c EEEE"],["a h:mm","a h:mm:ss","a h\uc2dc m\ubd84 s\ucd08 z","a h\uc2dc m\ubd84 s\ucd08 zzzz"],["{1} {0}",o,o,o],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4#,##0.00","#E0"],"KRW","\u20a9","\ub300\ud55c\ubbfc\uad6d \uc6d0",{AUD:["AU$","$"],JPY:["JP\xa5","\xa5"],RON:[o,"L"],TWD:["NT$"],USD:["US$","$"]},"ltr",function(n){return 5},[[["\uc790\uc815","\uc815\uc624","\uc0c8\ubcbd","\uc624\uc804","\uc624\ud6c4","\uc800\ub141","\ubc24"],o,o],o,["00:00","12:00",["03:00","06:00"],["06:00","12:00"],["12:00","18:00"],["18:00","21:00"],["21:00","03:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1222],{
+
+/***/ "./node_modules/@angular/common/locales/global/mg.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/mg.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    if (n === Math.floor(n) && n >= 0 && n <= 1) return 1;
+    return 5;
+  }
+  global.ng.common.locales['mg'] = [
+    'mg',
+    [['AM', 'PM'], u, u],
+    u,
+    [
+      ['A', 'A', 'T', 'A', 'A', 'Z', 'A'], ['Alah', 'Alats', 'Tal', 'Alar', 'Alak', 'Zom', 'Asab'],
+      ['Alahady', 'Alatsinainy', 'Talata', 'Alarobia', 'Alakamisy', 'Zoma', 'Asabotsy'],
+      ['Alah', 'Alats', 'Tal', 'Alar', 'Alak', 'Zom', 'Asab']
+    ],
+    u,
+    [
+      ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+      ['Jan', 'Feb', 'Mar', 'Apr', 'Mey', 'Jon', 'Jol', 'Aog', 'Sep', 'Okt', 'Nov', 'Des'],
+      [
+        'Janoary', 'Febroary', 'Martsa', 'Aprily', 'Mey', 'Jona', 'Jolay', 'Aogositra', 'Septambra',
+        'Oktobra', 'Novambra', 'Desambra'
+      ]
+    ],
+    u,
+    [['BC', 'AD'], u, ['Alohan’i JK', 'Aorian’i JK']],
+    1,
+    [6, 0],
+    ['y-MM-dd', 'y MMM d', 'd MMMM y', 'EEEE d MMMM y'],
+    ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
+    ['{1} {0}', u, u, u],
+    ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0%', '¤ #,##0.00', '#E0'],
+    'MGA',
+    'Ar',
+    'Ariary',
+    {'JPY': ['JP¥', '¥'], 'MGA': ['Ar'], 'USD': ['US$', '$']},
+    'ltr',
+    plural,
+    []
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1222-es2015.js.map

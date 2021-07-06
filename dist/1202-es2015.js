@@ -1,1 +1,78 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1202],{"/tpz":function(o,e){!function(o){o.ng=o.ng||{},o.ng.common=o.ng.common||{},o.ng.common.locales=o.ng.common.locales||{};const e=void 0;o.ng.common.locales["it-va"]=["it-VA",[["m.","p."],["AM","PM"],e],e,[["D","L","M","M","G","V","S"],["dom","lun","mar","mer","gio","ven","sab"],["domenica","luned\xec","marted\xec","mercoled\xec","gioved\xec","venerd\xec","sabato"],["dom","lun","mar","mer","gio","ven","sab"]],e,[["G","F","M","A","M","G","L","A","S","O","N","D"],["gen","feb","mar","apr","mag","giu","lug","ago","set","ott","nov","dic"],["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"]],e,[["aC","dC"],["a.C.","d.C."],["avanti Cristo","dopo Cristo"]],1,[6,0],["dd/MM/yy","d MMM y","d MMMM y","EEEE d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1}, {0}",e,"{1} {0}",e],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","#,##0.00\xa0\xa4","#E0"],"EUR","\u20ac","euro",{BRL:[e,"R$"],BYN:[e,"Br"],EGP:[e,"\xa3E"],HKD:[e,"$"],JPY:[e,"\xa5"],KRW:[e,"\u20a9"],MXN:[e,"$"],NOK:[e,"NKr"],THB:["\u0e3f"],TWD:[e,"NT$"],USD:[e,"$"]},"ltr",function(o){let e=Math.floor(Math.abs(o)),n=o.toString().replace(/^[^.]*\.?/,"").length;return 1===e&&0===n?1:5},[[["mezzanotte","mezzogiorno","di mattina","di pomeriggio","di sera","di notte"],e,["mezzanotte","mezzogiorno","di mattina","del pomeriggio","di sera","di notte"]],[["mezzanotte","mezzogiorno","mattina","pomeriggio","sera","notte"],e,e],["00:00","12:00",["06:00","12:00"],["12:00","18:00"],["18:00","24:00"],["00:00","06:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1202],{
+
+/***/ "./node_modules/@angular/common/locales/global/lag.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/lag.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    let i = Math.floor(Math.abs(n));
+    if (n === 0) return 0;
+    if ((i === 0 || i === 1) && !(n === 0)) return 1;
+    return 5;
+  }
+  global.ng.common.locales['lag'] = [
+    'lag',
+    [['TOO', 'MUU'], u, u],
+    u,
+    [
+      ['P', 'T', 'E', 'O', 'A', 'I', 'M'],
+      ['Píili', 'Táatu', 'Íne', 'Táano', 'Alh', 'Ijm', 'Móosi'],
+      ['Jumapíiri', 'Jumatátu', 'Jumaíne', 'Jumatáano', 'Alamíisi', 'Ijumáa', 'Jumamóosi'],
+      ['Píili', 'Táatu', 'Íne', 'Táano', 'Alh', 'Ijm', 'Móosi']
+    ],
+    u,
+    [
+      ['F', 'N', 'K', 'I', 'I', 'I', 'M', 'V', 'S', 'I', 'S', 'S'],
+      [
+        'Fúngatɨ', 'Naanɨ', 'Keenda', 'Ikúmi', 'Inyambala', 'Idwaata', 'Mʉʉnchɨ', 'Vɨɨrɨ',
+        'Saatʉ', 'Inyi', 'Saano', 'Sasatʉ'
+      ],
+      [
+        'Kʉfúngatɨ', 'Kʉnaanɨ', 'Kʉkeenda', 'Kwiikumi', 'Kwiinyambála', 'Kwiidwaata',
+        'Kʉmʉʉnchɨ', 'Kʉvɨɨrɨ', 'Kʉsaatʉ', 'Kwiinyi', 'Kʉsaano', 'Kʉsasatʉ'
+      ]
+    ],
+    u,
+    [['KSA', 'KA'], u, ['Kɨrɨsitʉ sɨ anavyaal', 'Kɨrɨsitʉ akavyaalwe']],
+    1,
+    [6, 0],
+    ['dd/MM/y', 'd MMM y', 'd MMMM y', 'EEEE, d MMMM y'],
+    ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
+    ['{1} {0}', u, u, u],
+    ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0%', '¤ #,##0.00', '#E0'],
+    'TZS',
+    'TSh',
+    'Shilíingi ya Taansanía',
+    {'JPY': ['JP¥', '¥'], 'TZS': ['TSh'], 'USD': ['US$', '$']},
+    'ltr',
+    plural,
+    []
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1202-es2015.js.map

@@ -1,1 +1,92 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[847],{jogA:function(e,$,r){var a,i,o;!function(s){if("object"==typeof e.exports){var M=s(0,$);void 0!==M&&(e.exports=M)}else i=[r,$],void 0===(o="function"==typeof(a=s)?a.apply($,i):a)||(e.exports=o)}((function(e,$){"use strict";Object.defineProperty($,"__esModule",{value:!0});var r=void 0;$.default=["fr-MC",[["AM","PM"],r,r],r,[["D","L","M","M","J","V","S"],["dim.","lun.","mar.","mer.","jeu.","ven.","sam."],["dimanche","lundi","mardi","mercredi","jeudi","vendredi","samedi"],["di","lu","ma","me","je","ve","sa"]],r,[["J","F","M","A","M","J","J","A","S","O","N","D"],["janv.","f\xe9vr.","mars","avr.","mai","juin","juil.","ao\xfbt","sept.","oct.","nov.","d\xe9c."],["janvier","f\xe9vrier","mars","avril","mai","juin","juillet","ao\xfbt","septembre","octobre","novembre","d\xe9cembre"]],r,[["av. J.-C.","ap. J.-C."],r,["avant J\xe9sus-Christ","apr\xe8s J\xe9sus-Christ"]],1,[6,0],["dd/MM/y","d MMM y","d MMMM y","EEEE d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}","{1} '\xe0' {0}",r,r],[",","\u202f",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","#,##0.00\xa0\xa4","#E0"],"EUR","\u20ac","euro",{ARS:["$AR","$"],AUD:["$AU","$"],BEF:["FB"],BMD:["$BM","$"],BND:["$BN","$"],BZD:["$BZ","$"],CAD:["$CA","$"],CLP:["$CL","$"],CNY:[r,"\xa5"],COP:["$CO","$"],CYP:["\xa3CY"],EGP:[r,"\xa3E"],FJD:["$FJ","$"],FKP:["\xa3FK","\xa3"],FRF:["F"],GBP:["\xa3GB","\xa3"],GIP:["\xa3GI","\xa3"],HKD:[r,"$"],IEP:["\xa3IE"],ILP:["\xa3IL"],ITL:["\u20a4IT"],JPY:[r,"\xa5"],KMF:[r,"FC"],LBP:["\xa3LB","\xa3L"],MTP:["\xa3MT"],MXN:["$MX","$"],NAD:["$NA","$"],NIO:[r,"$C"],NZD:["$NZ","$"],RHD:["$RH"],RON:[r,"L"],RWF:[r,"FR"],SBD:["$SB","$"],SGD:["$SG","$"],SRD:["$SR","$"],TOP:[r,"$T"],TTD:["$TT","$"],TWD:[r,"NT$"],USD:["$US","$"],UYU:["$UY","$"],WST:["$WS"],XCD:[r,"$"],XPF:["FCFP"],ZMW:[r,"Kw"]},"ltr",function(e){var $=Math.floor(Math.abs(e));return 0===$||1===$?1:5}]}))}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[847],{
+
+/***/ "./node_modules/@angular/common/locales/global/af-NA.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/af-NA.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    if (n === 1) return 1;
+    return 5;
+  }
+  global.ng.common.locales['af-na'] = [
+    'af-NA',
+    [['v', 'n'], ['vm.', 'nm.'], u],
+    u,
+    [
+      ['S', 'M', 'D', 'W', 'D', 'V', 'S'], ['So.', 'Ma.', 'Di.', 'Wo.', 'Do.', 'Vr.', 'Sa.'],
+      ['Sondag', 'Maandag', 'Dinsdag', 'Woensdag', 'Donderdag', 'Vrydag', 'Saterdag'],
+      ['So.', 'Ma.', 'Di.', 'Wo.', 'Do.', 'Vr.', 'Sa.']
+    ],
+    u,
+    [
+      ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+      [
+        'Jan.', 'Feb.', 'Mrt.', 'Apr.', 'Mei', 'Jun.', 'Jul.', 'Aug.', 'Sep.', 'Okt.', 'Nov.',
+        'Des.'
+      ],
+      [
+        'Januarie', 'Februarie', 'Maart', 'April', 'Mei', 'Junie', 'Julie', 'Augustus', 'September',
+        'Oktober', 'November', 'Desember'
+      ]
+    ],
+    u,
+    [['v.C.', 'n.C.'], u, ['voor Christus', 'na Christus']],
+    1,
+    [6, 0],
+    ['y-MM-dd', 'dd MMM y', 'dd MMMM y', 'EEEE dd MMMM y'],
+    ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'],
+    ['{1} {0}', u, u, u],
+    [',', ' ', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'],
+    'ZAR',
+    'R',
+    'Suid-Afrikaanse rand',
+    {
+      'CAD': [u, '$'],
+      'JPY': ['JP¥', '¥'],
+      'MXN': [u, '$'],
+      'NAD': ['$'],
+      'RON': [u, 'leu'],
+      'THB': ['฿'],
+      'TWD': ['NT$'],
+      'USD': [u, '$'],
+      'ZAR': ['R']
+    },
+    'ltr',
+    plural,
+    [
+      [
+        ['mn', 'o', 'm', 'a', 'n'],
+        ['middernag', 'die oggend', 'die middag', 'die aand', 'die nag'], u
+      ],
+      [['mn', 'o', 'm', 'a', 'n'], ['middernag', 'oggend', 'middag', 'aand', 'nag'], u],
+      ['00:00', ['05:00', '12:00'], ['12:00', '18:00'], ['18:00', '24:00'], ['00:00', '05:00']]
+    ]
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=847-es2015.js.map

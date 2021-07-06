@@ -1,1 +1,75 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1282],{CzvF:function(n,a){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};const a=void 0;n.ng.common.locales.nn=["nn",[["f.m.","e.m."],a,["formiddag","ettermiddag"]],[["f.m.","e.m."],a,a],[["S","M","T","O","T","F","L"],["s\xf8.","m\xe5.","ty.","on.","to.","fr.","la."],["s\xf8ndag","m\xe5ndag","tysdag","onsdag","torsdag","fredag","laurdag"],["s\xf8.","m\xe5.","ty.","on.","to.","fr.","la."]],[["S","M","T","O","T","F","L"],["s\xf8n","m\xe5n","tys","ons","tor","fre","lau"],["s\xf8ndag","m\xe5ndag","tysdag","onsdag","torsdag","fredag","laurdag"],["s\xf8.","m\xe5.","ty.","on.","to.","fr.","la."]],[["J","F","M","A","M","J","J","A","S","O","N","D"],["jan.","feb.","mars","apr.","mai","juni","juli","aug.","sep.","okt.","nov.","des."],["januar","februar","mars","april","mai","juni","juli","august","september","oktober","november","desember"]],[["J","F","M","A","M","J","J","A","S","O","N","D"],["jan","feb","mar","apr","mai","jun","jul","aug","sep","okt","nov","des"],["januar","februar","mars","april","mai","juni","juli","august","september","oktober","november","desember"]],[["f.Kr.","e.Kr."],a,a],1,[6,0],["dd.MM.y","d. MMM y","d. MMMM y","EEEE d. MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","'kl'. HH:mm:ss zzzz"],["{1}, {0}",a,"{1} 'kl'. {0}","{1} {0}"],[",","\xa0",";","%","+","\u2212","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","#,##0.00\xa0\xa4","#E0"],"NOK","kr","norske kroner",{AUD:[a,"$"],BRL:[a,"R$"],CAD:[a,"$"],CNY:[a,"\xa5"],GBP:[a,"\xa3"],HKD:[a,"$"],ILS:[a,"\u20aa"],INR:[a,"\u20b9"],JPY:[a,"\xa5"],KRW:[a,"\u20a9"],MXN:[a,"$"],NOK:["kr"],NZD:[a,"$"],TWD:[a,"$"],USD:[a,"$"],VND:[a,"\u20ab"],XAF:[],XCD:[a,"$"],XPF:[]},"ltr",function(n){return 1===n?1:5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1282],{
+
+/***/ "./node_modules/@angular/common/locales/global/qu-EC.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/qu-EC.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) { return 5; }
+  global.ng.common.locales['qu-ec'] = [
+    'qu-EC',
+    [['a.m.', 'p.m.'], u, u],
+    u,
+    [
+      ['D', 'L', 'M', 'X', 'J', 'V', 'S'], ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sab'],
+      ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
+      ['Dom', 'Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sab']
+    ],
+    u,
+    [
+      ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+      ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Set', 'Oct', 'Nov', 'Dic'],
+      [
+        'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Setiembre',
+        'Octubre', 'Noviembre', 'Diciembre'
+      ]
+    ],
+    u,
+    [['BCE', 'dC'], ['BCE', 'd.C.'], u],
+    1,
+    [6, 0],
+    ['dd/MM/y', 'd MMM y', 'd MMMM y', 'EEEE, d MMMM, y'],
+    ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
+    ['{1} {0}', u, '{0} {1}', '{1} {0}'],
+    ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0 %', '¤ #,##0.00', '#E0'],
+    'USD',
+    '$',
+    'Dólar Americano',
+    {
+      'BBD': ['BBG', '$'],
+      'BMD': ['DBM', '$'],
+      'BZD': ['DBZ', '$'],
+      'CAD': ['$CA', '$'],
+      'JPY': ['JP¥', '¥']
+    },
+    'ltr',
+    plural,
+    []
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1282-es2015.js.map

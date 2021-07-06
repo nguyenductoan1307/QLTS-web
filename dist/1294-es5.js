@@ -1,1 +1,52 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1294],{wuDY:function(o,e){!function(o){o.ng=o.ng||{},o.ng.common=o.ng.common||{},o.ng.common.locales=o.ng.common.locales||{};var e=void 0;o.ng.common.locales.pl=["pl",[["a","p"],["AM","PM"],e],e,[["n","p","w","\u015b","c","p","s"],["niedz.","pon.","wt.","\u015br.","czw.","pt.","sob."],["niedziela","poniedzia\u0142ek","wtorek","\u015broda","czwartek","pi\u0105tek","sobota"],["nie","pon","wto","\u015bro","czw","pi\u0105","sob"]],[["N","P","W","\u015a","C","P","S"],["niedz.","pon.","wt.","\u015br.","czw.","pt.","sob."],["niedziela","poniedzia\u0142ek","wtorek","\u015broda","czwartek","pi\u0105tek","sobota"],["nie","pon","wto","\u015bro","czw","pi\u0105","sob"]],[["s","l","m","k","m","c","l","s","w","p","l","g"],["sty","lut","mar","kwi","maj","cze","lip","sie","wrz","pa\u017a","lis","gru"],["stycznia","lutego","marca","kwietnia","maja","czerwca","lipca","sierpnia","wrze\u015bnia","pa\u017adziernika","listopada","grudnia"]],[["S","L","M","K","M","C","L","S","W","P","L","G"],["sty","lut","mar","kwi","maj","cze","lip","sie","wrz","pa\u017a","lis","gru"],["stycze\u0144","luty","marzec","kwiecie\u0144","maj","czerwiec","lipiec","sierpie\u0144","wrzesie\u0144","pa\u017adziernik","listopad","grudzie\u0144"]],[["p.n.e.","n.e."],e,["przed nasz\u0105 er\u0105","naszej ery"]],1,[6,0],["dd.MM.y","d MMM y","d MMMM y","EEEE, d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1}, {0}",e,"{1} {0}",e],[",","\xa0",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","#,##0.00\xa0\xa4","#E0"],"PLN","z\u0142","z\u0142oty polski",{AUD:[e,"$"],CAD:[e,"$"],CNY:[e,"\xa5"],GBP:[e,"\xa3"],HKD:[e,"$"],ILS:[e,"\u20aa"],INR:[e,"\u20b9"],JPY:[e,"\xa5"],KRW:[e,"\u20a9"],MXN:[e,"$"],NZD:[e,"$"],PLN:["z\u0142"],RON:[e,"lej"],TWD:[e,"NT$"],USD:[e,"$"],VND:[e,"\u20ab"]},"ltr",function(o){var e=Math.floor(Math.abs(o)),n=o.toString().replace(/^[^.]*\.?/,"").length;return 1===e&&0===n?1:0===n&&e%10===Math.floor(e%10)&&e%10>=2&&e%10<=4&&!(e%100>=12&&e%100<=14)?3:0===n&&1!==e&&e%10===Math.floor(e%10)&&e%10>=0&&e%10<=1||0===n&&e%10===Math.floor(e%10)&&e%10>=5&&e%10<=9||0===n&&e%100===Math.floor(e%100)&&e%100>=12&&e%100<=14?4:5},[[["o p\xf3\u0142n.","w po\u0142.","rano","przed po\u0142.","po po\u0142.","wiecz.","w nocy"],["o p\xf3\u0142nocy","w po\u0142udnie","rano","przed po\u0142udniem","po po\u0142udniu","wieczorem","w nocy"],e],[["p\xf3\u0142n.","po\u0142.","rano","przedpo\u0142.","popo\u0142.","wiecz.","noc"],["p\xf3\u0142noc","po\u0142udnie","rano","przedpo\u0142udnie","popo\u0142udnie","wiecz\xf3r","noc"],e],["00:00","12:00",["06:00","10:00"],["10:00","12:00"],["12:00","18:00"],["18:00","21:00"],["21:00","06:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1294], {
+  /***/
+  "./node_modules/@angular/common/locales/global/ru-UA.js":
+  /*!**************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/ru-UA.js ***!
+    \**************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalRuUAJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        var i = Math.floor(Math.abs(n)),
+            v = n.toString().replace(/^[^.]*\.?/, '').length;
+        if (v === 0 && i % 10 === 1 && !(i % 100 === 11)) return 1;
+        if (v === 0 && i % 10 === Math.floor(i % 10) && i % 10 >= 2 && i % 10 <= 4 && !(i % 100 >= 12 && i % 100 <= 14)) return 3;
+        if (v === 0 && i % 10 === 0 || v === 0 && i % 10 === Math.floor(i % 10) && i % 10 >= 5 && i % 10 <= 9 || v === 0 && i % 100 === Math.floor(i % 100) && i % 100 >= 11 && i % 100 <= 14) return 4;
+        return 5;
+      }
+
+      global.ng.common.locales['ru-ua'] = ['ru-UA', [['AM', 'PM'], u, u], u, [['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'], u, ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'], ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб']], [['В', 'П', 'В', 'С', 'Ч', 'П', 'С'], ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'], ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'], ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб']], [['Я', 'Ф', 'М', 'А', 'М', 'И', 'И', 'А', 'С', 'О', 'Н', 'Д'], ['янв.', 'февр.', 'мар.', 'апр.', 'мая', 'июн.', 'июл.', 'авг.', 'сент.', 'окт.', 'нояб.', 'дек.'], ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря']], [['Я', 'Ф', 'М', 'А', 'М', 'И', 'И', 'А', 'С', 'О', 'Н', 'Д'], ['янв.', 'февр.', 'март', 'апр.', 'май', 'июнь', 'июль', 'авг.', 'сент.', 'окт.', 'нояб.', 'дек.'], ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь']], [['до н.э.', 'н.э.'], ['до н. э.', 'н. э.'], ['до Рождества Христова', 'от Рождества Христова']], 1, [6, 0], ['dd.MM.y', 'd MMM y \'г\'.', 'd MMMM y \'г\'.', 'EEEE, d MMMM y \'г\'.'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1}, {0}', u, u, u], [',', ' ', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'не число', ':'], ['#,##0.###', '#,##0 %', '#,##0.00 ¤', '#E0'], 'UAH', '₴', 'украинская гривна', {
+        'GEL': [u, 'ლ'],
+        'RON': [u, 'L'],
+        'RUB': ['₽'],
+        'RUR': ['р.'],
+        'THB': ['฿'],
+        'TMT': ['ТМТ'],
+        'TWD': ['NT$'],
+        'UAH': ['₴'],
+        'XXX': ['XXXX']
+      }, 'ltr', plural, [[['полн.', 'полд.', 'утра', 'дня', 'веч.', 'ночи'], ['полн.', 'полд.', 'утра', 'дня', 'вечера', 'ночи'], ['полночь', 'полдень', 'утра', 'дня', 'вечера', 'ночи']], [['полн.', 'полд.', 'утро', 'день', 'веч.', 'ночь'], u, ['полночь', 'полдень', 'утро', 'день', 'вечер', 'ночь']], ['00:00', '12:00', ['04:00', '12:00'], ['12:00', '18:00'], ['18:00', '24:00'], ['00:00', '04:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1294-es5.js.map

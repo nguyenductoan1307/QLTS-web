@@ -1,1 +1,134 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1123],{"xJ/k":function(a,n){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};const n=void 0;a.ng.common.locales.fil=["fil",[["am","pm"],["AM","PM"],n],[["AM","PM"],n,n],[["Lin","Lun","Mar","Miy","Huw","Biy","Sab"],n,["Linggo","Lunes","Martes","Miyerkules","Huwebes","Biyernes","Sabado"],["Li","Lu","Ma","Mi","Hu","Bi","Sa"]],n,[["Ene","Peb","Mar","Abr","May","Hun","Hul","Ago","Set","Okt","Nob","Dis"],n,["Enero","Pebrero","Marso","Abril","Mayo","Hunyo","Hulyo","Agosto","Setyembre","Oktubre","Nobyembre","Disyembre"]],[["E","P","M","A","M","Hun","Hul","Ago","Set","Okt","Nob","Dis"],["Ene","Peb","Mar","Abr","May","Hun","Hul","Ago","Set","Okt","Nob","Dis"],["Enero","Pebrero","Marso","Abril","Mayo","Hunyo","Hulyo","Agosto","Setyembre","Oktubre","Nobyembre","Disyembre"]],[["BC","AD"],n,["Before Christ","Anno Domini"]],0,[6,0],["M/d/yy","MMM d, y","MMMM d, y","EEEE, MMMM d, y"],["h:mm a","h:mm:ss a","h:mm:ss a z","h:mm:ss a zzzz"],["{1}, {0}",n,"{1} 'nang' {0}",n],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4#,##0.00","#E0"],"PHP","\u20b1","Piso ng Pilipinas",{PHP:["\u20b1"],THB:["\u0e3f"],TWD:["NT$"]},"ltr",function(a){let n=Math.floor(Math.abs(a)),i=a.toString().replace(/^[^.]*\.?/,"").length,g=parseInt(a.toString().replace(/^[^.]*\.?/,""),10)||0;return 0===i&&(1===n||2===n||3===n)||0===i&&n%10!=4&&n%10!=6&&n%10!=9||0!==i&&g%10!=4&&g%10!=6&&g%10!=9?1:5},[[["hatinggabi","tanghaling-tapat","umaga","madaling-araw","sa hapon","sa gabi","gabi"],["hatinggabi","tanghaling-tapat","nang umaga","madaling-araw","tanghali","ng hapon","gabi"],["hatinggabi","tanghaling-tapat","nang umaga","madaling-araw","tanghali","ng hapon","ng gabi"]],[["hatinggabi","tanghaling-tapat","umaga","madaling-araw","tanghali","gabi","gabi"],["hatinggabi","tanghaling-tapat","umaga","madaling-araw","tanghali","hapon","gabi"],n],["00:00","12:00",["00:00","06:00"],["06:00","12:00"],["12:00","16:00"],["16:00","18:00"],["18:00","24:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1123],{
+
+/***/ "./node_modules/@angular/common/locales/global/fr-ML.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/fr-ML.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    let i = Math.floor(Math.abs(n));
+    if (i === 0 || i === 1) return 1;
+    return 5;
+  }
+  global.ng.common.locales['fr-ml'] = [
+    'fr-ML',
+    [['AM', 'PM'], u, u],
+    u,
+    [
+      ['D', 'L', 'M', 'M', 'J', 'V', 'S'], ['dim.', 'lun.', 'mar.', 'mer.', 'jeu.', 'ven.', 'sam.'],
+      ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'],
+      ['di', 'lu', 'ma', 'me', 'je', 've', 'sa']
+    ],
+    u,
+    [
+      ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+      [
+        'janv.', 'févr.', 'mars', 'avr.', 'mai', 'juin', 'juil.', 'août', 'sept.', 'oct.', 'nov.',
+        'déc.'
+      ],
+      [
+        'janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre',
+        'octobre', 'novembre', 'décembre'
+      ]
+    ],
+    u,
+    [['av. J.-C.', 'ap. J.-C.'], u, ['avant Jésus-Christ', 'après Jésus-Christ']],
+    1,
+    [6, 0],
+    ['dd/MM/y', 'd MMM y', 'd MMMM y', 'EEEE d MMMM y'],
+    ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
+    ['{1}, {0}', u, '{1} \'à\' {0}', u],
+    [',', '\u202f', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0 %', '#,##0.00 ¤', '#E0'],
+    'XOF',
+    'CFA',
+    'franc CFA (BCEAO)',
+    {
+      'ARS': ['$AR', '$'],
+      'AUD': ['$AU', '$'],
+      'BEF': ['FB'],
+      'BMD': ['$BM', '$'],
+      'BND': ['$BN', '$'],
+      'BZD': ['$BZ', '$'],
+      'CAD': ['$CA', '$'],
+      'CLP': ['$CL', '$'],
+      'CNY': [u, '¥'],
+      'COP': ['$CO', '$'],
+      'CYP': ['£CY'],
+      'EGP': [u, '£E'],
+      'FJD': ['$FJ', '$'],
+      'FKP': ['£FK', '£'],
+      'FRF': ['F'],
+      'GBP': ['£GB', '£'],
+      'GIP': ['£GI', '£'],
+      'HKD': [u, '$'],
+      'IEP': ['£IE'],
+      'ILP': ['£IL'],
+      'ITL': ['₤IT'],
+      'JPY': [u, '¥'],
+      'KMF': [u, 'FC'],
+      'LBP': ['£LB', '£L'],
+      'MTP': ['£MT'],
+      'MXN': ['$MX', '$'],
+      'NAD': ['$NA', '$'],
+      'NIO': [u, '$C'],
+      'NZD': ['$NZ', '$'],
+      'RHD': ['$RH'],
+      'RON': [u, 'L'],
+      'RWF': [u, 'FR'],
+      'SBD': ['$SB', '$'],
+      'SGD': ['$SG', '$'],
+      'SRD': ['$SR', '$'],
+      'TOP': [u, '$T'],
+      'TTD': ['$TT', '$'],
+      'TWD': [u, 'NT$'],
+      'USD': ['$US', '$'],
+      'UYU': ['$UY', '$'],
+      'WST': ['$WS'],
+      'XCD': [u, '$'],
+      'XPF': ['FCFP'],
+      'ZMW': [u, 'Kw']
+    },
+    'ltr',
+    plural,
+    [
+      [
+        ['minuit', 'midi', 'mat.', 'ap.m.', 'soir', 'nuit'], u,
+        ['minuit', 'midi', 'du matin', 'de l’après-midi', 'du soir', 'du matin']
+      ],
+      [
+        ['minuit', 'midi', 'mat.', 'ap.m.', 'soir', 'nuit'], u,
+        ['minuit', 'midi', 'matin', 'après-midi', 'soir', 'nuit']
+      ],
+      [
+        '00:00', '12:00', ['04:00', '12:00'], ['12:00', '18:00'], ['18:00', '24:00'],
+        ['00:00', '04:00']
+      ]
+    ]
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1123-es2015.js.map

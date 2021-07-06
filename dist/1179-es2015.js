@@ -1,1 +1,127 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1179],{"5J+5":function(a,t){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};const t=void 0;a.ng.common.locales["gsw-li"]=["gsw-LI",[["vorm.","nam."],t,["am Vormittag","am Namittag"]],[["vorm.","nam."],t,["Vormittag","Namittag"]],[["S","M","D","M","D","F","S"],["Su.","M\xe4.","Zi.","Mi.","Du.","Fr.","Sa."],["Sunntig","M\xe4\xe4ntig","Ziischtig","Mittwuch","Dunschtig","Friitig","Samschtig"],["Su.","M\xe4.","Zi.","Mi.","Du.","Fr.","Sa."]],t,[["J","F","M","A","M","J","J","A","S","O","N","D"],["Jan","Feb","M\xe4r","Apr","Mai","Jun","Jul","Aug","Sep","Okt","Nov","Dez"],["Januar","Februar","M\xe4rz","April","Mai","Juni","Juli","Auguscht","Sept\xe4mber","Oktoober","Nov\xe4mber","Dez\xe4mber"]],t,[["v. Chr.","n. Chr."],t,t],1,[6,0],["dd.MM.yy","dd.MM.y","d. MMMM y","EEEE, d. MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",t,t,t],[".","\u2019",";","%","+","\u2212","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","#,##0.00\xa0\xa4","#E0"],"CHF","CHF","Schwiizer Franke",{ATS:["\xf6S"]},"ltr",function(a){return 1===a?1:5},[[["Mitternacht","am Morge","zmittag","am Namittag","zaabig","znacht"],t,t],[["Mitternacht","am Morge","zmittag","am Namittag","zaabig","znacht"],t,["Mitternacht","Morge","Mittag","Namittag","Aabig","Nacht"]],["00:00",["05:00","12:00"],["12:00","14:00"],["14:00","18:00"],["18:00","24:00"],["00:00","05:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1179],{
+
+/***/ "./node_modules/@angular/common/locales/global/ka.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/ka.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    if (n === 1) return 1;
+    return 5;
+  }
+  global.ng.common.locales['ka'] = [
+    'ka',
+    [['a', 'p'], ['AM', 'PM'], u],
+    [['AM', 'PM'], u, u],
+    [
+      ['კ', 'ო', 'ს', 'ო', 'ხ', 'პ', 'შ'],
+      ['კვი', 'ორშ', 'სამ', 'ოთხ', 'ხუთ', 'პარ', 'შაბ'],
+      [
+        'კვირა', 'ორშაბათი', 'სამშაბათი',
+        'ოთხშაბათი', 'ხუთშაბათი', 'პარასკევი',
+        'შაბათი'
+      ],
+      ['კვ', 'ორ', 'სმ', 'ოთ', 'ხთ', 'პრ', 'შბ']
+    ],
+    u,
+    [
+      ['ი', 'თ', 'მ', 'ა', 'მ', 'ი', 'ი', 'ა', 'ს', 'ო', 'ნ', 'დ'],
+      [
+        'იან', 'თებ', 'მარ', 'აპრ', 'მაი', 'ივნ', 'ივლ',
+        'აგვ', 'სექ', 'ოქტ', 'ნოე', 'დეკ'
+      ],
+      [
+        'იანვარი', 'თებერვალი', 'მარტი',
+        'აპრილი', 'მაისი', 'ივნისი', 'ივლისი',
+        'აგვისტო', 'სექტემბერი', 'ოქტომბერი',
+        'ნოემბერი', 'დეკემბერი'
+      ]
+    ],
+    u,
+    [
+      ['ძვ. წ.', 'ახ. წ.'], u,
+      [
+        'ძველი წელთაღრიცხვით',
+        'ახალი წელთაღრიცხვით'
+      ]
+    ],
+    1,
+    [6, 0],
+    ['dd.MM.yy', 'd MMM. y', 'd MMMM, y', 'EEEE, dd MMMM, y'],
+    ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
+    ['{1}, {0}', u, u, u],
+    [
+      ',', ' ', ';', '%', '+', '-', 'E', '×', '‰', '∞',
+      'არ არის რიცხვი', ':'
+    ],
+    ['#,##0.###', '#,##0%', '#,##0.00 ¤', '#E0'],
+    'GEL',
+    '₾',
+    'ქართული ლარი',
+    {
+      'AUD': [u, '$'],
+      'CNY': [u, '¥'],
+      'GEL': ['₾'],
+      'HKD': [u, '$'],
+      'ILS': [u, '₪'],
+      'INR': [u, '₹'],
+      'JPY': [u, '¥'],
+      'KRW': [u, '₩'],
+      'NZD': [u, '$'],
+      'TWD': ['NT$'],
+      'USD': ['US$', '$'],
+      'VND': [u, '₫']
+    },
+    'ltr',
+    plural,
+    [
+      [
+        [
+          'შუაღამეს', 'შუადღ.', 'დილ.', 'ნაშუადღ.',
+          'საღ.', 'ღამ.'
+        ],
+        u,
+        [
+          'შუაღამეს', 'შუადღეს', 'დილით',
+          'ნაშუადღევს', 'საღამოს', 'ღამით'
+        ]
+      ],
+      [
+        [
+          'შუაღამე', 'შუადღე', 'დილა',
+          'ნაშუადღევი', 'საღამო', 'ღამე'
+        ],
+        u, u
+      ],
+      [
+        '00:00', '12:00', ['05:00', '12:00'], ['12:00', '18:00'], ['18:00', '21:00'],
+        ['21:00', '05:00']
+      ]
+    ]
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1179-es2015.js.map

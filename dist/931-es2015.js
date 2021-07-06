@@ -1,1 +1,118 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[931],{"6NOM":function(e,d){!function(e){e.ng=e.ng||{},e.ng.common=e.ng.common||{},e.ng.common.locales=e.ng.common.locales||{};const d=void 0;e.ng.common.locales["ca-es-valencia"]=["ca-ES-VALENCIA",[["a.\xa0m.","p.\xa0m."],d,d],d,[["dg","dl","dt","dc","dj","dv","ds"],["dg.","dl.","dt.","dc.","dj.","dv.","ds."],["diumenge","dilluns","dimarts","dimecres","dijous","divendres","dissabte"],["dg.","dl.","dt.","dc.","dj.","dv.","ds."]],d,[["GN","FB","M\xc7","AB","MG","JN","JL","AG","ST","OC","NV","DS"],["de gen.","de febr.","de mar\xe7","d\u2019abr.","de maig","de juny","de jul.","d\u2019ag.","de set.","d\u2019oct.","de nov.","de des."],["de gener","de febrer","de mar\xe7","d\u2019abril","de maig","de juny","de juliol","d\u2019agost","de setembre","d\u2019octubre","de novembre","de desembre"]],[["GN","FB","M\xc7","AB","MG","JN","JL","AG","ST","OC","NV","DS"],["gen.","febr.","mar\xe7","abr.","maig","juny","jul.","ag.","set.","oct.","nov.","des."],["gener","febrer","mar\xe7","abril","maig","juny","juliol","agost","setembre","octubre","novembre","desembre"]],[["aC","dC"],d,["abans de Crist","despr\xe9s de Crist"]],1,[6,0],["d/M/yy","d MMM y","d MMMM 'de' y","EEEE, d MMMM 'de' y"],["H:mm","H:mm:ss","H:mm:ss z","H:mm:ss zzzz"],["{1} {0}","{1}, {0}","{1} 'a' 'les' {0}",d],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","#,##0.00\xa0\xa4","#E0"],"EUR","\u20ac","euro",{AUD:["AU$","$"],BRL:[d,"R$"],CAD:[d,"$"],CNY:[d,"\xa5"],ESP:["\u20a7"],MXN:[d,"$"],THB:["\u0e3f"],USD:[d,"$"],VEF:[d,"Bs F"],XCD:[d,"$"],XXX:[]},"ltr",function(e){let d=Math.floor(Math.abs(e)),a=e.toString().replace(/^[^.]*\.?/,"").length;return 1===d&&0===a?1:5},[[["mitjanit","mat.","mat\xed","md","tarda","vespre","nit"],["mitjanit","matinada","mat\xed","migdia","tarda","vespre","nit"],d],[["mitjanit","matinada","mat\xed","migdia","tarda","vespre","nit"],d,d],["00:00",["00:00","06:00"],["06:00","12:00"],["12:00","13:00"],["13:00","19:00"],["19:00","21:00"],["21:00","24:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[931],{
+
+/***/ "./node_modules/@angular/common/locales/global/dz.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/dz.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) { return 5; }
+  global.ng.common.locales['dz'] = [
+    'dz',
+    [['སྔ་ཆ་', 'ཕྱི་ཆ་'], u, u],
+    u,
+    [
+      ['ཟླ', 'མིར', 'ལྷག', 'ཕུར', 'སངྶ', 'སྤེན', 'ཉི'],
+      [
+        'ཟླ་', 'མིར་', 'ལྷག་', 'ཕུར་', 'སངས་',
+        'སྤེན་', 'ཉི་'
+      ],
+      [
+        'གཟའ་ཟླ་བ་', 'གཟའ་མིག་དམར་',
+        'གཟའ་ལྷག་པ་', 'གཟའ་ཕུར་བུ་',
+        'གཟའ་པ་སངས་', 'གཟའ་སྤེན་པ་',
+        'གཟའ་ཉི་མ་'
+      ],
+      [
+        'ཟླ་', 'མིར་', 'ལྷག་', 'ཕུར་', 'སངས་',
+        'སྤེན་', 'ཉི་'
+      ]
+    ],
+    u,
+    [
+      ['༡', '༢', '༣', '4', '༥', '༦', '༧', '༨', '9', '༡༠', '༡༡', '༡༢'],
+      ['༡', '༢', '༣', '༤', '༥', '༦', '༧', '༨', '༩', '༡༠', '༡༡', '12'],
+      [
+        'ཟླ་དངཔ་', 'ཟླ་གཉིས་པ་', 'ཟླ་གསུམ་པ་',
+        'ཟླ་བཞི་པ་', 'ཟླ་ལྔ་པ་', 'ཟླ་དྲུག་པ',
+        'ཟླ་བདུན་པ་', 'ཟླ་བརྒྱད་པ་',
+        'ཟླ་དགུ་པ་', 'ཟླ་བཅུ་པ་',
+        'ཟླ་བཅུ་གཅིག་པ་', 'ཟླ་བཅུ་གཉིས་པ་'
+      ]
+    ],
+    [
+      ['༡', '༢', '༣', '༤', '༥', '༦', '༧', '༨', '༩', '༡༠', '༡༡', '༡༢'],
+      [
+        'ཟླ་༡', 'ཟླ་༢', 'ཟླ་༣', 'ཟླ་༤', 'ཟླ་༥',
+        'ཟླ་༦', 'ཟླ་༧', 'ཟླ་༨', 'ཟླ་༩', 'ཟླ་༡༠',
+        'ཟླ་༡༡', 'ཟླ་༡༢'
+      ],
+      [
+        'སྤྱི་ཟླ་དངཔ་', 'སྤྱི་ཟླ་གཉིས་པ་',
+        'སྤྱི་ཟླ་གསུམ་པ་', 'སྤྱི་ཟླ་བཞི་པ',
+        'སྤྱི་ཟླ་ལྔ་པ་', 'སྤྱི་ཟླ་དྲུག་པ',
+        'སྤྱི་ཟླ་བདུན་པ་',
+        'སྤྱི་ཟླ་བརྒྱད་པ་',
+        'སྤྱི་ཟླ་དགུ་པ་', 'སྤྱི་ཟླ་བཅུ་པ་',
+        'སྤྱི་ཟླ་བཅུ་གཅིག་པ་',
+        'སྤྱི་ཟླ་བཅུ་གཉིས་པ་'
+      ]
+    ],
+    [['BCE', 'CE'], u, u],
+    0,
+    [6, 0],
+    [
+      'y-MM-dd', 'སྤྱི་ལོ་y ཟླ་MMM ཚེས་dd',
+      'སྤྱི་ལོ་y MMMM ཚེས་ dd',
+      'EEEE, སྤྱི་ལོ་y MMMM ཚེས་dd'
+    ],
+    [
+      'ཆུ་ཚོད་ h སྐར་མ་ mm a', 'ཆུ་ཚོད་h:mm:ss a',
+      'ཆུ་ཚོད་ h སྐར་མ་ mm:ss a z',
+      'ཆུ་ཚོད་ h སྐར་མ་ mm:ss a zzzz'
+    ],
+    ['{1} {0}', u, u, u],
+    ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##,##0.###', '#,##,##0 %', '¤#,##,##0.00', '#E0'],
+    'INR',
+    '₹',
+    'རྒྱ་གར་གྱི་དངུལ་ རུ་པི',
+    {
+      'AUD': ['AU$', '$'],
+      'BTN': ['Nu.'],
+      'ILS': [u, '₪'],
+      'JPY': ['JP¥', '¥'],
+      'KRW': ['KR₩', '₩'],
+      'THB': ['TH฿', '฿'],
+      'USD': ['US$', '$'],
+      'XAF': []
+    },
+    'ltr',
+    plural,
+    []
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=931-es2015.js.map

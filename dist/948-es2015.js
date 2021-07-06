@@ -1,1 +1,83 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[948],{UDlZ:function(a,i){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};const i=void 0;a.ng.common.locales.dav=["dav",[["Luma lwa K","luma lwa p"],i,i],i,[["J","J","K","K","K","K","N"],["Jum","Jim","Kaw","Kad","Kan","Kas","Ngu"],["Ituku ja jumwa","Kuramuka jimweri","Kuramuka kawi","Kuramuka kadadu","Kuramuka kana","Kuramuka kasanu","Kifula nguwo"],["Jum","Jim","Kaw","Kad","Kan","Kas","Ngu"]],i,[["I","K","K","K","K","K","M","W","I","I","I","I"],["Imb","Kaw","Kad","Kan","Kas","Kar","Mfu","Wun","Ike","Iku","Imw","Iwi"],["Mori ghwa imbiri","Mori ghwa kawi","Mori ghwa kadadu","Mori ghwa kana","Mori ghwa kasanu","Mori ghwa karandadu","Mori ghwa mfungade","Mori ghwa wunyanya","Mori ghwa ikenda","Mori ghwa ikumi","Mori ghwa ikumi na imweri","Mori ghwa ikumi na iwi"]],i,[["KK","BK"],i,["Kabla ya Kristo","Baada ya Kristo"]],0,[6,0],["dd/MM/y","d MMM y","d MMMM y","EEEE, d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",i,i,i],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4#,##0.00","#E0"],"KES","Ksh","Shilingi ya Kenya",{JPY:["JP\xa5","\xa5"],KES:["Ksh"],USD:["US$","$"]},"ltr",function(a){return 5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[948],{
+
+/***/ "./node_modules/@angular/common/locales/global/en-BM.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/en-BM.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    let i = Math.floor(Math.abs(n)), v = n.toString().replace(/^[^.]*\.?/, '').length;
+    if (i === 1 && v === 0) return 1;
+    return 5;
+  }
+  global.ng.common.locales['en-bm'] = [
+    'en-BM',
+    [['a', 'p'], ['am', 'pm'], u],
+    [['am', 'pm'], u, u],
+    [
+      ['S', 'M', 'T', 'W', 'T', 'F', 'S'], ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+      ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+      ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']
+    ],
+    u,
+    [
+      ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+      ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+      [
+        'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
+        'October', 'November', 'December'
+      ]
+    ],
+    u,
+    [['B', 'A'], ['BC', 'AD'], ['Before Christ', 'Anno Domini']],
+    1,
+    [6, 0],
+    ['dd/MM/y', 'd MMM y', 'd MMMM y', 'EEEE, d MMMM y'],
+    ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'],
+    ['{1}, {0}', u, '{1} \'at\' {0}', u],
+    ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'],
+    'BMD',
+    '$',
+    'Bermudan Dollar',
+    {'BMD': ['$'], 'JPY': ['JP¥', '¥'], 'USD': ['US$', '$']},
+    'ltr',
+    plural,
+    [
+      [
+        ['mi', 'n', 'in the morning', 'in the afternoon', 'in the evening', 'at night'],
+        ['midnight', 'noon', 'in the morning', 'in the afternoon', 'in the evening', 'at night'], u
+      ],
+      [['midnight', 'noon', 'morning', 'afternoon', 'evening', 'night'], u, u],
+      [
+        '00:00', '12:00', ['06:00', '12:00'], ['12:00', '18:00'], ['18:00', '21:00'],
+        ['21:00', '06:00']
+      ]
+    ]
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=948-es2015.js.map

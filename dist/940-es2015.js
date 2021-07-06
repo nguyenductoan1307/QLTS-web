@@ -1,1 +1,83 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[940],{da8S:function(n,o){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};const o=void 0;n.ng.common.locales.chr=["chr",[["\u13cc","\u13d2"],["\u13cc\u13be\u13b4","\u13d2\u13af\u13f1\u13a2"],["\u13cc\u13be\u13b4","\u13d2\u13af\u13f1\u13a2\u13d7\u13e2"]],[["\u13cc\u13be\u13b4","\u13d2\u13af\u13f1\u13a2"],o,["\u13cc\u13be\u13b4","\u13d2\u13af\u13f1\u13a2\u13d7\u13e2"]],[["\u13c6","\u13c9","\u13d4","\u13e6","\u13c5","\u13e7","\u13a4"],["\u13c6\u13cd\u13ac","\u13c9\u13c5\u13af","\u13d4\u13b5\u13c1","\u13e6\u13a2\u13c1","\u13c5\u13a9\u13c1","\u13e7\u13be\u13a9","\u13c8\u13d5\u13be"],["\u13a4\u13be\u13d9\u13d3\u13c6\u13cd\u13ac","\u13a4\u13be\u13d9\u13d3\u13c9\u13c5\u13af","\u13d4\u13b5\u13c1\u13a2\u13a6","\u13e6\u13a2\u13c1\u13a2\u13a6","\u13c5\u13a9\u13c1\u13a2\u13a6","\u13e7\u13be\u13a9\u13b6\u13cd\u13d7","\u13a4\u13be\u13d9\u13d3\u13c8\u13d5\u13be"],["\u13cd\u13ac","\u13c5\u13af","\u13d4\u13b5","\u13e6\u13a2","\u13c5\u13a9","\u13e7\u13be","\u13d5\u13be"]],o,[["\u13a4","\u13a7","\u13a0","\u13a7","\u13a0","\u13d5","\u13ab","\u13a6","\u13da","\u13da","\u13c5","\u13a5"],["\u13a4\u13c3","\u13a7\u13a6","\u13a0\u13c5","\u13a7\u13ec","\u13a0\u13c2","\u13d5\u13ad","\u13ab\u13f0","\u13a6\u13b6","\u13da\u13b5","\u13da\u13c2","\u13c5\u13d3","\u13a5\u13cd"],["\u13a4\u13c3\u13b8\u13d4\u13c5","\u13a7\u13a6\u13b5","\u13a0\u13c5\u13f1","\u13a7\u13ec\u13c2","\u13a0\u13c2\u13cd\u13ac\u13d8","\u13d5\u13ad\u13b7\u13f1","\u13ab\u13f0\u13c9\u13c2","\u13a6\u13b6\u13c2","\u13da\u13b5\u13cd\u13d7","\u13da\u13c2\u13c5\u13d7","\u13c5\u13d3\u13d5\u13c6","\u13a5\u13cd\u13a9\u13f1"]],o,[["BC","AD"],o,["\u13e7\u13d3\u13b7\u13b8 \u13a4\u13b7\u13af\u13cd\u13d7 \u13a6\u13b6\u13c1\u13db","\u13a0\u13c3 \u13d9\u13bb\u13c2"]],0,[6,0],["M/d/yy","MMM d, y","MMMM d, y","EEEE, MMMM d, y"],["h:mm a","h:mm:ss a","h:mm:ss a z","h:mm:ss a zzzz"],["{1}, {0}",o,"{1} \u13a4\u13be\u13a2 {0}",o],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4#,##0.00","#E0"],"USD","$","US \u13a0\u13d5\u13b3",{JPY:["JP\xa5","\xa5"]},"ltr",function(n){return 1===n?1:5},[[["\u13a2","\u13cc\u13be\u13b4","\u13d2\u13af\u13f1\u13a2\u13d7\u13e2"],["\u13a2\u13a6","\u13cc\u13be\u13b4","\u13d2\u13af\u13f1\u13a2\u13d7\u13e2"],o],[["\u13a2\u13a6","\u13cc\u13be\u13b4","\u13d2\u13af\u13f1\u13a2\u13d7\u13e2"],o,o],["12:00",["00:00","12:00"],["12:00","24:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[940],{
+
+/***/ "./node_modules/@angular/common/locales/global/en-AG.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/en-AG.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    let i = Math.floor(Math.abs(n)), v = n.toString().replace(/^[^.]*\.?/, '').length;
+    if (i === 1 && v === 0) return 1;
+    return 5;
+  }
+  global.ng.common.locales['en-ag'] = [
+    'en-AG',
+    [['a', 'p'], ['am', 'pm'], u],
+    [['am', 'pm'], u, u],
+    [
+      ['S', 'M', 'T', 'W', 'T', 'F', 'S'], ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+      ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+      ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa']
+    ],
+    u,
+    [
+      ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+      ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+      [
+        'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September',
+        'October', 'November', 'December'
+      ]
+    ],
+    u,
+    [['B', 'A'], ['BC', 'AD'], ['Before Christ', 'Anno Domini']],
+    0,
+    [6, 0],
+    ['dd/MM/y', 'd MMM y', 'd MMMM y', 'EEEE, d MMMM y'],
+    ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'],
+    ['{1}, {0}', u, '{1} \'at\' {0}', u],
+    ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'],
+    'XCD',
+    '$',
+    'East Caribbean Dollar',
+    {'JPY': ['JP¥', '¥'], 'USD': ['US$', '$'], 'XCD': ['$']},
+    'ltr',
+    plural,
+    [
+      [
+        ['mi', 'n', 'in the morning', 'in the afternoon', 'in the evening', 'at night'],
+        ['midnight', 'noon', 'in the morning', 'in the afternoon', 'in the evening', 'at night'], u
+      ],
+      [['midnight', 'noon', 'morning', 'afternoon', 'evening', 'night'], u, u],
+      [
+        '00:00', '12:00', ['06:00', '12:00'], ['12:00', '18:00'], ['18:00', '21:00'],
+        ['21:00', '06:00']
+      ]
+    ]
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=940-es2015.js.map

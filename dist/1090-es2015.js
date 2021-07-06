@@ -1,1 +1,73 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1090],{E4JD:function(e,o){!function(e){e.ng=e.ng||{},e.ng.common=e.ng.common||{},e.ng.common.locales=e.ng.common.locales||{};const o=void 0;e.ng.common.locales["es-ni"]=["es-NI",[["a.\xa0m.","p.\xa0m."],o,o],o,[["d","l","m","m","j","v","s"],["dom.","lun.","mar.","mi\xe9.","jue.","vie.","s\xe1b."],["domingo","lunes","martes","mi\xe9rcoles","jueves","viernes","s\xe1bado"],["DO","LU","MA","MI","JU","VI","SA"]],[["D","L","M","M","J","V","S"],["dom.","lun.","mar.","mi\xe9.","jue.","vie.","s\xe1b."],["domingo","lunes","martes","mi\xe9rcoles","jueves","viernes","s\xe1bado"],["DO","LU","MA","MI","JU","VI","SA"]],[["E","F","M","A","M","J","J","A","S","O","N","D"],["ene.","feb.","mar.","abr.","may.","jun.","jul.","ago.","sep.","oct.","nov.","dic."],["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"]],o,[["a. C.","d. C."],o,["antes de Cristo","despu\xe9s de Cristo"]],0,[6,0],["d/M/yy","d MMM y","d 'de' MMMM 'de' y","EEEE, d 'de' MMMM 'de' y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",o,"{1} 'a' 'las' {0}",o],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","\xa4#,##0.00","#E0"],"NIO","C$","c\xf3rdoba nicarag\xfcense",{AUD:[o,"$"],BRL:[o,"R$"],CAD:[o,"$"],CNY:[o,"\xa5"],ESP:["\u20a7"],EUR:[o,"\u20ac"],FKP:[o,"FK\xa3"],GBP:[o,"\xa3"],HKD:[o,"$"],ILS:[o,"\u20aa"],INR:[o,"\u20b9"],JPY:[o,"\xa5"],KRW:[o,"\u20a9"],MXN:[o,"$"],NIO:["C$"],NZD:[o,"$"],RON:[o,"L"],SSP:[o,"SD\xa3"],SYP:[o,"S\xa3"],TWD:[o,"NT$"],USD:[o,"$"],VEF:[o,"BsF"],VND:[o,"\u20ab"],XAF:[],XCD:[o,"$"],XOF:[]},"ltr",function(e){return 1===e?1:5},[[["del mediod\xeda","de la madrugada","de la ma\xf1ana","de la tarde","de la noche"],o,o],[["mediod\xeda","madrugada","ma\xf1ana","tarde","noche"],o,o],["12:00",["00:00","06:00"],["06:00","12:00"],["12:00","20:00"],["20:00","24:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1090],{
+
+/***/ "./node_modules/@angular/common/locales/global/ff-Latn.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/ff-Latn.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    let i = Math.floor(Math.abs(n));
+    if (i === 0 || i === 1) return 1;
+    return 5;
+  }
+  global.ng.common.locales['ff-latn'] = [
+    'ff-Latn',
+    [['subaka', 'kikiiɗe'], u, u],
+    u,
+    [
+      ['d', 'a', 'm', 'n', 'n', 'm', 'h'], ['dew', 'aaɓ', 'maw', 'nje', 'naa', 'mwd', 'hbi'],
+      ['dewo', 'aaɓnde', 'mawbaare', 'njeslaare', 'naasaande', 'mawnde', 'hoore-biir'],
+      ['dew', 'aaɓ', 'maw', 'nje', 'naa', 'mwd', 'hbi']
+    ],
+    u,
+    [
+      ['s', 'c', 'm', 's', 'd', 'k', 'm', 'j', 's', 'y', 'j', 'b'],
+      ['sii', 'col', 'mbo', 'see', 'duu', 'kor', 'mor', 'juk', 'slt', 'yar', 'jol', 'bow'],
+      [
+        'siilo', 'colte', 'mbooy', 'seeɗto', 'duujal', 'korse', 'morso', 'juko', 'siilto',
+        'yarkomaa', 'jolal', 'bowte'
+      ]
+    ],
+    u,
+    [['H-I', 'C-I'], u, ['Hade Iisa', 'Caggal Iisa']],
+    1,
+    [6, 0],
+    ['d/M/y', 'd MMM, y', 'd MMMM y', 'EEEE d MMMM y'],
+    ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
+    ['{1} {0}', u, u, u],
+    [',', ' ', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0%', '#,##0.00 ¤', '#E0'],
+    'XOF',
+    'CFA',
+    'Mbuuɗu Seefaa BCEAO',
+    {'JPY': ['JP¥', '¥'], 'USD': ['US$', '$']},
+    'ltr',
+    plural,
+    []
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1090-es2015.js.map

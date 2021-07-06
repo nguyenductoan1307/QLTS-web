@@ -1,1 +1,42 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1196],{"0DAu":function(n,e){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};var e=void 0;n.ng.common.locales.id=["id",[["AM","PM"],e,e],e,[["M","S","S","R","K","J","S"],["Min","Sen","Sel","Rab","Kam","Jum","Sab"],["Minggu","Senin","Selasa","Rabu","Kamis","Jumat","Sabtu"],["Min","Sen","Sel","Rab","Kam","Jum","Sab"]],e,[["J","F","M","A","M","J","J","A","S","O","N","D"],["Jan","Feb","Mar","Apr","Mei","Jun","Jul","Agu","Sep","Okt","Nov","Des"],["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"]],e,[["SM","M"],e,["Sebelum Masehi","Masehi"]],0,[6,0],["dd/MM/yy","d MMM y","d MMMM y","EEEE, dd MMMM y"],["HH.mm","HH.mm.ss","HH.mm.ss z","HH.mm.ss zzzz"],["{1} {0}",e,e,e],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN","."],["#,##0.###","#,##0%","\xa4#,##0.00","#E0"],"IDR","Rp","Rupiah Indonesia",{AUD:["AU$","$"],IDR:["Rp"],INR:["Rs","\u20b9"],JPY:["JP\xa5","\xa5"],THB:["\u0e3f"],TWD:["NT$"],USD:["US$","$"],XXX:[]},"ltr",function(n){return 5},[[["tengah malam","tengah hari","pagi","siang","sore","malam"],e,e],e,["00:00","12:00",["00:00","10:00"],["10:00","15:00"],["15:00","18:00"],["18:00","24:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1196], {
+  /***/
+  "./node_modules/@angular/common/locales/global/ksb.js":
+  /*!************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/ksb.js ***!
+    \************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalKsbJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['ksb'] = ['ksb', [['makeo', 'nyiaghuo'], u, u], u, [['2', '3', '4', '5', 'A', 'I', '1'], ['Jpi', 'Jtt', 'Jmn', 'Jtn', 'Alh', 'Iju', 'Jmo'], ['Jumaapii', 'Jumaatatu', 'Jumaane', 'Jumaatano', 'Alhamisi', 'Ijumaa', 'Jumaamosi'], ['Jpi', 'Jtt', 'Jmn', 'Jtn', 'Alh', 'Iju', 'Jmo']], u, [['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'], ['Jan', 'Feb', 'Mac', 'Apr', 'Mei', 'Jun', 'Jul', 'Ago', 'Sep', 'Okt', 'Nov', 'Des'], ['Januali', 'Febluali', 'Machi', 'Aplili', 'Mei', 'Juni', 'Julai', 'Agosti', 'Septemba', 'Oktoba', 'Novemba', 'Desemba']], u, [['KK', 'BK'], u, ['Kabla ya Klisto', 'Baada ya Klisto']], 1, [6, 0], ['dd/MM/y', 'd MMM y', 'd MMMM y', 'EEEE, d MMMM y'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1} {0}', u, u, u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '#,##0.00¤', '#E0'], 'TZS', 'TSh', 'shilingi ya Tanzania', {
+        'JPY': ['JP¥', '¥'],
+        'TZS': ['TSh'],
+        'USD': ['US$', '$']
+      }, 'ltr', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1196-es5.js.map

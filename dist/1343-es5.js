@@ -1,1 +1,42 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1343],{pPrg:function(o,u){!function(o){o.ng=o.ng||{},o.ng.common=o.ng.common||{},o.ng.common.locales=o.ng.common.locales||{};var u=void 0;o.ng.common.locales.smn=["smn",[["ip.","ep."],u,u],u,[["p","V","M","K","T","V","L"],["pas","vuo","maj","kos","tuo","v\xe1s","l\xe1v"],["pasepeeivi","vuossaarg\xe2","majebaarg\xe2","koskoho","tuor\xe2stuv","v\xe1stuppeeivi","l\xe1vurduv"],["pa","vu","ma","ko","tu","v\xe1","l\xe1"]],[["S","M","T","W","T","F","S"],["pas","vuo","maj","kos","tuo","v\xe1s","l\xe1v"],["pasepeivi","vuossarg\xe2","majebarg\xe2","koskokko","tuor\xe2st\xe2h","v\xe1stuppeivi","l\xe1vurd\xe2h"],["pa","vu","ma","ko","tu","v\xe1","l\xe1"]],[["U","K","NJ","C","V","K","S","P","\u010c","R","S","J"],["u\u0111iv","kuov\xe2","njuh\u010d\xe2","cu\xe1\u014bui","vyesi","kesi","syeini","porge","\u010doh\u010d\xe2","roovv\xe2d","skamm\xe2","juovl\xe2"],["u\u0111\u0111\xe2ivem\xe1\xe1nu","kuov\xe2m\xe1\xe1nu","njuh\u010d\xe2m\xe1\xe1nu","cu\xe1\u014buim\xe1\xe1nu","vyesim\xe1\xe1nu","kesim\xe1\xe1nu","syeinim\xe1\xe1nu","porgem\xe1\xe1nu","\u010doh\u010d\xe2m\xe1\xe1nu","roovv\xe2dm\xe1\xe1nu","skamm\xe2m\xe1\xe1nu","juovl\xe2m\xe1\xe1nu"]],u,[["oKr.","mKr."],u,["Ovdil Kristus \u0161odd\xe2m","ma\u014ba Kristus \u0161odd\xe2m"]],1,[6,0],["d.M.y","MMM d. y","MMMM d. y","cccc, MMMM d. y"],["H.mm","H.mm.ss","H.mm.ss z","H.mm.ss zzzz"],["{1} {0}","{1} 'tme' {0}",u,u],[",","\xa0",";","%","+","-","E","\xd7","\u2030","\u221e","epiloho","."],["#,##0.###","#,##0\xa0%","#,##0.00\xa0\xa4","#E0"],"EUR","\u20ac","euro",{JPY:["JP\xa5","\xa5"],USD:["US$","$"]},"ltr",function(o){return 1===o?1:2===o?2:5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1343], {
+  /***/
+  "./node_modules/@angular/common/locales/global/te.js":
+  /*!***********************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/te.js ***!
+    \***********************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalTeJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['te'] = ['te', [['ఉ', 'సా'], ['AM', 'PM'], u], [['AM', 'PM'], u, u], [['ఆ', 'సో', 'మ', 'బు', 'గు', 'శు', 'శ'], ['ఆది', 'సోమ', 'మంగళ', 'బుధ', 'గురు', 'శుక్ర', 'శని'], ['ఆదివారం', 'సోమవారం', 'మంగళవారం', 'బుధవారం', 'గురువారం', 'శుక్రవారం', 'శనివారం'], ['ఆది', 'సోమ', 'మం', 'బుధ', 'గురు', 'శుక్ర', 'శని']], u, [['జ', 'ఫి', 'మా', 'ఏ', 'మే', 'జూ', 'జు', 'ఆ', 'సె', 'అ', 'న', 'డి'], ['జన', 'ఫిబ్ర', 'మార్చి', 'ఏప్రి', 'మే', 'జూన్', 'జులై', 'ఆగ', 'సెప్టెం', 'అక్టో', 'నవం', 'డిసెం'], ['జనవరి', 'ఫిబ్రవరి', 'మార్చి', 'ఏప్రిల్', 'మే', 'జూన్', 'జులై', 'ఆగస్టు', 'సెప్టెంబర్', 'అక్టోబర్', 'నవంబర్', 'డిసెంబర్']], u, [['క్రీపూ', 'క్రీశ'], u, ['క్రీస్తు పూర్వం', 'క్రీస్తు శకం']], 0, [0, 0], ['dd-MM-yy', 'd MMM, y', 'd MMMM, y', 'd, MMMM y, EEEE'], ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'], ['{1} {0}', u, '{1} {0}కి', u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##,##0.###', '#,##0%', '¤#,##,##0.00', '#E0'], 'INR', '₹', 'రూపాయి', {
+        'JPY': ['JP¥', '¥'],
+        'THB': ['฿'],
+        'TWD': ['NT$']
+      }, 'ltr', plural, [[['అర్ధరాత్రి', 'ఉదయం', 'మధ్యాహ్నం', 'సాయంత్రం', 'రాత్రి'], u, u], u, ['00:00', ['06:00', '12:00'], ['12:00', '18:00'], ['18:00', '21:00'], ['21:00', '06:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1343-es5.js.map

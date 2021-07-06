@@ -295,10 +295,13 @@ export class TaiSanDangSuDungComponent extends AppComponentBase implements OnIni
 
   deleteArrTaiSanChecked(): void {
     this.tenTaiSan = this.arrTaiSanChecked.filter(f => this.checkTaiSan24h(f.ngayKhaiBao)).map(m => { return m.tenTaiSan; }).join(', ');
+    const html1 =  '<h3 class="title-popup-xoa m-t-24" >' + 'Bạn có chắc chắn không?' + '</h3>' +
+    '<p class="text-popup-xoa m-t-8">'
+     + 'Danh sách tài sản đã chọn sẽ được hoàn tác về danh sách trước khi khai báo sử dụng' + '</p>';
     this.swal.fire({
-      title: 'Bạn có chắc chắn không?',
-      text: 'Danh sách tài sản đã chọn sẽ được hoàn tác về danh sách trước khi khai báo sử dụng',
+      html: html1,
       icon: 'warning',
+      iconHtml: '<span class="icon1">&#9888</span>',
       showCancelButton: true,
       confirmButtonColor: this.confirmButtonColor,
       cancelButtonColor: this.cancelButtonColor,
@@ -320,11 +323,13 @@ export class TaiSanDangSuDungComponent extends AppComponentBase implements OnIni
 
   hoanTac(record?: TaiSanChuaSuDungForViewDto): void {
     this.tenTaiSan = this.checkTaiSan24h(record.ngayKhaiBao) === true ? record.tenTaiSan : '';
-
+    const html1 =  '<h3 class="title-popup-xoa m-t-24" >' + 'Bạn có chắc chắn không?' + '</h3>' +
+    '<p class="text-popup-xoa m-t-8">'
+     + 'Tài sản ' + this.tenTaiSan + ' sẽ hoàn tác về ' + 'danh sách trước khi khai báo sử dụng' + '</p>';
     this.swal.fire({
-      title: 'Bạn có chắc chắn không?',
-      text: 'Tài sản ' + this.tenTaiSan + ' sẽ hoàn tác về ' + 'danh sách trước khi khai báo sử dụng',
+      html: html1,
       icon: 'warning',
+      iconHtml: '<span class="icon1">&#9888</span>',
       showCancelButton: true,
       confirmButtonColor: this.confirmButtonColor,
       cancelButtonColor: this.cancelButtonColor,

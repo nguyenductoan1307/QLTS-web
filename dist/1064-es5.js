@@ -1,1 +1,60 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1064],{ycbW:function(n,e){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};var e=void 0;n.ng.common.locales["en-vg"]=["en-VG",[["a","p"],["am","pm"],e],[["am","pm"],e,e],[["S","M","T","W","T","F","S"],["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],["Su","Mo","Tu","We","Th","Fr","Sa"]],e,[["J","F","M","A","M","J","J","A","S","O","N","D"],["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],["January","February","March","April","May","June","July","August","September","October","November","December"]],e,[["B","A"],["BC","AD"],["Before Christ","Anno Domini"]],1,[6,0],["dd/MM/y","d MMM y","d MMMM y","EEEE, d MMMM y"],["h:mm a","h:mm:ss a","h:mm:ss a z","h:mm:ss a zzzz"],["{1}, {0}",e,"{1} 'at' {0}",e],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4#,##0.00","#E0"],"USD","US$","US Dollar",{JPY:["JP\xa5","\xa5"],USD:["US$","$"]},"ltr",function(n){var e=Math.floor(Math.abs(n)),o=n.toString().replace(/^[^.]*\.?/,"").length;return 1===e&&0===o?1:5},[[["mi","n","in the morning","in the afternoon","in the evening","at night"],["midnight","noon","in the morning","in the afternoon","in the evening","at night"],e],[["midnight","noon","morning","afternoon","evening","night"],e,e],["00:00","12:00",["06:00","12:00"],["12:00","18:00"],["18:00","21:00"],["21:00","06:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1064], {
+  /***/
+  "./node_modules/@angular/common/locales/global/es-PH.js":
+  /*!**************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/es-PH.js ***!
+    \**************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalEsPHJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['es-ph'] = ['es-PH', [['a. m.', 'p. m.'], u, u], u, [['D', 'L', 'M', 'X', 'J', 'V', 'S'], ['dom.', 'lun.', 'mar.', 'mié.', 'jue.', 'vie.', 'sáb.'], ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'], ['DO', 'LU', 'MA', 'MI', 'JU', 'VI', 'SA']], u, [['E', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'], ['ene.', 'feb.', 'mar.', 'abr.', 'may.', 'jun.', 'jul.', 'ago.', 'sept.', 'oct.', 'nov.', 'dic.'], ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']], u, [['a. C.', 'd. C.'], u, ['antes de Cristo', 'después de Cristo']], 0, [6, 0], ['d/M/yy', 'd MMM y', 'd \'de\' MMMM \'de\' y', 'EEEE, d \'de\' MMMM \'de\' y'], ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'], ['{1} {0}', u, '{1}, {0}', u], [',', '.', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0 %', '#,##0.00 ¤', '#E0'], 'PHP', '₱', 'peso filipino', {
+        'AUD': [u, '$'],
+        'BRL': [u, 'R$'],
+        'CNY': [u, '¥'],
+        'EGP': [],
+        'ESP': ['₧'],
+        'GBP': [u, '£'],
+        'HKD': [u, '$'],
+        'ILS': [u, '₪'],
+        'INR': [u, '₹'],
+        'JPY': [u, '¥'],
+        'KRW': [u, '₩'],
+        'MXN': [u, '$'],
+        'NZD': [u, '$'],
+        'PHP': ['₱'],
+        'RON': [u, 'L'],
+        'THB': ['฿'],
+        'TWD': [u, 'NT$'],
+        'USD': ['US$', '$'],
+        'XAF': [],
+        'XCD': [u, '$'],
+        'XOF': []
+      }, 'ltr', plural, [[['del mediodía', 'de la madrugada', 'de la mañana', 'de la tarde', 'de la noche'], u, u], [['mediodía', 'madrugada', 'mañana', 'tarde', 'noche'], u, u], ['12:00', ['00:00', '06:00'], ['06:00', '12:00'], ['12:00', '20:00'], ['20:00', '24:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1064-es5.js.map

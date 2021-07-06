@@ -1,1 +1,41 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[915],{CCIN:function(n,m){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};var m=void 0;n.ng.common.locales.bas=["bas",[["I bik\u025b\u0302gl\xe0","I \u0253ugaj\u0254p"],m,m],m,[["n","n","u","\u014b","m","k","j"],["n\u0254y","nja","uum","\u014bge","mb\u0254","k\u0254\u0254","jon"],["\u014bgw\xe0 n\u0254\u0302y","\u014bgw\xe0 nja\u014bgumba","\u014bgw\xe0 \xfbm","\u014bgw\xe0 \u014bg\xea","\u014bgw\xe0 mb\u0254k","\u014bgw\xe0 k\u0254\u0254","\u014bgw\xe0 j\xf4n"],["n\u0254y","nja","uum","\u014bge","mb\u0254","k\u0254\u0254","jon"]],m,[["k","m","m","m","m","h","n","h","d","b","m","l"],["k\u0254n","mac","mat","mto","mpu","hil","nje","hik","dip","bio","may","li\u0253"],["K\u0254nd\u0254\u014b","M\xe0c\u025b\u0302l","M\xe0t\xf9mb","M\xe0top","M\u0300puy\u025b","H\xecl\xf2nd\u025b\u0300","Nj\xe8b\xe0","H\xecka\u014b","D\xecp\u0254\u0300s","B\xec\xf2\xf4m","M\xe0y\u025bs\xe8p","L\xecbuy li \u0144y\xe8e"]],m,[["b.Y.K","m.Y.K"],m,["bis\u016b bi Yes\xf9 Kr\u01d0st\xf2","i mb\u016bs Yes\xf9 Kr\u01d0st\xf2"]],1,[6,0],["d/M/y","d MMM, y","d MMMM y","EEEE d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",m,m,m],[",","\xa0",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","#,##0.00\xa0\xa4","#E0"],"XAF","FCFA","Fr\u01ce\u014b CFA (BEAC)",{JPY:["JP\xa5","\xa5"],USD:["US$","$"]},"ltr",function(n){return 5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[915], {
+  /***/
+  "./node_modules/@angular/common/locales/global/cu.js":
+  /*!***********************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/cu.js ***!
+    \***********************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalCuJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        return 5;
+      }
+
+      global.ng.common.locales['cu'] = ['cu', [['AM', 'PM'], u, u], u, [['S', 'M', 'T', 'W', 'T', 'F', 'S'], ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'], u, u], u, [['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'], ['M01', 'M02', 'M03', 'M04', 'M05', 'M06', 'M07', 'M08', 'M09', 'M10', 'M11', 'M12'], u], u, [['BCE', 'CE'], u, u], 1, [6, 0], ['y-MM-dd', 'y MMM d', 'y MMMM d', 'y MMMM d, EEEE'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1} {0}', u, u, u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '¤ #,##0.00', '#E0'], 'RUB', '₽', 'RUB', {
+        'JPY': ['JP¥', '¥'],
+        'RUB': ['₽'],
+        'USD': ['US$', '$']
+      }, 'ltr', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=915-es5.js.map

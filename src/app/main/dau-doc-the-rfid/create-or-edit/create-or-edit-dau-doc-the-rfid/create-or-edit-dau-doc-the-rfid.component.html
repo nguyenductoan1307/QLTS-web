@@ -55,10 +55,12 @@
             <div class="col-md-6">
                 <div class="form-group">
                     <label for="DmCaLamViec_lblMaCaLamViec" id="DmCaLamViec_lblMaCaLamViec">Nhà cung cấp</label>
-                    <p-autoComplete [suggestions]="suggestionsSingle" field="displayName" [dropdown]="true"
+                    <!-- <p-autoComplete [suggestions]="suggestionsSingle" field="displayName" [dropdown]="true"
                         [forceSelection]="true" formControlName="nhaCungCap" [size]="30"
                         (completeMethod)="searchTrangThaiDuyet($event)">
-                    </p-autoComplete>
+                    </p-autoComplete> -->
+                    <p-dropdown formControlName="nhaCungCap" [options]="listNhaCC" [placeholder]="dropdownPlaceholder" optionLabel="displayName" [showClear]="true" [filter]="true" resetFilterOnHide="true">
+                    </p-dropdown>
                     <!-- {{form.controls.nhaCungCap.value?.id}} -->
                 </div>
             </div>

@@ -1,1 +1,39 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1205],{Fzk6:function(n,s){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};var s=void 0;n.ng.common.locales.jgo=["jgo",[["mba\ua78cmba\ua78c","\u014bka mb\u0254\u0301t nji"],s,s],s,[["S\u0254\u0301","M\u0254\u0301","\xc1M","W\u025b\u0301","T\u0254\u0301","F\u025b","S\xe1"],["S\u0254\u0301ndi","M\u0254\u0301ndi","\xc1pta M\u0254\u0301ndi","W\u025b\u0301n\u025bs\u025bd\u025b","T\u0254\u0301s\u025bd\u025b","F\u025bl\xe2y\u025bd\u025b","S\xe1sid\u025b"],s,s],s,[["1","2","3","4","5","6","7","8","9","10","11","12"],["Ndu\u014bmbi Sa\u014b","P\u025bsa\u014b P\u025b\u0301p\xe1","P\u025bsa\u014b P\u025b\u0301t\xe1t","P\u025bsa\u014b P\u025b\u0301n\u025b\u0301kwa","P\u025bsa\u014b Pataa","P\u025bsa\u014b P\u025b\u0301n\u025b\u0301nt\xfak\xfa","P\u025bsa\u014b Saamb\xe1","P\u025bsa\u014b P\u025b\u0301n\u025b\u0301f\u0254m","P\u025bsa\u014b P\u025b\u0301n\u025b\u0301pf\xfa\ua78b\xfa","P\u025bsa\u014b N\u025bg\u025b\u0301m","P\u025bsa\u014b Nts\u0254\u030cpm\u0254\u0301","P\u025bsa\u014b Nts\u0254\u030cpp\xe1"],s],s,[["BCE","CE"],s,["ts\u025btts\u025bt m\u025b\u014bgu\ua78c mi \u025b\u0301 l\u025b\u025bn\u025b K\u025bl\xeds\u025bt\u0254 g\u0254 \u0144\u0254\u0301","ts\u025btts\u025bt m\u025b\u014bgu\ua78c mi \u025b\u0301 f\xfan\u025b K\u025bl\xeds\u025bt\u0254 t\u0254\u0301 m\u0254\u0301"]],1,[6,0],["y-MM-dd","y MMM d","y MMMM d","EEEE, y MMMM dd"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",s,s,s],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4\xa0#,##0.00","#E0"],"XAF","FCFA","F\u025bl\xe2\u014b",{JPY:["JP\xa5","\xa5"],USD:["US$","$"]},"ltr",function(n){return 1===n?1:5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1205], {
+  /***/
+  "./node_modules/@angular/common/locales/global/lkt.js":
+  /*!************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/lkt.js ***!
+    \************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalLktJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        return 5;
+      }
+
+      global.ng.common.locales['lkt'] = ['lkt', [['AM', 'PM'], u, u], u, [['A', 'W', 'N', 'Y', 'T', 'Z', 'O'], ['Aŋpétuwakȟaŋ', 'Aŋpétuwaŋži', 'Aŋpétunuŋpa', 'Aŋpétuyamni', 'Aŋpétutopa', 'Aŋpétuzaptaŋ', 'Owáŋgyužažapi'], u, u], [['S', 'M', 'T', 'W', 'T', 'F', 'S'], ['Aŋpétuwakȟaŋ', 'Aŋpétuwaŋži', 'Aŋpétunuŋpa', 'Aŋpétuyamni', 'Aŋpétutopa', 'Aŋpétuzaptaŋ', 'Owáŋgyužažapi'], u, u], [['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'], ['Wiótheȟika Wí', 'Thiyóȟeyuŋka Wí', 'Ištáwičhayazaŋ Wí', 'Pȟežítȟo Wí', 'Čhaŋwápetȟo Wí', 'Wípazukȟa-wašté Wí', 'Čhaŋpȟásapa Wí', 'Wasútȟuŋ Wí', 'Čhaŋwápeǧi Wí', 'Čhaŋwápe-kasná Wí', 'Waníyetu Wí', 'Tȟahékapšuŋ Wí'], u], u, [['BCE', 'CE'], u, u], 0, [6, 0], ['M/d/yy', 'MMM d, y', 'MMMM d, y', 'EEEE, MMMM d, y'], ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'], ['{1} {0}', u, u, u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '¤ #,##0.00', '#E0'], 'USD', '$', 'USD', {
+        'JPY': ['JP¥', '¥']
+      }, 'ltr', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1205-es5.js.map

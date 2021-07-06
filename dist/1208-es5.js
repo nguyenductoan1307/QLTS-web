@@ -1,1 +1,42 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1208],{hdJO:function(n,o){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};var o=void 0;n.ng.common.locales.ka=["ka",[["a","p"],["AM","PM"],o],[["AM","PM"],o,o],[["\u10d9","\u10dd","\u10e1","\u10dd","\u10ee","\u10de","\u10e8"],["\u10d9\u10d5\u10d8","\u10dd\u10e0\u10e8","\u10e1\u10d0\u10db","\u10dd\u10d7\u10ee","\u10ee\u10e3\u10d7","\u10de\u10d0\u10e0","\u10e8\u10d0\u10d1"],["\u10d9\u10d5\u10d8\u10e0\u10d0","\u10dd\u10e0\u10e8\u10d0\u10d1\u10d0\u10d7\u10d8","\u10e1\u10d0\u10db\u10e8\u10d0\u10d1\u10d0\u10d7\u10d8","\u10dd\u10d7\u10ee\u10e8\u10d0\u10d1\u10d0\u10d7\u10d8","\u10ee\u10e3\u10d7\u10e8\u10d0\u10d1\u10d0\u10d7\u10d8","\u10de\u10d0\u10e0\u10d0\u10e1\u10d9\u10d4\u10d5\u10d8","\u10e8\u10d0\u10d1\u10d0\u10d7\u10d8"],["\u10d9\u10d5","\u10dd\u10e0","\u10e1\u10db","\u10dd\u10d7","\u10ee\u10d7","\u10de\u10e0","\u10e8\u10d1"]],o,[["\u10d8","\u10d7","\u10db","\u10d0","\u10db","\u10d8","\u10d8","\u10d0","\u10e1","\u10dd","\u10dc","\u10d3"],["\u10d8\u10d0\u10dc","\u10d7\u10d4\u10d1","\u10db\u10d0\u10e0","\u10d0\u10de\u10e0","\u10db\u10d0\u10d8","\u10d8\u10d5\u10dc","\u10d8\u10d5\u10da","\u10d0\u10d2\u10d5","\u10e1\u10d4\u10e5","\u10dd\u10e5\u10e2","\u10dc\u10dd\u10d4","\u10d3\u10d4\u10d9"],["\u10d8\u10d0\u10dc\u10d5\u10d0\u10e0\u10d8","\u10d7\u10d4\u10d1\u10d4\u10e0\u10d5\u10d0\u10da\u10d8","\u10db\u10d0\u10e0\u10e2\u10d8","\u10d0\u10de\u10e0\u10d8\u10da\u10d8","\u10db\u10d0\u10d8\u10e1\u10d8","\u10d8\u10d5\u10dc\u10d8\u10e1\u10d8","\u10d8\u10d5\u10da\u10d8\u10e1\u10d8","\u10d0\u10d2\u10d5\u10d8\u10e1\u10e2\u10dd","\u10e1\u10d4\u10e5\u10e2\u10d4\u10db\u10d1\u10d4\u10e0\u10d8","\u10dd\u10e5\u10e2\u10dd\u10db\u10d1\u10d4\u10e0\u10d8","\u10dc\u10dd\u10d4\u10db\u10d1\u10d4\u10e0\u10d8","\u10d3\u10d4\u10d9\u10d4\u10db\u10d1\u10d4\u10e0\u10d8"]],o,[["\u10eb\u10d5. \u10ec.","\u10d0\u10ee. \u10ec."],o,["\u10eb\u10d5\u10d4\u10da\u10d8 \u10ec\u10d4\u10da\u10d7\u10d0\u10e6\u10e0\u10d8\u10ea\u10ee\u10d5\u10d8\u10d7","\u10d0\u10ee\u10d0\u10da\u10d8 \u10ec\u10d4\u10da\u10d7\u10d0\u10e6\u10e0\u10d8\u10ea\u10ee\u10d5\u10d8\u10d7"]],1,[6,0],["dd.MM.yy","d MMM. y","d MMMM, y","EEEE, dd MMMM, y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1}, {0}",o,o,o],[",","\xa0",";","%","+","-","E","\xd7","\u2030","\u221e","\u10d0\u10e0\xa0\u10d0\u10e0\u10d8\u10e1\xa0\u10e0\u10d8\u10ea\u10ee\u10d5\u10d8",":"],["#,##0.###","#,##0%","#,##0.00\xa0\xa4","#E0"],"GEL","\u20be","\u10e5\u10d0\u10e0\u10d7\u10e3\u10da\u10d8 \u10da\u10d0\u10e0\u10d8",{AUD:[o,"$"],CNY:[o,"\xa5"],GEL:["\u20be"],HKD:[o,"$"],ILS:[o,"\u20aa"],INR:[o,"\u20b9"],JPY:[o,"\xa5"],KRW:[o,"\u20a9"],NZD:[o,"$"],TWD:["NT$"],USD:["US$","$"],VND:[o,"\u20ab"]},"ltr",function(n){return 1===n?1:5},[[["\u10e8\u10e3\u10d0\u10e6\u10d0\u10db\u10d4\u10e1","\u10e8\u10e3\u10d0\u10d3\u10e6.","\u10d3\u10d8\u10da.","\u10dc\u10d0\u10e8\u10e3\u10d0\u10d3\u10e6.","\u10e1\u10d0\u10e6.","\u10e6\u10d0\u10db."],o,["\u10e8\u10e3\u10d0\u10e6\u10d0\u10db\u10d4\u10e1","\u10e8\u10e3\u10d0\u10d3\u10e6\u10d4\u10e1","\u10d3\u10d8\u10da\u10d8\u10d7","\u10dc\u10d0\u10e8\u10e3\u10d0\u10d3\u10e6\u10d4\u10d5\u10e1","\u10e1\u10d0\u10e6\u10d0\u10db\u10dd\u10e1","\u10e6\u10d0\u10db\u10d8\u10d7"]],[["\u10e8\u10e3\u10d0\u10e6\u10d0\u10db\u10d4","\u10e8\u10e3\u10d0\u10d3\u10e6\u10d4","\u10d3\u10d8\u10da\u10d0","\u10dc\u10d0\u10e8\u10e3\u10d0\u10d3\u10e6\u10d4\u10d5\u10d8","\u10e1\u10d0\u10e6\u10d0\u10db\u10dd","\u10e6\u10d0\u10db\u10d4"],o,o],["00:00","12:00",["05:00","12:00"],["12:00","18:00"],["18:00","21:00"],["21:00","05:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1208], {
+  /***/
+  "./node_modules/@angular/common/locales/global/ln-CG.js":
+  /*!**************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/ln-CG.js ***!
+    \**************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalLnCGJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === Math.floor(n) && n >= 0 && n <= 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['ln-cg'] = ['ln-CG', [['ntɔ́ngɔ́', 'mpókwa'], u, u], u, [['e', 'y', 'm', 'm', 'm', 'm', 'p'], ['eye', 'ybo', 'mbl', 'mst', 'min', 'mtn', 'mps'], ['eyenga', 'mokɔlɔ mwa yambo', 'mokɔlɔ mwa míbalé', 'mokɔlɔ mwa mísáto', 'mokɔlɔ ya mínéi', 'mokɔlɔ ya mítáno', 'mpɔ́sɔ'], ['eye', 'ybo', 'mbl', 'mst', 'min', 'mtn', 'mps']], u, [['y', 'f', 'm', 'a', 'm', 'y', 'y', 'a', 's', 'ɔ', 'n', 'd'], ['yan', 'fbl', 'msi', 'apl', 'mai', 'yun', 'yul', 'agt', 'stb', 'ɔtb', 'nvb', 'dsb'], ['sánzá ya yambo', 'sánzá ya míbalé', 'sánzá ya mísáto', 'sánzá ya mínei', 'sánzá ya mítáno', 'sánzá ya motóbá', 'sánzá ya nsambo', 'sánzá ya mwambe', 'sánzá ya libwa', 'sánzá ya zómi', 'sánzá ya zómi na mɔ̌kɔ́', 'sánzá ya zómi na míbalé']], u, [['libóso ya', 'nsima ya Y'], u, ['Yambo ya Yézu Krís', 'Nsima ya Yézu Krís']], 1, [6, 0], ['d/M/y', 'd MMM y', 'd MMMM y', 'EEEE d MMMM y'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1} {0}', u, u, u], [',', '.', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '#,##0.00 ¤', '#E0'], 'XAF', 'FCFA', 'Falánga CFA BEAC', {
+        'CDF': ['FC'],
+        'JPY': ['JP¥', '¥'],
+        'USD': ['US$', '$']
+      }, 'ltr', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1208-es5.js.map

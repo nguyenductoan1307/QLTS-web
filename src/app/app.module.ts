@@ -4,6 +4,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientJsonpModule } from '@angular/common/http';
 import { HttpClientModule } from '@angular/common/http';
 import { ModalModule } from 'ngx-bootstrap/modal';
+import { MatCarouselModule } from '@ngmodule/material-carousel';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { TabsModule } from 'ngx-bootstrap/tabs';
@@ -75,6 +76,7 @@ import { HeaderNotificationsComponent } from './layout/header-notifications/head
   ],
   imports: [
     CommonModule,
+    MatCarouselModule.forRoot(),
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,

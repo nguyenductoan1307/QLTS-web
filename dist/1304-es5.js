@@ -1,1 +1,46 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1304],{u5bd:function(a,o){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};var o=void 0;a.ng.common.locales["pt-mo"]=["pt-MO",[["a.m.","p.m."],o,["da manh\xe3","da tarde"]],[["a.m.","p.m."],o,["manh\xe3","tarde"]],[["D","S","T","Q","Q","S","S"],["domingo","segunda","ter\xe7a","quarta","quinta","sexta","s\xe1bado"],["domingo","segunda-feira","ter\xe7a-feira","quarta-feira","quinta-feira","sexta-feira","s\xe1bado"],["domingo","segunda","ter\xe7a","quarta","quinta","sexta","s\xe1bado"]],o,[["J","F","M","A","M","J","J","A","S","O","N","D"],["jan.","fev.","mar.","abr.","mai.","jun.","jul.","ago.","set.","out.","nov.","dez."],["janeiro","fevereiro","mar\xe7o","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"]],o,[["a.C.","d.C."],o,["antes de Cristo","depois de Cristo"]],0,[6,0],["dd/MM/yy","dd/MM/y","d 'de' MMMM 'de' y","EEEE, d 'de' MMMM 'de' y"],["h:mm a","h:mm:ss a","h:mm:ss a z","h:mm:ss a zzzz"],["{1}, {0}",o,"{1} '\xe0s' {0}",o],[",","\xa0",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","#,##0.00\xa0\xa4","#E0"],"MOP","MOP$","pataca macaense",{AUD:["AU$","$"],JPY:["JP\xa5","\xa5"],MOP:["MOP$"],PTE:["\u200b"],RON:[o,"L"],THB:["\u0e3f"],TWD:["NT$"],USD:["US$","$"]},"ltr",function(a){var o=Math.floor(Math.abs(a));return o===Math.floor(o)&&o>=0&&o<=1?1:5},[[["meia-noite","meio-dia","manh\xe3","tarde","noite","madrugada"],["meia-noite","meio-dia","da manh\xe3","da tarde","da noite","da madrugada"],o],[["meia-noite","meio-dia","manh\xe3","tarde","noite","madrugada"],o,o],["00:00","12:00",["06:00","12:00"],["12:00","19:00"],["19:00","24:00"],["00:00","06:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1304], {
+  /***/
+  "./node_modules/@angular/common/locales/global/se.js":
+  /*!***********************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/se.js ***!
+    \***********************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalSeJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        if (n === 2) return 2;
+        return 5;
+      }
+
+      global.ng.common.locales['se'] = ['se', [['i.b.', 'e.b.'], u, ['iđitbeaivet', 'eahketbeaivet']], [['i.b.', 'e.b.'], u, ['iđitbeaivi', 'eahketbeaivi']], [['S', 'V', 'M', 'G', 'D', 'B', 'L'], ['sotn', 'vuos', 'maŋ', 'gask', 'duor', 'bear', 'láv'], ['sotnabeaivi', 'vuossárga', 'maŋŋebárga', 'gaskavahkku', 'duorasdat', 'bearjadat', 'lávvardat'], ['sotn', 'vuos', 'maŋ', 'gask', 'duor', 'bear', 'láv']], u, [['O', 'G', 'N', 'C', 'M', 'G', 'S', 'B', 'Č', 'G', 'S', 'J'], ['ođđj', 'guov', 'njuk', 'cuo', 'mies', 'geas', 'suoi', 'borg', 'čakč', 'golg', 'skáb', 'juov'], ['ođđajagemánnu', 'guovvamánnu', 'njukčamánnu', 'cuoŋománnu', 'miessemánnu', 'geassemánnu', 'suoidnemánnu', 'borgemánnu', 'čakčamánnu', 'golggotmánnu', 'skábmamánnu', 'juovlamánnu']], u, [['o.Kr.', 'm.Kr.'], u, ['ovdal Kristtusa', 'maŋŋel Kristtusa']], 1, [6, 0], ['y-MM-dd', 'y MMM d', 'y MMMM d', 'y MMMM d, EEEE'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1} {0}', u, u, u], [',', ' ', ';', '%', '+', '−', '·10^', '·', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0 %', '#,##0.00 ¤', '#E0'], 'NOK', 'kr', 'norgga kruvdno', {
+        'DKK': ['Dkr', 'kr'],
+        'JPY': ['JP¥', '¥'],
+        'NOK': ['kr'],
+        'SEK': ['Skr', 'kr'],
+        'THB': ['฿'],
+        'USD': ['US$', '$']
+      }, 'ltr', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1304-es5.js.map

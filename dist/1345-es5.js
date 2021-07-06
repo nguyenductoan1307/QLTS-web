@@ -1,1 +1,42 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1345],{"CP1+":function(a,o){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};var o=void 0;a.ng.common.locales["so-dj"]=["so-DJ",[["h","d"],["GH","GD"],o],[["GH","GD"],o,o],[["A","I","T","A","Kh","J","S"],["Axd","Isn","Tldo","Arbc","Khms","Jmc","Sbti"],["Axad","Isniin","Talaado","Arbaco","Khamiis","Jimco","Sabti"],["Axd","Isn","Tldo","Arbc","Khms","Jmc","Sbti"]],o,[["J","F","M","A","M","J","L","O","S","O","N","D"],["Jan","Feb","Mar","Abr","May","Jun","Lul","Ogs","Seb","Okt","Nof","Dis"],["Bisha Koobaad","Bisha Labaad","Bisha Saddexaad","Bisha Afraad","Bisha Shanaad","Bisha Lixaad","Bisha Todobaad","Bisha Sideedaad","Bisha Sagaalaad","Bisha Tobnaad","Bisha Kow iyo Tobnaad","Bisha Laba iyo Tobnaad"]],[["J","F","M","A","M","J","L","O","S","O","N","D"],["Jan","Feb","Mar","Abr","May","Jun","Lul","Ogs","Seb","Okt","Nof","Dis"],["Jannaayo","Febraayo","Maarso","Abriil","May","Juun","Luuliyo","Ogost","Sebtembar","Oktoobar","Nofembar","Desembar"]],[["CH","CD"],o,["Ciise Hortii","Ciise Dabadii"]],6,[6,0],["dd/MM/yy","dd-MMM-y","dd MMMM y","EEEE, MMMM dd, y"],["h:mm a","h:mm:ss a","h:mm:ss a z","h:mm:ss a zzzz"],["{1} {0}",o,o,o],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","MaL",":"],["#,##0.###","#,##0%","\xa4#,##0.00","#E0"],"DJF","Fdj","Faran Jabuuti",{BBD:["DBB","$"],DJF:["Fdj"],JPY:["JP\xa5","\xa5"],SOS:["S"],USD:["US$","$"]},"ltr",function(a){return 1===a?1:5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1345], {
+  /***/
+  "./node_modules/@angular/common/locales/global/teo.js":
+  /*!************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/teo.js ***!
+    \************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalTeoJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['teo'] = ['teo', [['Taparachu', 'Ebongi'], u, u], u, [['J', 'B', 'A', 'U', 'U', 'K', 'S'], ['Jum', 'Bar', 'Aar', 'Uni', 'Ung', 'Kan', 'Sab'], ['Nakaejuma', 'Nakaebarasa', 'Nakaare', 'Nakauni', 'Nakaung’on', 'Nakakany', 'Nakasabiti'], ['Jum', 'Bar', 'Aar', 'Uni', 'Ung', 'Kan', 'Sab']], u, [['R', 'M', 'K', 'D', 'M', 'M', 'J', 'P', 'S', 'T', 'L', 'P'], ['Rar', 'Muk', 'Kwa', 'Dun', 'Mar', 'Mod', 'Jol', 'Ped', 'Sok', 'Tib', 'Lab', 'Poo'], ['Orara', 'Omuk', 'Okwamg’', 'Odung’el', 'Omaruk', 'Omodok’king’ol', 'Ojola', 'Opedel', 'Osokosokoma', 'Otibar', 'Olabor', 'Opoo']], u, [['KK', 'BK'], u, ['Kabla ya Christo', 'Baada ya Christo']], 1, [0, 0], ['dd/MM/y', 'd MMM y', 'd MMMM y', 'EEEE, d MMMM y'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1} {0}', u, u, u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'], 'UGX', 'USh', 'Ango’otol lok’ Uganda', {
+        'JPY': ['JP¥', '¥'],
+        'UGX': ['USh'],
+        'USD': ['US$', '$']
+      }, 'ltr', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1345-es5.js.map

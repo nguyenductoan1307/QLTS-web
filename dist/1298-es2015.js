@@ -1,1 +1,88 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1298],{gen8:function(a,o){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};const o=void 0;a.ng.common.locales["pt-ao"]=["pt-AO",[["a.m.","p.m."],o,["da manh\xe3","da tarde"]],[["a.m.","p.m."],o,["manh\xe3","tarde"]],[["D","S","T","Q","Q","S","S"],["domingo","segunda","ter\xe7a","quarta","quinta","sexta","s\xe1bado"],["domingo","segunda-feira","ter\xe7a-feira","quarta-feira","quinta-feira","sexta-feira","s\xe1bado"],["domingo","segunda","ter\xe7a","quarta","quinta","sexta","s\xe1bado"]],o,[["J","F","M","A","M","J","J","A","S","O","N","D"],["jan.","fev.","mar.","abr.","mai.","jun.","jul.","ago.","set.","out.","nov.","dez."],["janeiro","fevereiro","mar\xe7o","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"]],o,[["a.C.","d.C."],o,["antes de Cristo","depois de Cristo"]],1,[6,0],["dd/MM/yy","dd/MM/y","d 'de' MMMM 'de' y","EEEE, d 'de' MMMM 'de' y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1}, {0}",o,"{1} '\xe0s' {0}",o],[",","\xa0",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","#,##0.00\xa0\xa4","#E0"],"AOA","Kz","kwanza angolano",{AOA:["Kz"],AUD:["AU$","$"],JPY:["JP\xa5","\xa5"],PTE:["\u200b"],RON:[o,"L"],THB:["\u0e3f"],TWD:["NT$"],USD:["US$","$"]},"ltr",function(a){let o=Math.floor(Math.abs(a));return o===Math.floor(o)&&o>=0&&o<=1?1:5},[[["meia-noite","meio-dia","manh\xe3","tarde","noite","madrugada"],["meia-noite","meio-dia","da manh\xe3","da tarde","da noite","da madrugada"],o],[["meia-noite","meio-dia","manh\xe3","tarde","noite","madrugada"],o,o],["00:00","12:00",["06:00","12:00"],["12:00","19:00"],["19:00","24:00"],["00:00","06:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1298],{
+
+/***/ "./node_modules/@angular/common/locales/global/sah.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/sah.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) { return 5; }
+  global.ng.common.locales['sah'] = [
+    'sah',
+    [['ЭИ', 'ЭК'], u, u],
+    u,
+    [
+      ['Б', 'Б', 'О', 'С', 'Ч', 'Б', 'С'],
+      ['бс', 'бн', 'оп', 'сэ', 'чп', 'бэ', 'сб'],
+      [
+        'баскыһыанньа', 'бэнидиэнньик', 'оптуорунньук',
+        'сэрэдэ', 'чэппиэр', 'Бээтиҥсэ', 'субуота'
+      ],
+      ['бс', 'бн', 'оп', 'сэ', 'чп', 'бэ', 'сб']
+    ],
+    u,
+    [
+      ['Т', 'О', 'К', 'М', 'Ы', 'Б', 'О', 'А', 'Б', 'А', 'С', 'А'],
+      [
+        'Тохс', 'Олун', 'Клн', 'Мсу', 'Ыам', 'Бэс', 'Отй', 'Атр',
+        'Блҕ', 'Алт', 'Сэт', 'Ахс'
+      ],
+      [
+        'Тохсунньу', 'Олунньу', 'Кулун тутар', 'Муус устар',
+        'Ыам ыйын', 'Бэс ыйын', 'От ыйын', 'Атырдьых ыйын',
+        'Балаҕан ыйын', 'Алтынньы', 'Сэтинньи', 'ахсынньы'
+      ]
+    ],
+    [
+      ['Т', 'О', 'К', 'М', 'Ы', 'Б', 'О', 'А', 'Б', 'А', 'С', 'А'],
+      [
+        'Тохс', 'Олун', 'Клн', 'Мсу', 'Ыам', 'Бэс', 'Отй', 'Атр',
+        'Блҕ', 'Алт', 'Сэт', 'Ахс'
+      ],
+      [
+        'тохсунньу', 'олунньу', 'кулун тутар', 'муус устар',
+        'ыам ыйа', 'бэс ыйа', 'от ыйа', 'атырдьых ыйа',
+        'балаҕан ыйа', 'алтынньы', 'сэтинньи', 'ахсынньы'
+      ]
+    ],
+    [['б. э. и.', 'б. э'], u, u],
+    1,
+    [6, 0],
+    ['yy/M/d', 'y, MMM d', 'y, MMMM d', 'y \'сыл\' MMMM d \'күнэ\', EEEE'],
+    ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
+    ['{1} {0}', u, u, u],
+    [',', ' ', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'чыыһыла буотах', ':'],
+    ['#,##0.###', '#,##0%', '#,##0.00 ¤', '#E0'],
+    'RUB',
+    '₽',
+    'Арассыыйа солкуобайа',
+    {'JPY': ['JP¥', '¥'], 'RUB': ['₽'], 'USD': ['US$', '$']},
+    'ltr',
+    plural,
+    []
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1298-es2015.js.map

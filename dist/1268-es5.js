@@ -1,1 +1,41 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1268],{"2h4e":function(n,e){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};var e=void 0;n.ng.common.locales.nb=["nb",[["a","p"],["a.m.","p.m."],e],[["a.m.","p.m."],e,e],[["S","M","T","O","T","F","L"],["s\xf8n.","man.","tir.","ons.","tor.","fre.","l\xf8r."],["s\xf8ndag","mandag","tirsdag","onsdag","torsdag","fredag","l\xf8rdag"],["s\xf8.","ma.","ti.","on.","to.","fr.","l\xf8."]],e,[["J","F","M","A","M","J","J","A","S","O","N","D"],["jan.","feb.","mar.","apr.","mai","jun.","jul.","aug.","sep.","okt.","nov.","des."],["januar","februar","mars","april","mai","juni","juli","august","september","oktober","november","desember"]],[["J","F","M","A","M","J","J","A","S","O","N","D"],["jan","feb","mar","apr","mai","jun","jul","aug","sep","okt","nov","des"],["januar","februar","mars","april","mai","juni","juli","august","september","oktober","november","desember"]],[["f.Kr.","e.Kr."],e,["f\xf8r Kristus","etter Kristus"]],1,[6,0],["dd.MM.y","d. MMM y","d. MMMM y","EEEE d. MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1}, {0}",e,"{1} 'kl'. {0}","{1} {0}"],[",","\xa0",";","%","+","\u2212","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","\xa4\xa0#,##0.00","#E0"],"NOK","kr","norske kroner",{AUD:[e,"$"],BRL:[e,"R$"],CAD:[e,"$"],CNY:[e,"\xa5"],HKD:[e,"$"],ILS:[e,"\u20aa"],INR:[e,"\u20b9"],JPY:[e,"\xa5"],KRW:[e,"\u20a9"],MXN:[e,"$"],NOK:["kr"],NZD:[e,"$"],RON:[e,"L"],TWD:[e,"NT$"],USD:[e,"$"],VND:[e,"\u20ab"],XAF:[],XCD:[e,"$"],XPF:[],XXX:[]},"ltr",function(n){return 1===n?1:5},[[["mn.","mg.","fm.","em.","kv.","nt."],["midn.","morg.","form.","etterm.","kveld","natt"],["midnatt","morgenen","formiddagen","ettermiddagen","kvelden","natten"]],[["mn.","mg.","fm.","em.","kv.","nt."],["midn.","morg.","form.","etterm.","kveld","natt"],["midnatt","morgen","formiddag","ettermiddag","kveld","natt"]],["00:00",["06:00","10:00"],["10:00","12:00"],["12:00","18:00"],["18:00","24:00"],["00:00","06:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1268], {
+  /***/
+  "./node_modules/@angular/common/locales/global/ps.js":
+  /*!***********************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/ps.js ***!
+    \***********************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalPsJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['ps'] = ['ps', [['غ.م.', 'غ.و.'], u, u], u, [['S', 'M', 'T', 'W', 'T', 'F', 'S'], ['يونۍ', 'دونۍ', 'درېنۍ', 'څلرنۍ', 'پينځنۍ', 'جمعه', 'اونۍ'], u, u], u, [['ج', 'ف', 'م', 'ا', 'م', 'ج', 'ج', 'ا', 'س', 'ا', 'ن', 'د'], ['جنوري', 'فبروري', 'مارچ', 'اپریل', 'مۍ', 'جون', 'جولای', 'اګست', 'سېپتمبر', 'اکتوبر', 'نومبر', 'دسمبر'], u], [['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'], ['جنوري', 'فبروري', 'مارچ', 'اپریل', 'مۍ', 'جون', 'جولای', 'اګست', 'سپتمبر', 'اکتوبر', 'نومبر', 'دسمبر'], ['جنوري', 'فېبروري', 'مارچ', 'اپریل', 'مۍ', 'جون', 'جولای', 'اګست', 'سپتمبر', 'اکتوبر', 'نومبر', 'دسمبر']], [['له میلاد وړاندې', 'م.'], u, ['له میلاد څخه وړاندې', 'له میلاد څخه وروسته']], 6, [4, 5], ['y/M/d', 'y MMM d', 'د y د MMMM d', 'EEEE د y د MMMM d'], ['H:mm', 'H:mm:ss', 'H:mm:ss (z)', 'H:mm:ss (zzzz)'], ['{1} {0}', u, u, u], [',', '.', ';', '%', "\u200E+", "\u200E\u2212", 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '#,##0.00 ¤', '#E0'], 'AFN', '؋', 'افغانۍ', {
+        'AFN': ['؋'],
+        'JPY': ['JP¥', '¥']
+      }, 'rtl', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1268-es5.js.map

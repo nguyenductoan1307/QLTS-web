@@ -1,1 +1,76 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1366],{R09c:function(a,i){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};const i=void 0;a.ng.common.locales["sw-ug"]=["sw-UG",[["am","pm"],["AM","PM"],i],[["AM","PM"],i,i],[["S","M","T","W","T","F","S"],["Jumapili","Jumatatu","Jumanne","Jumatano","Alhamisi","Ijumaa","Jumamosi"],i,i],i,[["J","F","M","A","M","J","J","A","S","O","N","D"],["Jan","Feb","Mac","Apr","Mei","Jun","Jul","Ago","Sep","Okt","Nov","Des"],["Januari","Februari","Machi","Aprili","Mei","Juni","Julai","Agosti","Septemba","Oktoba","Novemba","Desemba"]],i,[["KK","BK"],i,["Kabla ya Kristo","Baada ya Kristo"]],1,[0,0],["dd/MM/y","d MMM y","d MMMM y","EEEE, d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",i,i,i],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4\xa0#,##0.00","#E0"],"UGX","USh","Shilingi ya Uganda",{JPY:["JP\xa5","\xa5"],KES:["Ksh"],THB:["\u0e3f"],TWD:["NT$"],TZS:["TSh"],UGX:["USh"],USD:["US$","$"]},"ltr",function(a){let i=Math.floor(Math.abs(a)),u=a.toString().replace(/^[^.]*\.?/,"").length;return 1===i&&0===u?1:5},[[["usiku","mchana","alfajiri","asubuhi","mchana","jioni","usiku"],["saa sita za usiku","adhuhuri","alfajiri","asubuhi","mchana","jioni","usiku"],["saa sita za usiku","saa sita za mchana","alfajiri","asubuhi","mchana","jioni","usiku"]],[["saa sita za usiku","saa sita za mchana","alfajiri","asubuhi","mchana","jioni","usiku"],["saa sita za usiku","adhuhuri","alfajiri","asubuhi","alasiri","jioni","usiku"],["saa sita za usiku","saa sita za mchana","alfajiri","asubuhi","mchana","jioni","usiku"]],["00:00","12:00",["04:00","07:00"],["07:00","12:00"],["12:00","16:00"],["16:00","19:00"],["19:00","04:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1366],{
+
+/***/ "./node_modules/@angular/common/locales/global/vai-Vaii.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/vai-Vaii.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) { return 5; }
+  global.ng.common.locales['vai-vaii'] = [
+    'vai-Vaii',
+    [['AM', 'PM'], u, u],
+    u,
+    [
+      ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
+      [
+        'ꕞꕌꔵ', 'ꗳꗡꘉ', 'ꕚꕞꕚ', 'ꕉꕞꕒ', 'ꕉꔤꕆꕢ', 'ꕉꔤꕀꕮ',
+        'ꔻꔬꔳ'
+      ],
+      u, u
+    ],
+    u,
+    [
+      ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+      [
+        'ꖨꖕꔞ', 'ꕒꕡ', 'ꕾꖺ', 'ꖢꖕ', 'ꖑꕱ', 'ꖱꘋ', 'ꖱꕞ', 'ꗛꔕ', 'ꕢꕌ',
+        'ꕭꖃ', 'ꔞꘋ', 'ꖨꖕꗏ'
+      ],
+      [
+        'ꖨꖕ ꕪꕴ ꔞꔀꕮꕊ', 'ꕒꕡꖝꖕ', 'ꕾꖺ', 'ꖢꖕ', 'ꖑꕱ', 'ꖱꘋ',
+        'ꖱꕞꔤ', 'ꗛꔕ', 'ꕢꕌ', 'ꕭꖃ', 'ꔞꘋꕔꕿ ꕸꖃꗏ',
+        'ꖨꖕ ꕪꕴ ꗏꖺꕮꕊ'
+      ]
+    ],
+    u,
+    [['BCE', 'CE'], u, u],
+    1,
+    [6, 0],
+    ['dd/MM/y', 'd MMM y', 'd MMMM y', 'EEEE, d MMMM y'],
+    ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'],
+    ['{1} {0}', u, u, u],
+    ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'],
+    'LRD',
+    '$',
+    'ꕞꔤꔫꕩ ꕜꕞꕌ',
+    {'JPY': ['JP¥', '¥'], 'LRD': ['$'], 'USD': ['US$', '$']},
+    'ltr',
+    plural,
+    []
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1366-es2015.js.map

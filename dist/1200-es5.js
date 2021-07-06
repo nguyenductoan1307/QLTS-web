@@ -1,1 +1,42 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1200],{SUvb:function(o,e){!function(o){o.ng=o.ng||{},o.ng.common=o.ng.common||{},o.ng.common.locales=o.ng.common.locales||{};var e=void 0;o.ng.common.locales["it-ch"]=["it-CH",[["m.","p."],["AM","PM"],e],e,[["D","L","M","M","G","V","S"],["dom","lun","mar","mer","gio","ven","sab"],["domenica","luned\xec","marted\xec","mercoled\xec","gioved\xec","venerd\xec","sabato"],["dom","lun","mar","mer","gio","ven","sab"]],e,[["G","F","M","A","M","G","L","A","S","O","N","D"],["gen","feb","mar","apr","mag","giu","lug","ago","set","ott","nov","dic"],["gennaio","febbraio","marzo","aprile","maggio","giugno","luglio","agosto","settembre","ottobre","novembre","dicembre"]],e,[["aC","dC"],["a.C.","d.C."],["avanti Cristo","dopo Cristo"]],1,[6,0],["dd.MM.yy","d MMM y","d MMMM y","EEEE, d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1}, {0}",e,"{1} {0}",e],[".","\u2019",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4\xa0#,##0.00;\xa4-#,##0.00","#E0"],"CHF","CHF","franco svizzero",{BRL:[e,"R$"],BYN:[e,"Br"],EGP:[e,"\xa3E"],HKD:[e,"$"],JPY:[e,"\xa5"],KRW:[e,"\u20a9"],MXN:[e,"$"],NOK:[e,"NKr"],THB:["\u0e3f"],TWD:[e,"NT$"],USD:[e,"$"]},"ltr",function(o){var e=Math.floor(Math.abs(o)),n=o.toString().replace(/^[^.]*\.?/,"").length;return 1===e&&0===n?1:5},[[["mezzanotte","mezzogiorno","di mattina","di pomeriggio","di sera","di notte"],e,["mezzanotte","mezzogiorno","di mattina","del pomeriggio","di sera","di notte"]],[["mezzanotte","mezzogiorno","mattina","pomeriggio","sera","notte"],e,e],["00:00","12:00",["06:00","12:00"],["12:00","18:00"],["18:00","24:00"],["00:00","06:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1200], {
+  /***/
+  "./node_modules/@angular/common/locales/global/kw.js":
+  /*!***********************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/kw.js ***!
+    \***********************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalKwJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        if (n === 2) return 2;
+        return 5;
+      }
+
+      global.ng.common.locales['kw'] = ['kw', [['a.m.', 'p.m.'], u, u], u, [['S', 'M', 'T', 'W', 'T', 'F', 'S'], ['Sul', 'Lun', 'Mth', 'Mhr', 'Yow', 'Gwe', 'Sad'], ['dy Sul', 'dy Lun', 'dy Meurth', 'dy Merher', 'dy Yow', 'dy Gwener', 'dy Sadorn'], ['Sul', 'Lun', 'Mth', 'Mhr', 'Yow', 'Gwe', 'Sad']], u, [['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'], ['Gen', 'Hwe', 'Meu', 'Ebr', 'Me', 'Met', 'Gor', 'Est', 'Gwn', 'Hed', 'Du', 'Kev'], ['mis Genver', 'mis Hwevrer', 'mis Meurth', 'mis Ebrel', 'mis Me', 'mis Metheven', 'mis Gortheren', 'mis Est', 'mis Gwynngala', 'mis Hedra', 'mis Du', 'mis Kevardhu']], u, [['RC', 'AD'], u, u], 1, [6, 0], ['y-MM-dd', 'y MMM d', 'y MMMM d', 'y MMMM d, EEEE'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1} {0}', u, u, u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'], 'GBP', '£', 'GBP', {
+        'JPY': ['JP¥', '¥'],
+        'USD': ['US$', '$']
+      }, 'ltr', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1200-es5.js.map

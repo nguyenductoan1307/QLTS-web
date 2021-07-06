@@ -1,1 +1,42 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1190],{Ad0p:function(o,n){!function(o){o.ng=o.ng||{},o.ng.common=o.ng.common||{},o.ng.common.locales=o.ng.common.locales||{};var n=void 0;o.ng.common.locales["hr-ba"]=["hr-BA",[["AM","PM"],n,n],n,[["N","P","U","S","\u010c","P","S"],["ned","pon","uto","sri","\u010det","pet","sub"],["nedjelja","ponedjeljak","utorak","srijeda","\u010detvrtak","petak","subota"],["ned","pon","uto","sri","\u010det","pet","sub"]],n,[["1.","2.","3.","4.","5.","6.","7.","8.","9.","10.","11.","12."],["sij","velj","o\u017eu","tra","svi","lip","srp","kol","ruj","lis","stu","pro"],["sije\u010dnja","velja\u010de","o\u017eujka","travnja","svibnja","lipnja","srpnja","kolovoza","rujna","listopada","studenoga","prosinca"]],[["1.","2.","3.","4.","5.","6.","7.","8.","9.","10.","11.","12."],["sij","velj","o\u017eu","tra","svi","lip","srp","kol","ruj","lis","stu","pro"],["sije\u010danj","velja\u010da","o\u017eujak","travanj","svibanj","lipanj","srpanj","kolovoz","rujan","listopad","studeni","prosinac"]],[["pr.n.e.","AD"],["pr. Kr.","po. Kr."],["prije Krista","poslije Krista"]],1,[6,0],["d. M. yy.","d. MMM y.","d. MMMM y.","EEEE, d. MMMM y."],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss (zzzz)"],["{1} {0}",n,"{1} 'u' {0}",n],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","#,##0.00\xa0\xa4","#E0"],"BAM","KM","konvertibilna marka",{AUD:[n,"$"],BAM:["KM"],BRL:[n,"R$"],CAD:[n,"$"],CNY:[n,"\xa5"],EUR:[n,"\u20ac"],GBP:[n,"\xa3"],HKD:[n,"$"],ILS:[n,"\u20aa"],INR:[n,"\u20b9"],JPY:[n,"\xa5"],KRW:[n,"\u20a9"],MXN:[n,"$"],NZD:[n,"$"],TWD:[n,"NT$"],USD:[n,"$"],VND:[n,"\u20ab"],XCD:[n,"$"],XPF:[],XXX:[]},"ltr",function(o){var n=Math.floor(Math.abs(o)),a=o.toString().replace(/^[^.]*\.?/,"").length,e=parseInt(o.toString().replace(/^[^.]*\.?/,""),10)||0;return 0===a&&n%10==1&&n%100!=11||e%10==1&&e%100!=11?1:0===a&&n%10===Math.floor(n%10)&&n%10>=2&&n%10<=4&&!(n%100>=12&&n%100<=14)||e%10===Math.floor(e%10)&&e%10>=2&&e%10<=4&&!(e%100>=12&&e%100<=14)?3:5},[[["pono\u0107","podne","ujutro","popodne","nave\u010der","no\u0107u"],n,["pono\u0107","podne","ujutro","poslije podne","nave\u010der","no\u0107u"]],[["pono\u0107","podne","ujutro","popodne","nave\u010der","no\u0107u"],n,n],["00:00","12:00",["04:00","12:00"],["12:00","18:00"],["18:00","21:00"],["21:00","04:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1190], {
+  /***/
+  "./node_modules/@angular/common/locales/global/km.js":
+  /*!***********************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/km.js ***!
+    \***********************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalKmJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        return 5;
+      }
+
+      global.ng.common.locales['km'] = ['km', [['a', 'p'], ['AM', 'PM'], u], [['AM', 'PM'], u, u], [['អ', 'ច', 'អ', 'ព', 'ព', 'ស', 'ស'], ['អាទិត្យ', 'ចន្ទ', 'អង្គារ', 'ពុធ', 'ព្រហ', 'សុក្រ', 'សៅរ៍'], ['អាទិត្យ', 'ច័ន្ទ', 'អង្គារ', 'ពុធ', 'ព្រហស្បតិ៍', 'សុក្រ', 'សៅរ៍'], ['អា', 'ច', 'អ', 'ពុ', 'ព្រ', 'សុ', 'ស']], [['អ', 'ច', 'អ', 'ព', 'ព', 'ស', 'ស'], ['អាទិត្យ', 'ចន្ទ', 'អង្គារ', 'ពុធ', 'ព្រហ', 'សុក្រ', 'សៅរ៍'], ['អាទិត្យ', 'ចន្ទ', 'អង្គារ', 'ពុធ', 'ព្រហស្បតិ៍', 'សុក្រ', 'សៅរ៍'], ['អា', 'ច', 'អ', 'ពុ', 'ព្រ', 'សុ', 'ស']], [['ម', 'ក', 'ម', 'ម', 'ឧ', 'ម', 'ក', 'ស', 'ក', 'ត', 'វ', 'ធ'], ['មករា', 'កុម្ភៈ', 'មីនា', 'មេសា', 'ឧសភា', 'មិថុនា', 'កក្កដា', 'សីហា', 'កញ្ញា', 'តុលា', 'វិច្ឆិកា', 'ធ្នូ'], u], u, [['មុន គ.ស.', 'គ.ស.'], u, ['មុន​គ្រិស្តសករាជ', 'គ្រិស្តសករាជ']], 0, [6, 0], ['d/M/yy', 'd MMM y', 'd MMMM y', 'EEEE d MMMM y'], ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'], ['{1}, {0}', u, '{1} នៅ​ម៉ោង {0}', u], [',', '.', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '#,##0.00¤', '#E0'], 'KHR', '៛', 'រៀល​កម្ពុជា', {
+        'JPY': ['JP¥', '¥'],
+        'KHR': ['៛'],
+        'THB': ['฿'],
+        'TWD': ['NT$']
+      }, 'ltr', plural, [[['អធ្រាត្រ', 'ថ្ងៃត្រង់', 'នៅពេល​ព្រឹក', 'នៅពេលរសៀល', 'នៅពេល​ល្ងាច', 'នៅពេល​យប់'], u, u], [['អធ្រាត្រ', 'ថ្ងៃ​ត្រង់', 'ព្រឹក', 'រសៀល', 'ល្ងាច', 'យប់'], u, u], ['00:00', '12:00', ['00:00', '12:00'], ['12:00', '18:00'], ['18:00', '21:00'], ['21:00', '24:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1190-es5.js.map

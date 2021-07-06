@@ -1,1 +1,41 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1214],{e3z6:function(a,e){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};var e=void 0;a.ng.common.locales.ki=["ki",[["Kiroko","Hwa\u0129-in\u0129"],e,e],e,[["K","N","N","N","A","N","N"],["KMA","NTT","NMN","NMT","ART","NMA","NMM"],["Kiumia","Njumatat\u0169","Njumaine","Njumatana","Aramithi","Njumaa","Njumamothi"],["KMA","NTT","NMN","NMT","ART","NMA","NMM"]],e,[["J","K","G","K","G","G","M","K","K","I","I","D"],["JEN","WKR","WGT","WKN","WTN","WTD","WMJ","WNN","WKD","WIK","WMW","DIT"],["Njenuar\u0129","Mwere wa ker\u0129","Mwere wa gatat\u0169","Mwere wa kana","Mwere wa gatano","Mwere wa gatandat\u0169","Mwere wa m\u0169gwanja","Mwere wa kanana","Mwere wa kenda","Mwere wa ik\u0169mi","Mwere wa ik\u0169mi na \u0169mwe","Ndithemba"]],e,[["MK","TK"],e,["Mbere ya Kristo","Thutha wa Kristo"]],0,[6,0],["dd/MM/y","d MMM y","d MMMM y","EEEE, d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",e,e,e],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4#,##0.00","#E0"],"KES","Ksh","Ciringi ya Kenya",{JPY:["JP\xa5","\xa5"],KES:["Ksh"],USD:["US$","$"]},"ltr",function(a){return 5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1214], {
+  /***/
+  "./node_modules/@angular/common/locales/global/lu.js":
+  /*!***********************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/lu.js ***!
+    \***********************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalLuJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        return 5;
+      }
+
+      global.ng.common.locales['lu'] = ['lu', [['Dinda', 'Dilolo'], u, u], u, [['L', 'N', 'N', 'N', 'N', 'N', 'L'], ['Lum', 'Nko', 'Ndy', 'Ndg', 'Njw', 'Ngv', 'Lub'], ['Lumingu', 'Nkodya', 'Ndàayà', 'Ndangù', 'Njòwa', 'Ngòvya', 'Lubingu'], ['Lum', 'Nko', 'Ndy', 'Ndg', 'Njw', 'Ngv', 'Lub']], u, [['C', 'L', 'L', 'M', 'L', 'L', 'K', 'L', 'L', 'L', 'K', 'C'], ['Cio', 'Lui', 'Lus', 'Muu', 'Lum', 'Luf', 'Kab', 'Lush', 'Lut', 'Lun', 'Kas', 'Cis'], ['Ciongo', 'Lùishi', 'Lusòlo', 'Mùuyà', 'Lumùngùlù', 'Lufuimi', 'Kabàlàshìpù', 'Lùshìkà', 'Lutongolo', 'Lungùdi', 'Kaswèkèsè', 'Ciswà']], u, [['kmp. Y.K.', 'kny. Y. K.'], u, ['Kumpala kwa Yezu Kli', 'Kunyima kwa Yezu Kli']], 1, [6, 0], ['d/M/y', 'd MMM y', 'd MMMM y', 'EEEE d MMMM y'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1} {0}', u, u, u], [',', '.', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '#,##0.00¤', '#E0'], 'CDF', 'FC', 'Nfalanga wa Kongu', {
+        'CDF': ['FC'],
+        'JPY': ['JP¥', '¥'],
+        'USD': ['US$', '$']
+      }, 'ltr', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1214-es5.js.map

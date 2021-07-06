@@ -1,1 +1,46 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1147],{"a+Gz":function(i,n){!function(i){i.ng=i.ng||{},i.ng.common=i.ng.common||{},i.ng.common.locales=i.ng.common.locales||{};var n=void 0;i.ng.common.locales["fr-lu"]=["fr-LU",[["AM","PM"],n,n],n,[["D","L","M","M","J","V","S"],["dim.","lun.","mar.","mer.","jeu.","ven.","sam."],["dimanche","lundi","mardi","mercredi","jeudi","vendredi","samedi"],["di","lu","ma","me","je","ve","sa"]],n,[["J","F","M","A","M","J","J","A","S","O","N","D"],["janv.","f\xe9vr.","mars","avr.","mai","juin","juil.","ao\xfbt","sept.","oct.","nov.","d\xe9c."],["janvier","f\xe9vrier","mars","avril","mai","juin","juillet","ao\xfbt","septembre","octobre","novembre","d\xe9cembre"]],n,[["av. J.-C.","ap. J.-C."],n,["avant J\xe9sus-Christ","apr\xe8s J\xe9sus-Christ"]],1,[6,0],["dd/MM/y","d MMM y","d MMMM y","EEEE d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}","{1} '\xe0' {0}",n,n],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","#,##0.00\xa0\xa4","#E0"],"EUR","\u20ac","euro",{ARS:["$AR","$"],AUD:["$AU","$"],BEF:["FB"],BMD:["$BM","$"],BND:["$BN","$"],BZD:["$BZ","$"],CAD:["$CA","$"],CLP:["$CL","$"],CNY:[n,"\xa5"],COP:["$CO","$"],CYP:["\xa3CY"],EGP:[n,"\xa3E"],FJD:["$FJ","$"],FKP:["\xa3FK","\xa3"],GBP:["\xa3GB","\xa3"],GIP:["\xa3GI","\xa3"],HKD:[n,"$"],IEP:["\xa3IE"],ILP:["\xa3IL"],ITL:["\u20a4IT"],JPY:[n,"\xa5"],KMF:[n,"FC"],LBP:["\xa3LB","\xa3L"],LUF:["F"],MTP:["\xa3MT"],MXN:["$MX","$"],NAD:["$NA","$"],NIO:[n,"$C"],NZD:["$NZ","$"],RHD:["$RH"],RON:[n,"L"],RWF:[n,"FR"],SBD:["$SB","$"],SGD:["$SG","$"],SRD:["$SR","$"],TOP:[n,"$T"],TTD:["$TT","$"],TWD:[n,"NT$"],USD:["$US","$"],UYU:["$UY","$"],WST:["$WS"],XCD:[n,"$"],XPF:["FCFP"],ZMW:[n,"Kw"]},"ltr",function(i){var n=Math.floor(Math.abs(i));return 0===n||1===n?1:5},[[["minuit","midi","mat.","ap.m.","soir","nuit"],n,["minuit","midi","du matin","de l\u2019apr\xe8s-midi","du soir","du matin"]],[["minuit","midi","mat.","ap.m.","soir","nuit"],n,["minuit","midi","matin","apr\xe8s-midi","soir","nuit"]],["00:00","12:00",["04:00","12:00"],["12:00","18:00"],["18:00","24:00"],["00:00","04:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1147], {
+  /***/
+  "./node_modules/@angular/common/locales/global/gd.js":
+  /*!***********************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/gd.js ***!
+    \***********************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalGdJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1 || n === 11) return 1;
+        if (n === 2 || n === 12) return 2;
+        if (n === Math.floor(n) && (n >= 3 && n <= 10 || n >= 13 && n <= 19)) return 3;
+        return 5;
+      }
+
+      global.ng.common.locales['gd'] = ['gd', [['m', 'f'], u, u], u, [['D', 'L', 'M', 'C', 'A', 'H', 'S'], ['DiD', 'DiL', 'DiM', 'DiC', 'Dia', 'Dih', 'DiS'], ['DiDòmhnaich', 'DiLuain', 'DiMàirt', 'DiCiadain', 'DiarDaoin', 'DihAoine', 'DiSathairne'], ['Dò', 'Lu', 'Mà', 'Ci', 'Da', 'hA', 'Sa']], u, [['F', 'G', 'M', 'G', 'C', 'Ò', 'I', 'L', 'S', 'D', 'S', 'D'], ['Faoi', 'Gearr', 'Màrt', 'Gibl', 'Cèit', 'Ògmh', 'Iuch', 'Lùna', 'Sult', 'Dàmh', 'Samh', 'Dùbh'], ['dhen Fhaoilleach', 'dhen Ghearran', 'dhen Mhàrt', 'dhen Ghiblean', 'dhen Chèitean', 'dhen Ògmhios', 'dhen Iuchar', 'dhen Lùnastal', 'dhen t-Sultain', 'dhen Dàmhair', 'dhen t-Samhain', 'dhen Dùbhlachd']], [['F', 'G', 'M', 'G', 'C', 'Ò', 'I', 'L', 'S', 'D', 'S', 'D'], ['Faoi', 'Gearr', 'Màrt', 'Gibl', 'Cèit', 'Ògmh', 'Iuch', 'Lùna', 'Sult', 'Dàmh', 'Samh', 'Dùbh'], ['Am Faoilleach', 'An Gearran', 'Am Màrt', 'An Giblean', 'An Cèitean', 'An t-Ògmhios', 'An t-Iuchar', 'An Lùnastal', 'An t-Sultain', 'An Dàmhair', 'An t-Samhain', 'An Dùbhlachd']], [['R', 'A'], ['RC', 'AD'], ['Ro Chrìosta', 'An dèidh Chrìosta']], 1, [6, 0], ['dd/MM/y', 'd MMM y', 'd\'mh\' MMMM y', 'EEEE, d\'mh\' MMMM y'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1} {0}', u, u, u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'], 'GBP', '£', 'Punnd Sasannach', {
+        'JPY': ['JP¥', '¥'],
+        'RON': [u, 'leu'],
+        'THB': ['฿'],
+        'TWD': ['NT$'],
+        'XXX': []
+      }, 'ltr', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1147-es5.js.map

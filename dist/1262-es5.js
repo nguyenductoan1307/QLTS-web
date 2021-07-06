@@ -1,1 +1,41 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1262],{mOBt:function(n,a){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};var a=void 0;n.ng.common.locales.mt=["mt",[["am","pm"],["AM","PM"],a],a,[["\u0126d","T","Tl","Er","\u0126m","\u0120m","Sb"],["\u0126ad","Tne","Tli","Erb","\u0126am","\u0120im","Sib"],["Il-\u0126add","It-Tnejn","It-Tlieta","L-Erbg\u0127a","Il-\u0126amis","Il-\u0120img\u0127a","Is-Sibt"],["\u0126ad","Tne","Tli","Erb","\u0126am","\u0120im","Sib"]],[["\u0126d","Tn","Tl","Er","\u0126m","\u0120m","Sb"],["\u0126ad","Tne","Tli","Erb","\u0126am","\u0120im","Sib"],["Il-\u0126add","It-Tnejn","It-Tlieta","L-Erbg\u0127a","Il-\u0126amis","Il-\u0120img\u0127a","Is-Sibt"],["\u0126ad","Tne","Tli","Erb","\u0126am","\u0120im","Sib"]],[["J","F","M","A","M","\u0120","L","A","S","O","N","D"],["Jan","Fra","Mar","Apr","Mej","\u0120un","Lul","Aww","Set","Ott","Nov","Di\u010b"],["Jannar","Frar","Marzu","April","Mejju","\u0120unju","Lulju","Awwissu","Settembru","Ottubru","Novembru","Di\u010bembru"]],[["Jn","Fr","Mz","Ap","Mj","\u0120n","Lj","Aw","St","Ob","Nv","D\u010b"],["Jan","Fra","Mar","Apr","Mej","\u0120un","Lul","Aww","Set","Ott","Nov","Di\u010b"],["Jannar","Frar","Marzu","April","Mejju","\u0120unju","Lulju","Awwissu","Settembru","Ottubru","Novembru","Di\u010bembru"]],[["QK","WK"],a,["Qabel Kristu","Wara Kristu"]],0,[6,0],["dd/MM/y","dd MMM y","d 'ta'\u2019 MMMM y","EEEE, d 'ta'\u2019 MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",a,a,a],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4#,##0.00","#E0"],"EUR","\u20ac","ewro",{JPY:["JP\xa5","\xa5"],USD:["US$","$"]},"ltr",function(n){return 1===n?1:0===n||n%100===Math.floor(n%100)&&n%100>=2&&n%100<=10?3:n%100===Math.floor(n%100)&&n%100>=11&&n%100<=19?4:5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1262], {
+  /***/
+  "./node_modules/@angular/common/locales/global/pa-Arab.js":
+  /*!****************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/pa-Arab.js ***!
+    \****************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalPaArabJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        return 5;
+      }
+
+      global.ng.common.locales['pa-arab'] = ['pa-Arab', [['AM', 'PM'], u, u], u, [['S', 'M', 'T', 'W', 'T', 'F', 'S'], ['اتوار', 'پیر', 'منگل', 'بُدھ', 'جمعرات', 'جمعہ', 'ہفتہ'], u, u], u, [['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'], ['جنوری', 'فروری', 'مارچ', 'اپریل', 'مئ', 'جون', 'جولائی', 'اگست', 'ستمبر', 'اکتوبر', 'نومبر', 'دسمبر'], u], u, [['ايساپورو', 'سں'], u, u], 0, [6, 0], ['dd/MM/y', 'd MMM y', 'd MMMM y', 'EEEE, dd MMMM y'], ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'], ['{1} {0}', u, u, u], ['.', ',', ';', '%', "\u200E+", "\u200E-", 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '¤ #,##0.00', '#E0'], 'PKR', 'ر', 'روپئیہ', {
+        'JPY': ['JP¥', '¥'],
+        'PKR': ['ر', 'Rs'],
+        'USD': ['US$', '$']
+      }, 'rtl', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1262-es5.js.map

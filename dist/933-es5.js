@@ -1,1 +1,44 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[933],{"5Z7i":function(e,d){!function(e){e.ng=e.ng||{},e.ng.common=e.ng.common||{},e.ng.common.locales=e.ng.common.locales||{};var d=void 0;e.ng.common.locales["ca-it"]=["ca-IT",[["a.\xa0m.","p.\xa0m."],d,d],d,[["dg","dl","dt","dc","dj","dv","ds"],["dg.","dl.","dt.","dc.","dj.","dv.","ds."],["diumenge","dilluns","dimarts","dimecres","dijous","divendres","dissabte"],["dg.","dl.","dt.","dc.","dj.","dv.","ds."]],d,[["GN","FB","M\xc7","AB","MG","JN","JL","AG","ST","OC","NV","DS"],["de gen.","de febr.","de mar\xe7","d\u2019abr.","de maig","de juny","de jul.","d\u2019ag.","de set.","d\u2019oct.","de nov.","de des."],["de gener","de febrer","de mar\xe7","d\u2019abril","de maig","de juny","de juliol","d\u2019agost","de setembre","d\u2019octubre","de novembre","de desembre"]],[["GN","FB","M\xc7","AB","MG","JN","JL","AG","ST","OC","NV","DS"],["gen.","febr.","mar\xe7","abr.","maig","juny","jul.","ag.","set.","oct.","nov.","des."],["gener","febrer","mar\xe7","abril","maig","juny","juliol","agost","setembre","octubre","novembre","desembre"]],[["aC","dC"],d,["abans de Crist","despr\xe9s de Crist"]],1,[6,0],["d/M/yy","d MMM y","d MMMM 'de' y","EEEE, d MMMM 'de' y"],["H:mm","H:mm:ss","H:mm:ss z","H:mm:ss zzzz"],["{1} {0}","{1}, {0}","{1} 'a' 'les' {0}",d],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","#,##0.00\xa0\xa4","#E0"],"EUR","\u20ac","euro",{AUD:["AU$","$"],BRL:[d,"R$"],CAD:[d,"$"],CNY:[d,"\xa5"],ESP:["\u20a7"],MXN:[d,"$"],THB:["\u0e3f"],USD:[d,"$"],VEF:[d,"Bs F"],XCD:[d,"$"],XXX:[]},"ltr",function(e){var d=Math.floor(Math.abs(e)),a=e.toString().replace(/^[^.]*\.?/,"").length;return 1===d&&0===a?1:5},[[["mitjanit","mat.","mat\xed","md","tarda","vespre","nit"],["mitjanit","matinada","mat\xed","migdia","tarda","vespre","nit"],d],[["mitjanit","matinada","mat\xed","migdia","tarda","vespre","nit"],d,d],["00:00",["00:00","06:00"],["06:00","12:00"],["12:00","13:00"],["13:00","19:00"],["19:00","21:00"],["21:00","24:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[933], {
+  /***/
+  "./node_modules/@angular/common/locales/global/ee-TG.js":
+  /*!**************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/ee-TG.js ***!
+    \**************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalEeTGJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['ee-tg'] = ['ee-TG', [['ŋ', 'ɣ'], ['ŋdi', 'ɣetrɔ'], u], u, [['k', 'd', 'b', 'k', 'y', 'f', 'm'], ['kɔs', 'dzo', 'bla', 'kuɖ', 'yaw', 'fiɖ', 'mem'], ['kɔsiɖa', 'dzoɖa', 'blaɖa', 'kuɖa', 'yawoɖa', 'fiɖa', 'memleɖa'], ['kɔs', 'dzo', 'bla', 'kuɖ', 'yaw', 'fiɖ', 'mem']], u, [['d', 'd', 't', 'a', 'd', 'm', 's', 'd', 'a', 'k', 'a', 'd'], ['dzv', 'dzd', 'ted', 'afɔ', 'dam', 'mas', 'sia', 'dea', 'any', 'kel', 'ade', 'dzm'], ['dzove', 'dzodze', 'tedoxe', 'afɔfĩe', 'dama', 'masa', 'siamlɔm', 'deasiamime', 'anyɔnyɔ', 'kele', 'adeɛmekpɔxe', 'dzome']], u, [['HYV', 'Yŋ'], u, ['Hafi Yesu Va', 'Yesu ŋɔli']], 1, [6, 0], ['M/d/yy', 'MMM d \'lia\', y', 'MMMM d \'lia\' y', 'EEEE, MMMM d \'lia\' y'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{0} {1}', u, u, u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'mnn', ':'], ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'], 'XOF', 'CFA', 'ɣetoɖofe afrikaga CFA franc BCEAO', {
+        'AUD': ['AU$', '$'],
+        'GHS': ['GH₵'],
+        'JPY': ['JP¥', '¥'],
+        'THB': ['฿'],
+        'USD': ['US$', '$']
+      }, 'ltr', plural, [[['fɔŋli', 'ŋdi', 'ŋdɔ', 'ɣetrɔ', 'fiẽ', 'zã'], u, u], u, [['04:00', '05:00'], ['05:00', '12:00'], ['12:00', '14:00'], ['14:00', '18:00'], ['18:00', '21:00'], ['21:00', '04:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=933-es5.js.map

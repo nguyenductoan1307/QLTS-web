@@ -1,1 +1,42 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1288],{"5LnB":function(n,o){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};var o=void 0;n.ng.common.locales.or=["or",[["\u0b2a\u0b42","\u0b05"],["AM","PM"],o],[["AM","\u0b05\u0b2a\u0b30\u0b3e\u0b39\u0b4d\u0b28"],["\u0b2a\u0b42\u0b30\u0b4d\u0b2c\u0b3e\u0b39\u0b4d\u0b28","\u0b05\u0b2a\u0b30\u0b3e\u0b39\u0b4d\u0b28"],o],[["\u0b30","\u0b38\u0b4b","\u0b2e","\u0b2c\u0b41","\u0b17\u0b41","\u0b36\u0b41","\u0b36"],["\u0b30\u0b2c\u0b3f","\u0b38\u0b4b\u0b2e","\u0b2e\u0b19\u0b4d\u0b17\u0b33","\u0b2c\u0b41\u0b27","\u0b17\u0b41\u0b30\u0b41","\u0b36\u0b41\u0b15\u0b4d\u0b30","\u0b36\u0b28\u0b3f"],["\u0b30\u0b2c\u0b3f\u0b2c\u0b3e\u0b30","\u0b38\u0b4b\u0b2e\u0b2c\u0b3e\u0b30","\u0b2e\u0b19\u0b4d\u0b17\u0b33\u0b2c\u0b3e\u0b30","\u0b2c\u0b41\u0b27\u0b2c\u0b3e\u0b30","\u0b17\u0b41\u0b30\u0b41\u0b2c\u0b3e\u0b30","\u0b36\u0b41\u0b15\u0b4d\u0b30\u0b2c\u0b3e\u0b30","\u0b36\u0b28\u0b3f\u0b2c\u0b3e\u0b30"],["\u0b30\u0b2c\u0b3f","\u0b38\u0b4b\u0b2e","\u0b2e\u0b19\u0b4d\u0b17\u0b33","\u0b2c\u0b41\u0b27","\u0b17\u0b41\u0b30\u0b41","\u0b36\u0b41\u0b15\u0b4d\u0b30","\u0b36\u0b28\u0b3f"]],o,[["\u0b1c\u0b3e","\u0b2b\u0b47","\u0b2e\u0b3e","\u0b05","\u0b2e\u0b07","\u0b1c\u0b41","\u0b1c\u0b41","\u0b05","\u0b38\u0b47","\u0b05","\u0b28","\u0b21\u0b3f"],["\u0b1c\u0b3e\u0b28\u0b41\u0b06\u0b30\u0b40","\u0b2b\u0b47\u0b2c\u0b43\u0b06\u0b30\u0b40","\u0b2e\u0b3e\u0b30\u0b4d\u0b1a\u0b4d\u0b1a","\u0b05\u0b2a\u0b4d\u0b30\u0b47\u0b32","\u0b2e\u0b07","\u0b1c\u0b41\u0b28","\u0b1c\u0b41\u0b32\u0b3e\u0b07","\u0b05\u0b17\u0b37\u0b4d\u0b1f","\u0b38\u0b47\u0b2a\u0b4d\u0b1f\u0b47\u0b2e\u0b4d\u0b2c\u0b30","\u0b05\u0b15\u0b4d\u0b1f\u0b4b\u0b2c\u0b30","\u0b28\u0b2d\u0b47\u0b2e\u0b4d\u0b2c\u0b30","\u0b21\u0b3f\u0b38\u0b47\u0b2e\u0b4d\u0b2c\u0b30"],o],o,[["BC","AD"],o,["\u0b16\u0b4d\u0b30\u0b40\u0b37\u0b4d\u0b1f\u0b2a\u0b42\u0b30\u0b4d\u0b2c","\u0b16\u0b4d\u0b30\u0b40\u0b37\u0b4d\u0b1f\u0b3e\u0b2c\u0b4d\u0b26"]],0,[0,0],["M/d/yy","MMM d, y","MMMM d, y","EEEE, MMMM d, y"],["h:mm a","h:mm:ss a","h:mm:ss a z","h:mm:ss a zzzz"],["{1}, {0}",o,"{0} \u0b20\u0b3e\u0b30\u0b47 {1}",o],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##,##0.###","#,##0%","\xa4#,##0.00","#E0"],"INR","\u20b9","\u0b2d\u0b3e\u0b30\u0b24\u0b40\u0b5f \u0b1f\u0b19\u0b4d\u0b15\u0b3e",{},"ltr",function(n){return 1===n?1:5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1288], {
+  /***/
+  "./node_modules/@angular/common/locales/global/rof.js":
+  /*!************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/rof.js ***!
+    \************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalRofJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['rof'] = ['rof', [['kang’ama', 'kingoto'], u, u], u, [['2', '3', '4', '5', '6', '7', '1'], ['Ijp', 'Ijt', 'Ijn', 'Ijtn', 'Alh', 'Iju', 'Ijm'], ['Ijumapili', 'Ijumatatu', 'Ijumanne', 'Ijumatano', 'Alhamisi', 'Ijumaa', 'Ijumamosi'], ['Ijp', 'Ijt', 'Ijn', 'Ijtn', 'Alh', 'Iju', 'Ijm']], u, [['K', 'K', 'K', 'K', 'T', 'S', 'S', 'N', 'T', 'I', 'I', 'I'], ['M1', 'M2', 'M3', 'M4', 'M5', 'M6', 'M7', 'M8', 'M9', 'M10', 'M11', 'M12'], ['Mweri wa kwanza', 'Mweri wa kaili', 'Mweri wa katatu', 'Mweri wa kaana', 'Mweri wa tanu', 'Mweri wa sita', 'Mweri wa saba', 'Mweri wa nane', 'Mweri wa tisa', 'Mweri wa ikumi', 'Mweri wa ikumi na moja', 'Mweri wa ikumi na mbili']], u, [['KM', 'BM'], u, ['Kabla ya Mayesu', 'Baada ya Mayesu']], 1, [6, 0], ['dd/MM/y', 'd MMM y', 'd MMMM y', 'EEEE, d MMMM y'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1} {0}', u, u, u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'], 'TZS', 'TSh', 'heleri sa Tanzania', {
+        'JPY': ['JP¥', '¥'],
+        'TZS': ['TSh'],
+        'USD': ['US$', '$']
+      }, 'ltr', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1288-es5.js.map

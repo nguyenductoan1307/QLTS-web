@@ -1,1 +1,45 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1383],{"08Hx":function(n,o){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};var o=void 0;n.ng.common.locales.tt=["tt",[["AM","PM"],o,o],o,[["\u042f","\u0414","\u0421","\u0427","\u041f","\u0496","\u0428"],["\u044f\u043a\u0448.","\u0434\u04af\u0448.","\u0441\u0438\u0448.","\u0447\u04d9\u0440.","\u043f\u04d9\u043d\u0497.","\u0497\u043e\u043c.","\u0448\u0438\u043c."],["\u044f\u043a\u0448\u04d9\u043c\u0431\u0435","\u0434\u04af\u0448\u04d9\u043c\u0431\u0435","\u0441\u0438\u0448\u04d9\u043c\u0431\u0435","\u0447\u04d9\u0440\u0448\u04d9\u043c\u0431\u0435","\u043f\u04d9\u043d\u0497\u0435\u0448\u04d9\u043c\u0431\u0435","\u0497\u043e\u043c\u0433\u0430","\u0448\u0438\u043c\u0431\u04d9"],["\u044f\u043a\u0448.","\u0434\u04af\u0448.","\u0441\u0438\u0448.","\u0447\u04d9\u0440.","\u043f\u04d9\u043d\u0497.","\u0497\u043e\u043c.","\u0448\u0438\u043c."]],o,[["1","2","3","4","5","6","7","8","9","10","11","12"],["\u0433\u044b\u0439\u043d.","\u0444\u0435\u0432.","\u043c\u0430\u0440.","\u0430\u043f\u0440.","\u043c\u0430\u0439","\u0438\u044e\u043d\u044c","\u0438\u044e\u043b\u044c","\u0430\u0432\u0433.","\u0441\u0435\u043d\u0442.","\u043e\u043a\u0442.","\u043d\u043e\u044f\u0431.","\u0434\u0435\u043a."],["\u0433\u044b\u0439\u043d\u0432\u0430\u0440","\u0444\u0435\u0432\u0440\u0430\u043b\u044c","\u043c\u0430\u0440\u0442","\u0430\u043f\u0440\u0435\u043b\u044c","\u043c\u0430\u0439","\u0438\u044e\u043d\u044c","\u0438\u044e\u043b\u044c","\u0430\u0432\u0433\u0443\u0441\u0442","\u0441\u0435\u043d\u0442\u044f\u0431\u0440\u044c","\u043e\u043a\u0442\u044f\u0431\u0440\u044c","\u043d\u043e\u044f\u0431\u0440\u044c","\u0434\u0435\u043a\u0430\u0431\u0440\u044c"]],o,[["\u0431.\u044d.\u043a.","\u043c\u0438\u043b\u0430\u0434\u0438"],o,["\u0431\u0435\u0437\u043d\u0435\u04a3 \u044d\u0440\u0430\u0433\u0430 \u043a\u0430\u0434\u04d9\u0440","\u0431\u0435\u0437\u043d\u0435\u04a3 \u044d\u0440\u0430"]],1,[6,0],["dd.MM.y","d MMM, y '\u0435\u043b'","d MMMM, y '\u0435\u043b'","d MMMM, y '\u0435\u043b', EEEE"],["H:mm","H:mm:ss","H:mm:ss z","H:mm:ss zzzz"],["{1}, {0}",o,o,o],[",","\xa0",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","#,##0.00\xa0\xa4","#E0"],"RUB","\u20bd","\u0420\u043e\u0441\u0441\u0438\u044f \u0441\u0443\u043c\u044b",{JPY:["JP\xa5","\xa5"],RUB:["\u20bd"]},"ltr",function(n){return 5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1383], {
+  /***/
+  "./node_modules/@angular/common/locales/global/zh-Hans-HK.js":
+  /*!*******************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/zh-Hans-HK.js ***!
+    \*******************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalZhHansHKJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        return 5;
+      }
+
+      global.ng.common.locales['zh-hans-hk'] = ['zh-Hans-HK', [['上午', '下午'], u, u], u, [['日', '一', '二', '三', '四', '五', '六'], ['周日', '周一', '周二', '周三', '周四', '周五', '周六'], ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'], ['周日', '周一', '周二', '周三', '周四', '周五', '周六']], u, [['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'], ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'], ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月']], u, [['公元前', '公元'], u, u], 0, [6, 0], ['d/M/yy', 'y年M月d日', u, 'y年M月d日EEEE'], ['ah:mm', 'ah:mm:ss', 'z ah:mm:ss', 'zzzz ah:mm:ss'], ['{1} {0}', u, u, u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'], 'HKD', 'HK$', '港元', {
+        'AUD': ['AU$', '$'],
+        'ILR': ['ILS'],
+        'JPY': ['JP¥', '¥'],
+        'KRW': ['￦', '₩'],
+        'TWD': ['NT$'],
+        'USD': ['US$', '$'],
+        'XXX': []
+      }, 'ltr', plural, [[['午夜', '早上', '上午', '中午', '下午', '晚上', '凌晨'], u, ['午夜', '清晨', '上午', '中午', '下午', '晚上', '凌晨']], [['午夜', '早上', '上午', '中午', '下午', '晚上', '凌晨'], u, u], ['00:00', ['05:00', '08:00'], ['08:00', '12:00'], ['12:00', '13:00'], ['13:00', '19:00'], ['19:00', '24:00'], ['00:00', '05:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1383-es5.js.map

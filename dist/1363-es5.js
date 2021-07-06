@@ -1,1 +1,42 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1363],{QHYL:function(n,e){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};var e=void 0;n.ng.common.locales.sv=["sv",[["fm","em"],e,e],[["fm","em"],["f.m.","e.m."],["f\xf6rmiddag","eftermiddag"]],[["S","M","T","O","T","F","L"],["s\xf6n","m\xe5n","tis","ons","tors","fre","l\xf6r"],["s\xf6ndag","m\xe5ndag","tisdag","onsdag","torsdag","fredag","l\xf6rdag"],["s\xf6","m\xe5","ti","on","to","fr","l\xf6"]],e,[["J","F","M","A","M","J","J","A","S","O","N","D"],["jan.","feb.","mars","apr.","maj","juni","juli","aug.","sep.","okt.","nov.","dec."],["januari","februari","mars","april","maj","juni","juli","augusti","september","oktober","november","december"]],e,[["f.Kr.","e.Kr."],e,["f\xf6re Kristus","efter Kristus"]],1,[6,0],["y-MM-dd","d MMM y","d MMMM y","EEEE d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","'kl'. HH:mm:ss zzzz"],["{1} {0}",e,e,e],[",","\xa0",";","%","+","\u2212","\xd710^","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","#,##0.00\xa0\xa4","#E0"],"SEK","kr","svensk krona",{AUD:[e,"$"],BBD:["Bds$","$"],BMD:["BM$","$"],BRL:["BR$","R$"],BSD:["BS$","$"],BZD:["BZ$","$"],CNY:[e,"\xa5"],DKK:["Dkr","kr"],DOP:["RD$","$"],EEK:["Ekr"],EGP:["EG\xa3","E\xa3"],ESP:[],GBP:[e,"\xa3"],HKD:[e,"$"],IEP:["IE\xa3"],INR:[e,"\u20b9"],ISK:["Ikr","kr"],JMD:["JM$","$"],JPY:[e,"\xa5"],KRW:[e,"\u20a9"],NOK:["Nkr","kr"],NZD:[e,"$"],RON:[e,"L"],SEK:["kr"],TWD:[e,"NT$"],USD:["US$","$"],VND:[e,"\u20ab"]},"ltr",function(n){var e=Math.floor(Math.abs(n)),r=n.toString().replace(/^[^.]*\.?/,"").length;return 1===e&&0===r?1:5},[[["midn.","p\xe5 morg.","p\xe5 f\xf6rm.","p\xe5 efterm.","p\xe5 kv\xe4llen","p\xe5 natten"],["midnatt","p\xe5 morg.","p\xe5 f\xf6rm.","p\xe5 efterm.","p\xe5 kv\xe4llen","p\xe5 natten"],["midnatt","p\xe5 morgonen","p\xe5 f\xf6rmiddagen","p\xe5 eftermiddagen","p\xe5 kv\xe4llen","p\xe5 natten"]],[["midn.","morg.","f\xf6rm.","efterm.","kv\xe4ll","natt"],["midnatt","morgon","f\xf6rm.","efterm.","kv\xe4ll","natt"],["midnatt","morgon","f\xf6rmiddag","eftermiddag","kv\xe4ll","natt"]],["00:00",["05:00","10:00"],["10:00","12:00"],["12:00","18:00"],["18:00","24:00"],["00:00","05:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1363], {
+  /***/
+  "./node_modules/@angular/common/locales/global/uz-Latn.js":
+  /*!****************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/uz-Latn.js ***!
+    \****************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalUzLatnJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['uz-latn'] = ['uz-Latn', [['TO', 'TK'], u, u], u, [['Y', 'D', 'S', 'C', 'P', 'J', 'S'], ['Yak', 'Dush', 'Sesh', 'Chor', 'Pay', 'Jum', 'Shan'], ['yakshanba', 'dushanba', 'seshanba', 'chorshanba', 'payshanba', 'juma', 'shanba'], ['Ya', 'Du', 'Se', 'Ch', 'Pa', 'Ju', 'Sh']], u, [['Y', 'F', 'M', 'A', 'M', 'I', 'I', 'A', 'S', 'O', 'N', 'D'], ['yan', 'fev', 'mar', 'apr', 'may', 'iyn', 'iyl', 'avg', 'sen', 'okt', 'noy', 'dek'], ['yanvar', 'fevral', 'mart', 'aprel', 'may', 'iyun', 'iyul', 'avgust', 'sentabr', 'oktabr', 'noyabr', 'dekabr']], [['Y', 'F', 'M', 'A', 'M', 'I', 'I', 'A', 'S', 'O', 'N', 'D'], ['Yan', 'Fev', 'Mar', 'Apr', 'May', 'Iyn', 'Iyl', 'Avg', 'Sen', 'Okt', 'Noy', 'Dek'], ['Yanvar', 'Fevral', 'Mart', 'Aprel', 'May', 'Iyun', 'Iyul', 'Avgust', 'Sentabr', 'Oktabr', 'Noyabr', 'Dekabr']], [['m.a.', 'milodiy'], u, ['miloddan avvalgi', 'milodiy']], 1, [6, 0], ['dd/MM/yy', 'd-MMM, y', 'd-MMMM, y', 'EEEE, d-MMMM, y'], ['HH:mm', 'HH:mm:ss', 'H:mm:ss (z)', 'H:mm:ss (zzzz)'], ['{1}, {0}', u, u, u], [',', ' ', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'son emas', ':'], ['#,##0.###', '#,##0%', '#,##0.00 ¤', '#E0'], 'UZS', 'soʻm', 'O‘zbekiston so‘mi', {
+        'JPY': ['JP¥', '¥'],
+        'USD': ['US$', '$'],
+        'UZS': ['soʻm']
+      }, 'ltr', plural, [[['yarim tun', 'tush payti', 'ertalab', 'kunduzi', 'kechqurun', 'kechasi'], u, u], u, ['00:00', '12:00', ['06:00', '11:00'], ['11:00', '18:00'], ['18:00', '22:00'], ['22:00', '06:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1363-es5.js.map

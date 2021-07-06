@@ -1,1 +1,46 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1385],{lWJn:function(n,a){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};var a=void 0;n.ng.common.locales.tzm=["tzm",[["Zdat azal","\u1e0ceffir aza"],a,a],a,[["A","A","A","A","A","A","A"],["Asa","Ayn","Asn","Akr","Akw","Asm","As\u1e0d"],["Asamas","Aynas","Asinas","Akras","Akwas","Asimwas","Asi\u1e0dyas"],["Asa","Ayn","Asn","Akr","Akw","Asm","As\u1e0d"]],a,[["Y","Y","M","I","M","Y","Y","\u0194","C","K","N","D"],["Yen","Yeb","Mar","Ibr","May","Yun","Yul","\u0194uc","Cut","K\u1e6du","Nwa","Duj"],["Yennayer","Yebrayer","Mars","Ibrir","Mayyu","Yunyu","Yulyuz","\u0194uct","Cutanbir","K\u1e6duber","Nwanbir","Dujanbir"]],a,[["Z\u0190","\u1e0c\u0190"],a,["Zdat \u0190isa (TA\u0194)","\u1e0ceffir \u0190isa (TA\u0194)"]],1,[6,0],["dd/MM/y","d MMM y","d MMMM y","EEEE, d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",a,a,a],[",","\xa0",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","#,##0.00\xa0\xa4","#E0"],"MAD","MAD","Derhem Ume\u1e5b\u1e5buki",{JPY:["JP\xa5","\xa5"],USD:["US$","$"]},"ltr",function(n){return n===Math.floor(n)&&n>=0&&n<=1||n===Math.floor(n)&&n>=11&&n<=99?1:5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1385], {
+  /***/
+  "./node_modules/@angular/common/locales/global/zh-Hans-SG.js":
+  /*!*******************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/zh-Hans-SG.js ***!
+    \*******************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalZhHansSGJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        return 5;
+      }
+
+      global.ng.common.locales['zh-hans-sg'] = ['zh-Hans-SG', [['上午', '下午'], u, u], u, [['日', '一', '二', '三', '四', '五', '六'], ['周日', '周一', '周二', '周三', '周四', '周五', '周六'], ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'], ['周日', '周一', '周二', '周三', '周四', '周五', '周六']], u, [['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'], ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'], ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月']], u, [['公元前', '公元'], u, u], 0, [6, 0], ['dd/MM/yy', 'y年M月d日', u, 'y年M月d日EEEE'], ['ah:mm', 'ah:mm:ss', 'z ah:mm:ss', 'zzzz ah:mm:ss'], ['{1} {0}', u, u, u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'], 'SGD', '$', '新加坡元', {
+        'AUD': ['AU$', '$'],
+        'ILR': ['ILS'],
+        'JPY': ['JP¥', '¥'],
+        'KRW': ['￦', '₩'],
+        'SGD': ['$'],
+        'TWD': ['NT$'],
+        'USD': ['US$', '$'],
+        'XXX': []
+      }, 'ltr', plural, [[['午夜', '早上', '上午', '中午', '下午', '晚上', '凌晨'], u, ['午夜', '清晨', '上午', '中午', '下午', '晚上', '凌晨']], [['午夜', '早上', '上午', '中午', '下午', '晚上', '凌晨'], u, u], ['00:00', ['05:00', '08:00'], ['08:00', '12:00'], ['12:00', '13:00'], ['13:00', '19:00'], ['19:00', '24:00'], ['00:00', '05:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1385-es5.js.map

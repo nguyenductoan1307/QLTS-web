@@ -1,1 +1,72 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1370],{"63u5":function(n,o){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};const o=void 0;n.ng.common.locales["ta-sg"]=["ta-SG",[["\u0bae\u0bc1.\u0baa","\u0baa\u0bbf.\u0baa"],["\u0bae\u0bc1\u0bb1\u0bcd\u0baa\u0b95\u0bb2\u0bcd","\u0baa\u0bbf\u0bb1\u0bcd\u0baa\u0b95\u0bb2\u0bcd"],o],o,[["\u0b9e\u0bbe","\u0ba4\u0bbf","\u0b9a\u0bc6","\u0baa\u0bc1","\u0bb5\u0bbf","\u0bb5\u0bc6","\u0b9a"],["\u0b9e\u0bbe\u0baf\u0bbf.","\u0ba4\u0bbf\u0b99\u0bcd.","\u0b9a\u0bc6\u0bb5\u0bcd.","\u0baa\u0bc1\u0ba4.","\u0bb5\u0bbf\u0baf\u0bbe.","\u0bb5\u0bc6\u0bb3\u0bcd.","\u0b9a\u0ba9\u0bbf"],["\u0b9e\u0bbe\u0baf\u0bbf\u0bb1\u0bc1","\u0ba4\u0bbf\u0b99\u0bcd\u0b95\u0bb3\u0bcd","\u0b9a\u0bc6\u0bb5\u0bcd\u0bb5\u0bbe\u0baf\u0bcd","\u0baa\u0bc1\u0ba4\u0ba9\u0bcd","\u0bb5\u0bbf\u0baf\u0bbe\u0bb4\u0ba9\u0bcd","\u0bb5\u0bc6\u0bb3\u0bcd\u0bb3\u0bbf","\u0b9a\u0ba9\u0bbf"],["\u0b9e\u0bbe","\u0ba4\u0bbf","\u0b9a\u0bc6","\u0baa\u0bc1","\u0bb5\u0bbf","\u0bb5\u0bc6","\u0b9a"]],o,[["\u0b9c","\u0baa\u0bbf","\u0bae\u0bbe","\u0b8f","\u0bae\u0bc7","\u0b9c\u0bc2","\u0b9c\u0bc2","\u0b86","\u0b9a\u0bc6","\u0b85","\u0ba8","\u0b9f\u0bbf"],["\u0b9c\u0ba9.","\u0baa\u0bbf\u0baa\u0bcd.","\u0bae\u0bbe\u0bb0\u0bcd.","\u0b8f\u0baa\u0bcd.","\u0bae\u0bc7","\u0b9c\u0bc2\u0ba9\u0bcd","\u0b9c\u0bc2\u0bb2\u0bc8","\u0b86\u0b95.","\u0b9a\u0bc6\u0baa\u0bcd.","\u0b85\u0b95\u0bcd.","\u0ba8\u0bb5.","\u0b9f\u0bbf\u0b9a."],["\u0b9c\u0ba9\u0bb5\u0bb0\u0bbf","\u0baa\u0bbf\u0baa\u0bcd\u0bb0\u0bb5\u0bb0\u0bbf","\u0bae\u0bbe\u0bb0\u0bcd\u0b9a\u0bcd","\u0b8f\u0baa\u0bcd\u0bb0\u0bb2\u0bcd","\u0bae\u0bc7","\u0b9c\u0bc2\u0ba9\u0bcd","\u0b9c\u0bc2\u0bb2\u0bc8","\u0b86\u0b95\u0bb8\u0bcd\u0b9f\u0bcd","\u0b9a\u0bc6\u0baa\u0bcd\u0b9f\u0bae\u0bcd\u0baa\u0bb0\u0bcd","\u0b85\u0b95\u0bcd\u0b9f\u0bcb\u0baa\u0bb0\u0bcd","\u0ba8\u0bb5\u0bae\u0bcd\u0baa\u0bb0\u0bcd","\u0b9f\u0bbf\u0b9a\u0bae\u0bcd\u0baa\u0bb0\u0bcd"]],o,[["\u0b95\u0bbf.\u0bae\u0bc1.","\u0b95\u0bbf.\u0baa\u0bbf."],o,["\u0b95\u0bbf\u0bb1\u0bbf\u0bb8\u0bcd\u0ba4\u0bc1\u0bb5\u0bc1\u0b95\u0bcd\u0b95\u0bc1 \u0bae\u0bc1\u0ba9\u0bcd","\u0b85\u0ba9\u0bcd\u0ba9\u0bcb \u0b9f\u0bcb\u0bae\u0bbf\u0ba9\u0bbf"]],0,[6,0],["d/M/yy","d MMM, y","d MMMM, y","EEEE, d MMMM, y"],["a h:mm","a h:mm:ss","a h:mm:ss z","a h:mm:ss zzzz"],["{1}, {0}",o,"{1} \u2019\u0b85\u0ba9\u0bcd\u0bb1\u0bc1\u2019 {0}",o],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4\xa0#,##0.00","#E0"],"SGD","$","\u0b9a\u0bbf\u0b99\u0bcd\u0b95\u0baa\u0bcd\u0baa\u0bc2\u0bb0\u0bcd \u0b9f\u0bbe\u0bb2\u0bb0\u0bcd",{MYR:["RM"],SGD:["$"],THB:["\u0e3f"],TWD:["NT$"],USD:["US$","$"]},"ltr",function(n){return 1===n?1:5},[[["\u0ba8\u0bb3\u0bcd.","\u0ba8\u0ba3\u0bcd.","\u0b85\u0ba4\u0bbf.","\u0b95\u0bbe.","\u0bae\u0ba4\u0bbf.","\u0baa\u0bbf\u0bb1\u0bcd.","\u0bae\u0bbe.","\u0b85\u0ba8\u0bcd\u0ba4\u0bbf \u0bae\u0bbe.","\u0b87\u0bb0."],["\u0ba8\u0bb3\u0bcd\u0bb3\u0bbf\u0bb0\u0bb5\u0bc1","\u0ba8\u0ba3\u0bcd\u0baa\u0b95\u0bb2\u0bcd","\u0b85\u0ba4\u0bbf\u0b95\u0bbe\u0bb2\u0bc8","\u0b95\u0bbe\u0bb2\u0bc8","\u0bae\u0ba4\u0bbf\u0baf\u0bae\u0bcd","\u0baa\u0bbf\u0bb1\u0bcd\u0baa\u0b95\u0bb2\u0bcd","\u0bae\u0bbe\u0bb2\u0bc8","\u0b85\u0ba8\u0bcd\u0ba4\u0bbf \u0bae\u0bbe\u0bb2\u0bc8","\u0b87\u0bb0\u0bb5\u0bc1"],o],[["\u0ba8\u0bb3\u0bcd.","\u0ba8\u0ba3\u0bcd.","\u0b85\u0ba4\u0bbf.","\u0b95\u0bbe.","\u0bae\u0ba4\u0bbf.","\u0baa\u0bbf\u0bb1\u0bcd.","\u0bae\u0bbe.","\u0b85\u0ba8\u0bcd\u0ba4\u0bbf \u0bae\u0bbe.","\u0b87."],["\u0ba8\u0bb3\u0bcd\u0bb3\u0bbf\u0bb0\u0bb5\u0bc1","\u0ba8\u0ba3\u0bcd\u0baa\u0b95\u0bb2\u0bcd","\u0b85\u0ba4\u0bbf\u0b95\u0bbe\u0bb2\u0bc8","\u0b95\u0bbe\u0bb2\u0bc8","\u0bae\u0ba4\u0bbf\u0baf\u0bae\u0bcd","\u0baa\u0bbf\u0bb1\u0bcd\u0baa\u0b95\u0bb2\u0bcd","\u0bae\u0bbe\u0bb2\u0bc8","\u0b85\u0ba8\u0bcd\u0ba4\u0bbf \u0bae\u0bbe\u0bb2\u0bc8","\u0b87\u0bb0\u0bb5\u0bc1"],o],["00:00","12:00",["03:00","05:00"],["05:00","12:00"],["12:00","14:00"],["14:00","16:00"],["16:00","18:00"],["18:00","21:00"],["21:00","03:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1370],{
+
+/***/ "./node_modules/@angular/common/locales/global/vun.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/vun.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    if (n === 1) return 1;
+    return 5;
+  }
+  global.ng.common.locales['vun'] = [
+    'vun',
+    [['utuko', 'kyiukonyi'], u, u],
+    u,
+    [
+      ['J', 'J', 'J', 'J', 'A', 'I', 'J'], ['Jpi', 'Jtt', 'Jnn', 'Jtn', 'Alh', 'Iju', 'Jmo'],
+      ['Jumapilyi', 'Jumatatuu', 'Jumanne', 'Jumatanu', 'Alhamisi', 'Ijumaa', 'Jumamosi'],
+      ['Jpi', 'Jtt', 'Jnn', 'Jtn', 'Alh', 'Iju', 'Jmo']
+    ],
+    u,
+    [
+      ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+      ['Jan', 'Feb', 'Mac', 'Apr', 'Mei', 'Jun', 'Jul', 'Ago', 'Sep', 'Okt', 'Nov', 'Des'],
+      [
+        'Januari', 'Februari', 'Machi', 'Aprilyi', 'Mei', 'Junyi', 'Julyai', 'Agusti', 'Septemba',
+        'Oktoba', 'Novemba', 'Desemba'
+      ]
+    ],
+    u,
+    [['KK', 'BK'], u, ['Kabla ya Kristu', 'Baada ya Kristu']],
+    1,
+    [6, 0],
+    ['dd/MM/y', 'd MMM y', 'd MMMM y', 'EEEE, d MMMM y'],
+    ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
+    ['{1} {0}', u, u, u],
+    ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'],
+    'TZS',
+    'TSh',
+    'Shilingi ya Tanzania',
+    {'JPY': ['JP¥', '¥'], 'TZS': ['TSh'], 'USD': ['US$', '$']},
+    'ltr',
+    plural,
+    []
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1370-es2015.js.map

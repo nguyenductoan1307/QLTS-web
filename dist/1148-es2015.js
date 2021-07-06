@@ -1,1 +1,41 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1148],{oVvV:function(i,m){!function(i){i.ng=i.ng||{},i.ng.common=i.ng.common||{},i.ng.common.locales=i.ng.common.locales||{};const m=void 0;i.ng.common.locales["fr-ma"]=["fr-MA",[["AM","PM"],m,["a.m.","p.m."]],[["AM","PM"],m,m],[["D","L","M","M","J","V","S"],["dim.","lun.","mar.","mer.","jeu.","ven.","sam."],["dimanche","lundi","mardi","mercredi","jeudi","vendredi","samedi"],["di","lu","ma","me","je","ve","sa"]],m,[["J","F","M","A","M","J","J","A","S","O","N","D"],["jan.","f\xe9v.","mar.","avr.","mai","jui.","juil.","ao\xfbt","sept.","oct.","nov.","d\xe9c."],["janvier","f\xe9vrier","mars","avril","mai","juin","juillet","ao\xfbt","septembre","octobre","novembre","d\xe9cembre"]],m,[["av. J.-C.","ap. J.-C."],m,["avant J\xe9sus-Christ","apr\xe8s J\xe9sus-Christ"]],1,[6,0],["dd/MM/y","d MMM y","d MMMM y","EEEE d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}","{1} '\xe0' {0}",m,m],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","#,##0.00\xa0\xa4","#E0"],"MAD","MAD","dirham marocain",{ARS:["$AR","$"],AUD:["$AU","$"],BEF:["FB"],BMD:["$BM","$"],BND:["$BN","$"],BZD:["$BZ","$"],CAD:["$CA","$"],CLP:["$CL","$"],CNY:[m,"\xa5"],COP:["$CO","$"],CYP:["\xa3CY"],EGP:[m,"\xa3E"],FJD:["$FJ","$"],FKP:["\xa3FK","\xa3"],FRF:["F"],GBP:["\xa3GB","\xa3"],GIP:["\xa3GI","\xa3"],HKD:[m,"$"],IEP:["\xa3IE"],ILP:["\xa3IL"],ITL:["\u20a4IT"],JPY:[m,"\xa5"],KMF:[m,"FC"],LBP:["\xa3LB","\xa3L"],MTP:["\xa3MT"],MXN:["$MX","$"],NAD:["$NA","$"],NIO:[m,"$C"],NZD:["$NZ","$"],RHD:["$RH"],RON:[m,"L"],RWF:[m,"FR"],SBD:["$SB","$"],SGD:["$SG","$"],SRD:["$SR","$"],TOP:[m,"$T"],TTD:["$TT","$"],TWD:[m,"NT$"],USD:["$US","$"],UYU:["$UY","$"],WST:["$WS"],XCD:[m,"$"],XPF:["FCFP"],ZMW:[m,"Kw"]},"ltr",function(i){let m=Math.floor(Math.abs(i));return 0===m||1===m?1:5},[[["minuit","midi","mat.","ap.m.","soir","nuit"],m,["minuit","midi","du matin","de l\u2019apr\xe8s-midi","du soir","du matin"]],[["minuit","midi","mat.","ap.m.","soir","nuit"],m,["minuit","midi","matin","apr\xe8s-midi","soir","nuit"]],["00:00","12:00",["04:00","12:00"],["12:00","18:00"],["18:00","24:00"],["00:00","04:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1148],{
+
+/***/ "./node_modules/@angular/common/locales/global/gl.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/gl.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(
+    function(global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      const u = undefined;
+      function plural(n) {
+        let i = Math.floor(Math.abs(n)), v = n.toString().replace(/^[^.]*\.?/, '').length;
+        if (i === 1 && v === 0) return 1;
+        return 5;
+      }
+      global.ng.common.locales['gl'] = ['gl',[['a.m.','p.m.'],u,u],u,[['d.','l.','m.','m.','x.','v.','s.'],['dom.','luns','mar.','mér.','xov.','ven.','sáb.'],['domingo','luns','martes','mércores','xoves','venres','sábado'],['do.','lu.','ma.','mé.','xo.','ve.','sá.']],[['D','L','M','M','X','V','S'],['Dom.','Luns','Mar.','Mér.','Xov.','Ven.','Sáb.'],['Domingo','Luns','Martes','Mércores','Xoves','Venres','Sábado'],['Do','Lu','Ma','Mé','Xo','Ve','Sá']],[['x.','f.','m.','a.','m.','x.','x.','a.','s.','o.','n.','d.'],['xan.','feb.','mar.','abr.','maio','xuño','xul.','ago.','set.','out.','nov.','dec.'],['xaneiro','febreiro','marzo','abril','maio','xuño','xullo','agosto','setembro','outubro','novembro','decembro']],[['X','F','M','A','M','X','X','A','S','O','N','D'],['Xan.','Feb.','Mar.','Abr.','Maio','Xuño','Xul.','Ago.','Set.','Out.','Nov.','Dec.'],['Xaneiro','Febreiro','Marzo','Abril','Maio','Xuño','Xullo','Agosto','Setembro','Outubro','Novembro','Decembro']],[['a.C.','d.C.'],u,['antes de Cristo','despois de Cristo']],1,[6,0],['dd/MM/yy','d \'de\' MMM \'de\' y','d \'de\' MMMM \'de\' y','EEEE, d \'de\' MMMM \'de\' y'],['HH:mm','HH:mm:ss','HH:mm:ss z','HH:mm:ss zzzz'],['{0}, {1}',u,'{0} \'do\' {1}',u],[',','.',';','%','+','-','E','×','‰','∞','NaN',':'],['#,##0.###','#,##0 %','#,##0.00 ¤','#E0'],'EUR','€','euro',{'BYN':[u,'Br'],'ESP':['₧'],'JPY':['JP¥','¥'],'KMF':[u,'FC'],'MXN':['$MX','$'],'RUB':[u,'руб'],'THB':['฿'],'TWD':['NT$'],'XCD':[u,'$']},'ltr', plural, [[['da noite','da madrugada','da mañá','do mediodía','da tarde','da noite'],u,u],[['medianoite','madrugada','mañá','mediodía','tarde','noite'],u,u],['00:00',['00:00','06:00'],['06:00','12:00'],['12:00','13:00'],['13:00','21:00'],['21:00','24:00']]]];
+    })(
+    typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+    typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1148-es2015.js.map

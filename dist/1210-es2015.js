@@ -1,1 +1,123 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1210],{"tD/L":function(a,n){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};const n=void 0;a.ng.common.locales.kam=["kam",[["\u0128yakwakya","\u0128yaw\u0129oo"],n,n],n,[["Y","W","E","A","A","A","A"],["Wky","Wkw","Wkl","Wt\u0169","Wkn","Wtn","Wth"],["Wa kyumwa","Wa kwamb\u0129l\u0129lya","Wa kel\u0129","Wa katat\u0169","Wa kana","Wa katano","Wa thanthat\u0169"],["Wky","Wkw","Wkl","Wt\u0169","Wkn","Wtn","Wth"]],n,[["M","K","K","K","K","T","M","N","K","\u0128","\u0128","\u0128"],["Mbe","Kel","Kt\u0169","Kan","Ktn","Tha","Moo","Nya","Knd","\u0128ku","\u0128km","\u0128kl"],["Mwai wa mbee","Mwai wa kel\u0129","Mwai wa katat\u0169","Mwai wa kana","Mwai wa katano","Mwai wa thanthat\u0169","Mwai wa muonza","Mwai wa nyaanya","Mwai wa kenda","Mwai wa \u0129kumi","Mwai wa \u0129kumi na \u0129mwe","Mwai wa \u0129kumi na il\u0129"]],n,[["MY","IY"],n,["Mbee wa Yes\u0169","\u0128tina wa Yes\u0169"]],0,[6,0],["dd/MM/y","d MMM y","d MMMM y","EEEE, d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",n,n,n],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4#,##0.00","#E0"],"KES","Ksh","Silingi ya Kenya",{JPY:["JP\xa5","\xa5"],KES:["Ksh"],USD:["US$","$"]},"ltr",function(a){return 5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1210],{
+
+/***/ "./node_modules/@angular/common/locales/global/lo.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/lo.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) { return 5; }
+  global.ng.common.locales['lo'] = [
+    'lo',
+    [['ກ່ອນທ່ຽງ', 'ຫຼັງທ່ຽງ'], u, u],
+    u,
+    [
+      ['ອາ', 'ຈ', 'ອ', 'ພ', 'ພຫ', 'ສຸ', 'ສ'],
+      [
+        'ອາທິດ', 'ຈັນ', 'ອັງຄານ', 'ພຸດ', 'ພະຫັດ',
+        'ສຸກ', 'ເສົາ'
+      ],
+      [
+        'ວັນອາທິດ', 'ວັນຈັນ', 'ວັນອັງຄານ',
+        'ວັນພຸດ', 'ວັນພະຫັດ', 'ວັນສຸກ',
+        'ວັນເສົາ'
+      ],
+      ['ອາ.', 'ຈ.', 'ອ.', 'ພ.', 'ພຫ.', 'ສຸ.', 'ສ.']
+    ],
+    u,
+    [
+      ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+      [
+        'ມ.ກ.', 'ກ.ພ.', 'ມ.ນ.', 'ມ.ສ.', 'ພ.ພ.', 'ມິ.ຖ.', 'ກ.ລ.',
+        'ສ.ຫ.', 'ກ.ຍ.', 'ຕ.ລ.', 'ພ.ຈ.', 'ທ.ວ.'
+      ],
+      [
+        'ມັງກອນ', 'ກຸມພາ', 'ມີນາ', 'ເມສາ',
+        'ພຶດສະພາ', 'ມິຖຸນາ', 'ກໍລະກົດ', 'ສິງຫາ',
+        'ກັນຍາ', 'ຕຸລາ', 'ພະຈິກ', 'ທັນວາ'
+      ]
+    ],
+    u,
+    [
+      ['ກ່ອນ ຄ.ສ.', 'ຄ.ສ.'], u,
+      ['ກ່ອນຄຣິດສັກກະລາດ', 'ຄຣິດສັກກະລາດ']
+    ],
+    0,
+    [6, 0],
+    ['d/M/y', 'd MMM y', 'd MMMM y', 'EEEE ທີ d MMMM G y'],
+    [
+      'H:mm', 'H:mm:ss', 'H ໂມງ m ນາທີ ss ວິນາທີ z',
+      'H ໂມງ m ນາທີ ss ວິນາທີ zzzz'
+    ],
+    ['{1}, {0}', u, u, u],
+    [
+      ',', '.', ';', '%', '+', '-', 'E', '×', '‰', '∞',
+      'ບໍ່​ແມ່ນ​ໂຕ​ເລກ', ':'
+    ],
+    ['#,##0.###', '#,##0%', '¤#,##0.00;¤-#,##0.00', '#'],
+    'LAK',
+    '₭',
+    'ລາວ ກີບ',
+    {'JPY': ['JP¥', '¥'], 'LAK': ['₭'], 'THB': ['฿'], 'TWD': ['NT$'], 'USD': ['US$', '$']},
+    'ltr',
+    plural,
+    [
+      [
+        [
+          'ທ່ຽງຄືນ', 'ຕອນທ່ຽງ', 'ຕອນເຊົ້າ',
+          'ຕອນທ່ຽງ', 'ຕອນແລງ', 'ກາງຄືນ'
+        ],
+        [
+          'ທ່ຽງຄືນ', 'ຕອນທ່ຽງ', 'ຕອນເຊົ້າ',
+          'ຕອນບ່າຍ', 'ຕອນແລງ', 'ກາງຄືນ'
+        ],
+        [
+          'ທ່ຽງຄືນ', 'ຕອນທ່ຽງ', 'ຕອນເຊົ້າ',
+          'ຕອນບ່າຍ', 'ຕອນແລງ', 'ຕອນກາງຄືນ'
+        ]
+      ],
+      [
+        [
+          'ທ່ຽງ​ຄືນ', 'ຕອນທ່ຽງ', '​ເຊົ້າ', 'ສ',
+          'ແລງ', '​ກາງ​ຄືນ'
+        ],
+        [
+          'ທ່ຽງ​ຄືນ', 'ທ່ຽງ', '​ເຊົ້າ', 'ສວຍ',
+          'ແລງ', '​ກາງ​ຄືນ'
+        ],
+        [
+          'ທ່ຽງຄືນ', 'ຕອນທ່ຽງ', '​ເຊົ້າ', 'ສວຍ',
+          'ແລງ', '​ກາງ​ຄືນ'
+        ]
+      ],
+      [
+        '00:00', '12:00', ['05:00', '12:00'], ['12:00', '16:00'], ['16:00', '20:00'],
+        ['20:00', '05:00']
+      ]
+    ]
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1210-es2015.js.map

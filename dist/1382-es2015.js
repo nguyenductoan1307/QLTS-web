@@ -1,1 +1,87 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1382],{S7SD:function(a,e){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};const e=void 0;a.ng.common.locales.tr=["tr",[["\xf6\xf6","\xf6s"],["\xd6\xd6","\xd6S"],e],[["\xd6\xd6","\xd6S"],e,e],[["P","P","S","\xc7","P","C","C"],["Paz","Pzt","Sal","\xc7ar","Per","Cum","Cmt"],["Pazar","Pazartesi","Sal\u0131","\xc7ar\u015famba","Per\u015fembe","Cuma","Cumartesi"],["Pa","Pt","Sa","\xc7a","Pe","Cu","Ct"]],e,[["O","\u015e","M","N","M","H","T","A","E","E","K","A"],["Oca","\u015eub","Mar","Nis","May","Haz","Tem","A\u011fu","Eyl","Eki","Kas","Ara"],["Ocak","\u015eubat","Mart","Nisan","May\u0131s","Haziran","Temmuz","A\u011fustos","Eyl\xfcl","Ekim","Kas\u0131m","Aral\u0131k"]],e,[["M\xd6","MS"],e,["Milattan \xd6nce","Milattan Sonra"]],1,[6,0],["d.MM.y","d MMM y","d MMMM y","d MMMM y EEEE"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",e,e,e],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","%#,##0","\xa4#,##0.00","#E0"],"TRY","\u20ba","T\xfcrk Liras\u0131",{AUD:["AU$","$"],RON:[e,"L"],THB:["\u0e3f"],TRY:["\u20ba"],TWD:["NT$"]},"ltr",function(a){return 1===a?1:5},[[["gece","\xf6","sabah","\xf6\u011fleden \xf6nce","\xf6\u011fleden sonra","ak\u015fam\xfcst\xfc","ak\u015fam","gece"],["gece yar\u0131s\u0131","\xf6\u011fle","sabah","\xf6\u011fleden \xf6nce","\xf6\u011fleden sonra","ak\u015fam\xfcst\xfc","ak\u015fam","gece"],e],[["gece yar\u0131s\u0131","\xf6\u011fle","sabah","\xf6\u011fleden \xf6nce","\xf6\u011fleden sonra","ak\u015fam\xfcst\xfc","ak\u015fam","gece"],e,e],["00:00","12:00",["06:00","11:00"],["11:00","12:00"],["12:00","18:00"],["18:00","19:00"],["19:00","21:00"],["21:00","06:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1382],{
+
+/***/ "./node_modules/@angular/common/locales/global/zgh.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/zgh.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) { return 5; }
+  global.ng.common.locales['zgh'] = [
+    'zgh',
+    [['ⵜⵉⴼⴰⵡⵜ', 'ⵜⴰⴷⴳⴳⵯⴰⵜ'], u, u],
+    u,
+    [
+      ['S', 'M', 'T', 'W', 'T', 'F', 'S'],
+      [
+        'ⴰⵙⴰ', 'ⴰⵢⵏ', 'ⴰⵙⵉ', 'ⴰⴽⵕ', 'ⴰⴽⵡ', 'ⴰⵙⵉⵎ',
+        'ⴰⵙⵉⴹ'
+      ],
+      [
+        'ⴰⵙⴰⵎⴰⵙ', 'ⴰⵢⵏⴰⵙ', 'ⴰⵙⵉⵏⴰⵙ', 'ⴰⴽⵕⴰⵙ',
+        'ⴰⴽⵡⴰⵙ', 'ⴰⵙⵉⵎⵡⴰⵙ', 'ⴰⵙⵉⴹⵢⴰⵙ'
+      ],
+      [
+        'ⴰⵙⴰ', 'ⴰⵢⵏ', 'ⴰⵙⵉ', 'ⴰⴽⵕ', 'ⴰⴽⵡ', 'ⴰⵙⵉⵎ',
+        'ⴰⵙⵉⴹ'
+      ]
+    ],
+    u,
+    [
+      ['ⵉ', 'ⴱ', 'ⵎ', 'ⵉ', 'ⵎ', 'ⵢ', 'ⵢ', 'ⵖ', 'ⵛ', 'ⴽ', 'ⵏ', 'ⴷ'],
+      [
+        'ⵉⵏⵏ', 'ⴱⵕⴰ', 'ⵎⴰⵕ', 'ⵉⴱⵔ', 'ⵎⴰⵢ', 'ⵢⵓⵏ', 'ⵢⵓⵍ',
+        'ⵖⵓⵛ', 'ⵛⵓⵜ', 'ⴽⵜⵓ', 'ⵏⵓⵡ', 'ⴷⵓⵊ'
+      ],
+      [
+        'ⵉⵏⵏⴰⵢⵔ', 'ⴱⵕⴰⵢⵕ', 'ⵎⴰⵕⵚ', 'ⵉⴱⵔⵉⵔ',
+        'ⵎⴰⵢⵢⵓ', 'ⵢⵓⵏⵢⵓ', 'ⵢⵓⵍⵢⵓⵣ', 'ⵖⵓⵛⵜ',
+        'ⵛⵓⵜⴰⵏⴱⵉⵔ', 'ⴽⵜⵓⴱⵔ', 'ⵏⵓⵡⴰⵏⴱⵉⵔ',
+        'ⴷⵓⵊⴰⵏⴱⵉⵔ'
+      ]
+    ],
+    u,
+    [
+      ['ⴷⴰⵄ', 'ⴷⴼⵄ'], u,
+      ['ⴷⴰⵜ ⵏ ⵄⵉⵙⴰ', 'ⴷⴼⴼⵉⵔ ⵏ ⵄⵉⵙⴰ']
+    ],
+    1,
+    [6, 0],
+    ['d/M/y', 'd MMM, y', 'd MMMM y', 'EEEE d MMMM y'],
+    ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
+    ['{1} {0}', u, u, u],
+    [',', ' ', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0 %', '#,##0.00¤', '#E0'],
+    'MAD',
+    'MAD',
+    'ⴰⴷⵔⵉⵎ ⵏ ⵍⵎⵖⵔⵉⴱ',
+    {'JPY': ['JP¥', '¥'], 'USD': ['US$', '$']},
+    'ltr',
+    plural,
+    []
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1382-es2015.js.map

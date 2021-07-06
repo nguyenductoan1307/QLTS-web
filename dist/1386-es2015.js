@@ -1,1 +1,92 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1386],{JxCA:function(n,o){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};const o=void 0;n.ng.common.locales.ug=["ug",[["\u0628","\u0643"],["\u0686.\u0628","\u0686.\u0643"],["\u0686\u06c8\u0634\u062a\u0649\u0646 \u0628\u06c7\u0631\u06c7\u0646","\u0686\u06c8\u0634\u062a\u0649\u0646 \u0643\u06d0\u064a\u0649\u0646"]],[["\u0686.\u0628","\u0686.\u0643"],o,o],[["\u064a","\u062f","\u0633","\u0686","\u067e","\u062c","\u0634"],["\u064a\u06d5","\u062f\u06c8","\u0633\u06d5","\u0686\u0627","\u067e\u06d5","\u062c\u06c8","\u0634\u06d5"],["\u064a\u06d5\u0643\u0634\u06d5\u0646\u0628\u06d5","\u062f\u06c8\u0634\u06d5\u0646\u0628\u06d5","\u0633\u06d5\u064a\u0634\u06d5\u0646\u0628\u06d5","\u0686\u0627\u0631\u0634\u06d5\u0646\u0628\u06d5","\u067e\u06d5\u064a\u0634\u06d5\u0646\u0628\u06d5","\u062c\u06c8\u0645\u06d5","\u0634\u06d5\u0646\u0628\u06d5"],["\u064a","\u062f","\u0633","\u0686","\u067e","\u062c","\u0634"]],o,[["1","2","3","4","5","6","7","8","9","10","11","12"],["\u064a\u0627\u0646\u06cb\u0627\u0631","\u0641\u06d0\u06cb\u0631\u0627\u0644","\u0645\u0627\u0631\u062a","\u0626\u0627\u067e\u0631\u06d0\u0644","\u0645\u0627\u064a","\u0626\u0649\u064a\u06c7\u0646","\u0626\u0649\u064a\u06c7\u0644","\u0626\u0627\u06cb\u063a\u06c7\u0633\u062a","\u0633\u06d0\u0646\u062a\u06d5\u0628\u0649\u0631","\u0626\u06c6\u0643\u062a\u06d5\u0628\u0649\u0631","\u0646\u0648\u064a\u0627\u0628\u0649\u0631","\u062f\u06d0\u0643\u0627\u0628\u0649\u0631"],o],o,[["BCE","\u0645\u0649\u0644\u0627\u062f\u0649\u064a\u06d5"],o,["\u0645\u0649\u0644\u0627\u062f\u0649\u064a\u06d5\u062f\u0649\u0646 \u0628\u06c7\u0631\u06c7\u0646","\u0645\u0649\u0644\u0627\u062f\u0649\u064a\u06d5"]],0,[6,0],["y-MM-dd","d-MMM\u060c y","d-MMMM\u060c y","y d-MMMM\u060c EEEE"],["h:mm a","h:mm:ss a","h:mm:ss a z","h:mm:ss a zzzz"],["{1}\u060c {0}",o,"{1} {0}",o],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4#,##0.00","#E0"],"CNY","\uffe5","\u062c\u06c7\u06ad\u06af\u0648 \u064a\u06c8\u06d5\u0646\u0649",{CNY:["\uffe5","\xa5"],JPY:["JP\xa5","\xa5"]},"rtl",function(n){return 1===n?1:5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1386],{
+
+/***/ "./node_modules/@angular/common/locales/global/zh-Hans.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/zh-Hans.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) { return 5; }
+  global.ng.common.locales['zh-hans'] = [
+    'zh-Hans',
+    [['上午', '下午'], u, u],
+    u,
+    [
+      ['日', '一', '二', '三', '四', '五', '六'],
+      ['周日', '周一', '周二', '周三', '周四', '周五', '周六'],
+      ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'],
+      ['周日', '周一', '周二', '周三', '周四', '周五', '周六']
+    ],
+    u,
+    [
+      ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+      [
+        '1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月',
+        '12月'
+      ],
+      [
+        '一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月',
+        '十月', '十一月', '十二月'
+      ]
+    ],
+    u,
+    [['公元前', '公元'], u, u],
+    0,
+    [6, 0],
+    ['y/M/d', 'y年M月d日', u, 'y年M月d日EEEE'],
+    ['ah:mm', 'ah:mm:ss', 'z ah:mm:ss', 'zzzz ah:mm:ss'],
+    ['{1} {0}', u, u, u],
+    ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'],
+    'CNY',
+    '¥',
+    '人民币',
+    {
+      'AUD': ['AU$', '$'],
+      'CNY': ['¥'],
+      'ILR': ['ILS'],
+      'JPY': ['JP¥', '¥'],
+      'KRW': ['￦', '₩'],
+      'TWD': ['NT$'],
+      'USD': ['US$', '$'],
+      'XXX': []
+    },
+    'ltr',
+    plural,
+    [
+      [
+        ['午夜', '早上', '上午', '中午', '下午', '晚上', '凌晨'], u,
+        ['午夜', '清晨', '上午', '中午', '下午', '晚上', '凌晨']
+      ],
+      [['午夜', '早上', '上午', '中午', '下午', '晚上', '凌晨'], u, u],
+      [
+        '00:00', ['05:00', '08:00'], ['08:00', '12:00'], ['12:00', '13:00'], ['13:00', '19:00'],
+        ['19:00', '24:00'], ['00:00', '05:00']
+      ]
+    ]
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1386-es2015.js.map

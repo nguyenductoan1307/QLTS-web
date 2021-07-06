@@ -107,10 +107,13 @@ export class UsersComponent extends AppComponentBase implements OnInit {
     if (user.lastLoginTime) {
       this.showExistMessage('Người dùng đã đăng nhập, không được xóa!');
     } else {
+      const html1 =  '<h3 class="title-popup-xoa m-t-24" >' + 'Bạn có chắc chắn không?' + '</h3>' +
+      '<p class="text-popup-xoa m-t-8">'
+       + 'Người dùng ' + user.name + ' sẽ bị xóa.' + '</p>';
       this.swal.fire({
-        title: 'Bạn chắc chắn không?',
-        text: 'Người dùng ' + user.name + ' sẽ bị xóa.',
+        html: html1,
         icon: 'warning',
+        iconHtml: '<span class="icon1">&#9888</span>',
         showCancelButton: true,
         confirmButtonColor: this.confirmButtonColor,
         cancelButtonColor: this.cancelButtonColor,

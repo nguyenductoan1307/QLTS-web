@@ -1,1 +1,44 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1353],{LR9G:function(o,n){!function(o){o.ng=o.ng||{},o.ng.common=o.ng.common||{},o.ng.common.locales=o.ng.common.locales||{};var n=void 0;o.ng.common.locales["sr-cyrl-me"]=["sr-Cyrl-ME",[["a","p"],["\u043f\u0440\u0438\u0458\u0435 \u043f\u043e\u0434\u043d\u0435","\u043f\u043e \u043f\u043e\u0434\u043d\u0435"],n],n,[["\u043d","\u043f","\u0443","\u0441","\u0447","\u043f","\u0441"],["\u043d\u0435\u0434","\u043f\u043e\u043d","\u0443\u0442\u043e","\u0441\u0440\u0435","\u0447\u0435\u0442","\u043f\u0435\u0442","\u0441\u0443\u0431"],["\u043d\u0435\u0434\u0458\u0435\u0459\u0430","\u043f\u043e\u043d\u0435\u0434\u0435\u0459\u0430\u043a","\u0443\u0442\u043e\u0440\u0430\u043a","\u0441\u0440\u0438\u0458\u0435\u0434\u0430","\u0447\u0435\u0442\u0432\u0440\u0442\u0430\u043a","\u043f\u0435\u0442\u0430\u043a","\u0441\u0443\u0431\u043e\u0442\u0430"],["\u043d\u0435","\u043f\u043e","\u0443\u0442","\u0441\u0440","\u0447\u0435","\u043f\u0435","\u0441\u0443"]],n,[["\u0458","\u0444","\u043c","\u0430","\u043c","\u0458","\u0458","\u0430","\u0441","\u043e","\u043d","\u0434"],["\u0458\u0430\u043d","\u0444\u0435\u0431","\u043c\u0430\u0440\u0442","\u0430\u043f\u0440","\u043c\u0430\u0458","\u0458\u0443\u043d","\u0458\u0443\u043b","\u0430\u0432\u0433","\u0441\u0435\u043f\u0442","\u043e\u043a\u0442","\u043d\u043e\u0432","\u0434\u0435\u0446"],["\u0458\u0430\u043d\u0443\u0430\u0440","\u0444\u0435\u0431\u0440\u0443\u0430\u0440","\u043c\u0430\u0440\u0442","\u0430\u043f\u0440\u0438\u043b","\u043c\u0430\u0458","\u0458\u0443\u043d","\u0458\u0443\u043b","\u0430\u0432\u0433\u0443\u0441\u0442","\u0441\u0435\u043f\u0442\u0435\u043c\u0431\u0430\u0440","\u043e\u043a\u0442\u043e\u0431\u0430\u0440","\u043d\u043e\u0432\u0435\u043c\u0431\u0430\u0440","\u0434\u0435\u0446\u0435\u043c\u0431\u0430\u0440"]],n,[["\u043f.\u043d.\u0435.","\u043d.\u0435."],["\u043f. \u043d. \u0435.","\u043d. \u0435."],["\u043f\u0440\u0438\u0458\u0435 \u043d\u043e\u0432\u0435 \u0435\u0440\u0435","\u043d\u043e\u0432\u0435 \u0435\u0440\u0435"]],1,[6,0],["d.M.yy.","dd.MM.y.","dd. MMMM y.","EEEE, dd. MMMM y."],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",n,n,n],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","#,##0.00\xa0\xa4","#E0"],"EUR","\u20ac","\u0415\u0432\u0440\u043e",{AUD:[n,"$"],BAM:["\u041a\u041c","KM"],GEL:[n,"\u10da"],KRW:[n,"\u20a9"],NZD:[n,"$"],TWD:["NT$"],USD:["US$","$"],VND:[n,"\u20ab"]},"ltr",function(o){var n=Math.floor(Math.abs(o)),l=o.toString().replace(/^[^.]*\.?/,"").length,e=parseInt(o.toString().replace(/^[^.]*\.?/,""),10)||0;return 0===l&&n%10==1&&n%100!=11||e%10==1&&e%100!=11?1:0===l&&n%10===Math.floor(n%10)&&n%10>=2&&n%10<=4&&!(n%100>=12&&n%100<=14)||e%10===Math.floor(e%10)&&e%10>=2&&e%10<=4&&!(e%100>=12&&e%100<=14)?3:5},[[["\u043f\u043e\u043d\u043e\u045b","\u043f\u043e\u0434\u043d\u0435","\u0458\u0443\u0442\u0440\u043e","\u043f\u043e \u043f\u043e\u0434.","\u0432\u0435\u0447\u0435","\u043d\u043e\u045b"],["\u043f\u043e\u043d\u043e\u045b","\u043f\u043e\u0434\u043d\u0435","\u0458\u0443\u0442\u0440\u043e","\u043f\u043e \u043f\u043e\u0434.","\u0432\u0435\u0447\u0435","\u043d\u043e\u045b\u0443"],["\u043f\u043e\u043d\u043e\u045b","\u043f\u043e\u0434\u043d\u0435","\u0443\u0458\u0443\u0442\u0440\u043e","\u043f\u043e \u043f\u043e\u0434\u043d\u0435","\u0443\u0432\u0435\u0447\u0435","\u043d\u043e\u045b\u0443"]],[["\u043f\u043e\u043d\u043e\u045b","\u043f\u043e\u0434\u043d\u0435","\u0458\u0443\u0442\u0440\u043e","\u043f\u043e\u043f\u043e\u0434\u043d\u0435","\u0432\u0435\u0447\u0435","\u043d\u043e\u045b"],n,n],["00:00","12:00",["06:00","12:00"],["12:00","18:00"],["18:00","21:00"],["21:00","06:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1353], {
+  /***/
+  "./node_modules/@angular/common/locales/global/tr.js":
+  /*!***********************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/tr.js ***!
+    \***********************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalTrJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['tr'] = ['tr', [['öö', 'ös'], ['ÖÖ', 'ÖS'], u], [['ÖÖ', 'ÖS'], u, u], [['P', 'P', 'S', 'Ç', 'P', 'C', 'C'], ['Paz', 'Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt'], ['Pazar', 'Pazartesi', 'Salı', 'Çarşamba', 'Perşembe', 'Cuma', 'Cumartesi'], ['Pa', 'Pt', 'Sa', 'Ça', 'Pe', 'Cu', 'Ct']], u, [['O', 'Ş', 'M', 'N', 'M', 'H', 'T', 'A', 'E', 'E', 'K', 'A'], ['Oca', 'Şub', 'Mar', 'Nis', 'May', 'Haz', 'Tem', 'Ağu', 'Eyl', 'Eki', 'Kas', 'Ara'], ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık']], u, [['MÖ', 'MS'], u, ['Milattan Önce', 'Milattan Sonra']], 1, [6, 0], ['d.MM.y', 'd MMM y', 'd MMMM y', 'd MMMM y EEEE'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1} {0}', u, u, u], [',', '.', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '%#,##0', '¤#,##0.00', '#E0'], 'TRY', '₺', 'Türk Lirası', {
+        'AUD': ['AU$', '$'],
+        'RON': [u, 'L'],
+        'THB': ['฿'],
+        'TRY': ['₺'],
+        'TWD': ['NT$']
+      }, 'ltr', plural, [[['gece', 'ö', 'sabah', 'öğleden önce', 'öğleden sonra', 'akşamüstü', 'akşam', 'gece'], ['gece yarısı', 'öğle', 'sabah', 'öğleden önce', 'öğleden sonra', 'akşamüstü', 'akşam', 'gece'], u], [['gece yarısı', 'öğle', 'sabah', 'öğleden önce', 'öğleden sonra', 'akşamüstü', 'akşam', 'gece'], u, u], ['00:00', '12:00', ['06:00', '11:00'], ['11:00', '12:00'], ['12:00', '18:00'], ['18:00', '19:00'], ['19:00', '21:00'], ['21:00', '06:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1353-es5.js.map

@@ -1,1 +1,43 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1340],{zY44:function(n,o){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};var o=void 0;n.ng.common.locales.si=["si",[["\u0db4\u0dd9","\u0db4"],["\u0db4\u0dd9.\u0dc0.","\u0db4.\u0dc0."],o],[["\u0db4\u0dd9.\u0dc0.","\u0db4.\u0dc0."],o,o],[["\u0d89","\u0dc3","\u0d85","\u0db6","\u0db6\u0dca\u200d\u0dbb","\u0dc3\u0dd2","\u0dc3\u0dd9"],["\u0d89\u0dbb\u0dd2\u0daf\u0dcf","\u0dc3\u0db3\u0dd4\u0daf\u0dcf","\u0d85\u0d9f\u0dc4","\u0db6\u0daf\u0dcf\u0daf\u0dcf","\u0db6\u0dca\u200d\u0dbb\u0dc4\u0dc3\u0dca","\u0dc3\u0dd2\u0d9a\u0dd4","\u0dc3\u0dd9\u0db1"],["\u0d89\u0dbb\u0dd2\u0daf\u0dcf","\u0dc3\u0db3\u0dd4\u0daf\u0dcf","\u0d85\u0d9f\u0dc4\u0dbb\u0dd4\u0dc0\u0dcf\u0daf\u0dcf","\u0db6\u0daf\u0dcf\u0daf\u0dcf","\u0db6\u0dca\u200d\u0dbb\u0dc4\u0dc3\u0dca\u0db4\u0dad\u0dd2\u0db1\u0dca\u0daf\u0dcf","\u0dc3\u0dd2\u0d9a\u0dd4\u0dbb\u0dcf\u0daf\u0dcf","\u0dc3\u0dd9\u0db1\u0dc3\u0dd4\u0dbb\u0dcf\u0daf\u0dcf"],["\u0d89\u0dbb\u0dd2","\u0dc3\u0db3\u0dd4","\u0d85\u0d9f","\u0db6\u0daf\u0dcf","\u0db6\u0dca\u200d\u0dbb\u0dc4","\u0dc3\u0dd2\u0d9a\u0dd4","\u0dc3\u0dd9\u0db1"]],o,[["\u0da2","\u0db4\u0dd9","\u0db8\u0dcf","\u0d85","\u0db8\u0dd0","\u0da2\u0dd6","\u0da2\u0dd6","\u0d85","\u0dc3\u0dd0","\u0d94","\u0db1\u0dd9","\u0daf\u0dd9"],["\u0da2\u0db1","\u0db4\u0dd9\u0db6","\u0db8\u0dcf\u0dbb\u0dca\u0dad\u0dd4","\u0d85\u0db4\u0dca\u200d\u0dbb\u0dda\u0dbd\u0dca","\u0db8\u0dd0\u0dba\u0dd2","\u0da2\u0dd6\u0db1\u0dd2","\u0da2\u0dd6\u0dbd\u0dd2","\u0d85\u0d9c\u0ddd","\u0dc3\u0dd0\u0db4\u0dca","\u0d94\u0d9a\u0dca","\u0db1\u0ddc\u0dc0\u0dd0","\u0daf\u0dd9\u0dc3\u0dd0"],["\u0da2\u0db1\u0dc0\u0dcf\u0dbb\u0dd2","\u0db4\u0dd9\u0db6\u0dbb\u0dc0\u0dcf\u0dbb\u0dd2","\u0db8\u0dcf\u0dbb\u0dca\u0dad\u0dd4","\u0d85\u0db4\u0dca\u200d\u0dbb\u0dda\u0dbd\u0dca","\u0db8\u0dd0\u0dba\u0dd2","\u0da2\u0dd6\u0db1\u0dd2","\u0da2\u0dd6\u0dbd\u0dd2","\u0d85\u0d9c\u0ddd\u0dc3\u0dca\u0dad\u0dd4","\u0dc3\u0dd0\u0db4\u0dca\u0dad\u0dd0\u0db8\u0dca\u0db6\u0dbb\u0dca","\u0d94\u0d9a\u0dca\u0dad\u0ddd\u0db6\u0dbb\u0dca","\u0db1\u0ddc\u0dc0\u0dd0\u0db8\u0dca\u0db6\u0dbb\u0dca","\u0daf\u0dd9\u0dc3\u0dd0\u0db8\u0dca\u0db6\u0dbb\u0dca"]],[["\u0da2","\u0db4\u0dd9","\u0db8\u0dcf","\u0d85","\u0db8\u0dd0","\u0da2\u0dd6","\u0da2\u0dd6","\u0d85","\u0dc3\u0dd0","\u0d94","\u0db1\u0dd9","\u0daf\u0dd9"],["\u0da2\u0db1","\u0db4\u0dd9\u0db6","\u0db8\u0dcf\u0dbb\u0dca","\u0d85\u0db4\u0dca\u200d\u0dbb\u0dda\u0dbd\u0dca","\u0db8\u0dd0\u0dba\u0dd2","\u0da2\u0dd6\u0db1\u0dd2","\u0da2\u0dd6\u0dbd\u0dd2","\u0d85\u0d9c\u0ddd","\u0dc3\u0dd0\u0db4\u0dca","\u0d94\u0d9a\u0dca","\u0db1\u0ddc\u0dc0\u0dd0","\u0daf\u0dd9\u0dc3\u0dd0"],["\u0da2\u0db1\u0dc0\u0dcf\u0dbb\u0dd2","\u0db4\u0dd9\u0db6\u0dbb\u0dc0\u0dcf\u0dbb\u0dd2","\u0db8\u0dcf\u0dbb\u0dca\u0dad\u0dd4","\u0d85\u0db4\u0dca\u200d\u0dbb\u0dda\u0dbd\u0dca","\u0db8\u0dd0\u0dba\u0dd2","\u0da2\u0dd6\u0db1\u0dd2","\u0da2\u0dd6\u0dbd\u0dd2","\u0d85\u0d9c\u0ddd\u0dc3\u0dca\u0dad\u0dd4","\u0dc3\u0dd0\u0db4\u0dca\u0dad\u0dd0\u0db8\u0dca\u0db6\u0dbb\u0dca","\u0d94\u0d9a\u0dca\u0dad\u0ddd\u0db6\u0dbb\u0dca","\u0db1\u0ddc\u0dc0\u0dd0\u0db8\u0dca\u0db6\u0dbb\u0dca","\u0daf\u0dd9\u0dc3\u0dd0\u0db8\u0dca\u0db6\u0dbb\u0dca"]],[["\u0d9a\u0dca\u200d\u0dbb\u0dd2.\u0db4\u0dd6.","\u0d9a\u0dca\u200d\u0dbb\u0dd2.\u0dc0."],o,["\u0d9a\u0dca\u200d\u0dbb\u0dd2\u0dc3\u0dca\u0dad\u0dd4 \u0db4\u0dd6\u0dbb\u0dca\u0dc0","\u0d9a\u0dca\u200d\u0dbb\u0dd2\u0dc3\u0dca\u0dad\u0dd4 \u0dc0\u0dbb\u0dca\u0dc2"]],1,[6,0],["y-MM-dd","y MMM d","y MMMM d","y MMMM d, EEEE"],["HH.mm","HH.mm.ss","HH.mm.ss z","HH.mm.ss zzzz"],["{1} {0}",o,o,o],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN","."],["#,##0.###","#,##0%","\xa4#,##0.00","#"],"LKR","\u0dbb\u0dd4.","\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0dbd\u0d82\u0d9a\u0dcf \u0dbb\u0dd4\u0db4\u0dd2\u0dba\u0dbd",{JPY:["JP\xa5","\xa5"],LKR:["\u0dbb\u0dd4."],THB:["\u0e3f"],TWD:["NT$"],USD:["US$","$"],XOF:["\u0dc3\u0dd2\u0dc6\u0dca\u0d91"]},"ltr",function(n){var o=Math.floor(Math.abs(n)),e=parseInt(n.toString().replace(/^[^.]*\.?/,""),10)||0;return 0===n||1===n||0===o&&1===e?1:5},[[["\u0db8\u0dd0","\u0db8","\u0db4\u0dcf","\u0d8b","\u0daf","\u0dc4","\u0dbb\u0dd1","\u0db8\u0dd0"],["\u0db8\u0dd0\u0daf\u0dd2\u0dba\u0db8","\u0db8\u0db0\u0dca\u200d\u0dba\u0dcf\u0dc4\u0dca\u0db1\u0dba","\u0db4\u0dcf\u0db1\u0dca\u0daf\u0dbb","\u0d8b\u0daf\u0dda","\u0daf\u0dc0\u0dbd\u0dca","\u0dc4\u0dc0\u0dc3","\u0dbb\u0dd1","\u0db8\u0dd0\u0daf\u0dd2\u0dba\u0db8\u0da7 \u0db4\u0dc3\u0dd4"],o],[["\u0db8\u0dd0\u0daf\u0dd2\u0dba\u0db8","\u0db8\u0db0\u0dca\u200d\u0dba\u0dcf\u0dc4\u0dca\u0db1\u0dba","\u0db4\u0dcf\u0db1\u0dca\u0daf\u0dbb","\u0d8b\u0daf\u0dda","\u0daf\u0dc0\u0dbd\u0dca","\u0dc4\u0dc0\u0dc3","\u0dbb\u0dd1","\u0db8\u0dd0\u0daf\u0dd2\u0dba\u0db8\u0da7 \u0db4\u0dc3\u0dd4"],o,o],["00:00","12:00",["01:00","06:00"],["06:00","12:00"],["12:00","14:00"],["14:00","18:00"],["18:00","24:00"],["00:00","01:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1340], {
+  /***/
+  "./node_modules/@angular/common/locales/global/ta-MY.js":
+  /*!**************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/ta-MY.js ***!
+    \**************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalTaMYJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['ta-my'] = ['ta-MY', [['மு.ப', 'பி.ப'], ['முற்பகல்', 'பிற்பகல்'], u], u, [['ஞா', 'தி', 'செ', 'பு', 'வி', 'வெ', 'ச'], ['ஞாயி.', 'திங்.', 'செவ்.', 'புத.', 'வியா.', 'வெள்.', 'சனி'], ['ஞாயிறு', 'திங்கள்', 'செவ்வாய்', 'புதன்', 'வியாழன்', 'வெள்ளி', 'சனி'], ['ஞா', 'தி', 'செ', 'பு', 'வி', 'வெ', 'ச']], u, [['ஜ', 'பி', 'மா', 'ஏ', 'மே', 'ஜூ', 'ஜூ', 'ஆ', 'செ', 'அ', 'ந', 'டி'], ['ஜன.', 'பிப்.', 'மார்.', 'ஏப்.', 'மே', 'ஜூன்', 'ஜூலை', 'ஆக.', 'செப்.', 'அக்.', 'நவ.', 'டிச.'], ['ஜனவரி', 'பிப்ரவரி', 'மார்ச்', 'ஏப்ரல்', 'மே', 'ஜூன்', 'ஜூலை', 'ஆகஸ்ட்', 'செப்டம்பர்', 'அக்டோபர்', 'நவம்பர்', 'டிசம்பர்']], u, [['கி.மு.', 'கி.பி.'], u, ['கிறிஸ்துவுக்கு முன்', 'அன்னோ டோமினி']], 1, [6, 0], ['d/M/yy', 'd MMM, y', 'd MMMM, y', 'EEEE, d MMMM, y'], ['a h:mm', 'a h:mm:ss', 'a h:mm:ss z', 'a h:mm:ss zzzz'], ['{1}, {0}', u, '{1} ’அன்று’ {0}', u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '¤ #,##0.00', '#E0'], 'MYR', 'RM', 'மலேஷியன் ரிங்கிட்', {
+        'MYR': ['RM'],
+        'SGD': ['S$', '$'],
+        'THB': ['฿'],
+        'TWD': ['NT$']
+      }, 'ltr', plural, [[['நள்.', 'நண்.', 'அதி.', 'கா.', 'மதி.', 'பிற்.', 'மா.', 'அந்தி மா.', 'இர.'], ['நள்ளிரவு', 'நண்பகல்', 'அதிகாலை', 'காலை', 'மதியம்', 'பிற்பகல்', 'மாலை', 'அந்தி மாலை', 'இரவு'], u], [['நள்.', 'நண்.', 'அதி.', 'கா.', 'மதி.', 'பிற்.', 'மா.', 'அந்தி மா.', 'இ.'], ['நள்ளிரவு', 'நண்பகல்', 'அதிகாலை', 'காலை', 'மதியம்', 'பிற்பகல்', 'மாலை', 'அந்தி மாலை', 'இரவு'], u], ['00:00', '12:00', ['03:00', '05:00'], ['05:00', '12:00'], ['12:00', '14:00'], ['14:00', '16:00'], ['16:00', '18:00'], ['18:00', '21:00'], ['21:00', '03:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1340-es5.js.map

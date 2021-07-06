@@ -1,1 +1,74 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1375],{SW98:function(n,o){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};const o=void 0;n.ng.common.locales.tg=["tg",[["AM","PM"],o,o],o,[["\u042f","\u0414","\u0421","\u0427","\u041f","\u04b6","\u0428"],["\u042f\u0448\u0431","\u0414\u0448\u0431","\u0421\u0448\u0431","\u0427\u0448\u0431","\u041f\u0448\u0431","\u04b6\u043c\u044a","\u0428\u043d\u0431"],["\u042f\u043a\u0448\u0430\u043d\u0431\u0435","\u0414\u0443\u0448\u0430\u043d\u0431\u0435","\u0421\u0435\u0448\u0430\u043d\u0431\u0435","\u0427\u043e\u0440\u0448\u0430\u043d\u0431\u0435","\u041f\u0430\u043d\u04b7\u0448\u0430\u043d\u0431\u0435","\u04b6\u0443\u043c\u044a\u0430","\u0428\u0430\u043d\u0431\u0435"],["\u042f\u0448\u0431","\u0414\u0448\u0431","\u0421\u0448\u0431","\u0427\u0448\u0431","\u041f\u0448\u0431","\u04b6\u043c\u044a","\u0428\u043d\u0431"]],o,[["\u042f","\u0424","\u041c","\u0410","\u041c","\u0418","\u0418","\u0410","\u0421","\u041e","\u041d","\u0414"],["\u042f\u043d\u0432","\u0424\u0435\u0432","\u041c\u0430\u0440","\u0410\u043f\u0440","\u041c\u0430\u0439","\u0418\u044e\u043d","\u0418\u044e\u043b","\u0410\u0432\u0433","\u0421\u0435\u043d","\u041e\u043a\u0442","\u041d\u043e\u044f","\u0414\u0435\u043a"],["\u042f\u043d\u0432\u0430\u0440","\u0424\u0435\u0432\u0440\u0430\u043b","\u041c\u0430\u0440\u0442","\u0410\u043f\u0440\u0435\u043b","\u041c\u0430\u0439","\u0418\u044e\u043d","\u0418\u044e\u043b","\u0410\u0432\u0433\u0443\u0441\u0442","\u0421\u0435\u043d\u0442\u044f\u0431\u0440","\u041e\u043a\u0442\u044f\u0431\u0440","\u041d\u043e\u044f\u0431\u0440","\u0414\u0435\u043a\u0430\u0431\u0440"]],o,[["\u041f\u0435\u041c","\u041f\u0430\u041c"],o,["\u041f\u0435\u0448 \u0430\u0437 \u043c\u0438\u043b\u043e\u0434","\u041f\u0430\u041c"]],1,[6,0],["dd/MM/yy","dd MMM y","dd MMMM y","EEEE, dd MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",o,o,o],[",","\xa0",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","#,##0.00\xa0\xa4","#E0"],"TJS","\u0441\u043e\u043c.","\u0421\u043e\u043c\u043e\u043d\u04e3",{JPY:["JP\xa5","\xa5"],TJS:["\u0441\u043e\u043c."]},"ltr",function(n){return 5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1375],{
+
+/***/ "./node_modules/@angular/common/locales/global/yav.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/yav.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) { return 5; }
+  global.ng.common.locales['yav'] = [
+    'yav',
+    [['kiɛmɛ́ɛm', 'kisɛ́ndɛ'], u, u],
+    u,
+    [
+      ['s', 'm', 'm', 'e', 'k', 'f', 's'], ['sd', 'md', 'mw', 'et', 'kl', 'fl', 'ss'],
+      [
+        'sɔ́ndiɛ', 'móndie', 'muányáŋmóndie', 'metúkpíápɛ', 'kúpélimetúkpiapɛ',
+        'feléte', 'séselé'
+      ],
+      ['sd', 'md', 'mw', 'et', 'kl', 'fl', 'ss']
+    ],
+    u,
+    [
+      ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+      ['o.1', 'o.2', 'o.3', 'o.4', 'o.5', 'o.6', 'o.7', 'o.8', 'o.9', 'o.10', 'o.11', 'o.12'],
+      [
+        'pikítíkítie, oólí ú kutúan', 'siɛyɛ́, oóli ú kándíɛ',
+        'ɔnsúmbɔl, oóli ú kátátúɛ', 'mesiŋ, oóli ú kénie',
+        'ensil, oóli ú kátánuɛ', 'ɔsɔn', 'efute', 'pisuyú', 'imɛŋ i puɔs',
+        'imɛŋ i putúk,oóli ú kátíɛ', 'makandikɛ', 'pilɔndɔ́'
+      ]
+    ],
+    u,
+    [['k.Y.', '+J.C.'], u, ['katikupíen Yésuse', 'ékélémkúnupíén n']],
+    1,
+    [6, 0],
+    ['d/M/y', 'd MMM y', 'd MMMM y', 'EEEE d MMMM y'],
+    ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
+    ['{1} {0}', u, u, u],
+    [',', ' ', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0%', '#,##0.00 ¤', '#E0'],
+    'XAF',
+    'FCFA',
+    'XAF',
+    {'JPY': ['JP¥', '¥'], 'USD': ['US$', '$']},
+    'ltr',
+    plural,
+    []
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1375-es2015.js.map

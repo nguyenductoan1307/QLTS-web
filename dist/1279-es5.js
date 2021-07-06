@@ -1,1 +1,47 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1279],{CW6B:function(n,o){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};var o=void 0;n.ng.common.locales["nl-sx"]=["nl-SX",[["a.m.","p.m."],o,o],o,[["Z","M","D","W","D","V","Z"],["zo","ma","di","wo","do","vr","za"],["zondag","maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag"],["zo","ma","di","wo","do","vr","za"]],o,[["J","F","M","A","M","J","J","A","S","O","N","D"],["jan.","feb.","mrt.","apr.","mei","jun.","jul.","aug.","sep.","okt.","nov.","dec."],["januari","februari","maart","april","mei","juni","juli","augustus","september","oktober","november","december"]],o,[["v.C.","n.C."],["v.Chr.","n.Chr."],["voor Christus","na Christus"]],1,[6,0],["dd-MM-y","d MMM y","d MMMM y","EEEE d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",o,"{1} 'om' {0}",o],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4\xa0#,##0.00;\xa4\xa0-#,##0.00","#E0"],"ANG","NAf.","Nederlands-Antilliaanse gulden",{ANG:["NAf."],AUD:["AU$","$"],CAD:["C$","$"],FJD:["FJ$","$"],JPY:["JP\xa5","\xa5"],SBD:["SI$","$"],THB:["\u0e3f"],TWD:["NT$"],USD:["US$","$"],XPF:[],XXX:[]},"ltr",function(n){var o=Math.floor(Math.abs(n)),a=n.toString().replace(/^[^.]*\.?/,"").length;return 1===o&&0===a?1:5},[[["middernacht","\u2019s ochtends","\u2019s middags","\u2019s avonds","\u2019s nachts"],o,o],[["middernacht","ochtend","middag","avond","nacht"],o,o],["00:00",["06:00","12:00"],["12:00","18:00"],["18:00","24:00"],["00:00","06:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1279], {
+  /***/
+  "./node_modules/@angular/common/locales/global/pt-TL.js":
+  /*!**************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/pt-TL.js ***!
+    \**************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalPtTLJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        var i = Math.floor(Math.abs(n));
+        if (i === Math.floor(i) && i >= 0 && i <= 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['pt-tl'] = ['pt-TL', [['a.m.', 'p.m.'], u, ['da manhã', 'da tarde']], [['a.m.', 'p.m.'], u, ['manhã', 'tarde']], [['D', 'S', 'T', 'Q', 'Q', 'S', 'S'], ['domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado'], ['domingo', 'segunda-feira', 'terça-feira', 'quarta-feira', 'quinta-feira', 'sexta-feira', 'sábado'], ['domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado']], u, [['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'], ['jan.', 'fev.', 'mar.', 'abr.', 'mai.', 'jun.', 'jul.', 'ago.', 'set.', 'out.', 'nov.', 'dez.'], ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro']], u, [['a.C.', 'd.C.'], u, ['antes de Cristo', 'depois de Cristo']], 1, [6, 0], ['dd/MM/yy', 'dd/MM/y', 'd \'de\' MMMM \'de\' y', 'EEEE, d \'de\' MMMM \'de\' y'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1}, {0}', u, '{1} \'às\' {0}', u], [',', ' ', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '#,##0.00 ¤', '#E0'], 'USD', 'US$', 'dólar dos Estados Unidos', {
+        'AUD': ['AU$', '$'],
+        'JPY': ['JP¥', '¥'],
+        'PTE': ['​'],
+        'RON': [u, 'L'],
+        'THB': ['฿'],
+        'TWD': ['NT$'],
+        'USD': ['US$', '$']
+      }, 'ltr', plural, [[['meia-noite', 'meio-dia', 'manhã', 'tarde', 'noite', 'madrugada'], ['meia-noite', 'meio-dia', 'da manhã', 'da tarde', 'da noite', 'da madrugada'], u], [['meia-noite', 'meio-dia', 'manhã', 'tarde', 'noite', 'madrugada'], u, u], ['00:00', '12:00', ['06:00', '12:00'], ['12:00', '19:00'], ['19:00', '24:00'], ['00:00', '06:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1279-es5.js.map

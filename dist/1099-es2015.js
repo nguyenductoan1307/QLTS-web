@@ -1,1 +1,135 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1099],{ByDA:function(e,a){!function(e){e.ng=e.ng||{},e.ng.common=e.ng.common||{},e.ng.common.locales=e.ng.common.locales||{};const a=void 0;e.ng.common.locales["es-ve"]=["es-VE",[["a.\xa0m.","p.\xa0m."],a,a],a,[["d","l","m","m","j","v","s"],["dom.","lun.","mar.","mi\xe9.","jue.","vie.","s\xe1b."],["domingo","lunes","martes","mi\xe9rcoles","jueves","viernes","s\xe1bado"],["Do","Lu","Ma","Mi","Ju","Vi","Sa"]],[["D","L","M","M","J","V","S"],["dom.","lun.","mar.","mi\xe9.","jue.","vie.","s\xe1b."],["domingo","lunes","martes","mi\xe9rcoles","jueves","viernes","s\xe1bado"],["Do","Lu","Ma","Mi","Ju","Vi","Sa"]],[["E","F","M","A","M","J","J","A","S","O","N","D"],["ene.","feb.","mar.","abr.","may.","jun.","jul.","ago.","sept.","oct.","nov.","dic."],["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"]],a,[["a. C.","d. C."],a,["antes de Cristo","despu\xe9s de Cristo"]],0,[6,0],["d/M/yy","d MMM y","d 'de' MMMM 'de' y","EEEE, d 'de' MMMM 'de' y"],["h:mm a","h:mm:ss a","h:mm:ss a z","h:mm:ss a zzzz"],["{1} {0}",a,"{1} 'a' 'las' {0}",a],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","\xa4#,##0.00;\xa4-#,##0.00","#E0"],"VES","Bs.S","bol\xedvar soberano",{AUD:[a,"$"],BRL:[a,"R$"],CAD:[a,"$"],CNY:[a,"\xa5"],ESP:["\u20a7"],EUR:[a,"\u20ac"],FKP:[a,"FK\xa3"],GBP:[a,"\xa3"],HKD:[a,"$"],ILS:[a,"\u20aa"],INR:[a,"\u20b9"],JPY:[a,"\xa5"],KRW:[a,"\u20a9"],MXN:[a,"$"],NZD:[a,"$"],RON:[a,"L"],SSP:[a,"SD\xa3"],SYP:[a,"S\xa3"],TWD:[a,"NT$"],USD:[a,"$"],VEF:["Bs."],VES:["Bs.S"],VND:[a,"\u20ab"],XAF:[],XCD:[a,"$"],XOF:[]},"ltr",function(e){return 1===e?1:5},[[["del mediod\xeda","de la madrugada","de la ma\xf1ana","de la tarde","de la noche"],a,a],[["m.","madrugada","ma\xf1ana","tarde","noche"],["mediod\xeda","madrugada","ma\xf1ana","tarde","noche"],a],["12:00",["00:00","06:00"],["06:00","12:00"],["12:00","20:00"],["20:00","24:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1099],{
+
+/***/ "./node_modules/@angular/common/locales/global/fr-BI.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/fr-BI.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    let i = Math.floor(Math.abs(n));
+    if (i === 0 || i === 1) return 1;
+    return 5;
+  }
+  global.ng.common.locales['fr-bi'] = [
+    'fr-BI',
+    [['AM', 'PM'], u, u],
+    u,
+    [
+      ['D', 'L', 'M', 'M', 'J', 'V', 'S'], ['dim.', 'lun.', 'mar.', 'mer.', 'jeu.', 'ven.', 'sam.'],
+      ['dimanche', 'lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi'],
+      ['di', 'lu', 'ma', 'me', 'je', 've', 'sa']
+    ],
+    u,
+    [
+      ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'],
+      [
+        'janv.', 'févr.', 'mars', 'avr.', 'mai', 'juin', 'juil.', 'août', 'sept.', 'oct.', 'nov.',
+        'déc.'
+      ],
+      [
+        'janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre',
+        'octobre', 'novembre', 'décembre'
+      ]
+    ],
+    u,
+    [['av. J.-C.', 'ap. J.-C.'], u, ['avant Jésus-Christ', 'après Jésus-Christ']],
+    1,
+    [6, 0],
+    ['dd/MM/y', 'd MMM y', 'd MMMM y', 'EEEE d MMMM y'],
+    ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
+    ['{1} {0}', '{1} \'à\' {0}', u, u],
+    [',', '\u202f', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0 %', '#,##0.00 ¤', '#E0'],
+    'BIF',
+    'FBu',
+    'franc burundais',
+    {
+      'ARS': ['$AR', '$'],
+      'AUD': ['$AU', '$'],
+      'BEF': ['FB'],
+      'BIF': ['FBu'],
+      'BMD': ['$BM', '$'],
+      'BND': ['$BN', '$'],
+      'BZD': ['$BZ', '$'],
+      'CAD': ['$CA', '$'],
+      'CLP': ['$CL', '$'],
+      'CNY': [u, '¥'],
+      'COP': ['$CO', '$'],
+      'CYP': ['£CY'],
+      'EGP': [u, '£E'],
+      'FJD': ['$FJ', '$'],
+      'FKP': ['£FK', '£'],
+      'FRF': ['F'],
+      'GBP': ['£GB', '£'],
+      'GIP': ['£GI', '£'],
+      'HKD': [u, '$'],
+      'IEP': ['£IE'],
+      'ILP': ['£IL'],
+      'ITL': ['₤IT'],
+      'JPY': [u, '¥'],
+      'KMF': [u, 'FC'],
+      'LBP': ['£LB', '£L'],
+      'MTP': ['£MT'],
+      'MXN': ['$MX', '$'],
+      'NAD': ['$NA', '$'],
+      'NIO': [u, '$C'],
+      'NZD': ['$NZ', '$'],
+      'RHD': ['$RH'],
+      'RON': [u, 'L'],
+      'RWF': [u, 'FR'],
+      'SBD': ['$SB', '$'],
+      'SGD': ['$SG', '$'],
+      'SRD': ['$SR', '$'],
+      'TOP': [u, '$T'],
+      'TTD': ['$TT', '$'],
+      'TWD': [u, 'NT$'],
+      'USD': ['$US', '$'],
+      'UYU': ['$UY', '$'],
+      'WST': ['$WS'],
+      'XCD': [u, '$'],
+      'XPF': ['FCFP'],
+      'ZMW': [u, 'Kw']
+    },
+    'ltr',
+    plural,
+    [
+      [
+        ['minuit', 'midi', 'mat.', 'ap.m.', 'soir', 'nuit'], u,
+        ['minuit', 'midi', 'du matin', 'de l’après-midi', 'du soir', 'du matin']
+      ],
+      [
+        ['minuit', 'midi', 'mat.', 'ap.m.', 'soir', 'nuit'], u,
+        ['minuit', 'midi', 'matin', 'après-midi', 'soir', 'nuit']
+      ],
+      [
+        '00:00', '12:00', ['04:00', '12:00'], ['12:00', '18:00'], ['18:00', '24:00'],
+        ['00:00', '04:00']
+      ]
+    ]
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1099-es2015.js.map

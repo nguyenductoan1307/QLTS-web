@@ -3,6 +3,7 @@ import { Injectable, Injector } from '@angular/core';
 import { PlatformLocation, registerLocaleData } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import * as moment from 'moment';
+import 'moment-timezone';
 import * as _ from 'lodash';
 import { AppConsts } from '@shared/AppConsts';
 import { AppSessionService } from '@shared/session/app-session.service';

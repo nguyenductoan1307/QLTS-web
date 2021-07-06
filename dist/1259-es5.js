@@ -1,1 +1,38 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1259],{"5J/E":function(a,n){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};var n=void 0;a.ng.common.locales["ms-bn"]=["ms-BN",[["a","p"],["PG","PTG"],n],n,[["A","I","S","R","K","J","S"],["Ahd","Isn","Sel","Rab","Kha","Jum","Sab"],["Ahad","Isnin","Selasa","Rabu","Khamis","Jumaat","Sabtu"],["Ah","Is","Se","Ra","Kh","Ju","Sa"]],n,[["J","F","M","A","M","J","J","O","S","O","N","D"],["Jan","Feb","Mac","Apr","Mei","Jun","Jul","Ogo","Sep","Okt","Nov","Dis"],["Januari","Februari","Mac","April","Mei","Jun","Julai","Ogos","September","Oktober","November","Disember"]],n,[["S.M.","TM"],n,n],1,[6,0],["d/MM/yy","d MMM y","d MMMM y","dd MMMM y"],["h:mm a","h:mm:ss a","h:mm:ss a z","h:mm:ss a zzzz"],["{1}, {0}",n,"{1} {0}",n],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4\xa0#,##0.00","#E0"],"BND","$","Dolar Brunei",{BND:["$"],CAD:[n,"$"],JPY:["JP\xa5","\xa5"],MXN:[n,"$"],MYR:["RM"],TWD:["NT$"],USD:[n,"$"]},"ltr",function(a){return 5},[[["pagi","pagi","tengah hari","petang","malam"],n,["tengah malam","pagi","tengah hari","petang","malam"]],[["pagi","pagi","tengah hari","petang","malam"],["tengah malam","pagi","tengah hari","petang","malam"],n],[["00:00","01:00"],["01:00","12:00"],["12:00","14:00"],["14:00","19:00"],["19:00","24:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1259], {
+  /***/
+  "./node_modules/@angular/common/locales/global/or.js":
+  /*!***********************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/or.js ***!
+    \***********************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalOrJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['or'] = ['or', [['ପୂ', 'ଅ'], ['AM', 'PM'], u], [['AM', 'ଅପରାହ୍ନ'], ['ପୂର୍ବାହ୍ନ', 'ଅପରାହ୍ନ'], u], [['ର', 'ସୋ', 'ମ', 'ବୁ', 'ଗୁ', 'ଶୁ', 'ଶ'], ['ରବି', 'ସୋମ', 'ମଙ୍ଗଳ', 'ବୁଧ', 'ଗୁରୁ', 'ଶୁକ୍ର', 'ଶନି'], ['ରବିବାର', 'ସୋମବାର', 'ମଙ୍ଗଳବାର', 'ବୁଧବାର', 'ଗୁରୁବାର', 'ଶୁକ୍ରବାର', 'ଶନିବାର'], ['ରବି', 'ସୋମ', 'ମଙ୍ଗଳ', 'ବୁଧ', 'ଗୁରୁ', 'ଶୁକ୍ର', 'ଶନି']], u, [['ଜା', 'ଫେ', 'ମା', 'ଅ', 'ମଇ', 'ଜୁ', 'ଜୁ', 'ଅ', 'ସେ', 'ଅ', 'ନ', 'ଡି'], ['ଜାନୁଆରୀ', 'ଫେବୃଆରୀ', 'ମାର୍ଚ୍ଚ', 'ଅପ୍ରେଲ', 'ମଇ', 'ଜୁନ', 'ଜୁଲାଇ', 'ଅଗଷ୍ଟ', 'ସେପ୍ଟେମ୍ବର', 'ଅକ୍ଟୋବର', 'ନଭେମ୍ବର', 'ଡିସେମ୍ବର'], u], u, [['BC', 'AD'], u, ['ଖ୍ରୀଷ୍ଟପୂର୍ବ', 'ଖ୍ରୀଷ୍ଟାବ୍ଦ']], 0, [0, 0], ['M/d/yy', 'MMM d, y', 'MMMM d, y', 'EEEE, MMMM d, y'], ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'], ['{1}, {0}', u, '{0} ଠାରେ {1}', u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##,##0.###', '#,##0%', '¤#,##0.00', '#E0'], 'INR', '₹', 'ଭାରତୀୟ ଟଙ୍କା', {}, 'ltr', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1259-es5.js.map

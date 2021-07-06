@@ -1,1 +1,44 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1263],{"NIY+":function(o,i){!function(o){o.ng=o.ng||{},o.ng.common=o.ng.common||{},o.ng.common.locales=o.ng.common.locales||{};var i=void 0;o.ng.common.locales.mua=["mua",[["comme","lilli"],i,i],i,[["Y","L","Z","O","A","G","E"],["Cya","Cla","Czi","Cko","Cka","Cga","Cze"],["Com\u2019yakke","Comlaa\u0257ii","Comzyii\u0257ii","Comkolle","Comkald\u01dd\u0253lii","Comgaisuu","Comzye\u0253suu"],["Cya","Cla","Czi","Cko","Cka","Cga","Cze"]],i,[["O","A","I","F","D","B","L","M","E","U","W","Y"],["FLO","CLA","CKI","FMF","MAD","MBI","MLI","MAM","FDE","FMU","FGW","FYU"],["F\u0129i Loo","Cokcwakla\u014bne","Cokcwaklii","F\u0129i Marfoo","Mad\u01dd\u01dduut\u01ddbija\u014b","Mam\u01dd\u014bgw\xe3afahbii","Mam\u01dd\u014bgw\xe3alii","Mad\u01ddmbii","F\u0129i D\u01dd\u0253lii","F\u0129i Munda\u014b","F\u0129i Gwahlle","F\u0129i Yuru"]],i,[["KK","PK"],i,["K\u01ddPel Kristu","Pel Kristu"]],1,[6,0],["d/M/y","d MMM y","d MMMM y","EEEE d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",i,i,i],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4#,##0.00","#E0"],"XAF","FCFA","solai BEAC",{JPY:["JP\xa5","\xa5"],USD:["US$","$"]},"ltr",function(o){return 5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1263], {
+  /***/
+  "./node_modules/@angular/common/locales/global/pa-Guru.js":
+  /*!****************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/pa-Guru.js ***!
+    \****************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalPaGuruJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === Math.floor(n) && n >= 0 && n <= 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['pa-guru'] = ['pa-Guru', [['ਸ.', 'ਸ਼.'], ['ਪੂ.ਦੁ.', 'ਬਾ.ਦੁ.'], u], [['ਪੂ.ਦੁ.', 'ਬਾ.ਦੁ.'], u, u], [['ਐ', 'ਸੋ', 'ਮੰ', 'ਬੁੱ', 'ਵੀ', 'ਸ਼ੁੱ', 'ਸ਼'], ['ਐਤ', 'ਸੋਮ', 'ਮੰਗਲ', 'ਬੁੱਧ', 'ਵੀਰ', 'ਸ਼ੁੱਕਰ', 'ਸ਼ਨਿੱਚਰ'], ['ਐਤਵਾਰ', 'ਸੋਮਵਾਰ', 'ਮੰਗਲਵਾਰ', 'ਬੁੱਧਵਾਰ', 'ਵੀਰਵਾਰ', 'ਸ਼ੁੱਕਰਵਾਰ', 'ਸ਼ਨਿੱਚਰਵਾਰ'], ['ਐਤ', 'ਸੋਮ', 'ਮੰਗ', 'ਬੁੱਧ', 'ਵੀਰ', 'ਸ਼ੁੱਕ', 'ਸ਼ਨਿੱ']], u, [['ਜ', 'ਫ਼', 'ਮਾ', 'ਅ', 'ਮ', 'ਜੂ', 'ਜੁ', 'ਅ', 'ਸ', 'ਅ', 'ਨ', 'ਦ'], ['ਜਨ', 'ਫ਼ਰ', 'ਮਾਰਚ', 'ਅਪ੍ਰੈ', 'ਮਈ', 'ਜੂਨ', 'ਜੁਲਾ', 'ਅਗ', 'ਸਤੰ', 'ਅਕਤੂ', 'ਨਵੰ', 'ਦਸੰ'], ['ਜਨਵਰੀ', 'ਫ਼ਰਵਰੀ', 'ਮਾਰਚ', 'ਅਪ੍ਰੈਲ', 'ਮਈ', 'ਜੂਨ', 'ਜੁਲਾਈ', 'ਅਗਸਤ', 'ਸਤੰਬਰ', 'ਅਕਤੂਬਰ', 'ਨਵੰਬਰ', 'ਦਸੰਬਰ']], u, [['ਈ.ਪੂ.', 'ਸੰਨ'], ['ਈ. ਪੂ.', 'ਸੰਨ'], ['ਈਸਵੀ ਪੂਰਵ', 'ਈਸਵੀ ਸੰਨ']], 0, [0, 0], ['d/M/yy', 'd MMM y', 'd MMMM y', 'EEEE, d MMMM y'], ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'], ['{1}, {0}', u, '{1} {0}', u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##,##0.###', '#,##,##0%', '¤ #,##,##0.00', '[#E0]'], 'INR', '₹', 'ਭਾਰਤੀ ਰੁਪਇਆ', {
+        'JPY': ['JP¥', '¥'],
+        'THB': ['฿'],
+        'TWD': ['NT$'],
+        'USD': ['US$', '$'],
+        'XXX': []
+      }, 'ltr', plural, [[['ਅੱਧੀ ਰਾਤ', 'ਸਵੇਰੇ', 'ਦੁਪਹਿਰੇ', 'ਸ਼ਾਮੀਂ', 'ਰਾਤੀਂ'], u, u], [['ਅੱਧੀ ਰਾਤ', 'ਸਵੇਰੇ', 'ਦੁਪਹਿਰੇ', 'ਸ਼ਾਮੀਂ', 'ਰਾਤੀਂ'], u, ['ਅੱਧੀ ਰਾਤ', 'ਸਵੇਰੇ', 'ਦੁਪਹਿਰੇ', 'ਸ਼ਾਮ', 'ਰਾਤ']], ['00:00', ['04:00', '12:00'], ['12:00', '16:00'], ['16:00', '21:00'], ['21:00', '04:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1263-es5.js.map

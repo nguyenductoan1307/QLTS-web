@@ -1,1 +1,47 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1330],{LwJf:function(n,o){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};var o=void 0;n.ng.common.locales.sd=["sd",[["\u0635\u0628\u062d\u060c \u0645\u0646\u062c\u0647\u0646\u062f","\u0645\u0646\u062c\u0647\u0646\u062f\u060c \u0634\u0627\u0645"],["\u0635\u0628\u062d\u060c \u0645\u0646\u062c\u0647\u0646\u062f","\u0634\u0627\u0645\u060c \u0645\u0646\u062c\u0647\u0646\u062f"],["\u0635\u0628\u062d\u060c \u0645\u0646\u062c\u0647\u0646\u062f","\u0645\u0646\u062c\u0647\u0646\u062f\u060c \u0634\u0627\u0645"]],[["\u0635\u0628\u062d\u060c \u0645\u0646\u062c\u0647\u0646\u062f","\u0645\u0646\u062c\u0647\u0646\u062f\u060c \u0634\u0627\u0645"],o,o],[["\u0622\u0686\u0631","\u0633\u0648","\u0627\u06b1\u0627\u0631\u0648","\u0627\u0631\u0628\u0639","\u062e\u0645","\u062c\u0645\u0639\u0648","\u0687\u0646\u0687\u0631"],["\u0622\u0686\u0631","\u0633\u0648\u0645\u0631","\u0627\u06b1\u0627\u0631\u0648","\u0627\u0631\u0628\u0639","\u062e\u0645\u064a\u0633","\u062c\u0645\u0639\u0648","\u0687\u0646\u0687\u0631"],o,o],o,[["J","F","M","A","M","J","J","A","S","O","N","D"],["\u062c\u0646\u0648\u0631\u064a","\u0641\u064a\u0628\u0631\u0648\u0631\u064a","\u0645\u0627\u0631\u0686","\u0627\u067e\u0631\u064a\u0644","\u0645\u0626\u064a","\u062c\u0648\u0646","\u062c\u0648\u0644\u0627\u0621\u0650","\u0622\u06af\u0633\u067d","\u0633\u064a\u067e\u067d\u0645\u0628\u0631","\u0622\u06aa\u067d\u0648\u0628\u0631","\u0646\u0648\u0645\u0628\u0631","\u068a\u0633\u0645\u0628\u0631"],o],o,[["BC","CD"],o,["\u0645\u0633\u064a\u062d \u06a9\u0627\u0646 \u0627\u06b3","\u0639\u064a\u0633\u0648\u064a \u06a9\u0627\u0646 \u067e\u0647\u0631\u064a\u0646"]],0,[6,0],["y-MM-dd","y MMM d","y MMMM d","y MMMM d, EEEE"],["h:mm a","h:mm:ss a","h:mm:ss a z","h:mm:ss a zzzz"],["{1} {0}",o,o,o],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4\xa0#,##0.00","#E0"],"PKR","Rs","\u067e\u0627\u06aa\u0633\u062a\u0627\u0646\u064a \u0631\u067e\u064a",{JPY:["JP\xa5","\xa5"],PKR:["Rs"],USD:["US$","$"]},"rtl",function(n){return 1===n?1:5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1330], {
+  /***/
+  "./node_modules/@angular/common/locales/global/sr-Latn.js":
+  /*!****************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/sr-Latn.js ***!
+    \****************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalSrLatnJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        return 5;
+      }
+
+      global.ng.common.locales['sr-latn'] = ['sr-Latn', [['a', 'p'], ['pre podne', 'po podne'], u], [['pre podne', 'po podne'], u, u], [['n', 'p', 'u', 's', 'č', 'p', 's'], ['ned', 'pon', 'uto', 'sre', 'čet', 'pet', 'sub'], ['nedelja', 'ponedeljak', 'utorak', 'sreda', 'četvrtak', 'petak', 'subota'], ['ne', 'po', 'ut', 'sr', 'če', 'pe', 'su']], u, [['j', 'f', 'm', 'a', 'm', 'j', 'j', 'a', 's', 'o', 'n', 'd'], ['jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'avg', 'sep', 'okt', 'nov', 'dec'], ['januar', 'februar', 'mart', 'april', 'maj', 'jun', 'jul', 'avgust', 'septembar', 'oktobar', 'novembar', 'decembar']], u, [['p.n.e.', 'n.e.'], ['p. n. e.', 'n. e.'], ['pre nove ere', 'nove ere']], 1, [6, 0], ['d.M.yy.', 'dd.MM.y.', 'dd. MMMM y.', 'EEEE, dd. MMMM y.'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1} {0}', u, u, u], [',', '.', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '#,##0.00 ¤', '#E0'], 'RSD', 'RSD', 'Srpski dinar', {
+        'AUD': [u, '$'],
+        'BAM': ['KM'],
+        'BYN': [u, 'r.'],
+        'GEL': [u, 'ლ'],
+        'KRW': [u, '₩'],
+        'NZD': [u, '$'],
+        'TWD': ['NT$'],
+        'USD': ['US$', '$'],
+        'VND': [u, '₫']
+      }, 'ltr', plural, [[['ponoć', 'podne', 'ujutru', 'po podne', 'uveče', 'noću'], ['ponoć', 'podne', 'ujutro', 'po podne', 'uveče', 'noću'], u], [['ponoć', 'podne', 'jutro', 'popodne', 'veče', 'noć'], u, u], ['00:00', '12:00', ['06:00', '12:00'], ['12:00', '18:00'], ['18:00', '21:00'], ['21:00', '06:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1330-es5.js.map

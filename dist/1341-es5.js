@@ -1,1 +1,44 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1341],{BzqX:function(o,n){!function(o){o.ng=o.ng||{},o.ng.common=o.ng.common||{},o.ng.common.locales=o.ng.common.locales||{};var n=void 0;o.ng.common.locales.sk=["sk",[["AM","PM"],n,n],n,[["n","p","u","s","\u0161","p","s"],["ne","po","ut","st","\u0161t","pi","so"],["nede\u013ea","pondelok","utorok","streda","\u0161tvrtok","piatok","sobota"],["ne","po","ut","st","\u0161t","pi","so"]],n,[["j","f","m","a","m","j","j","a","s","o","n","d"],["jan","feb","mar","apr","m\xe1j","j\xfan","j\xfal","aug","sep","okt","nov","dec"],["janu\xe1ra","febru\xe1ra","marca","apr\xedla","m\xe1ja","j\xfana","j\xfala","augusta","septembra","okt\xf3bra","novembra","decembra"]],[["j","f","m","a","m","j","j","a","s","o","n","d"],["jan","feb","mar","apr","m\xe1j","j\xfan","j\xfal","aug","sep","okt","nov","dec"],["janu\xe1r","febru\xe1r","marec","apr\xedl","m\xe1j","j\xfan","j\xfal","august","september","okt\xf3ber","november","december"]],[["pred Kr.","po Kr."],n,["pred Kristom","po Kristovi"]],1,[6,0],["d. M. y",n,"d. MMMM y","EEEE d. MMMM y"],["H:mm","H:mm:ss","H:mm:ss z","H:mm:ss zzzz"],["{1} {0}","{1}, {0}",n,n],[",","\xa0",";","%","+","-","e","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","#,##0.00\xa0\xa4","#E0"],"EUR","\u20ac","euro",{AUD:[n,"$"],BRL:[n,"R$"],CAD:[n,"$"],CNY:[n,"\xa5"],GBP:[n,"\xa3"],HKD:[n,"$"],ILS:["NIS","\u20aa"],INR:[n,"\u20b9"],JPY:[n,"\xa5"],KRW:[n,"\u20a9"],NZD:[n,"$"],TWD:[n,"NT$"],USD:[n,"$"],VND:[n,"\u20ab"],XXX:[]},"ltr",function(o){var n=Math.floor(Math.abs(o)),e=o.toString().replace(/^[^.]*\.?/,"").length;return 1===n&&0===e?1:n===Math.floor(n)&&n>=2&&n<=4&&0===e?3:0!==e?4:5},[[["o poln.","nap.","r\xe1no","dop.","pop.","ve\u010d.","v n."],["o poln.","napol.","r\xe1no","dopol.","popol.","ve\u010der","v noci"],["o polnoci","napoludnie","r\xe1no","dopoludnia","popoludn\xed","ve\u010der","v noci"]],[["poln.","pol.","r\xe1no","dop.","pop.","ve\u010d.","noc"],["poln.","pol.","r\xe1no","dopol.","popol.","ve\u010der","noc"],["polnoc","poludnie","r\xe1no","dopoludnie","popoludnie","ve\u010der","noc"]],["00:00","12:00",["04:00","09:00"],["09:00","12:00"],["12:00","18:00"],["18:00","22:00"],["22:00","04:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1341], {
+  /***/
+  "./node_modules/@angular/common/locales/global/ta-SG.js":
+  /*!**************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/ta-SG.js ***!
+    \**************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalTaSGJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['ta-sg'] = ['ta-SG', [['மு.ப', 'பி.ப'], ['முற்பகல்', 'பிற்பகல்'], u], u, [['ஞா', 'தி', 'செ', 'பு', 'வி', 'வெ', 'ச'], ['ஞாயி.', 'திங்.', 'செவ்.', 'புத.', 'வியா.', 'வெள்.', 'சனி'], ['ஞாயிறு', 'திங்கள்', 'செவ்வாய்', 'புதன்', 'வியாழன்', 'வெள்ளி', 'சனி'], ['ஞா', 'தி', 'செ', 'பு', 'வி', 'வெ', 'ச']], u, [['ஜ', 'பி', 'மா', 'ஏ', 'மே', 'ஜூ', 'ஜூ', 'ஆ', 'செ', 'அ', 'ந', 'டி'], ['ஜன.', 'பிப்.', 'மார்.', 'ஏப்.', 'மே', 'ஜூன்', 'ஜூலை', 'ஆக.', 'செப்.', 'அக்.', 'நவ.', 'டிச.'], ['ஜனவரி', 'பிப்ரவரி', 'மார்ச்', 'ஏப்ரல்', 'மே', 'ஜூன்', 'ஜூலை', 'ஆகஸ்ட்', 'செப்டம்பர்', 'அக்டோபர்', 'நவம்பர்', 'டிசம்பர்']], u, [['கி.மு.', 'கி.பி.'], u, ['கிறிஸ்துவுக்கு முன்', 'அன்னோ டோமினி']], 0, [6, 0], ['d/M/yy', 'd MMM, y', 'd MMMM, y', 'EEEE, d MMMM, y'], ['a h:mm', 'a h:mm:ss', 'a h:mm:ss z', 'a h:mm:ss zzzz'], ['{1}, {0}', u, '{1} ’அன்று’ {0}', u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '¤ #,##0.00', '#E0'], 'SGD', '$', 'சிங்கப்பூர் டாலர்', {
+        'MYR': ['RM'],
+        'SGD': ['$'],
+        'THB': ['฿'],
+        'TWD': ['NT$'],
+        'USD': ['US$', '$']
+      }, 'ltr', plural, [[['நள்.', 'நண்.', 'அதி.', 'கா.', 'மதி.', 'பிற்.', 'மா.', 'அந்தி மா.', 'இர.'], ['நள்ளிரவு', 'நண்பகல்', 'அதிகாலை', 'காலை', 'மதியம்', 'பிற்பகல்', 'மாலை', 'அந்தி மாலை', 'இரவு'], u], [['நள்.', 'நண்.', 'அதி.', 'கா.', 'மதி.', 'பிற்.', 'மா.', 'அந்தி மா.', 'இ.'], ['நள்ளிரவு', 'நண்பகல்', 'அதிகாலை', 'காலை', 'மதியம்', 'பிற்பகல்', 'மாலை', 'அந்தி மாலை', 'இரவு'], u], ['00:00', '12:00', ['03:00', '05:00'], ['05:00', '12:00'], ['12:00', '14:00'], ['14:00', '16:00'], ['16:00', '18:00'], ['18:00', '21:00'], ['21:00', '03:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1341-es5.js.map

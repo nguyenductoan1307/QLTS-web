@@ -1,1 +1,66 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1212],{"Bz+O":function(a,u){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};const u=void 0;a.ng.common.locales.kea=["kea",[["am","pm"],u,u],u,[["D","S","T","K","K","S","S"],["dum","sig","ter","kua","kin","ses","sab"],["dumingu","sigunda-fera","tersa-fera","kuarta-fera","kinta-fera","sesta-fera","sabadu"],["du","si","te","ku","ki","se","sa"]],[["D","S","T","K","K","S","S"],["dum","sig","ter","kua","kin","ses","sab"],["dumingu","sigunda-fera","tersa-fera","kuarta-fera","kinta-fera","sesta-fera","s\xe1badu"],["du","si","te","ku","ki","se","sa"]],[["J","F","M","A","M","J","J","A","S","O","N","D"],["Jan","Feb","Mar","Abr","Mai","Jun","Jul","Ago","Set","Otu","Nuv","Diz"],["Janeru","Febreru","Marsu","Abril","Maiu","Junhu","Julhu","Agostu","Setenbru","Otubru","Nuvenbru","Dizenbru"]],u,[["AK","DK"],u,["antis di Kristu","dispos di Kristu"]],1,[6,0],["dd/MM/y","d MMM y","d 'di' MMMM 'di' y","EEEE, d 'di' MMMM 'di' y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1}, {0}",u,u,u],[",","\xa0",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","#,##0.00\xa0\xa4","#E0"],"CVE","\u200b","Skudu Kabuverdianu",{AUD:["AU$","$"],CVE:["\u200b"],JPY:["JP\xa5","\xa5"],THB:["\u0e3f"],USD:["US$","$"]},"ltr",function(a){return 5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1212],{
+
+/***/ "./node_modules/@angular/common/locales/global/lrc.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/lrc.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) { return 5; }
+  global.ng.common.locales['lrc'] = [
+    'lrc',
+    [['AM', 'PM'], u, u],
+    u,
+    [['S', 'M', 'T', 'W', 'T', 'F', 'S'], ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'], u, u],
+    u,
+    [
+      ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+      [
+        'جانڤیە', 'فئڤریە', 'مارس', 'آڤریل', 'مئی', 'جوٙأن',
+        'جوٙلا', 'آگوست', 'سئپتامر', 'ئوکتوڤر', 'نوڤامر',
+        'دئسامر'
+      ],
+      u
+    ],
+    u,
+    [['BCE', 'CE'], u, u],
+    6,
+    [5, 5],
+    ['y-MM-dd', 'y MMM d', 'y MMMM d', 'y MMMM d, EEEE'],
+    ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
+    ['{1} {0}', u, u, u],
+    ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0%', '¤ #,##0.00', '#E0'],
+    'IRR',
+    'IRR',
+    'IRR',
+    {'IQD': ['د.ع.\u200f'], 'JPY': ['JP¥', '¥'], 'USD': ['US$', '$']},
+    'rtl',
+    plural,
+    []
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1212-es2015.js.map

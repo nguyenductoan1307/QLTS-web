@@ -1,1 +1,73 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1082],{l8ZI:function(e,a){!function(e){e.ng=e.ng||{},e.ng.common=e.ng.common||{},e.ng.common.locales=e.ng.common.locales||{};const a=void 0;e.ng.common.locales["es-do"]=["es-DO",[["a.\xa0m.","p.\xa0m."],a,a],a,[["D","L","M","M","J","V","S"],["dom.","lun.","mar.","mi\xe9.","jue.","vie.","s\xe1b."],["domingo","lunes","martes","mi\xe9rcoles","jueves","viernes","s\xe1bado"],["DO","LU","MA","MI","JU","VI","SA"]],a,[["E","F","M","A","M","J","J","A","S","O","N","D"],["ene.","feb.","mar.","abr.","may.","jun.","jul.","ago.","sep.","oct.","nov.","dic."],["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"]],a,[["a. C.","d. C."],a,["antes de Cristo","despu\xe9s de Cristo"]],0,[6,0],["d/M/yy","d MMM y","d 'de' MMMM 'de' y","EEEE, d 'de' MMMM 'de' y"],["h:mm a","h:mm:ss a","h:mm:ss a z","h:mm:ss a zzzz"],["{1} {0}",a,"{1} 'a' 'las' {0}",a],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","\xa4#,##0.00","#E0"],"DOP","RD$","peso dominicano",{AUD:[a,"$"],BRL:[a,"R$"],CAD:[a,"$"],CNY:[a,"\xa5"],DOP:["RD$","$"],ESP:["\u20a7"],EUR:[a,"\u20ac"],FKP:[a,"FK\xa3"],GBP:[a,"\xa3"],HKD:[a,"$"],ILS:[a,"\u20aa"],INR:[a,"\u20b9"],JPY:[a,"\xa5"],KRW:[a,"\u20a9"],MXN:[a,"$"],NZD:[a,"$"],RON:[a,"L"],SSP:[a,"SD\xa3"],SYP:[a,"S\xa3"],TWD:[a,"NT$"],USD:["US$","$"],VEF:[a,"BsF"],VND:[a,"\u20ab"],XAF:[],XCD:[a,"$"],XOF:[]},"ltr",function(e){return 1===e?1:5},[[["mediod\xeda","d\xeda","ma\xf1ana","tarde","noche"],["del mediod\xeda","de la madrugada","de la ma\xf1ana","de la tarde","de la noche"],a],[["m.","madrugada","ma\xf1ana","tarde","noche"],["mediod\xeda","madrugada","ma\xf1ana","tarde","noche"],a],["12:00",["00:00","06:00"],["06:00","12:00"],["12:00","20:00"],["20:00","24:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1082],{
+
+/***/ "./node_modules/@angular/common/locales/global/ff-Latn-GM.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/ff-Latn-GM.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    let i = Math.floor(Math.abs(n));
+    if (i === 0 || i === 1) return 1;
+    return 5;
+  }
+  global.ng.common.locales['ff-latn-gm'] = [
+    'ff-Latn-GM',
+    [['subaka', 'kikiiɗe'], u, u],
+    u,
+    [
+      ['d', 'a', 'm', 'n', 'n', 'm', 'h'], ['dew', 'aaɓ', 'maw', 'nje', 'naa', 'mwd', 'hbi'],
+      ['dewo', 'aaɓnde', 'mawbaare', 'njeslaare', 'naasaande', 'mawnde', 'hoore-biir'],
+      ['dew', 'aaɓ', 'maw', 'nje', 'naa', 'mwd', 'hbi']
+    ],
+    u,
+    [
+      ['s', 'c', 'm', 's', 'd', 'k', 'm', 'j', 's', 'y', 'j', 'b'],
+      ['sii', 'col', 'mbo', 'see', 'duu', 'kor', 'mor', 'juk', 'slt', 'yar', 'jol', 'bow'],
+      [
+        'siilo', 'colte', 'mbooy', 'seeɗto', 'duujal', 'korse', 'morso', 'juko', 'siilto',
+        'yarkomaa', 'jolal', 'bowte'
+      ]
+    ],
+    u,
+    [['H-I', 'C-I'], u, ['Hade Iisa', 'Caggal Iisa']],
+    1,
+    [6, 0],
+    ['d/M/y', 'd MMM, y', 'd MMMM y', 'EEEE d MMMM y'],
+    ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'],
+    ['{1} {0}', u, u, u],
+    [',', ' ', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0%', '#,##0.00 ¤', '#E0'],
+    'GMD',
+    'D',
+    'Dalasi Gammbi',
+    {'GMD': ['D'], 'JPY': ['JP¥', '¥'], 'USD': ['US$', '$']},
+    'ltr',
+    plural,
+    []
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1082-es2015.js.map

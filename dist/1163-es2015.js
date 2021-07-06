@@ -1,1 +1,91 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1163],{PXJE:function(i,n){!function(i){i.ng=i.ng||{},i.ng.common=i.ng.common||{},i.ng.common.locales=i.ng.common.locales||{};const n=void 0;i.ng.common.locales["fr-sn"]=["fr-SN",[["AM","PM"],n,n],n,[["D","L","M","M","J","V","S"],["dim.","lun.","mar.","mer.","jeu.","ven.","sam."],["dimanche","lundi","mardi","mercredi","jeudi","vendredi","samedi"],["di","lu","ma","me","je","ve","sa"]],n,[["J","F","M","A","M","J","J","A","S","O","N","D"],["janv.","f\xe9vr.","mars","avr.","mai","juin","juil.","ao\xfbt","sept.","oct.","nov.","d\xe9c."],["janvier","f\xe9vrier","mars","avril","mai","juin","juillet","ao\xfbt","septembre","octobre","novembre","d\xe9cembre"]],n,[["av. J.-C.","ap. J.-C."],n,["avant J\xe9sus-Christ","apr\xe8s J\xe9sus-Christ"]],1,[6,0],["dd/MM/y","d MMM y","d MMMM y","EEEE d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}","{1} '\xe0' {0}",n,n],[",","\u202f",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","#,##0.00\xa0\xa4","#E0"],"XOF","CFA","franc CFA (BCEAO)",{ARS:["$AR","$"],AUD:["$AU","$"],BEF:["FB"],BMD:["$BM","$"],BND:["$BN","$"],BZD:["$BZ","$"],CAD:["$CA","$"],CLP:["$CL","$"],CNY:[n,"\xa5"],COP:["$CO","$"],CYP:["\xa3CY"],EGP:[n,"\xa3E"],FJD:["$FJ","$"],FKP:["\xa3FK","\xa3"],FRF:["F"],GBP:["\xa3GB","\xa3"],GIP:["\xa3GI","\xa3"],HKD:[n,"$"],IEP:["\xa3IE"],ILP:["\xa3IL"],ITL:["\u20a4IT"],JPY:[n,"\xa5"],KMF:[n,"FC"],LBP:["\xa3LB","\xa3L"],MTP:["\xa3MT"],MXN:["$MX","$"],NAD:["$NA","$"],NIO:[n,"$C"],NZD:["$NZ","$"],RHD:["$RH"],RON:[n,"L"],RWF:[n,"FR"],SBD:["$SB","$"],SGD:["$SG","$"],SRD:["$SR","$"],TOP:[n,"$T"],TTD:["$TT","$"],TWD:[n,"NT$"],USD:["$US","$"],UYU:["$UY","$"],WST:["$WS"],XCD:[n,"$"],XPF:["FCFP"],ZMW:[n,"Kw"]},"ltr",function(i){let n=Math.floor(Math.abs(i));return 0===n||1===n?1:5},[[["min.","midi","mat.","ap.m.","soir","nuit"],n,["minuit","midi","du matin","de l\u2019apr\xe8s-midi","du soir","du matin"]],[["min.","midi","mat.","ap.m.","soir","nuit"],n,["minuit","midi","matin","apr\xe8s-midi","soir","nuit"]],["00:00","12:00",["04:00","12:00"],["12:00","18:00"],["18:00","24:00"],["00:00","04:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1163],{
+
+/***/ "./node_modules/@angular/common/locales/global/hsb.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/hsb.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    let i = Math.floor(Math.abs(n)), v = n.toString().replace(/^[^.]*\.?/, '').length,
+        f = parseInt(n.toString().replace(/^[^.]*\.?/, ''), 10) || 0;
+    if (v === 0 && i % 100 === 1 || f % 100 === 1) return 1;
+    if (v === 0 && i % 100 === 2 || f % 100 === 2) return 2;
+    if (v === 0 && i % 100 === Math.floor(i % 100) && i % 100 >= 3 && i % 100 <= 4 ||
+        f % 100 === Math.floor(f % 100) && f % 100 >= 3 && f % 100 <= 4)
+      return 3;
+    return 5;
+  }
+  global.ng.common.locales['hsb'] = [
+    'hsb',
+    [['dop.', 'pop.'], ['dopołdnja', 'popołdnju'], u],
+    [['dopołdnja', 'popołdnju'], u, u],
+    [
+      ['n', 'p', 'w', 's', 'š', 'p', 's'], ['nje', 'pón', 'wut', 'srj', 'štw', 'pja', 'sob'],
+      ['njedźela', 'póndźela', 'wutora', 'srjeda', 'štwórtk', 'pjatk', 'sobota'],
+      ['nj', 'pó', 'wu', 'sr', 'št', 'pj', 'so']
+    ],
+    u,
+    [
+      ['j', 'f', 'm', 'a', 'm', 'j', 'j', 'a', 's', 'o', 'n', 'd'],
+      [
+        'jan.', 'feb.', 'měr.', 'apr.', 'mej.', 'jun.', 'jul.', 'awg.', 'sep.', 'okt.', 'now.',
+        'dec.'
+      ],
+      [
+        'januara', 'februara', 'měrca', 'apryla', 'meje', 'junija', 'julija', 'awgusta',
+        'septembra', 'oktobra', 'nowembra', 'decembra'
+      ]
+    ],
+    [
+      ['j', 'f', 'm', 'a', 'm', 'j', 'j', 'a', 's', 'o', 'n', 'd'],
+      ['jan', 'feb', 'měr', 'apr', 'mej', 'jun', 'jul', 'awg', 'sep', 'okt', 'now', 'dec'],
+      [
+        'januar', 'februar', 'měrc', 'apryl', 'meja', 'junij', 'julij', 'awgust', 'september',
+        'oktober', 'nowember', 'december'
+      ]
+    ],
+    [
+      ['př.Chr.n.', 'po Chr.n.'], u,
+      ['před Chrystowym narodźenjom', 'po Chrystowym narodźenju']
+    ],
+    1,
+    [6, 0],
+    ['d.M.yy', 'd.M.y', 'd. MMMM y', 'EEEE, d. MMMM y'],
+    ['H:mm \'hodź\'.', 'H:mm:ss', 'H:mm:ss z', 'H:mm:ss zzzz'],
+    ['{1} {0}', u, u, u],
+    [',', '.', ';', '%', '+', '-', 'E', '·', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0 %', '#,##0.00 ¤', '#E0'],
+    'EUR',
+    '€',
+    'euro',
+    {'AUD': [u, '$'], 'PLN': ['zł'], 'THB': ['฿']},
+    'ltr',
+    plural,
+    []
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1163-es2015.js.map

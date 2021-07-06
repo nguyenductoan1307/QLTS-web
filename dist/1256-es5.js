@@ -1,1 +1,42 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1256],{"5SnA":function(n,o){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};var o=void 0;n.ng.common.locales.ml=["ml",[["AM","PM"],o,o],o,[["\u0d1e","\u0d24\u0d3f","\u0d1a\u0d4a","\u0d2c\u0d41","\u0d35\u0d4d\u0d2f\u0d3e","\u0d35\u0d46","\u0d36"],["\u0d1e\u0d3e\u0d2f\u0d7c","\u0d24\u0d3f\u0d19\u0d4d\u0d15\u0d7e","\u0d1a\u0d4a\u0d35\u0d4d\u0d35","\u0d2c\u0d41\u0d27\u0d7b","\u0d35\u0d4d\u0d2f\u0d3e\u0d34\u0d02","\u0d35\u0d46\u0d33\u0d4d\u0d33\u0d3f","\u0d36\u0d28\u0d3f"],["\u0d1e\u0d3e\u0d2f\u0d31\u0d3e\u0d34\u0d4d\u200c\u0d1a","\u0d24\u0d3f\u0d19\u0d4d\u0d15\u0d33\u0d3e\u0d34\u0d4d\u200c\u0d1a","\u0d1a\u0d4a\u0d35\u0d4d\u0d35\u0d3e\u0d34\u0d4d\u0d1a","\u0d2c\u0d41\u0d27\u0d28\u0d3e\u0d34\u0d4d\u200c\u0d1a","\u0d35\u0d4d\u0d2f\u0d3e\u0d34\u0d3e\u0d34\u0d4d\u200c\u0d1a","\u0d35\u0d46\u0d33\u0d4d\u0d33\u0d3f\u0d2f\u0d3e\u0d34\u0d4d\u200c\u0d1a","\u0d36\u0d28\u0d3f\u0d2f\u0d3e\u0d34\u0d4d\u200c\u0d1a"],["\u0d1e\u0d3e","\u0d24\u0d3f","\u0d1a\u0d4a","\u0d2c\u0d41","\u0d35\u0d4d\u0d2f\u0d3e","\u0d35\u0d46","\u0d36"]],[["\u0d1e\u0d3e","\u0d24\u0d3f","\u0d1a\u0d4a","\u0d2c\u0d41","\u0d35\u0d4d\u0d2f\u0d3e","\u0d35\u0d46","\u0d36"],["\u0d1e\u0d3e\u0d2f\u0d7c","\u0d24\u0d3f\u0d19\u0d4d\u0d15\u0d7e","\u0d1a\u0d4a\u0d35\u0d4d\u0d35","\u0d2c\u0d41\u0d27\u0d7b","\u0d35\u0d4d\u0d2f\u0d3e\u0d34\u0d02","\u0d35\u0d46\u0d33\u0d4d\u0d33\u0d3f","\u0d36\u0d28\u0d3f"],["\u0d1e\u0d3e\u0d2f\u0d31\u0d3e\u0d34\u0d4d\u200c\u0d1a","\u0d24\u0d3f\u0d19\u0d4d\u0d15\u0d33\u0d3e\u0d34\u0d4d\u200c\u0d1a","\u0d1a\u0d4a\u0d35\u0d4d\u0d35\u0d3e\u0d34\u0d4d\u200c\u0d1a","\u0d2c\u0d41\u0d27\u0d28\u0d3e\u0d34\u0d4d\u200c\u0d1a","\u0d35\u0d4d\u0d2f\u0d3e\u0d34\u0d3e\u0d34\u0d4d\u200c\u0d1a","\u0d35\u0d46\u0d33\u0d4d\u0d33\u0d3f\u0d2f\u0d3e\u0d34\u0d4d\u200c\u0d1a","\u0d36\u0d28\u0d3f\u0d2f\u0d3e\u0d34\u0d4d\u200c\u0d1a"],["\u0d1e\u0d3e","\u0d24\u0d3f","\u0d1a\u0d4a","\u0d2c\u0d41","\u0d35\u0d4d\u0d2f\u0d3e","\u0d35\u0d46","\u0d36"]],[["\u0d1c","\u0d2b\u0d46","\u0d2e\u0d3e","\u0d0f","\u0d2e\u0d46","\u0d1c\u0d42\u0d7a","\u0d1c\u0d42","\u0d13","\u0d38\u0d46","\u0d12","\u0d28","\u0d21\u0d3f"],["\u0d1c\u0d28\u0d41","\u0d2b\u0d46\u0d2c\u0d4d\u0d30\u0d41","\u0d2e\u0d3e\u0d7c","\u0d0f\u0d2a\u0d4d\u0d30\u0d3f","\u0d2e\u0d47\u0d2f\u0d4d","\u0d1c\u0d42\u0d7a","\u0d1c\u0d42\u0d32\u0d48","\u0d13\u0d17","\u0d38\u0d46\u0d2a\u0d4d\u0d31\u0d4d\u0d31\u0d02","\u0d12\u0d15\u0d4d\u0d1f\u0d4b","\u0d28\u0d35\u0d02","\u0d21\u0d3f\u0d38\u0d02"],["\u0d1c\u0d28\u0d41\u0d35\u0d30\u0d3f","\u0d2b\u0d46\u0d2c\u0d4d\u0d30\u0d41\u0d35\u0d30\u0d3f","\u0d2e\u0d3e\u0d7c\u0d1a\u0d4d\u0d1a\u0d4d","\u0d0f\u0d2a\u0d4d\u0d30\u0d3f\u0d7d","\u0d2e\u0d47\u0d2f\u0d4d","\u0d1c\u0d42\u0d7a","\u0d1c\u0d42\u0d32\u0d48","\u0d13\u0d17\u0d38\u0d4d\u0d31\u0d4d\u0d31\u0d4d","\u0d38\u0d46\u0d2a\u0d4d\u0d31\u0d4d\u0d31\u0d02\u0d2c\u0d7c","\u0d12\u0d15\u0d4d\u200c\u0d1f\u0d4b\u0d2c\u0d7c","\u0d28\u0d35\u0d02\u0d2c\u0d7c","\u0d21\u0d3f\u0d38\u0d02\u0d2c\u0d7c"]],o,[["\u0d15\u0d4d\u0d30\u0d3f.\u0d2e\u0d41.","\u0d0e\u0d21\u0d3f"],o,["\u0d15\u0d4d\u0d30\u0d3f\u0d38\u0d4d\u200c\u0d24\u0d41\u0d35\u0d3f\u0d28\u0d4d \u0d2e\u0d41\u0d2e\u0d4d\u0d2a\u0d4d","\u0d06\u0d28\u0d4d\u0d28\u0d4b \u0d21\u0d4a\u0d2e\u0d3f\u0d28\u0d3f"]],0,[0,0],["d/M/yy","y, MMM d","y, MMMM d","y, MMMM d, EEEE"],["h:mm a","h:mm:ss a","h:mm:ss a z","h:mm:ss a zzzz"],["{1} {0}",o,o,o],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##,##0.###","#,##0%","\xa4#,##0.00","#E0"],"INR","\u20b9","\u0d07\u0d28\u0d4d\u0d24\u0d4d\u0d2f\u0d7b \u0d30\u0d42\u0d2a",{THB:["\u0e3f"],TWD:["NT$"]},"ltr",function(n){return 1===n?1:5},[[["\u0d05","\u0d09\u0d1a\u0d4d\u0d1a","\u0d2a\u0d41\u0d32\u0d7c\u0d1a\u0d4d\u0d1a\u0d46","\u0d30\u0d3e\u0d35\u0d3f\u0d32\u0d46","\u0d09\u0d1a\u0d4d\u0d1a\u0d2f\u0d4d\u0d15\u0d4d\u0d15\u0d4d","\u0d09\u0d1a\u0d4d\u0d1a\u0d24\u0d3f\u0d30\u0d3f\u0d1e\u0d4d\u0d1e\u0d4d","\u0d35\u0d48\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d47\u0d30\u0d02","\u0d38\u0d28\u0d4d\u0d27\u0d4d\u0d2f","\u0d30\u0d3e\u0d24\u0d4d\u0d30\u0d3f"],["\u0d05\u0d7c\u0d26\u0d4d\u0d27\u0d30\u0d3e\u0d24\u0d4d\u0d30\u0d3f","\u0d09\u0d1a\u0d4d\u0d1a","\u0d2a\u0d41\u0d32\u0d7c\u0d1a\u0d4d\u0d1a\u0d46","\u0d30\u0d3e\u0d35\u0d3f\u0d32\u0d46","\u0d09\u0d1a\u0d4d\u0d1a\u0d2f\u0d4d\u0d15\u0d4d\u0d15\u0d4d","\u0d09\u0d1a\u0d4d\u0d1a\u0d24\u0d3f\u0d30\u0d3f\u0d1e\u0d4d\u0d1e\u0d4d","\u0d35\u0d48\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d47\u0d30\u0d02","\u0d38\u0d28\u0d4d\u0d27\u0d4d\u0d2f","\u0d30\u0d3e\u0d24\u0d4d\u0d30\u0d3f"],o],[["\u0d05\u0d7c\u0d26\u0d4d\u0d27\u0d30\u0d3e\u0d24\u0d4d\u0d30\u0d3f","\u0d09\u0d1a\u0d4d\u0d1a","\u0d2a\u0d41\u0d32\u0d7c\u0d1a\u0d4d\u0d1a\u0d46","\u0d30\u0d3e\u0d35\u0d3f\u0d32\u0d46","\u0d09\u0d1a\u0d4d\u0d1a\u0d2f\u0d4d\u0d15\u0d4d\u0d15\u0d4d","\u0d09\u0d1a\u0d4d\u0d1a\u0d24\u0d3f\u0d30\u0d3f\u0d1e\u0d4d\u0d1e\u0d4d","\u0d35\u0d48\u0d15\u0d41\u0d28\u0d4d\u0d28\u0d47\u0d30\u0d02","\u0d38\u0d28\u0d4d\u0d27\u0d4d\u0d2f","\u0d30\u0d3e\u0d24\u0d4d\u0d30\u0d3f"],o,o],["00:00","12:00",["03:00","06:00"],["06:00","12:00"],["12:00","14:00"],["14:00","15:00"],["15:00","18:00"],["18:00","19:00"],["19:00","03:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1256], {
+  /***/
+  "./node_modules/@angular/common/locales/global/nyn.js":
+  /*!************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/nyn.js ***!
+    \************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalNynJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['nyn'] = ['nyn', [['AM', 'PM'], u, u], u, [['S', 'K', 'R', 'S', 'N', 'T', 'M'], ['SAN', 'ORK', 'OKB', 'OKS', 'OKN', 'OKT', 'OMK'], ['Sande', 'Orwokubanza', 'Orwakabiri', 'Orwakashatu', 'Orwakana', 'Orwakataano', 'Orwamukaaga'], ['SAN', 'ORK', 'OKB', 'OKS', 'OKN', 'OKT', 'OMK']], u, [['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'], ['KBZ', 'KBR', 'KST', 'KKN', 'KTN', 'KMK', 'KMS', 'KMN', 'KMW', 'KKM', 'KNK', 'KNB'], ['Okwokubanza', 'Okwakabiri', 'Okwakashatu', 'Okwakana', 'Okwakataana', 'Okwamukaaga', 'Okwamushanju', 'Okwamunaana', 'Okwamwenda', 'Okwaikumi', 'Okwaikumi na kumwe', 'Okwaikumi na ibiri']], u, [['BC', 'AD'], u, ['Kurisito Atakaijire', 'Kurisito Yaijire']], 1, [0, 0], ['dd/MM/y', 'd MMM y', 'd MMMM y', 'EEEE, d MMMM y'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1} {0}', u, u, u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'], 'UGX', 'USh', 'Eshiringi ya Uganda', {
+        'JPY': ['JP¥', '¥'],
+        'UGX': ['USh'],
+        'USD': ['US$', '$']
+      }, 'ltr', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1256-es5.js.map

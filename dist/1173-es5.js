@@ -1,1 +1,52 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1173],{gY16:function(o,n){!function(o){o.ng=o.ng||{},o.ng.common=o.ng.common||{},o.ng.common.locales=o.ng.common.locales||{};var n=void 0;o.ng.common.locales.fy=["fy",[["AM","PM"],n,n],n,[["S","M","T","W","T","F","S"],["si","mo","ti","wo","to","fr","so"],["snein","moandei","tiisdei","woansdei","tongersdei","freed","sneon"],["si","mo","ti","wo","to","fr","so"]],n,[["J","F","M","A","M","J","J","A","S","O","N","D"],["Jan","Feb","Mrt","Apr","Mai","Jun","Jul","Aug","Sep","Okt","Nov","Des"],["Jannewaris","Febrewaris","Maart","April","Maaie","Juny","July","Augustus","Septimber","Oktober","Novimber","Desimber"]],n,[["f.K.","n.K."],["f.Kr.","n.Kr."],["Foar Kristus","nei Kristus"]],1,[6,0],["dd-MM-yy","d MMM y","d MMMM y","EEEE d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",n,"{1} 'om' {0}",n],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4\xa0#,##0.00;\xa4\xa0#,##0.00-","#E0"],"EUR","\u20ac","Euro",{AUD:["AU$","$"],CAD:["C$","$"],FJD:["FJ$","$"],JPY:["JP\xa5","\xa5"],SBD:["SI$","$"],THB:["\u0e3f"],USD:["US$","$"],XPF:[]},"ltr",function(o){var n=Math.floor(Math.abs(o)),e=o.toString().replace(/^[^.]*\.?/,"").length;return 1===n&&0===e?1:5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1173], {
+  /***/
+  "./node_modules/@angular/common/locales/global/it-VA.js":
+  /*!**************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/it-VA.js ***!
+    \**************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalItVAJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        var i = Math.floor(Math.abs(n)),
+            v = n.toString().replace(/^[^.]*\.?/, '').length;
+        if (i === 1 && v === 0) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['it-va'] = ['it-VA', [['m.', 'p.'], ['AM', 'PM'], u], u, [['D', 'L', 'M', 'M', 'G', 'V', 'S'], ['dom', 'lun', 'mar', 'mer', 'gio', 'ven', 'sab'], ['domenica', 'lunedì', 'martedì', 'mercoledì', 'giovedì', 'venerdì', 'sabato'], ['dom', 'lun', 'mar', 'mer', 'gio', 'ven', 'sab']], u, [['G', 'F', 'M', 'A', 'M', 'G', 'L', 'A', 'S', 'O', 'N', 'D'], ['gen', 'feb', 'mar', 'apr', 'mag', 'giu', 'lug', 'ago', 'set', 'ott', 'nov', 'dic'], ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'luglio', 'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre']], u, [['aC', 'dC'], ['a.C.', 'd.C.'], ['avanti Cristo', 'dopo Cristo']], 1, [6, 0], ['dd/MM/yy', 'd MMM y', 'd MMMM y', 'EEEE d MMMM y'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1}, {0}', u, '{1} {0}', u], [',', '.', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '#,##0.00 ¤', '#E0'], 'EUR', '€', 'euro', {
+        'BRL': [u, 'R$'],
+        'BYN': [u, 'Br'],
+        'EGP': [u, '£E'],
+        'HKD': [u, '$'],
+        'JPY': [u, '¥'],
+        'KRW': [u, '₩'],
+        'MXN': [u, '$'],
+        'NOK': [u, 'NKr'],
+        'THB': ['฿'],
+        'TWD': [u, 'NT$'],
+        'USD': [u, '$']
+      }, 'ltr', plural, [[['mezzanotte', 'mezzogiorno', 'di mattina', 'di pomeriggio', 'di sera', 'di notte'], u, ['mezzanotte', 'mezzogiorno', 'di mattina', 'del pomeriggio', 'di sera', 'di notte']], [['mezzanotte', 'mezzogiorno', 'mattina', 'pomeriggio', 'sera', 'notte'], u, u], ['00:00', '12:00', ['06:00', '12:00'], ['12:00', '18:00'], ['18:00', '24:00'], ['00:00', '06:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1173-es5.js.map

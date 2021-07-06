@@ -1,1 +1,47 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1328],{mj1l:function(e,a){!function(e){e.ng=e.ng||{},e.ng.common=e.ng.common||{},e.ng.common.locales=e.ng.common.locales||{};var a=void 0;e.ng.common.locales.saq=["saq",[["Tesiran","Teipa"],a,a],a,[["A","K","O","I","I","S","K"],["Are","Kun","Ong","Ine","Ile","Sap","Kwe"],["Mderot ee are","Mderot ee kuni","Mderot ee ong\u2019wan","Mderot ee inet","Mderot ee ile","Mderot ee sapa","Mderot ee kwe"],["Are","Kun","Ong","Ine","Ile","Sap","Kwe"]],a,[["O","W","O","O","I","I","S","I","S","T","T","T"],["Obo","Waa","Oku","Ong","Ime","Ile","Sap","Isi","Saa","Tom","Tob","Tow"],["Lapa le obo","Lapa le waare","Lapa le okuni","Lapa le ong\u2019wan","Lapa le imet","Lapa le ile","Lapa le sapa","Lapa le isiet","Lapa le saal","Lapa le tomon","Lapa le tomon obo","Lapa le tomon waare"]],a,[["KK","BK"],a,["Kabla ya Christo","Baada ya Christo"]],0,[6,0],["dd/MM/y","d MMM y","d MMMM y","EEEE, d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",a,a,a],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4#,##0.00","#E0"],"KES","Ksh","Njilingi eel Kenya",{JPY:["JP\xa5","\xa5"],KES:["Ksh"],USD:["US$","$"]},"ltr",function(e){return 1===e?1:5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1328], {
+  /***/
+  "./node_modules/@angular/common/locales/global/sr-Latn-ME.js":
+  /*!*******************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/sr-Latn-ME.js ***!
+    \*******************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalSrLatnMEJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        return 5;
+      }
+
+      global.ng.common.locales['sr-latn-me'] = ['sr-Latn-ME', [['a', 'p'], ['prije podne', 'po podne'], u], u, [['n', 'p', 'u', 's', 'č', 'p', 's'], ['ned', 'pon', 'uto', 'sre', 'čet', 'pet', 'sub'], ['nedjelja', 'ponedeljak', 'utorak', 'srijeda', 'četvrtak', 'petak', 'subota'], ['ne', 'po', 'ut', 'sr', 'če', 'pe', 'su']], u, [['j', 'f', 'm', 'a', 'm', 'j', 'j', 'a', 's', 'o', 'n', 'd'], ['jan', 'feb', 'mart', 'apr', 'maj', 'jun', 'jul', 'avg', 'sept', 'okt', 'nov', 'dec'], ['januar', 'februar', 'mart', 'april', 'maj', 'jun', 'jul', 'avgust', 'septembar', 'oktobar', 'novembar', 'decembar']], u, [['p.n.e.', 'n.e.'], ['p. n. e.', 'n. e.'], ['prije nove ere', 'nove ere']], 1, [6, 0], ['d.M.yy.', 'dd.MM.y.', 'dd. MMMM y.', 'EEEE, dd. MMMM y.'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1} {0}', u, u, u], [',', '.', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '#,##0.00 ¤', '#E0'], 'EUR', '€', 'Evro', {
+        'AUD': [u, '$'],
+        'BAM': ['KM'],
+        'BYN': [u, 'r.'],
+        'GEL': [u, 'ლ'],
+        'KRW': [u, '₩'],
+        'NZD': [u, '$'],
+        'TWD': ['NT$'],
+        'USD': ['US$', '$'],
+        'VND': [u, '₫']
+      }, 'ltr', plural, [[['ponoć', 'podne', 'jutro', 'po pod.', 'veče', 'noć'], ['ponoć', 'podne', 'jutro', 'po pod.', 'veče', 'noću'], ['ponoć', 'podne', 'ujutro', 'po podne', 'uveče', 'noću']], [['ponoć', 'podne', 'jutro', 'popodne', 'veče', 'noć'], u, u], ['00:00', '12:00', ['06:00', '12:00'], ['12:00', '18:00'], ['18:00', '21:00'], ['21:00', '06:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1328-es5.js.map

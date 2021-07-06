@@ -1,1 +1,89 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1232],{jLLW:function(e,n){!function(e){e.ng=e.ng||{},e.ng.common=e.ng.common||{},e.ng.common.locales=e.ng.common.locales||{};const n=void 0;e.ng.common.locales.lb=["lb",[["mo.","nom\xeb."],["moies","nom\xebttes"],n],[["moies","nom\xebttes"],n,n],[["S","M","D","M","D","F","S"],["Son.","M\xe9i.","D\xebn.","M\xebt.","Don.","Fre.","Sam."],["Sonndeg","M\xe9indeg","D\xebnschdeg","M\xebttwoch","Donneschdeg","Freideg","Samschdeg"],["So.","M\xe9.","D\xeb.","M\xeb.","Do.","Fr.","Sa."]],[["S","M","D","M","D","F","S"],["Son","M\xe9i","D\xebn","M\xebt","Don","Fre","Sam"],["Sonndeg","M\xe9indeg","D\xebnschdeg","M\xebttwoch","Donneschdeg","Freideg","Samschdeg"],["So.","M\xe9.","D\xeb.","M\xeb.","Do.","Fr.","Sa."]],[["J","F","M","A","M","J","J","A","S","O","N","D"],["Jan.","Feb.","M\xe4e.","Abr.","Mee","Juni","Juli","Aug.","Sep.","Okt.","Nov.","Dez."],["Januar","Februar","M\xe4erz","Abr\xebll","Mee","Juni","Juli","August","September","Oktober","November","Dezember"]],[["J","F","M","A","M","J","J","A","S","O","N","D"],["Jan","Feb","M\xe4e","Abr","Mee","Jun","Jul","Aug","Sep","Okt","Nov","Dez"],["Januar","Februar","M\xe4erz","Abr\xebll","Mee","Juni","Juli","August","September","Oktober","November","Dezember"]],[["v. Chr.","n. Chr."],n,n],1,[6,0],["dd.MM.yy","d. MMM y","d. MMMM y","EEEE, d. MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",n,n,n],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","#,##0.00\xa0\xa4","#E0"],"EUR","\u20ac","Euro",{ATS:["\xf6S"],AUD:["AU$","$"],THB:["\u0e3f"],TWD:["NT$"]},"ltr",function(e){return 1===e?1:5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1232],{
+
+/***/ "./node_modules/@angular/common/locales/global/ms.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/ms.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) { return 5; }
+  global.ng.common.locales['ms'] = [
+    'ms',
+    [['a', 'p'], ['PG', 'PTG'], u],
+    u,
+    [
+      ['A', 'I', 'S', 'R', 'K', 'J', 'S'], ['Ahd', 'Isn', 'Sel', 'Rab', 'Kha', 'Jum', 'Sab'],
+      ['Ahad', 'Isnin', 'Selasa', 'Rabu', 'Khamis', 'Jumaat', 'Sabtu'],
+      ['Ah', 'Is', 'Se', 'Ra', 'Kh', 'Ju', 'Sa']
+    ],
+    u,
+    [
+      ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'O', 'S', 'O', 'N', 'D'],
+      ['Jan', 'Feb', 'Mac', 'Apr', 'Mei', 'Jun', 'Jul', 'Ogo', 'Sep', 'Okt', 'Nov', 'Dis'],
+      [
+        'Januari', 'Februari', 'Mac', 'April', 'Mei', 'Jun', 'Julai', 'Ogos', 'September',
+        'Oktober', 'November', 'Disember'
+      ]
+    ],
+    u,
+    [['S.M.', 'TM'], u, u],
+    1,
+    [6, 0],
+    ['d/MM/yy', 'd MMM y', 'd MMMM y', 'EEEE, d MMMM y'],
+    ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'],
+    ['{1}, {0}', u, '{1} {0}', u],
+    ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'],
+    'MYR',
+    'RM',
+    'Ringgit Malaysia',
+    {
+      'CAD': [u, '$'],
+      'JPY': ['JP¥', '¥'],
+      'MXN': [u, '$'],
+      'MYR': ['RM'],
+      'TWD': ['NT$'],
+      'USD': [u, '$']
+    },
+    'ltr',
+    plural,
+    [
+      [
+        ['pagi', 'pagi', 'tengah hari', 'petang', 'malam'], u,
+        ['tengah malam', 'pagi', 'tengah hari', 'petang', 'malam']
+      ],
+      [
+        ['pagi', 'pagi', 'tengah hari', 'petang', 'malam'],
+        ['tengah malam', 'pagi', 'tengah hari', 'petang', 'malam'], u
+      ],
+      [
+        ['00:00', '01:00'], ['01:00', '12:00'], ['12:00', '14:00'], ['14:00', '19:00'],
+        ['19:00', '24:00']
+      ]
+    ]
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1232-es2015.js.map

@@ -1,1 +1,76 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1388],{D0SX:function(n,o){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};const o=void 0;n.ng.common.locales["ur-in"]=["ur-IN",[["a","p"],["AM","PM"],o],[["AM","PM"],o,o],[["S","M","T","W","T","F","S"],["\u0627\u062a\u0648\u0627\u0631","\u067e\u06cc\u0631","\u0645\u0646\u06af\u0644","\u0628\u062f\u06be","\u062c\u0645\u0639\u0631\u0627\u062a","\u062c\u0645\u0639\u06c1","\u06c1\u0641\u062a\u06c1"],o,o],o,[["J","F","M","A","M","J","J","A","S","O","N","D"],["\u062c\u0646\u0648\u0631\u06cc","\u0641\u0631\u0648\u0631\u06cc","\u0645\u0627\u0631\u0686","\u0627\u067e\u0631\u06cc\u0644","\u0645\u0626\u06cc","\u062c\u0648\u0646","\u062c\u0648\u0644\u0627\u0626\u06cc","\u0627\u06af\u0633\u062a","\u0633\u062a\u0645\u0628\u0631","\u0627\u06a9\u062a\u0648\u0628\u0631","\u0646\u0648\u0645\u0628\u0631","\u062f\u0633\u0645\u0628\u0631"],o],o,[["\u0642\u0628\u0644 \u0645\u0633\u06cc\u062d","\u0639\u06cc\u0633\u0648\u06cc"],o,o],0,[0,0],["d/M/yy","d MMM\u060c y","d MMMM\u060c y","EEEE\u060c d MMMM\u060c y"],["h:mm a","h:mm:ss a","h:mm:ss a z","h:mm:ss a zzzz"],["{1} {0}",o,o,o],[".",",",";","%","\u200e+","\u200e-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4\xa0#,##0.00","#E0"],"INR","\u20b9","\u0628\u06be\u0627\u0631\u062a\u06cc \u0631\u0648\u067e\u06cc\u06c1",{JPY:["JP\xa5","\xa5"],THB:["\u0e3f"],TWD:["NT$"]},"rtl",function(n){let o=Math.floor(Math.abs(n)),M=n.toString().replace(/^[^.]*\.?/,"").length;return 1===o&&0===M?1:5},[[["\u0622\u062f\u06be\u06cc \u0631\u0627\u062a","\u0635\u0628\u062d","\u062f\u0648\u067e\u06c1\u0631","\u0633\u06c1 \u067e\u06c1\u0631","\u0634\u0627\u0645","\u0631\u0627\u062a"],o,["\u0622\u062f\u06be\u06cc \u0631\u0627\u062a","\u0635\u0628\u062d \u0645\u06cc\u06ba","\u062f\u0648\u067e\u06c1\u0631 \u0645\u06cc\u06ba","\u0633\u06c1 \u067e\u06c1\u0631","\u0634\u0627\u0645 \u0645\u06cc\u06ba","\u0631\u0627\u062a \u0645\u06cc\u06ba"]],[["\u0622\u062f\u06be\u06cc \u0631\u0627\u062a","\u0635\u0628\u062d","\u062f\u0648\u067e\u06c1\u0631","\u0633\u06c1 \u067e\u06c1\u0631","\u0634\u0627\u0645","\u0631\u0627\u062a"],o,o],["00:00",["04:00","12:00"],["12:00","16:00"],["16:00","18:00"],["18:00","20:00"],["20:00","04:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1388],{
+
+/***/ "./node_modules/@angular/common/locales/global/zh-Hant-MO.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/zh-Hant-MO.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) { return 5; }
+  global.ng.common.locales['zh-hant-mo'] = [
+    'zh-Hant-MO',
+    [['上午', '下午'], u, u],
+    u,
+    [
+      ['日', '一', '二', '三', '四', '五', '六'],
+      ['週日', '週一', '週二', '週三', '週四', '週五', '週六'],
+      ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'],
+      ['日', '一', '二', '三', '四', '五', '六']
+    ],
+    u,
+    [
+      ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+      [
+        '1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月',
+        '12月'
+      ],
+      u
+    ],
+    u,
+    [['公元前', '公元'], u, u],
+    0,
+    [6, 0],
+    ['d/M/y', 'y年M月d日', u, 'y年M月d日EEEE'],
+    ['ah:mm', 'ah:mm:ss', 'ah:mm:ss [z]', 'ah:mm:ss [zzzz]'],
+    ['{1} {0}', u, u, u],
+    ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', '非數值', ':'],
+    ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'],
+    'MOP',
+    'MOP$',
+    '澳門元',
+    {'AUD': ['AU$', '$'], 'MOP': ['MOP$'], 'RON': [u, 'L'], 'USD': ['US$', '$'], 'XXX': []},
+    'ltr',
+    plural,
+    [
+      [['午夜', '早上', '上午', '中午', '下午', '晚上', '凌晨'], u, u], u,
+      [
+        '00:00', ['05:00', '08:00'], ['08:00', '12:00'], ['12:00', '13:00'], ['13:00', '19:00'],
+        ['19:00', '24:00'], ['00:00', '05:00']
+      ]
+    ]
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1388-es2015.js.map

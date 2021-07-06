@@ -1,1 +1,40 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1307],{"1Yws":function(a,o){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};var o=void 0;a.ng.common.locales["pt-st"]=["pt-ST",[["a.m.","p.m."],o,["da manh\xe3","da tarde"]],[["a.m.","p.m."],o,["manh\xe3","tarde"]],[["D","S","T","Q","Q","S","S"],["domingo","segunda","ter\xe7a","quarta","quinta","sexta","s\xe1bado"],["domingo","segunda-feira","ter\xe7a-feira","quarta-feira","quinta-feira","sexta-feira","s\xe1bado"],["domingo","segunda","ter\xe7a","quarta","quinta","sexta","s\xe1bado"]],o,[["J","F","M","A","M","J","J","A","S","O","N","D"],["jan.","fev.","mar.","abr.","mai.","jun.","jul.","ago.","set.","out.","nov.","dez."],["janeiro","fevereiro","mar\xe7o","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"]],o,[["a.C.","d.C."],o,["antes de Cristo","depois de Cristo"]],1,[6,0],["dd/MM/yy","dd/MM/y","d 'de' MMMM 'de' y","EEEE, d 'de' MMMM 'de' y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1}, {0}",o,"{1} '\xe0s' {0}",o],[",","\xa0",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","#,##0.00\xa0\xa4","#E0"],"STN","Db","dobra de S\xe3o Tom\xe9 e Pr\xedncipe",{AUD:["AU$","$"],JPY:["JP\xa5","\xa5"],PTE:["\u200b"],RON:[o,"L"],STN:["Db"],THB:["\u0e3f"],TWD:["NT$"],USD:["US$","$"]},"ltr",function(a){var o=Math.floor(Math.abs(a));return o===Math.floor(o)&&o>=0&&o<=1?1:5},[[["meia-noite","meio-dia","manh\xe3","tarde","noite","madrugada"],["meia-noite","meio-dia","da manh\xe3","da tarde","da noite","da madrugada"],o],[["meia-noite","meio-dia","manh\xe3","tarde","noite","madrugada"],o,o],["00:00","12:00",["06:00","12:00"],["12:00","19:00"],["19:00","24:00"],["00:00","06:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1307], {
+  /***/
+  "./node_modules/@angular/common/locales/global/sg.js":
+  /*!***********************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/sg.js ***!
+    \***********************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalSgJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        return 5;
+      }
+
+      global.ng.common.locales['sg'] = ['sg', [['ND', 'LK'], u, u], u, [['K', 'S', 'T', 'S', 'K', 'P', 'Y'], ['Bk1', 'Bk2', 'Bk3', 'Bk4', 'Bk5', 'Lâp', 'Lây'], ['Bikua-ôko', 'Bïkua-ûse', 'Bïkua-ptâ', 'Bïkua-usïö', 'Bïkua-okü', 'Lâpôsö', 'Lâyenga'], ['Bk1', 'Bk2', 'Bk3', 'Bk4', 'Bk5', 'Lâp', 'Lây']], u, [['N', 'F', 'M', 'N', 'B', 'F', 'L', 'K', 'M', 'N', 'N', 'K'], ['Nye', 'Ful', 'Mbä', 'Ngu', 'Bêl', 'Fön', 'Len', 'Kük', 'Mvu', 'Ngb', 'Nab', 'Kak'], ['Nyenye', 'Fulundïgi', 'Mbängü', 'Ngubùe', 'Bêläwü', 'Föndo', 'Lengua', 'Kükürü', 'Mvuka', 'Ngberere', 'Nabändüru', 'Kakauka']], u, [['KnK', 'NpK'], u, ['Kôzo na Krîstu', 'Na pekô tî Krîstu']], 1, [6, 0], ['d/M/y', 'd MMM, y', 'd MMMM y', 'EEEE d MMMM y'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1} {0}', u, u, u], [',', '.', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '¤#,##0.00;¤-#,##0.00', '#E0'], 'XAF', 'FCFA', 'farânga CFA (BEAC)', {
+        'JPY': ['JP¥', '¥'],
+        'USD': ['US$', '$']
+      }, 'ltr', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1307-es5.js.map

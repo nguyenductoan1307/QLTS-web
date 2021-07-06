@@ -1,1 +1,80 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1193],{Nvgl:function(e,n){!function(e){e.ng=e.ng||{},e.ng.common=e.ng.common||{},e.ng.common.locales=e.ng.common.locales||{};const n=void 0;e.ng.common.locales.hu=["hu",[["de.","du."],n,n],n,[["V","H","K","Sz","Cs","P","Sz"],["V","H","K","Sze","Cs","P","Szo"],["vas\xe1rnap","h\xe9tf\u0151","kedd","szerda","cs\xfct\xf6rt\xf6k","p\xe9ntek","szombat"],["V","H","K","Sze","Cs","P","Szo"]],n,[["J","F","M","\xc1","M","J","J","A","Sz","O","N","D"],["jan.","febr.","m\xe1rc.","\xe1pr.","m\xe1j.","j\xfan.","j\xfal.","aug.","szept.","okt.","nov.","dec."],["janu\xe1r","febru\xe1r","m\xe1rcius","\xe1prilis","m\xe1jus","j\xfanius","j\xfalius","augusztus","szeptember","okt\xf3ber","november","december"]],n,[["ie.","isz."],["i. e.","i. sz."],["Krisztus el\u0151tt","id\u0151sz\xe1m\xedt\xe1sunk szerint"]],1,[6,0],["y. MM. dd.","y. MMM d.","y. MMMM d.","y. MMMM d., EEEE"],["H:mm","H:mm:ss","H:mm:ss z","H:mm:ss zzzz"],["{1} {0}",n,n,n],[",","\xa0",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","#,##0.00\xa0\xa4","#E0"],"HUF","Ft","magyar forint",{AUD:[n,"$"],BRL:[n,"R$"],CAD:[n,"$"],CNY:[n,"\xa5"],EUR:[n,"\u20ac"],GBP:[n,"\xa3"],HKD:[n,"$"],HUF:["Ft"],ILS:[n,"\u20aa"],INR:[n,"\u20b9"],KRW:[n,"\u20a9"],MXN:[n,"$"],NZD:[n,"$"],TWD:[n,"NT$"],USD:[n,"$"],VND:[n,"\u20ab"],XCD:[n,"$"]},"ltr",function(e){return 1===e?1:5},[[["\xe9jf\xe9l","d\xe9l","reggel","de.","du.","este","\xe9jjel","hajnal"],n,["\xe9jf\xe9l","d\xe9l","reggel","d\xe9lel\u0151tt","d\xe9lut\xe1n","este","\xe9jjel","hajnal"]],n,["00:00","12:00",["06:00","09:00"],["09:00","12:00"],["12:00","18:00"],["18:00","21:00"],["21:00","04:00"],["04:00","06:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1193],{
+
+/***/ "./node_modules/@angular/common/locales/global/ko.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/ko.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) { return 5; }
+  global.ng.common.locales['ko'] = [
+    'ko',
+    [['AM', 'PM'], u, ['오전', '오후']],
+    u,
+    [
+      ['일', '월', '화', '수', '목', '금', '토'], u,
+      ['일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일'],
+      ['일', '월', '화', '수', '목', '금', '토']
+    ],
+    u,
+    [
+      [
+        '1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월', '11월',
+        '12월'
+      ],
+      u, u
+    ],
+    u,
+    [['BC', 'AD'], u, ['기원전', '서기']],
+    0,
+    [6, 0],
+    ['yy. M. d.', 'y. M. d.', 'y년 M월 d일', 'y년 M월 d일 EEEE'],
+    ['a h:mm', 'a h:mm:ss', 'a h시 m분 s초 z', 'a h시 m분 s초 zzzz'],
+    ['{1} {0}', u, u, u],
+    ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'],
+    'KRW',
+    '₩',
+    '대한민국 원',
+    {
+      'AUD': ['AU$', '$'],
+      'JPY': ['JP¥', '¥'],
+      'RON': [u, 'L'],
+      'TWD': ['NT$'],
+      'USD': ['US$', '$']
+    },
+    'ltr',
+    plural,
+    [
+      [['자정', '정오', '새벽', '오전', '오후', '저녁', '밤'], u, u], u,
+      [
+        '00:00', '12:00', ['03:00', '06:00'], ['06:00', '12:00'], ['12:00', '18:00'],
+        ['18:00', '21:00'], ['21:00', '03:00']
+      ]
+    ]
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1193-es2015.js.map

@@ -1,1 +1,65 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1052],{a0Uf:function(n,e){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};var e=void 0;n.ng.common.locales["en-sx"]=["en-SX",[["a","p"],["am","pm"],e],[["am","pm"],e,e],[["S","M","T","W","T","F","S"],["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],["Su","Mo","Tu","We","Th","Fr","Sa"]],e,[["J","F","M","A","M","J","J","A","S","O","N","D"],["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],["January","February","March","April","May","June","July","August","September","October","November","December"]],e,[["B","A"],["BC","AD"],["Before Christ","Anno Domini"]],1,[6,0],["dd/MM/y","d MMM y","d MMMM y","EEEE, d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1}, {0}",e,"{1} 'at' {0}",e],[".",",",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4#,##0.00","#E0"],"ANG","NAf.","Netherlands Antillean Guilder",{ANG:["NAf."],JPY:["JP\xa5","\xa5"],USD:["US$","$"]},"ltr",function(n){var e=Math.floor(Math.abs(n)),o=n.toString().replace(/^[^.]*\.?/,"").length;return 1===e&&0===o?1:5},[[["mi","n","in the morning","in the afternoon","in the evening","at night"],["midnight","noon","in the morning","in the afternoon","in the evening","at night"],e],[["midnight","noon","morning","afternoon","evening","night"],e,e],["00:00","12:00",["06:00","12:00"],["12:00","18:00"],["18:00","21:00"],["21:00","06:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1052], {
+  /***/
+  "./node_modules/@angular/common/locales/global/es-CU.js":
+  /*!**************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/es-CU.js ***!
+    \**************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalEsCUJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['es-cu'] = ['es-CU', [['a. m.', 'p. m.'], ['a.m.', 'p.m.'], u], u, [['d', 'l', 'm', 'm', 'j', 'v', 's'], ['dom.', 'lun.', 'mar.', 'mié.', 'jue.', 'vie.', 'sáb.'], ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'], ['DO', 'LU', 'MA', 'MI', 'JU', 'VI', 'SA']], [['D', 'L', 'M', 'M', 'J', 'V', 'S'], ['dom.', 'lun.', 'mar.', 'mié.', 'jue.', 'vie.', 'sáb.'], ['domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado'], ['DO', 'LU', 'MA', 'MI', 'JU', 'VI', 'SA']], [['E', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'], ['ene.', 'feb.', 'mar.', 'abr.', 'may.', 'jun.', 'jul.', 'ago.', 'sep.', 'oct.', 'nov.', 'dic.'], ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']], u, [['a. C.', 'd. C.'], u, ['antes de Cristo', 'después de Cristo']], 1, [6, 0], ['d/M/yy', 'd MMM y', 'd \'de\' MMMM \'de\' y', 'EEEE, d \'de\' MMMM \'de\' y'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1} {0}', u, '{1} \'a\' \'las\' {0}', u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0 %', '¤#,##0.00', '#E0'], 'CUP', '$', 'peso cubano', {
+        'AUD': [u, '$'],
+        'BRL': [u, 'R$'],
+        'CAD': [u, '$'],
+        'CNY': [u, '¥'],
+        'CUP': ['$'],
+        'ESP': ['₧'],
+        'EUR': [u, '€'],
+        'FKP': [u, 'FK£'],
+        'GBP': [u, '£'],
+        'HKD': [u, '$'],
+        'ILS': [u, '₪'],
+        'INR': [u, '₹'],
+        'JPY': [u, '¥'],
+        'KRW': [u, '₩'],
+        'MXN': [u, '$'],
+        'NZD': [u, '$'],
+        'RON': [u, 'L'],
+        'SSP': [u, 'SD£'],
+        'SYP': [u, 'S£'],
+        'TWD': [u, 'NT$'],
+        'USD': ['US$', '$'],
+        'VEF': [u, 'BsF'],
+        'VND': [u, '₫'],
+        'XAF': [],
+        'XCD': [u, '$'],
+        'XOF': []
+      }, 'ltr', plural, [[['del mediodía', 'de la madrugada', 'de la mañana', 'de la tarde', 'de la noche'], u, u], [['mediodía', 'madrugada', 'mañana', 'tarde', 'noche'], u, u], ['12:00', ['00:00', '06:00'], ['06:00', '12:00'], ['12:00', '20:00'], ['20:00', '24:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1052-es5.js.map

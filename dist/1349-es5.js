@@ -1,1 +1,42 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1349],{PjYl:function(e,n){!function(e){e.ng=e.ng||{},e.ng.common=e.ng.common||{},e.ng.common.locales=e.ng.common.locales||{};var n=void 0;e.ng.common.locales["sq-mk"]=["sq-MK",[["p.d.","m.d."],n,["e paradites","e pasdites"]],[["p.d.","m.d."],n,["paradite","pasdite"]],[["d","h","m","m","e","p","sh"],["Die","H\xebn","Mar","M\xebr","Enj","Pre","Sht"],["e diel","e h\xebn\xeb","e mart\xeb","e m\xebrkur\xeb","e enjte","e premte","e shtun\xeb"],["die","h\xebn","mar","m\xebr","enj","pre","sht"]],[["d","h","m","m","e","p","sh"],["die","h\xebn","mar","m\xebr","enj","pre","sht"],["e diel","e h\xebn\xeb","e mart\xeb","e m\xebrkur\xeb","e enjte","e premte","e shtun\xeb"],["die","h\xebn","mar","m\xebr","enj","pre","sht"]],[["j","sh","m","p","m","q","k","g","sh","t","n","dh"],["jan","shk","mar","pri","maj","qer","korr","gush","sht","tet","n\xebn","dhj"],["janar","shkurt","mars","prill","maj","qershor","korrik","gusht","shtator","tetor","n\xebntor","dhjetor"]],n,[["p.K.","mb.K."],n,["para Krishtit","mbas Krishtit"]],1,[6,0],["d.M.yy","d MMM y","d MMMM y","EEEE, d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1}, {0}",n,"{1} 'n\xeb' {0}",n],[",","\xa0",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","#,##0.00\xa0\xa4","#E0"],"MKD","den","Denari maqedonas",{ALL:["Lek\xeb"],AOA:[],ARS:[],AUD:["A$","AUD"],BAM:[],BBD:[],BDT:[],BMD:[],BND:[],BOB:[],BRL:[],BSD:[],BWP:[],BYN:[],BZD:[],CAD:["CA$","CAD"],CLP:[],CNY:["CN\xa5","CNY"],COP:[],CRC:[],CUC:[],CUP:[],CZK:[],DKK:[],DOP:[],EGP:[],EUR:["\u20ac","EUR"],FJD:[],FKP:[],GBP:["\xa3","GBP"],GEL:[],GIP:[],GNF:[],GTQ:[],GYD:[],HKD:["HK$","HKS"],HNL:[],HRK:[],HUF:[],IDR:[],ILS:["\u20aa","ILS"],INR:["\u20b9","INR"],ISK:[],JMD:[],JPY:["JP\xa5","JPY"],KHR:[],KMF:[],KPW:[],KRW:["\u20a9","KRW"],KYD:[],KZT:[],LAK:[],LBP:[],LKR:[],LRD:[],MGA:[],MKD:["den"],MMK:[],MNT:[],MUR:[],MXN:["MX$","MXN"],MYR:[],NAD:[],NGN:[],NIO:[],NOK:[],NPR:[],NZD:["NZ$","NZD"],PHP:[],PKR:[],PLN:[],PYG:[],RON:[],RUB:[],RWF:[],SBD:[],SEK:[],SGD:[],SHP:[],SRD:[],SSP:[],STN:[],SYP:[],THB:["\u0e3f","THB"],TOP:[],TRY:[],TTD:[],TWD:["NT$","TWD"],UAH:[],USD:["US$","USD"],UYU:[],VND:["\u20ab","VND"],XCD:["EC$","XCD"],ZAR:[],ZMW:[]},"ltr",function(e){return 1===e?1:5},[[["e mesnat\xebs","e mesdit\xebs","e m\xebngjesit","e paradites","e pasdites","e mbr\xebmjes","e nat\xebs"],n,n],[["mesnat\xeb","mesdit\xeb","m\xebngjes","paradite","pasdite","mbr\xebmje","nat\xeb"],n,n],["00:00","12:00",["04:00","09:00"],["09:00","12:00"],["12:00","18:00"],["18:00","24:00"],["00:00","04:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1349], {
+  /***/
+  "./node_modules/@angular/common/locales/global/ti.js":
+  /*!***********************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/ti.js ***!
+    \***********************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalTiJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === Math.floor(n) && n >= 0 && n <= 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['ti'] = ['ti', [['ንጉሆ ሰዓተ', 'ድሕር ሰዓት'], u, u], u, [['ሰ', 'ሰ', 'ሰ', 'ረ', 'ሓ', 'ዓ', 'ቀ'], ['ሰን', 'ሰኑ', 'ሰሉ', 'ረቡ', 'ሓሙ', 'ዓር', 'ቀዳ'], ['ሰንበት', 'ሰኑይ', 'ሠሉስ', 'ረቡዕ', 'ኃሙስ', 'ዓርቢ', 'ቀዳም'], ['ሰን', 'ሰኑ', 'ሰሉ', 'ረቡ', 'ሓሙ', 'ዓር', 'ቀዳ']], [['ሰ', 'ሰ', 'ሠ', 'ረ', 'ሓ', 'ዓ', 'ቀ'], ['ሰን', 'ሰኑ', 'ሰሉ', 'ረቡ', 'ሓሙ', 'ዓር', 'ቀዳ'], ['ሰንበት', 'ሰኑይ', 'ሠሉስ', 'ረቡዕ', 'ኃሙስ', 'ዓርቢ', 'ቀዳም'], ['ሰን', 'ሰኑ', 'ሰሉ', 'ረቡ', 'ሓሙ', 'ዓር', 'ቀዳ']], [['ጥ', 'ለ', 'መ', 'ሚ', 'ግ', 'ሰ', 'ሓ', 'ነ', 'መ', 'ጥ', 'ሕ', 'ታ'], ['ጥሪ', 'ለካ', 'መጋ', 'ሚያ', 'ግን', 'ሰነ', 'ሓም', 'ነሓ', 'መስ', 'ጥቅ', 'ሕዳ', 'ታሕ'], ['ጥሪ', 'ለካቲት', 'መጋቢት', 'ሚያዝያ', 'ግንቦት', 'ሰነ', 'ሓምለ', 'ነሓሰ', 'መስከረም', 'ጥቅምቲ', 'ሕዳር', 'ታሕሳስ']], u, [['ዓ/ዓ', 'ዓ/ም'], u, ['ዓ/ዓ', 'ዓመተ ምህረት']], 0, [6, 0], ['dd/MM/yy', 'dd-MMM-y', 'dd MMMM y', 'EEEE፣ dd MMMM መዓልቲ y G'], ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'], ['{1} {0}', u, u, u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'], 'ETB', 'Br', 'የኢትዮጵያ ብር', {
+        'ETB': ['Br'],
+        'JPY': ['JP¥', '¥'],
+        'USD': ['US$', '$']
+      }, 'ltr', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1349-es5.js.map

@@ -1,1 +1,42 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1314],{nbXc:function(a,n){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};var n=void 0;a.ng.common.locales.rn=["rn",[["Z.MU.","Z.MW."],n,n],n,[["S","M","T","W","T","F","S"],["cu.","mbe.","kab.","gtu.","kan.","gnu.","gnd."],["Ku w\u2019indwi","Ku wa mbere","Ku wa kabiri","Ku wa gatatu","Ku wa kane","Ku wa gatanu","Ku wa gatandatu"],["cu.","mbe.","kab.","gtu.","kan.","gnu.","gnd."]],n,[["1","2","3","4","5","6","7","8","9","10","11","12"],["Mut.","Gas.","Wer.","Mat.","Gic.","Kam.","Nya.","Kan.","Nze.","Ukw.","Ugu.","Uku."],["Nzero","Ruhuhuma","Ntwarante","Ndamukiza","Rusama","Ruheshi","Mukakaro","Nyandagaro","Nyakanga","Gitugutu","Munyonyo","Kigarama"]],n,[["Mb.Y.","Ny.Y"],n,["Mbere ya Yezu","Nyuma ya Yezu"]],1,[6,0],["d/M/y","d MMM y","d MMMM y","EEEE d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",n,n,n],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","#,##0.00\xa4","#E0"],"BIF","FBu","Ifaranga ry\u2019Uburundi",{BIF:["FBu"],JPY:["JP\xa5","\xa5"],USD:["US$","$"]},"ltr",function(a){return 5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1314], {
+  /***/
+  "./node_modules/@angular/common/locales/global/smn.js":
+  /*!************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/smn.js ***!
+    \************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalSmnJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        if (n === 2) return 2;
+        return 5;
+      }
+
+      global.ng.common.locales['smn'] = ['smn', [['ip.', 'ep.'], u, u], u, [['p', 'V', 'M', 'K', 'T', 'V', 'L'], ['pas', 'vuo', 'maj', 'kos', 'tuo', 'vás', 'láv'], ['pasepeeivi', 'vuossaargâ', 'majebaargâ', 'koskoho', 'tuorâstuv', 'vástuppeeivi', 'lávurduv'], ['pa', 'vu', 'ma', 'ko', 'tu', 'vá', 'lá']], [['S', 'M', 'T', 'W', 'T', 'F', 'S'], ['pas', 'vuo', 'maj', 'kos', 'tuo', 'vás', 'láv'], ['pasepeivi', 'vuossargâ', 'majebargâ', 'koskokko', 'tuorâstâh', 'vástuppeivi', 'lávurdâh'], ['pa', 'vu', 'ma', 'ko', 'tu', 'vá', 'lá']], [['U', 'K', 'NJ', 'C', 'V', 'K', 'S', 'P', 'Č', 'R', 'S', 'J'], ['uđiv', 'kuovâ', 'njuhčâ', 'cuáŋui', 'vyesi', 'kesi', 'syeini', 'porge', 'čohčâ', 'roovvâd', 'skammâ', 'juovlâ'], ['uđđâivemáánu', 'kuovâmáánu', 'njuhčâmáánu', 'cuáŋuimáánu', 'vyesimáánu', 'kesimáánu', 'syeinimáánu', 'porgemáánu', 'čohčâmáánu', 'roovvâdmáánu', 'skammâmáánu', 'juovlâmáánu']], u, [['oKr.', 'mKr.'], u, ['Ovdil Kristus šoddâm', 'maŋa Kristus šoddâm']], 1, [6, 0], ['d.M.y', 'MMM d. y', 'MMMM d. y', 'cccc, MMMM d. y'], ['H.mm', 'H.mm.ss', 'H.mm.ss z', 'H.mm.ss zzzz'], ['{1} {0}', '{1} \'tme\' {0}', u, u], [',', ' ', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'epiloho', '.'], ['#,##0.###', '#,##0 %', '#,##0.00 ¤', '#E0'], 'EUR', '€', 'euro', {
+        'JPY': ['JP¥', '¥'],
+        'USD': ['US$', '$']
+      }, 'ltr', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1314-es5.js.map

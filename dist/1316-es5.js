@@ -1,1 +1,44 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1316],{ekok:function(a,i){!function(a){a.ng=a.ng||{},a.ng.common=a.ng.common||{},a.ng.common.locales=a.ng.common.locales||{};var i=void 0;a.ng.common.locales.ro=["ro",[["a.m.","p.m."],i,i],i,[["D","L","M","M","J","V","S"],["dum.","lun.","mar.","mie.","joi","vin.","s\xe2m."],["duminic\u0103","luni","mar\u021bi","miercuri","joi","vineri","s\xe2mb\u0103t\u0103"],["du.","lu.","ma.","mi.","joi","vi.","s\xe2."]],i,[["I","F","M","A","M","I","I","A","S","O","N","D"],["ian.","feb.","mar.","apr.","mai","iun.","iul.","aug.","sept.","oct.","nov.","dec."],["ianuarie","februarie","martie","aprilie","mai","iunie","iulie","august","septembrie","octombrie","noiembrie","decembrie"]],i,[["\xee.Hr.","d.Hr."],i,["\xeenainte de Hristos","dup\u0103 Hristos"]],1,[6,0],["dd.MM.y","d MMM y","d MMMM y","EEEE, d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1}, {0}",i,i,i],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","#,##0.00\xa0\xa4","#E0"],"RON","RON","leu rom\xe2nesc",{AUD:[i,"$"],BRL:[i,"R$"],CAD:[i,"$"],CNY:[i,"\xa5"],EUR:[i,"\u20ac"],GBP:[i,"\xa3"],HKD:[i,"$"],ILS:[i,"\u20aa"],INR:[i,"\u20b9"],JPY:[i,"\xa5"],KRW:[i,"\u20a9"],MXN:[i,"$"],NZD:[i,"$"],TWD:[i,"NT$"],USD:[i,"$"],VND:[i,"\u20ab"],XCD:[i,"$"]},"ltr",function(a){var i=Math.floor(Math.abs(a)),e=a.toString().replace(/^[^.]*\.?/,"").length;return 1===i&&0===e?1:0!==e||0===a||1!==a&&a%100===Math.floor(a%100)&&a%100>=1&&a%100<=19?3:5},[[["miezul nop\u021bii","la amiaz\u0103","diminea\u021ba","dup\u0103-amiaza","seara","noaptea"],["miezul nop\u021bii","amiaz\u0103","diminea\u021ba","dup\u0103-amiaza","seara","noaptea"],["la miezul nop\u021bii","la amiaz\u0103","diminea\u021ba","dup\u0103-amiaza","seara","noaptea"]],[["miezul nop\u021bii","amiaz\u0103","diminea\u021ba","dup\u0103-amiaza","seara","noaptea"],i,["la miezul nop\u021bii","la amiaz\u0103","diminea\u021ba","dup\u0103-amiaza","seara","noaptea"]],["00:00","12:00",["05:00","12:00"],["12:00","18:00"],["18:00","22:00"],["22:00","05:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1316], {
+  /***/
+  "./node_modules/@angular/common/locales/global/so-DJ.js":
+  /*!**************************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/so-DJ.js ***!
+    \**************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalSoDJJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['so-dj'] = ['so-DJ', [['h', 'd'], ['GH', 'GD'], u], [['GH', 'GD'], u, u], [['A', 'I', 'T', 'A', 'Kh', 'J', 'S'], ['Axd', 'Isn', 'Tldo', 'Arbc', 'Khms', 'Jmc', 'Sbti'], ['Axad', 'Isniin', 'Talaado', 'Arbaco', 'Khamiis', 'Jimco', 'Sabti'], ['Axd', 'Isn', 'Tldo', 'Arbc', 'Khms', 'Jmc', 'Sbti']], u, [['J', 'F', 'M', 'A', 'M', 'J', 'L', 'O', 'S', 'O', 'N', 'D'], ['Jan', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Lul', 'Ogs', 'Seb', 'Okt', 'Nof', 'Dis'], ['Bisha Koobaad', 'Bisha Labaad', 'Bisha Saddexaad', 'Bisha Afraad', 'Bisha Shanaad', 'Bisha Lixaad', 'Bisha Todobaad', 'Bisha Sideedaad', 'Bisha Sagaalaad', 'Bisha Tobnaad', 'Bisha Kow iyo Tobnaad', 'Bisha Laba iyo Tobnaad']], [['J', 'F', 'M', 'A', 'M', 'J', 'L', 'O', 'S', 'O', 'N', 'D'], ['Jan', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Lul', 'Ogs', 'Seb', 'Okt', 'Nof', 'Dis'], ['Jannaayo', 'Febraayo', 'Maarso', 'Abriil', 'May', 'Juun', 'Luuliyo', 'Ogost', 'Sebtembar', 'Oktoobar', 'Nofembar', 'Desembar']], [['CH', 'CD'], u, ['Ciise Hortii', 'Ciise Dabadii']], 6, [6, 0], ['dd/MM/yy', 'dd-MMM-y', 'dd MMMM y', 'EEEE, MMMM dd, y'], ['h:mm a', 'h:mm:ss a', 'h:mm:ss a z', 'h:mm:ss a zzzz'], ['{1} {0}', u, u, u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'MaL', ':'], ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'], 'DJF', 'Fdj', 'Faran Jabuuti', {
+        'BBD': ['DBB', '$'],
+        'DJF': ['Fdj'],
+        'JPY': ['JP¥', '¥'],
+        'SOS': ['S'],
+        'USD': ['US$', '$']
+      }, 'ltr', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1316-es5.js.map

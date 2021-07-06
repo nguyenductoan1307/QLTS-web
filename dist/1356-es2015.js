@@ -1,1 +1,73 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1356],{J0WM:function(o,n){!function(o){o.ng=o.ng||{},o.ng.common=o.ng.common||{},o.ng.common.locales=o.ng.common.locales||{};const n=void 0;o.ng.common.locales["sr-latn-ba"]=["sr-Latn-BA",[["a","p"],["prije podne","po podne"],n],n,[["n","p","u","s","\u010d","p","s"],["ned","pon","ut","sr","\u010det","pet","sub"],["nedjelja","ponedeljak","utorak","srijeda","\u010detvrtak","petak","subota"],["ne","po","ut","sr","\u010de","pe","su"]],n,[["j","f","m","a","m","j","j","a","s","o","n","d"],["jan","feb","mar","apr","maj","jun","jul","avg","sep","okt","nov","dec"],["januar","februar","mart","april","maj","jun","jul","avgust","septembar","oktobar","novembar","decembar"]],n,[["p.n.e.","n.e."],["p. n. e.","n. e."],["prije nove ere","nove ere"]],1,[6,0],["d.M.yy.","dd.MM.y.","dd. MMMM y.","EEEE, dd. MMMM y."],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",n,n,n],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","#,##0.00\xa0\xa4","#E0"],"BAM","KM","Bosansko-hercegova\u010dka konvertibilna marka",{AUD:[n,"$"],BAM:["KM"],BYN:[n,"r."],GEL:[n,"\u10da"],KRW:[n,"\u20a9"],NZD:[n,"$"],TWD:["NT$"],USD:["US$","$"],VND:[n,"\u20ab"]},"ltr",function(o){return 5},[[["pono\u0107","podne","jutro","po pod.","ve\u010de","no\u0107"],["pono\u0107","podne","jutro","po pod.","ve\u010de","no\u0107u"],["pono\u0107","podne","ujutro","po podne","uve\u010de","no\u0107u"]],[["pono\u0107","podne","jutro","popodne","ve\u010de","no\u0107"],n,n],["00:00","12:00",["06:00","12:00"],["12:00","18:00"],["18:00","21:00"],["21:00","06:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1356],{
+
+/***/ "./node_modules/@angular/common/locales/global/tzm.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/tzm.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) {
+    if (n === Math.floor(n) && n >= 0 && n <= 1 || n === Math.floor(n) && n >= 11 && n <= 99)
+      return 1;
+    return 5;
+  }
+  global.ng.common.locales['tzm'] = [
+    'tzm',
+    [['Zdat azal', 'Ḍeffir aza'], u, u],
+    u,
+    [
+      ['A', 'A', 'A', 'A', 'A', 'A', 'A'], ['Asa', 'Ayn', 'Asn', 'Akr', 'Akw', 'Asm', 'Asḍ'],
+      ['Asamas', 'Aynas', 'Asinas', 'Akras', 'Akwas', 'Asimwas', 'Asiḍyas'],
+      ['Asa', 'Ayn', 'Asn', 'Akr', 'Akw', 'Asm', 'Asḍ']
+    ],
+    u,
+    [
+      ['Y', 'Y', 'M', 'I', 'M', 'Y', 'Y', 'Ɣ', 'C', 'K', 'N', 'D'],
+      ['Yen', 'Yeb', 'Mar', 'Ibr', 'May', 'Yun', 'Yul', 'Ɣuc', 'Cut', 'Kṭu', 'Nwa', 'Duj'],
+      [
+        'Yennayer', 'Yebrayer', 'Mars', 'Ibrir', 'Mayyu', 'Yunyu', 'Yulyuz', 'Ɣuct', 'Cutanbir',
+        'Kṭuber', 'Nwanbir', 'Dujanbir'
+      ]
+    ],
+    u,
+    [['ZƐ', 'ḌƐ'], u, ['Zdat Ɛisa (TAƔ)', 'Ḍeffir Ɛisa (TAƔ)']],
+    1,
+    [6, 0],
+    ['dd/MM/y', 'd MMM y', 'd MMMM y', 'EEEE, d MMMM y'],
+    ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
+    ['{1} {0}', u, u, u],
+    [',', ' ', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0%', '#,##0.00 ¤', '#E0'],
+    'MAD',
+    'MAD',
+    'Derhem Umeṛṛuki',
+    {'JPY': ['JP¥', '¥'], 'USD': ['US$', '$']},
+    'ltr',
+    plural,
+    []
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1356-es2015.js.map

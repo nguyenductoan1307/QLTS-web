@@ -1,1 +1,54 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1170],{AfDB:function(i,n){!function(i){i.ng=i.ng||{},i.ng.common=i.ng.common||{},i.ng.common.locales=i.ng.common.locales||{};var n=void 0;i.ng.common.locales["fr-yt"]=["fr-YT",[["AM","PM"],n,n],n,[["D","L","M","M","J","V","S"],["dim.","lun.","mar.","mer.","jeu.","ven.","sam."],["dimanche","lundi","mardi","mercredi","jeudi","vendredi","samedi"],["di","lu","ma","me","je","ve","sa"]],n,[["J","F","M","A","M","J","J","A","S","O","N","D"],["janv.","f\xe9vr.","mars","avr.","mai","juin","juil.","ao\xfbt","sept.","oct.","nov.","d\xe9c."],["janvier","f\xe9vrier","mars","avril","mai","juin","juillet","ao\xfbt","septembre","octobre","novembre","d\xe9cembre"]],n,[["av. J.-C.","ap. J.-C."],n,["avant J\xe9sus-Christ","apr\xe8s J\xe9sus-Christ"]],1,[6,0],["dd/MM/y","d MMM y","d MMMM y","EEEE d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}","{1} '\xe0' {0}",n,n],[",","\u202f",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","#,##0.00\xa0\xa4","#E0"],"EUR","\u20ac","euro",{ARS:["$AR","$"],AUD:["$AU","$"],BEF:["FB"],BMD:["$BM","$"],BND:["$BN","$"],BZD:["$BZ","$"],CAD:["$CA","$"],CLP:["$CL","$"],CNY:[n,"\xa5"],COP:["$CO","$"],CYP:["\xa3CY"],EGP:[n,"\xa3E"],FJD:["$FJ","$"],FKP:["\xa3FK","\xa3"],FRF:["F"],GBP:["\xa3GB","\xa3"],GIP:["\xa3GI","\xa3"],HKD:[n,"$"],IEP:["\xa3IE"],ILP:["\xa3IL"],ITL:["\u20a4IT"],JPY:[n,"\xa5"],KMF:[n,"FC"],LBP:["\xa3LB","\xa3L"],MTP:["\xa3MT"],MXN:["$MX","$"],NAD:["$NA","$"],NIO:[n,"$C"],NZD:["$NZ","$"],RHD:["$RH"],RON:[n,"L"],RWF:[n,"FR"],SBD:["$SB","$"],SGD:["$SG","$"],SRD:["$SR","$"],TOP:[n,"$T"],TTD:["$TT","$"],TWD:[n,"NT$"],USD:["$US","$"],UYU:["$UY","$"],WST:["$WS"],XCD:[n,"$"],XPF:["FCFP"],ZMW:[n,"Kw"]},"ltr",function(i){var n=Math.floor(Math.abs(i));return 0===n||1===n?1:5},[[["minuit","midi","mat.","ap.m.","soir","nuit"],n,["minuit","midi","du matin","de l\u2019apr\xe8s-midi","du soir","du matin"]],[["minuit","midi","mat.","ap.m.","soir","nuit"],n,["minuit","midi","matin","apr\xe8s-midi","soir","nuit"]],["00:00","12:00",["04:00","12:00"],["12:00","18:00"],["18:00","24:00"],["00:00","04:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1170], {
+  /***/
+  "./node_modules/@angular/common/locales/global/is.js":
+  /*!***********************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/is.js ***!
+    \***********************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalIsJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        var i = Math.floor(Math.abs(n)),
+            t = parseInt(n.toString().replace(/^[^.]*\.?|0+$/g, ''), 10) || 0;
+        if (t === 0 && i % 10 === 1 && !(i % 100 === 11) || !(t === 0)) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['is'] = ['is', [['f.', 'e.'], ['f.h.', 'e.h.'], u], [['f.h.', 'e.h.'], u, u], [['S', 'M', 'Þ', 'M', 'F', 'F', 'L'], ['sun.', 'mán.', 'þri.', 'mið.', 'fim.', 'fös.', 'lau.'], ['sunnudagur', 'mánudagur', 'þriðjudagur', 'miðvikudagur', 'fimmtudagur', 'föstudagur', 'laugardagur'], ['su.', 'má.', 'þr.', 'mi.', 'fi.', 'fö.', 'la.']], u, [['J', 'F', 'M', 'A', 'M', 'J', 'J', 'Á', 'S', 'O', 'N', 'D'], ['jan.', 'feb.', 'mar.', 'apr.', 'maí', 'jún.', 'júl.', 'ágú.', 'sep.', 'okt.', 'nóv.', 'des.'], ['janúar', 'febrúar', 'mars', 'apríl', 'maí', 'júní', 'júlí', 'ágúst', 'september', 'október', 'nóvember', 'desember']], u, [['f.k.', 'e.k.'], ['f.Kr.', 'e.Kr.'], ['fyrir Krist', 'eftir Krist']], 1, [6, 0], ['d.M.y', 'd. MMM y', 'd. MMMM y', 'EEEE, d. MMMM y'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1}, {0}', u, '{1} \'kl\'. {0}', u], [',', '.', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '#,##0.00 ¤', '#E0'], 'ISK', 'ISK', 'íslensk króna', {
+        'AUD': [u, '$'],
+        'BRL': [u, 'R$'],
+        'CAD': [u, '$'],
+        'EUR': [u, '€'],
+        'GBP': [u, '£'],
+        'INR': [u, '₹'],
+        'JPY': ['JP¥', '¥'],
+        'KRW': [u, '₩'],
+        'MXN': [u, '$'],
+        'NZD': [u, '$'],
+        'TWD': [u, 'NT$'],
+        'USD': [u, '$'],
+        'VND': [u, '₫']
+      }, 'ltr', plural, [[['mn.', 'h.', 'mrg.', 'sd.', 'kv.', 'n.'], ['miðnætti', 'hádegi', 'að morgni', 'síðdegis', 'að kvöldi', 'að nóttu'], u], [['mn.', 'hd.', 'mrg.', 'sd.', 'kv.', 'n.'], ['miðnætti', 'hádegi', 'morgunn', 'síðdegis', 'kvöld', 'nótt'], ['miðnætti', 'hádegi', 'morgunn', 'eftir hádegi', 'kvöld', 'nótt']], ['00:00', '12:00', ['06:00', '12:00'], ['12:00', '18:00'], ['18:00', '24:00'], ['00:00', '06:00']]]];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1170-es5.js.map

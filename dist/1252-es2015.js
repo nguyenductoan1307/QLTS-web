@@ -1,1 +1,73 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1252],{VEyA:function(n,o){!function(n){n.ng=n.ng||{},n.ng.common=n.ng.common||{},n.ng.common.locales=n.ng.common.locales||{};const o=void 0;n.ng.common.locales.mgh=["mgh",[["wichishu","mchochil\u2019l"],o,o],o,[["S","J","J","J","A","I","J"],["Sab","Jtt","Jnn","Jtn","Ara","Iju","Jmo"],["Sabato","Jumatatu","Jumanne","Jumatano","Arahamisi","Ijumaa","Jumamosi"],["Sab","Jtt","Jnn","Jtn","Ara","Iju","Jmo"]],o,[["K","U","R","C","T","M","S","N","T","K","M","Y"],["Kwa","Una","Rar","Che","Tha","Moc","Sab","Nan","Tis","Kum","Moj","Yel"],["Mweri wo kwanza","Mweri wo unayeli","Mweri wo uneraru","Mweri wo unecheshe","Mweri wo unethanu","Mweri wo thanu na mocha","Mweri wo saba","Mweri wo nane","Mweri wo tisa","Mweri wo kumi","Mweri wo kumi na moja","Mweri wo kumi na yel\u2019li"]],o,[["HY","YY"],o,["Hinapiya yesu","Yopia yesu"]],0,[6,0],["dd/MM/y","d MMM y","d MMMM y","EEEE, d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1} {0}",o,o,o],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0%","\xa4\xa0#,##0.00","#E0"],"MZN","MTn","MZN",{JPY:["JP\xa5","\xa5"],MZN:["MTn"],USD:["US$","$"]},"ltr",function(n){return 5},[]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1252],{
+
+/***/ "./node_modules/@angular/common/locales/global/nmg.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@angular/common/locales/global/nmg.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+
+// THIS CODE IS GENERATED - DO NOT MODIFY
+// See angular/tools/gulp-tasks/cldr/extract.js
+
+(function(global) {
+  global.ng = global.ng || {};
+  global.ng.common = global.ng.common || {};
+  global.ng.common.locales = global.ng.common.locales || {};
+  const u = undefined;
+  function plural(n) { return 5; }
+  global.ng.common.locales['nmg'] = [
+    'nmg',
+    [['maná', 'kugú'], u, u],
+    u,
+    [
+      ['s', 'm', 's', 's', 's', 'm', 's'], ['sɔ́n', 'mɔ́n', 'smb', 'sml', 'smn', 'mbs', 'sas'],
+      [
+        'sɔ́ndɔ', 'mɔ́ndɔ', 'sɔ́ndɔ mafú mába', 'sɔ́ndɔ mafú málal',
+        'sɔ́ndɔ mafú mána', 'mabágá má sukul', 'sásadi'
+      ],
+      ['sɔ́n', 'mɔ́n', 'smb', 'sml', 'smn', 'mbs', 'sas']
+    ],
+    u,
+    [
+      ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+      ['ng1', 'ng2', 'ng3', 'ng4', 'ng5', 'ng6', 'ng7', 'ng8', 'ng9', 'ng10', 'ng11', 'kris'],
+      [
+        'ngwɛn matáhra', 'ngwɛn ńmba', 'ngwɛn ńlal', 'ngwɛn ńna', 'ngwɛn ńtan',
+        'ngwɛn ńtuó', 'ngwɛn hɛmbuɛrí', 'ngwɛn lɔmbi', 'ngwɛn rɛbvuâ', 'ngwɛn wum',
+        'ngwɛn wum navǔr', 'krísimin'
+      ]
+    ],
+    u,
+    [['BL', 'PB'], u, ['Bó Lahlɛ̄', 'Pfiɛ Burī']],
+    1,
+    [6, 0],
+    ['d/M/y', 'd MMM y', 'd MMMM y', 'EEEE d MMMM y'],
+    ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'],
+    ['{1} {0}', u, u, u],
+    [',', ' ', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'],
+    ['#,##0.###', '#,##0%', '#,##0.00 ¤', '#E0'],
+    'XAF',
+    'FCFA',
+    'Fraŋ CFA BEAC',
+    {'JPY': ['JP¥', '¥'], 'USD': ['US$', '$']},
+    'ltr',
+    plural,
+    []
+  ];
+})(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global ||
+   typeof window !== 'undefined' && window);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=1252-es2015.js.map

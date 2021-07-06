@@ -1,1 +1,41 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1315],{"4+zn":function(i,n){!function(i){i.ng=i.ng||{},i.ng.common=i.ng.common||{},i.ng.common.locales=i.ng.common.locales||{};var n=void 0;i.ng.common.locales["ro-md"]=["ro-MD",[["a.m.","p.m."],n,n],n,[["D","L","Ma","Mi","J","V","S"],["Dum","Lun","Mar","Mie","Joi","Vin","S\xe2m"],["duminic\u0103","luni","mar\u021bi","miercuri","joi","vineri","s\xe2mb\u0103t\u0103"],["Du","Lu","Ma","Mi","Jo","Vi","S\xe2"]],n,[["I","F","M","A","M","I","I","A","S","O","N","D"],["ian.","feb.","mar.","apr.","mai","iun.","iul.","aug.","sept.","oct.","nov.","dec."],["ianuarie","februarie","martie","aprilie","mai","iunie","iulie","august","septembrie","octombrie","noiembrie","decembrie"]],n,[["\xee.Hr.","d.Hr."],n,["\xeenainte de Hristos","dup\u0103 Hristos"]],1,[6,0],["dd.MM.y","d MMM y","d MMMM y","EEEE, d MMMM y"],["HH:mm","HH:mm:ss","HH:mm:ss z","HH:mm:ss zzzz"],["{1}, {0}",n,n,n],[",",".",";","%","+","-","E","\xd7","\u2030","\u221e","NaN",":"],["#,##0.###","#,##0\xa0%","#,##0.00\xa0\xa4","#E0"],"MDL","L","leu moldovenesc",{AUD:[n,"$"],BRL:[n,"R$"],CAD:[n,"$"],CNY:[n,"\xa5"],EUR:[n,"\u20ac"],GBP:[n,"\xa3"],HKD:[n,"$"],ILS:[n,"\u20aa"],INR:[n,"\u20b9"],JPY:[n,"\xa5"],KRW:[n,"\u20a9"],MDL:["L"],MXN:[n,"$"],NZD:[n,"$"],TWD:[n,"NT$"],USD:[n,"$"],VND:[n,"\u20ab"],XCD:[n,"$"]},"ltr",function(i){var n=Math.floor(Math.abs(i)),a=i.toString().replace(/^[^.]*\.?/,"").length;return 1===n&&0===a?1:0!==a||0===i||1!==i&&i%100===Math.floor(i%100)&&i%100>=1&&i%100<=19?3:5},[[["miezul nop\u021bii","amiaz\u0103","diminea\u021b\u0103","dup\u0103-amiaz\u0103","sear\u0103","noapte"],["miezul nop\u021bii","amiaz\u0103","diminea\u021ba","dup\u0103-amiaza","seara","noaptea"],n],n,["00:00","12:00",["05:00","12:00"],["12:00","18:00"],["18:00","22:00"],["22:00","05:00"]]]]}("undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof global&&global||"undefined"!=typeof window&&window)}}]);
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1315], {
+  /***/
+  "./node_modules/@angular/common/locales/global/sn.js":
+  /*!***********************************************************!*\
+    !*** ./node_modules/@angular/common/locales/global/sn.js ***!
+    \***********************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularCommonLocalesGlobalSnJs(module, exports) {
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+    // THIS CODE IS GENERATED - DO NOT MODIFY
+    // See angular/tools/gulp-tasks/cldr/extract.js
+    (function (global) {
+      global.ng = global.ng || {};
+      global.ng.common = global.ng.common || {};
+      global.ng.common.locales = global.ng.common.locales || {};
+      var u = undefined;
+
+      function plural(n) {
+        if (n === 1) return 1;
+        return 5;
+      }
+
+      global.ng.common.locales['sn'] = ['sn', [['a', 'p'], ['AM', 'PM'], u], [['AM', 'PM'], u, u], [['S', 'M', 'C', 'C', 'C', 'C', 'M'], ['Svo', 'Muv', 'Chp', 'Cht', 'Chn', 'Chs', 'Mug'], ['Svondo', 'Muvhuro', 'Chipiri', 'Chitatu', 'China', 'Chishanu', 'Mugovera'], ['Sv', 'Mu', 'Cp', 'Ct', 'Cn', 'Cs', 'Mg']], u, [['N', 'K', 'K', 'K', 'C', 'C', 'C', 'N', 'G', 'G', 'M', 'Z'], ['Ndi', 'Kuk', 'Kur', 'Kub', 'Chv', 'Chk', 'Chg', 'Nya', 'Gun', 'Gum', 'Mbu', 'Zvi'], ['Ndira', 'Kukadzi', 'Kurume', 'Kubvumbi', 'Chivabvu', 'Chikumi', 'Chikunguru', 'Nyamavhuvhu', 'Gunyana', 'Gumiguru', 'Mbudzi', 'Zvita']], u, [['BC', 'AD'], u, ['Kristo asati auya', 'mugore ramambo vedu']], 0, [6, 0], ['y-MM-dd', 'y MMM d', 'y MMMM d', 'y MMMM d, EEEE'], ['HH:mm', 'HH:mm:ss', 'HH:mm:ss z', 'HH:mm:ss zzzz'], ['{1} {0}', u, u, u], ['.', ',', ';', '%', '+', '-', 'E', '×', '‰', '∞', 'NaN', ':'], ['#,##0.###', '#,##0%', '¤#,##0.00', '#E0'], 'USD', 'US$', 'Dora re Amerika', {
+        'JPY': ['JP¥', '¥'],
+        'USD': ['US$', '$']
+      }, 'ltr', plural, []];
+    })(typeof globalThis !== 'undefined' && globalThis || typeof global !== 'undefined' && global || typeof window !== 'undefined' && window);
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=1315-es5.js.map
